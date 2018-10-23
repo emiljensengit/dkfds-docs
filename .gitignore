@@ -7,7 +7,7 @@ node_modules/
 npm-debug.log
 .bundle/
 .jekyll_get_cache/
-
+/package-lock.json
 # Preview components are fetched and generated from components repository 
 _preview-components
 
