@@ -1,16 +1,15 @@
-# Repository for the documentation site for the Frontend styleguide - version 2.0.0
+# Repository for the documentation site for the Frontend Styleguide
 
 
-This repo includes code and documentation for the Frontend Styleguide. This styleguide is based on [U.S. Web Design Standards](https://standards.usa.gov/).
+This repo includes code and documentation for the Frontend Styleguide.
 
-The documentation site can be found [here](https://fsgpilot.github.io/frontend-styleguide/).
+The documentation site can be found [here](https://detfaellesdesignsystem.github.io/dkfds-docs/).
 
-The components project can be found [here](https://github.com/FSGpilot/frontend-styleguide-components).
+The components project can be found [here](https://github.com/detfaellesdesignsystem/dkfds-components).
 
 ## Running locally
 
-The Style Guide documentation is built using Jekyll for the file framework, gulp for task management, and the node module for the Standards.
-
+The Style Guide documentation is built using Jekyll as the file framework and gulp is used for task management
 
 ### Before you start
 
@@ -25,7 +24,7 @@ You will need to have the following installed on your machine before following t
 
 Some parts of the documentation are built using [gulp](http://gulpjs.com/).
 
-To work on the site, switch to your local copy of the repository in terminal then run the following command to install project dependencies:
+To work on the site, clone a local copy of this repository. Then open a terminal and run the following commands to install project dependencies:
 
 ```sh
 npm install
@@ -39,12 +38,6 @@ npm start
 
 Go to `127.0.0.1:4000` in your browser — you should be viewing a local instance.
 
-Here are a few other utility commands you may find useful:
-
-- `npm run clean`: Cleans out copied-over dependency assets.
-
-- `npm run lint`: Runs `eslint` and `sass-lint` against JavaScript and Sass files.
-
-- `npm test`: Runs `npm run lint` and can also be used to run any tests.
+If you are coding and want to watch for changes run the following command:
 
 - `npm run watch`: Runs a series of commands that watches for any changes in both the Standards node module and the root level asset folders in this repo.
