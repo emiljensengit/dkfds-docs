@@ -15966,10 +15966,10 @@ var domready = require('domready');
  */
 require('./polyfills');
 
-var dkwds = require('./config');
+var dkfds = require('./config');
 
 var components_advanced = require('./components-advanced');
-dkwds.components_advanced = components_advanced;
+dkfds.components_advanced = components_advanced;
 
 domready(function () {
   var target = document.body;
@@ -15979,7 +15979,7 @@ domready(function () {
   }
 });
 
-module.exports = dkwds;
+module.exports = dkfds;
 
 },{"./components-advanced":12,"./config":14,"./polyfills":18,"domready":3}],16:[function(require,module,exports){
 'use strict';

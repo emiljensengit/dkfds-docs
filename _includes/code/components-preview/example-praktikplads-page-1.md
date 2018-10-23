@@ -60,8 +60,8 @@ title: Example-praktikplads-page-1.html
             <div class="navbar-inner container">
                 <ul class="nav-primary">
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/praktikplads/praktikplads-1"
-                            class="nav-link current" title="Designsystem">
+                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-1" class="nav-link current"
+                            title="Designsystem">
                             <span>2021</span>
                         </a>
                     </li>
@@ -80,15 +80,15 @@ title: Example-praktikplads-page-1.html
                             <div class="overflow-menu-inner" id="headeroverflow1" aria-hidden="true">
                                 <ul class="overflow-list">
                                     <li>
-                                        <a href="/frontend-styleguide/pages/page-templates/praktikplads/praktikplads-2">Revision 3: Regulering<br> oprettet
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 3: Regulering<br> oprettet
                                             01-12-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/frontend-styleguide/pages/page-templates/praktikplads/praktikplads-2">Revision 2: Regulering<br> oprettet
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 2: Regulering<br> oprettet
                                             01-09-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/frontend-styleguide/pages/page-templates/praktikplads/praktikplads-2">Revision 1: Opgørelse<br> oprettet 01-06-2019</a>
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 1: Opgørelse<br> oprettet 01-06-2019</a>
                                     </li>
                                 </ul>
                             </div>
@@ -142,15 +142,15 @@ title: Example-praktikplads-page-1.html
     <section class="page-content">
         <h3 class="mb-0">Forskudsopgørelse</h3>
         <p class="mt-0">
-            <a href="/frontend-styleguide/pages/page-templates/praktikplads/praktikplads-4">Se beregningerne for jeres virksomhed</a>
+            <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se beregningerne for jeres virksomhed</a>
         </p>
         <h3 class="mb-0">Elever</h3>
         <p class="mt-0">
-            <a href="/frontend-styleguide/pages/page-templates/praktikplads/praktikplads-4">Se jeres elever</a>
+            <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se jeres elever</a>
         </p>
         <h3 class="mb-0">Medarbejdere</h3>
         <p class="mt-0">
-            <a href="/frontend-styleguide/pages/page-templates/praktikplads/praktikplads-4">Se jeres erhvervsuddannede medarbejdere</a>
+            <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se jeres erhvervsuddannede medarbejdere</a>
         </p>
     </section>
 </main>

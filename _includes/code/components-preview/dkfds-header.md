@@ -1,14 +1,14 @@
 --- 
-permalink: /preview-components/dkwds-header.html
+permalink: /preview-components/dkfds-header.html
 layout: iframed 
-title: Dkwds-header.html
+title: Dkfds-header.html
 ---
 <!doctype html>
 
 <html lang="da">
 
 <head>
-    <title>Dkwds Header: Default</title>
+    <title>Dkfds Header: Default</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Vendor example stylesheets (Select2 and Datatables)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.css">
@@ -17,7 +17,7 @@ title: Dkwds-header.html
     <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
 
     <!-- Frontend styleguide stylesheet-->
-    <link rel="stylesheet" href="../../dist/css/dkwds.min.css">
+    <link rel="stylesheet" href="../../dist/css/dkfds.min.css">
 </head>
 
 <body>
@@ -67,8 +67,8 @@ title: Dkwds-header.html
         }
     </style>
 
-    <script src="../../dist/js/dkwds.js"></script>
-    <script src="../../dist/js/dkwds-vendor-examples.js"></script>
+    <script src="../../dist/js/dkfds.js"></script>
+    <script src="../../dist/js/dkfds-vendor-examples.js"></script>
     <script>
         window.addEventListener('load', function() {
             document.body.addEventListener('submit', function(e) {

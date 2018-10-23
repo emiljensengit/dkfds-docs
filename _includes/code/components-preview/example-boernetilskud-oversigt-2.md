@@ -67,48 +67,48 @@ title: Example-boernetilskud-oversigt-2.html
                             <div class="overflow-menu-inner" id="headeroverflow1" aria-hidden="true">
                                 <ul class="overflow-list">
                                     <li>
-                                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-oversigt">Overssigtsside som liste</a>
+                                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt">Overssigtsside som liste</a>
                                     </li>
                                     <li>
-                                        <a class="current" href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-oversigt-2">Oversigt med cards</a>
+                                        <a class="current" href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt-2">Oversigt med cards</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1"
-                            class="nav-link" title="Eksempler">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
+                            title="Eksempler">
                             <span>Beskeder</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1"
-                            class="nav-link" title="Kom godt i gang">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
+                            title="Kom godt i gang">
                             <span>Udbetalinger</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1"
-                            class="nav-link" title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
+                            title="Fællesoffentlige krav">
                             <span>Sager</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1"
-                            class="nav-link" title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
+                            title="Fællesoffentlige krav">
                             <span>Ansøgninger</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1"
-                            class="nav-link" title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
+                            title="Fællesoffentlige krav">
                             <span>Ændringer</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1"
-                            class="nav-link" title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
+                            title="Fællesoffentlige krav">
                             <span>Dokumentation</span>
                         </a>
                     </li>
@@ -159,7 +159,7 @@ title: Example-boernetilskud-oversigt-2.html
                     </div>
                     <div class="card-action">
                         <div class="action-links">
-                            <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1">Læs beskeder omkring dine aktive sager</a>
+                            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Læs beskeder omkring dine aktive sager</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ title: Example-boernetilskud-oversigt-2.html
                     </div>
                     <div class="card-action">
                         <div class="action-links">
-                            <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1">Se tidligere og kommende udbetalinger</a>
+                            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Se tidligere og kommende udbetalinger</a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@ title: Example-boernetilskud-oversigt-2.html
                     </div>
                     <div class="card-action">
                         <div class="action-links">
-                            <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1">Få status på dine nuværende sager</a>
+                            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Få status på dine nuværende sager</a>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@ title: Example-boernetilskud-oversigt-2.html
                     </div>
                     <div class="card-action">
                         <div class="action-links">
-                            <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1">Se aktive og tidligere ansøgninger</a>
+                            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Se aktive og tidligere ansøgninger</a>
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ title: Example-boernetilskud-oversigt-2.html
                     </div>
                     <div class="card-action">
                         <div class="action-links">
-                            <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1">Foretag ændringer omkring dit børnetilskud</a>
+                            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Foretag ændringer omkring dit børnetilskud</a>
                         </div>
                     </div>
                 </div>
@@ -271,7 +271,7 @@ title: Example-boernetilskud-oversigt-2.html
                     </div>
                     <div class="card-action">
                         <div class="action-links">
-                            <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1">Opslagsværk for hvordan børnetilskud fungerer</a>
+                            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Opslagsværk for hvordan børnetilskud fungerer</a>
                         </div>
                     </div>
                 </div>

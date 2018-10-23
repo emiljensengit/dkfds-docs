@@ -67,10 +67,10 @@ title: Example-boernetilskud-ansoegning-1.html
                             <div class="overflow-menu-inner" id="headeroverflow1" aria-hidden="true">
                                 <ul class="overflow-list">
                                     <li>
-                                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-oversigt">Overssigtsside som liste</a>
+                                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt">Overssigtsside som liste</a>
                                     </li>
                                     <li>
-                                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-oversigt-2">Oversigt med cards</a>
+                                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt-2">Oversigt med cards</a>
                                     </li>
                                 </ul>
                             </div>
@@ -92,8 +92,8 @@ title: Example-boernetilskud-ansoegning-1.html
                         </a>
                     </li>
                     <li>
-                        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1"
-                            class="nav-link current" title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link current"
+                            title="Fællesoffentlige krav">
                             <span>Ansøgninger</span>
                         </a>
                     </li>
@@ -144,13 +144,12 @@ title: Example-boernetilskud-ansoegning-1.html
 
                 <ul class='sidenav-list'>
                     <li>
-                        <a href='/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-1'
-                            class='active'>
+                        <a href='/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1' class='active'>
                             1. Hvilke børn søger du tilskud til?
                         </a>
                     </li>
                     <li>
-                        <a href='/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-2'>
+                        <a href='/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-2'>
                             2. Hvornår blev du eller bliver du enlig?
                         </a>
                     </li>
@@ -232,8 +231,7 @@ title: Example-boernetilskud-ansoegning-1.html
 
     </section>
     <nav class="page-navigation">
-        <a href="/frontend-styleguide/pages/page-templates/boernetilskud/boernetilskud-2"
-            class="button button-primary">Næste</a>
+        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-2" class="button button-primary">Næste</a>
     </nav>
 </main>
 

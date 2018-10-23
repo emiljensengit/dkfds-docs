@@ -3044,10 +3044,10 @@ var checkboxToggleContent = require('./components/checkbox-toggle-content');
  */
 require('./polyfills');
 
-var dkwds = require('./config');
+var dkfds = require('./config');
 
 var components = require('./components');
-dkwds.components = components;
+dkfds.components = components;
 
 domready(function () {
   var target = document.body;
@@ -3078,7 +3078,7 @@ domready(function () {
   });
 });
 
-module.exports = dkwds;
+module.exports = dkfds;
 
 },{"./components":77,"./components/checkbox-toggle-content":73,"./components/datepicker":75,"./components/dropdown":76,"./components/modal":78,"./components/radio-toggle-content":80,"./components/table":83,"./components/tooltip":84,"./config":86,"./polyfills":90,"./utils/select":94,"array-foreach":2,"domready":62}],88:[function(require,module,exports){
 'use strict';

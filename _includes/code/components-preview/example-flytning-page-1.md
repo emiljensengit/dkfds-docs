@@ -99,28 +99,27 @@ title: Example-flytning-page-1.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-1'
-                        class='active'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-1' class='active'>
                         1. Oversigt
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-2'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-2'>
                         2. Personer
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-3'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-3'>
                         3. Adresse
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-4'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-4'>
                         4. Særlig flytning
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-5'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-5'>
                         5. Lægevalg
                     </a>
                 </li>
@@ -196,8 +195,7 @@ title: Example-flytning-page-1.html
         </div>
     </div>
     <nav class="page-navigation">
-        <a href="/frontend-styleguide/pages/page-templates/digital-flytning/flytning-2"
-            class="button button-primary">Næste</a>
+        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-2" class="button button-primary">Næste</a>
     </nav>
 
     <div class="mt-9">

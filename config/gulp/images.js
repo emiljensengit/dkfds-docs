@@ -13,18 +13,18 @@ gulp.task('copy-doc-images', function (done) {
 
 });
 
-gulp.task('copy-dkwds-images', function (done) {
+gulp.task('copy-dkfds-images', function (done) {
 
-  dutil.logMessage(task, 'Copying images from dkwds');
+  dutil.logMessage(task, 'Copying images from dkfds');
 
-  var stream = gulp.src('./node_modules/dkwds/src/img/**/*')
+  var stream = gulp.src('./node_modules/dkfds/src/img/**/*')
     .pipe(gulp.dest('assets/img'));
 
   return stream;
 
 });
 
-gulp.task(task, [ 'copy-doc-images', 'copy-dkwds-images' ], function (done) {
+gulp.task(task, [ 'copy-doc-images', 'copy-dkfds-images' ], function (done) {
 
   dutil.logMessage(task, 'Copying images Sass');
 

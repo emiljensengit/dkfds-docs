@@ -18,12 +18,12 @@ var distJekyllComponentPreview = '_preview-components';
  * NOTICE: For these html-function to work properly, you need to run 'npm link' in your local component-library
  * Guide: 
  * - Go to your components project and run 'npm link'.
- * - Go to your docs project and run 'npm link dkwds'
+ * - Go to your docs project and run 'npm link dkfds'
  * The docs-project now has the component-project as a dependency in its node-modues folder. The folder is a shortcut to the componeent project on your machine. 
  * 
  * Description of the following tasks:
- * - generateComponentsHtml: goes to the '/node_modules/dkwds/ folder (component project), and calls the 'npm run fb' command, this will make the component projekt generate html into its '\build\components\render' folder. 
- * - generateDocMarkdown: Now that the 'dkwds/build/components/render/'-folder has the newest html, markdown for the docs site is generated. 
+ * - generateComponentsHtml: goes to the '/node_modules/dkfds/ folder (component project), and calls the 'npm run fb' command, this will make the component projekt generate html into its '\build\components\render' folder. 
+ * - generateDocMarkdown: Now that the 'dkfds/build/components/render/'-folder has the newest html, markdown for the docs site is generated. 
  * - createMarkdown: create markdown for a single file, used by generateDocMarkdown().
  * 
  * Pretty printing docs: 
@@ -43,10 +43,10 @@ title: ` + fileName[0].toUpperCase() + fileName.slice(1) + `
 }
 
 
-gulp.task('generateComponentsHtml', runCmd('npm run fb', {'cwd': './node_modules/dkwds/'}));
+gulp.task('generateComponentsHtml', runCmd('npm run fb', {'cwd': './node_modules/dkfds/'}));
 
 gulp.task('generateDocMarkdown', function (done) {
-    return gulp.src('./node_modules/dkwds/build/components/render/**/*')
+    return gulp.src('./node_modules/dkfds/build/components/render/**/*')
     .pipe(prettify({
 
         wrap_line_length: 75, 

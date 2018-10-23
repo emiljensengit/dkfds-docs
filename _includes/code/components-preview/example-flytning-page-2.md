@@ -98,7 +98,7 @@ title: Example-flytning-page-2.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-1'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-1'>
                         1. Oversigt
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -106,23 +106,22 @@ title: Example-flytning-page-2.html
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-2'
-                        class='active'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-2' class='active'>
                         2. Personer
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-3'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-3'>
                         3. Adresse
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-4'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-4'>
                         4. Særlig flytning
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/digital-flytning/flytning-5'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-5'>
                         5. Lægevalg
                     </a>
                 </li>
@@ -182,10 +181,8 @@ title: Example-flytning-page-2.html
     </div>
 
     <nav class="page-navigation">
-        <a href="/frontend-styleguide/pages/page-templates/digital-flytning/flytning-3"
-            class="button button-primary">Næste</a>
-        <a href="/frontend-styleguide/pages/page-templates/digital-flytning/flytning-1"
-            class="button button-ghost">Tilbage</a>
+        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-3" class="button button-primary">Næste</a>
+        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-1" class="button button-ghost">Tilbage</a>
     </nav>
 </main>
 

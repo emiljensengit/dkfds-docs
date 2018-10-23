@@ -14,12 +14,12 @@ gulp.task('copy-doc-styles', function (done) {
 
 });
 
-gulp.task('copy-dkwds-styles', function (done) {
+gulp.task('copy-dkfds-styles', function (done) {
 
-  dutil.logMessage('copy-dkwds-styles', 'Copying Sass files from dkwds');
+  dutil.logMessage('copy-dkfds-styles', 'Copying Sass files from dkfds');
 
-  var stream = gulp.src('./node_modules/dkwds/src/stylesheets/**/*')
-    .pipe(gulp.dest('assets/css/vendor/dkwds'));
+  var stream = gulp.src('./node_modules/dkfds/src/stylesheets/**/*')
+    .pipe(gulp.dest('assets/css/vendor/dkfds'));
 
   return stream;
 
@@ -42,4 +42,4 @@ gulp.task('scss-lint', function (done) {
 
 });
 
-gulp.task('sass', ['copy-doc-styles', 'copy-dkwds-styles']);
+gulp.task('sass', ['copy-doc-styles', 'copy-dkfds-styles']);

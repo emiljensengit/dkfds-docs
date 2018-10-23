@@ -85,7 +85,7 @@ title: Example-aktindsigt-page-2.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/aktindsigt/aktindsigt-1'>
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-1'>
                         1. Inden du går igang
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -93,13 +93,12 @@ title: Example-aktindsigt-page-2.html
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/aktindsigt/aktindsigt-2'
-                        class='active'>
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2' class='active'>
                         2. Oplysninger om dig
                     </a>
                 </li>
                 <li>
-                    <a href='/frontend-styleguide/pages/page-templates/aktindsigt/aktindsigt-3'>
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-3'>
                         3. Bekræft oplysninger
                     </a>
                 </li>
@@ -230,10 +229,8 @@ title: Example-aktindsigt-page-2.html
         </fieldset>
     </form>
     <nav class="page-navigation">
-        <a href="/frontend-styleguide/pages/page-templates/aktindsigt/aktindsigt-3"
-            class="button button-primary">Næste</a>
-        <a href="/frontend-styleguide/pages/page-templates/aktindsigt/aktindsigt-1"
-            class="button button-ghost">Tilbage</a>
+        <a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-3" class="button button-primary">Næste</a>
+        <a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-1" class="button button-ghost">Tilbage</a>
     </nav>
 </main>
 

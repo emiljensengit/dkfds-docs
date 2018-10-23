@@ -1,16 +1,16 @@
 --- 
-permalink: /preview-components/dkwds-content.html
+permalink: /preview-components/dkfds-content.html
 layout: iframed 
-title: Dkwds-content.html
+title: dkfds-content.html
 ---
 <!doctype html>
 
 <html lang="en-US">
 
 <head>
-    <title>Dkwds Content: Default</title>
+    <title>dkfds Content: Default</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../dist/css/dkwds.min.css">
+    <link rel="stylesheet" href="../../dist/css/dkfds.min.css">
 </head>
 
 <body>
@@ -27,8 +27,8 @@ title: Dkwds-content.html
         </div>
     </div>
 
-    <script src="../../dist/js/dkwds.js"></script>
-    <script src="../../dist/js/dkwds-vendor-examples.js"></script>
+    <script src="../../dist/js/dkfds.js"></script>
+    <script src="../../dist/js/dkfds-vendor-examples.js"></script>
     <script>
         window.addEventListener('load', function() {
             document.body.addEventListener('submit', function(e) {
