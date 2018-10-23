@@ -7,7 +7,7 @@ title: Frontend Styleguiden
 <div class="alert alert-info" role="alert" aria-label="Styleguiden er gået i beta">
   <div class="alert-body">
       <p class="alert-heading">BETA</p>
-      <p class="alert-text">Frontend Styleguiden er den kommende fælles guide til selvbetjeningsløsninger, der skal på borger.dk og Virk. Hjælp os gerne med at forbedre den via <a href="https://github.com/FSGpilot/frontend-styleguide-components">GitHub</a>.</p>
+      <p class="alert-text">Frontend Styleguiden er den kommende fælles guide til selvbetjeningsløsninger, der skal på borger.dk og Virk. Hjælp os gerne med at forbedre den via <a href="https://github.com/FSGpilot/dkfds-docs-components">GitHub</a>.</p>
   </div>
 </div>
 
@@ -17,7 +17,7 @@ title: Frontend Styleguiden
     <p class="font-lead">
       Et solidt grundlag, der lader dig fokusere på at bygge gode selvbetjeningsløsninger.
     </p>
-    <a href="https://github.com/FSGpilot/frontend-styleguide-components" class="button button-secondary" role="button">
+    <a href="https://github.com/FSGpilot/dkfds-docs-components" class="button button-secondary" role="button">
       Se systemet på GitHub
     </a>     
   </div>
@@ -44,6 +44,6 @@ title: Frontend Styleguiden
     <div class="bg-alternative demo-img-placeholder"></div>
     <h3 class="h5">Bidrag til designsystemet</h3>
     <p>Giv input og opret gerne issues på github hvis du har spørgsmål eller finder fejl i systemt.</p>
-    <a href="https://github.com/FSGpilot/frontend-styleguide-components">Bidrag til designsystemet</a>
+    <a href="https://github.com/FSGpilot/dkfds-docs-components">Bidrag til designsystemet</a>
   </div>
 </div>
