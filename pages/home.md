@@ -13,7 +13,7 @@ title: Frontend Styleguiden
 
 <div class="row mt-6">
   <div class="col-12 col-md-5">
-    <h1>Vær med til at bygge simpel og effektiv selvbetjening</h1>
+    <h1 class="mt-0">Vær med til at bygge simpel og effektiv selvbetjening</h1>
     <p class="font-lead">
       Et solidt grundlag, der lader dig fokusere på at bygge gode selvbetjeningsløsninger.
     </p>

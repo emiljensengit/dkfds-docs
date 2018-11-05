@@ -202,8 +202,8 @@ title: Example-flytning-page-1.html
         <h2 class="h5">Relaterede selvbetjeningsløsninger</h2>
     </div>
     <div class="row">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="card mt-6">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-6">
+            <div class="card">
                 <div class="card-header">
                     <p class="h5 header-title" title="Card header" aria-label="Card header adressebeskyttelse">Adressebeskyttelse</p>
                     <p class="sub-header">Her kan du kan oprette, rette eller slette dine adressebeskyttelser.</p>
@@ -219,8 +219,8 @@ title: Example-flytning-page-1.html
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="card mt-6">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-6">
+            <div class="card">
                 <div class="card-header">
                     <p class="h5 header-title" title="Card header" aria-label="Card header adressebeskyttelse">Udrejse</p>
                     <p class="sub-header">Hvis du flytter til udlandet, skal du benytte nedenstående
@@ -237,8 +237,8 @@ title: Example-flytning-page-1.html
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="card mt-6">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-6">
+            <div class="card">
                 <div class="card-header">
                     <p class="h5 header-title" title="Card header" aria-label="Card header adressebeskyttelse">Fuldmagt</p>
                     <p class="sub-header">Afgiv en eller flere fulmagt til at anmelde flytning.</p>

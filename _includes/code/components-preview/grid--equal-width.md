@@ -5,7 +5,7 @@ title: Grid--equal-width.html
 ---
 <div class="grid-example">
     <div class="container">
-        <div class="row">
+        <div class="row mb-2">
             <div class="col">
                 1 of 2
             </div>

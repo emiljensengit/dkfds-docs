@@ -6,14 +6,14 @@ title: Grid--default.html
 <div class="grid-example">
     <div class="container">
         <div class="row">
-            <div class="col-sm">
-                One of three columns
+            <div class="col">
+                .col
             </div>
-            <div class="col-sm">
-                One of three columns
+            <div class="col">
+                .col
             </div>
-            <div class="col-sm">
-                One of three columns
+            <div class="col">
+                .col
             </div>
         </div>
     </div>
@@ -53,9 +53,11 @@ title: Grid--default.html
 <style scoped>
     .grid-example {
         margin-bottom: 1em;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
-    .grid-example>.row>.col,
+    .grid-example .row>.col,
     .grid-example .row>[class^=col-] {
         padding-top: .75rem;
         padding-bottom: .75rem;

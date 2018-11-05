@@ -10,7 +10,7 @@ title: Grid--one-column-width.html
                 1 of 3
             </div>
             <div class="col-6">
-                2 of 3 (wider)
+                2 of 3 (.col-6)
             </div>
             <div class="col">
                 3 of 3
@@ -21,7 +21,7 @@ title: Grid--one-column-width.html
                 1 of 3
             </div>
             <div class="col-5">
-                2 of 3 (wider)
+                2 of 3 (.col-5)
             </div>
             <div class="col">
                 3 of 3
