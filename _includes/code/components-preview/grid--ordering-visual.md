@@ -7,13 +7,13 @@ title: Grid--ordering-visual.html
     <div class="container">
         <div class="row">
             <div class="col">
-                First, but unordered
+                Første kolonne, men ingen order-klasse
             </div>
             <div class="col order-12">
-                Second, but last
+                Anden kolonne, men vises som sidste kolonne
             </div>
             <div class="col order-1">
-                Third, but first
+                Tredje kolonne, men vises som anden kolonne
             </div>
         </div>
     </div>
