@@ -1,8 +1,5 @@
 // this is the neutral theme (so no virkdk or borgerdk specific stuff)
 
-
-@import 'dkfds-lib';
-@import './core/functions';
+@import './lib/normalize';
 @import './core/variables';
 @import 'dkfds-base';
-
