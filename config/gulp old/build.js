@@ -1,5 +1,5 @@
 var gulp          = require('gulp');
-var dutil         = require('./doc-util');
+var dutil         = require('../gulp/doc-util');
 var runSequence   = require('run-sequence');
 var clean         = require('gulp-clean');
 var del           = require('del');

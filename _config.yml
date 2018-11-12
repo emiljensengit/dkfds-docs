@@ -15,11 +15,11 @@ incremental_regeneration_fixer:
 #     - "_components/form-templates/*"
 #     - "_components/typography/*"
 
-sass:
-  style: compressed
-  load_paths:
-    - css
-    - assets/css
+#sass:
+  #style: compressed
+  #load_paths:
+  #  - css
+  #  - assets/css
 
 collections:
   components:
@@ -70,10 +70,13 @@ exclude:
   - README.md
   - config
   - docs
-  - js
   - vendor
   - manifest.yml
   - node_modules
   - package.json
   - gulpfile.js
   - circle.yml
+  - javascript #dont watch for changes in javascript folder and scss, webpack handles this...
+  - scss
+  - webpack.config.js
+  - postcss.config.json

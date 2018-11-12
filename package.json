@@ -3,80 +3,43 @@
   "version": "2.0.0",
   "description": "Website and documentation on using the Frontend Styleguide",
   "scripts": {
-    "build": "gulp build && bundle exec jekyll build",
-    "build-css": "gulp sass",
-    "build-js": "gulp javascript",
-    "build-img": "gulp images",
-    "build-fonts": "gulp fonts",
+    "build-webpack": "webpack --color ",
+    "dev-webpack": "webpack --mode development --color --watch",
     "build-html": "gulp html",
-    "clean": "gulp clean-assets",
-    "lint": "gulp eslint scss-lint",
     "postinstall": "bundle",
-    "prestart": "gulp build",
+    "prestart": "build-webpack",
     "start": "bundle exec jekyll serve",
-    "test": "npm run lint && npm run crawl && bundle exec rspec",
-    "crawl": "node config/crawl.js",
-    "watch": "nswatch",
-    "publish": "gulp build && bundle exec jekyll build && gulp publish"
-  },
-  "watch": {
-    "./css/**/*.scss": [
-      "build-css"
-    ],
-    "./img": [
-      "build-img"
-    ],
-    "./js/**/*.js": [
-      "build-js"
-    ],
-    "./node_modules/dkfds/src/stylesheets": [
-      "build-css"
-    ],
-    "./node_modules/dkfds/src/fonts": [
-      "build-fonts"
-    ],
-    "./node_modules/dkfds/src/img": [
-      "build-img"
-    ],
-    "./node_modules/dkfds/src/js": [
-      "build-js"
-    ]
+    "publish": "build-webpack && bundle exec jekyll build && gulp html"
   },
   "dependencies": {
-    "browserify": "^13.0.0",
-    "chalk": "^1.1.3",
-    "del": "^2.2.0",
-    "dkfds": "2.1.2",
-    "express": "^4.15.3",
-    "gulp": "^3.9.0",
-    "gulp-clean": "^0.3.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-eslint": "^1.1.1",
-    "gulp-modify-file": "^1.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-scss-lint": "^0.3.9",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.1",
-    "gulp-util": "^3.0.7",
-    "iframe-resizer": "^3.5.15",
-    "jquery": "^2.2.0",
-    "js-cookie": "^2.2.0",
-    "mdi": "^2.0.46",
-    "merge-stream": "^1.0.0",
-    "node-notifier": "^4.6.0",
-    "normalize.css": "^3.0.3",
-    "nswatch": "^0.2.0",
-    "run-sequence": "^1.1.5",
-    "simplecrawler": "^1.1.3",
-    "uswds": "1.2.1",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "@babel/polyfill": "^7.0.0",
+    "dkfds": "*",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "gulp-count": "^0.3.0",
-    "gulp-jsbeautifier": "^2.1.1",
-    "gulp-plumber": "^1.1.0",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-count": "^1.0.0",
+    "gulp-jsbeautifier": "^2.1.2",
+    "gulp-modify-file": "^1.0.1",
+    "gulp-plumber": "^1.2.0",
     "gulp-remote-src": "^0.4.3",
-    "gulp-run-command": "0.0.9"
+    "gulp-rename": "^1.4.0",
+    "gulp-run-command": "0.0.9",
+    "gulp-util": "^3.0.8",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-notifier": "^5.3.0",
+    "node-sass": "^4.10.0",
+    "postcss-loader": "^3.0.0",
+    "run-sequence": "^2.2.1",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   }
 }

@@ -19,7 +19,7 @@ $(document).ready(function () {
     }
   });
 
-  // Add style when navigating
+  // Add style when navigating 
   $('a').on('click', function (e) {
     var hashLocation  = $(this).attr('href').split('#')[ 1 ];
     if(hashLocation == undefined){ //if normal link
@@ -52,7 +52,6 @@ $(document).ready(function () {
     });
   }, 2000);
 });
-
 
 
 //Below: resize the iframe to different sizes. Not used anymore.

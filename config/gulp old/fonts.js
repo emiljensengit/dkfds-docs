@@ -1,5 +1,5 @@
 var gulp  = require('gulp');
-var dutil = require('./doc-util');
+var dutil = require('../gulp/doc-util');
 var task  = 'fonts';
 
 gulp.task(task, function (done) {
