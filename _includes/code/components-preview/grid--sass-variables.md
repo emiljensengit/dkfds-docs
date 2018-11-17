@@ -28,7 +28,6 @@ $container-max-widths: (
 );</code>
 </pre>
 
-
 <style scoped>
     pre {
         display: block;

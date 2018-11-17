@@ -8,7 +8,8 @@ title: Example-praktikplads-page-1.html
     <!--1A: Portal header -->
     <div class="portal-header">
         <div class="container portal-header-inner">
-            <a href="javascript:void(0);" title="Hjem" aria-label="logo link" class="logo"></a>
+            <a href="javascript:void(0);" title="Hjem" aria-label="logo link"
+                class="logo"></a>
             <button class="button button-secondary button-menu-open js-menu-open ml-auto"
                 aria-haspopup="menu" title="Åben mobil menu">Menu</button>
 
@@ -39,9 +40,8 @@ title: Example-praktikplads-page-1.html
 
                 <h6 class="h5 authority-name"> Praktikplads-AUB</h6>
 
-                <p>
-                    <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-                </p>
+                <p><button class="button-unstyled button-contact"
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -50,9 +50,10 @@ title: Example-praktikplads-page-1.html
     <div class="overlay"></div>
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
-        <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+        <button class="button button-tertiary button-menu-close js-menu-close"
+            title="Luk mobil menu">
+            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
@@ -60,8 +61,8 @@ title: Example-praktikplads-page-1.html
             <div class="navbar-inner container">
                 <ul class="nav-primary">
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-1" class="nav-link current"
-                            title="Designsystem">
+                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-1"
+                            class="nav-link current" title="Designsystem">
                             <span>2021</span>
                         </a>
                     </li>
@@ -73,22 +74,24 @@ title: Example-praktikplads-page-1.html
                     <li>
                         <div class="overflow-menu">
                             <button class="button-overflow-menu js-dropdown js-dropdown--responsive-collapse"
-                                data-js-target="#headeroverflow1" aria-haspopup="true"
-                                aria-expanded="false">
+                                data-js-target="#headeroverflow1"
+                                aria-haspopup="true" aria-expanded="false">
                                 <span>2019</span>
                             </button>
-                            <div class="overflow-menu-inner" id="headeroverflow1" aria-hidden="true">
+                            <div class="overflow-menu-inner" id="headeroverflow1"
+                                aria-hidden="true">
                                 <ul class="overflow-list">
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 3: Regulering<br> oprettet
-                                            01-12-2019</a>
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                            3: Regulering<br> oprettet 01-12-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 2: Regulering<br> oprettet
-                                            01-09-2019</a>
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                            2: Regulering<br> oprettet 01-09-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 1: Opgørelse<br> oprettet 01-06-2019</a>
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                            1: Opgørelse<br> oprettet 01-06-2019</a>
                                     </li>
                                 </ul>
                             </div>
@@ -108,11 +111,11 @@ title: Example-praktikplads-page-1.html
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
                     <a href="#" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#printer"></use></svg>                        Udskriv
-                    </a>
+                        <svg class="icon-svg " ><use xlink:href="#printer"></use></svg>
+                        Udskriv</a>
                     <a href="" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#help-circle-outline"></use></svg>                        Hjælp
-                    </a>
+                        <svg class="icon-svg " ><use xlink:href="#help-circle-outline"></use></svg>
+                        Hjælp</a>
                 </div>
             </div>
         </div>
@@ -126,13 +129,11 @@ title: Example-praktikplads-page-1.html
 
         <div class="solution-info-mobile">
             <p><b>Erhvervsministeriet</b></p>
-            <p>
-                <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-            </p>
+            <p><button class="button-unstyled button-contact"
+                    data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
         </div>
 
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 <main class="container page-container">
@@ -141,17 +142,14 @@ title: Example-praktikplads-page-1.html
     </header>
     <section class="page-content">
         <h3 class="mb-0">Forskudsopgørelse</h3>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se beregningerne for jeres virksomhed</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se
+                beregningerne for jeres virksomhed</a></p>
         <h3 class="mb-0">Elever</h3>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se jeres elever</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se
+                jeres elever</a></p>
         <h3 class="mb-0">Medarbejdere</h3>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se jeres erhvervsuddannede medarbejdere</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-4">Se
+                jeres erhvervsuddannede medarbejdere</a></p>
     </section>
 </main>
 
@@ -162,9 +160,8 @@ title: Example-praktikplads-page-1.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
-                            <li>
-                                <span class="h5 weight-semibold">Ansvarlig myndighed</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Ansvarlig
+                                    myndighed</span></li>
                             <li>
                                 <p>Styrelsen for Eksempel</p>
                             </li>
@@ -174,12 +171,9 @@ title: Example-praktikplads-page-1.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list">
-                            <li>
-                                <a class="function-link" href="mailto:support@example.dk">support@example.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:12 34 56 78">12 34 56 78</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                            <li><a class="function-link" href="tel:12 34 56 78">12
+                                    34 56 78</a></li>
                         </ul>
                     </div>
                 </div>
@@ -189,8 +183,10 @@ title: Example-praktikplads-page-1.html
 </footer>
 
 <div class="modal" id="modal-contact" aria-hidden="true">
-    <div class="modal__overlay bg-modal" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-contact-1">
+    <div class="modal__overlay bg-modal" tabindex="-1"
+        data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true"
+            aria-labelledby="modal-contact-1">
             <header class="modal__header">
                 <h1 class="modal__title h2" id="modal-contact-1">
                     Kontakt
@@ -199,11 +195,14 @@ title: Example-praktikplads-page-1.html
             <main class="modal__content">
                 <div class="alert alert-warning" role="alert" aria-label="Beskedbox der viser en advarsel">
                     <div class="alert-body">
-                        <h3 class="alert-heading">Vi har noget information af advarende karakter</h3>
-                        <p class="alert-text">Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.</p>
+                        <h3 class="alert-heading">Vi har noget information
+                            af advarende karakter</h3>
+                        <p class="alert-text">Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.</p>
                     </div>
                 </div>
                 <h3>En form for support</h3>
@@ -216,12 +215,14 @@ title: Example-praktikplads-page-1.html
                 <p>Telefonen er åben:</p>
                 <p class="m-0">Mandag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. 9-17</p>
-                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp kl. 9-17</p>
+                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    kl. 9-17</p>
                 <p class="m-0">Fredag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal" data-micromodal-close>Luk</button>
+            <button class="modal__close button button-ghost" aria-label="Close modal"
+                data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

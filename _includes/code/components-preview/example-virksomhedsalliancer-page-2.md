@@ -8,14 +8,16 @@ title: Example-virksomhedsalliancer-page-2.html
     <!--1A: Portal header -->
     <div class="portal-header">
         <div class="container portal-header-inner">
-            <a href="javascript:void(0);" title="Hjem" aria-label="logo link" class="logo"></a>
+            <a href="javascript:void(0);" title="Hjem" aria-label="logo link"
+                class="logo"></a>
             <button class="button button-secondary button-menu-open js-menu-open ml-auto"
                 aria-haspopup="menu" title="Åben mobil menu">Menu</button>
 
             <!-- 1B: Portal header: info + actions-->
             <div class="portal-info">
 
-                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>                    </p>
+                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>
+                </p>
 
                 <a href="#" class="button button-secondary" role="button">
                     Log ud
@@ -39,9 +41,8 @@ title: Example-virksomhedsalliancer-page-2.html
 
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
-                <p>
-                    <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-                </p>
+                <p><button class="button-unstyled button-contact"
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -49,9 +50,10 @@ title: Example-virksomhedsalliancer-page-2.html
 
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
-        <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+        <button class="button button-tertiary button-menu-close js-menu-close"
+            title="Luk mobil menu">
+            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>
@@ -63,12 +65,10 @@ title: Example-virksomhedsalliancer-page-2.html
 
         <div class="solution-info-mobile">
             <p><b>Erhvervsministeriet</b></p>
-            <p>
-                <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-            </p>
+            <p><button class="button-unstyled button-contact"
+                    data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
         </div>
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 <main class="container page-container">
@@ -113,41 +113,46 @@ title: Example-virksomhedsalliancer-page-2.html
     </div>
 
     <h1>SMV-kriterier</h1>
-    <p class="font-lead">Ved tildeling af støtte SMV'er defineres som SMV som værende en virksomhed</p>
+    <p class="font-lead">Ved tildeling af støtte SMV'er defineres som SMV
+        som værende en virksomhed</p>
     <ul>
         <li class="font-lead mt-4 mb-4">Med mindre end 250 ansatte</li>
-        <li class="font-lead mt-4 mb-4">Med en årlig omsætning, der ikke må overstige 375 mio. kr i det seneste
-            regnskab</li>
+        <li class="font-lead mt-4 mb-4">Med en årlig omsætning, der ikke
+            må overstige 375 mio. kr i det seneste regnskab</li>
     </ul>
-    <p class="mt-6">Hvis ansøger er ejet af moderselskab(-er) med mere end 49% og/eller har
-        et datterselskab(-er) med en ejerandel på mere end 49% skal antal ansatte
-        og omsætning for hele koncernen medregnes, dvs. heri skal også medregnes,
-        hvis moderselskabet er ejet af et andet moderselskab med mere end 49%
-        osv.<br>Dette er uanset om moderselskaber og/eller datterselskaber er
-        danske eller udenlandske.</p>
-    <a href="#" class="5">Se eksempel</a>
+    <p class="mt-6">Hvis ansøger er ejet af moderselskab(-er) med mere end
+        49% og/eller har et datterselskab(-er) med en ejerandel på mere
+        end 49% skal antal ansatte og omsætning for hele koncernen
+        medregnes, dvs. heri skal også medregnes, hvis moderselskabet er
+        ejet af et andet moderselskab med mere end 49% osv.<br>Dette er uanset om moderselskaber og/eller datterselskaber er danske eller udenlandske.</p>
+        <a href="#" class="5">Se eksempel</a>
 
-    <div class="form-group">
-        <label class="form-label icon-link " for="id-employees">Antal ansatte i seneste regnskabsår</label>
+        <div class="form-group">
+            <label class="form-label icon-link " for="id-employees">Antal
+                ansatte i seneste regnskabsår</label>
 
-        <input class="form-input  input-width-m" placeholder="" id="id-employees" value=""
-            name="Input til antal ansatte i seneste regnskabsår" type="text">
-    </div>
+            <input class="form-input  input-width-m" placeholder="" id="id-employees"
+                value="" name="Input til antal ansatte i seneste regnskabsår"
+                type="text">
+        </div>
 
-    <div class="form-group">
-        <label class="form-label icon-link " for="id-sales">Omsætning i DKK i seneste regnskabsår</label>
-        <span class="form-hint" id="input-hint-message-id-sales">Angives i helt tal, fx. 11.650.334</span>
+        <div class="form-group">
+            <label class="form-label icon-link " for="id-sales">Omsætning
+                i DKK i seneste regnskabsår</label>
+            <span class="form-hint" id="input-hint-message-id-sales">Angives
+                i helt tal, fx. 11.650.334</span>
 
-        <input class="form-input  input-width-m" placeholder="" id="id-sales" value=""
-            name="Input til omsætning i DKK i seneste regnskabsår" type="text">
-    </div>
+            <input class="form-input  input-width-m" placeholder="" id="id-sales"
+                value="" name="Input til omsætning i DKK i seneste regnskabsår"
+                type="text">
+        </div>
 
-    <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-3"
-            class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-1"
-            class="button button-ghost">Tilbage</a>
-    </nav>
+        <nav class="page-navigation">
+            <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-3"
+                class="button button-primary">Næste</a>
+            <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-1"
+                class="button button-ghost">Tilbage</a>
+        </nav>
 </main>
 
 <footer>
@@ -157,9 +162,8 @@ title: Example-virksomhedsalliancer-page-2.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
-                            <li>
-                                <span class="h5 weight-semibold">Ansvarlig myndighed</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Ansvarlig
+                                    myndighed</span></li>
                             <li>
                                 <p>Styrelsen for Eksempel</p>
                             </li>
@@ -169,12 +173,9 @@ title: Example-virksomhedsalliancer-page-2.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list">
-                            <li>
-                                <a class="function-link" href="mailto:support@example.dk">support@example.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:12 34 56 78">12 34 56 78</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                            <li><a class="function-link" href="tel:12 34 56 78">12
+                                    34 56 78</a></li>
                         </ul>
                     </div>
                 </div>
@@ -184,8 +185,10 @@ title: Example-virksomhedsalliancer-page-2.html
 </footer>
 
 <div class="modal" id="modal-contact" aria-hidden="true">
-    <div class="modal__overlay bg-modal" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-contact-1">
+    <div class="modal__overlay bg-modal" tabindex="-1"
+        data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true"
+            aria-labelledby="modal-contact-1">
             <header class="modal__header">
                 <h1 class="modal__title h2" id="modal-contact-1">
                     Kontakt
@@ -194,11 +197,14 @@ title: Example-virksomhedsalliancer-page-2.html
             <main class="modal__content">
                 <div class="alert alert-warning" role="alert" aria-label="Beskedbox der viser en advarsel">
                     <div class="alert-body">
-                        <h3 class="alert-heading">Vi har noget information af advarende karakter</h3>
-                        <p class="alert-text">Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.</p>
+                        <h3 class="alert-heading">Vi har noget information
+                            af advarende karakter</h3>
+                        <p class="alert-text">Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.</p>
                     </div>
                 </div>
                 <h3>En form for support</h3>
@@ -211,12 +217,14 @@ title: Example-virksomhedsalliancer-page-2.html
                 <p>Telefonen er åben:</p>
                 <p class="m-0">Mandag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. 9-17</p>
-                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp kl. 9-17</p>
+                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    kl. 9-17</p>
                 <p class="m-0">Fredag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal" data-micromodal-close>Luk</button>
+            <button class="modal__close button button-ghost" aria-label="Close modal"
+                data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

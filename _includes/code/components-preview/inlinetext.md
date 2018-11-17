@@ -14,9 +14,7 @@ title: Inlinetext.html
             <p><strong>Dette er fed brødtekst</strong></p>
             <p><b>Dette er også fed brødtekst lavet med et b-tag.</b></p>
             <p><em>Dette er brødtekst skrevet i kursiv.</em></p>
-            <p>
-                <i>Dette er brødtekst skrevet i kursiv med et i-tag.</i>
-            </p>
+            <p><i>Dette er brødtekst skrevet i kursiv med et i-tag.</i></p>
         </div>
     </div>
 </div>

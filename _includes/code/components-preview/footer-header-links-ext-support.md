@@ -12,7 +12,8 @@ title: Footer-header-links-ext-support.html
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Ansvarlig myndighed"
-                                    aria-label="Ansvarlig myndighed">Ansvarlig myndighed</p>
+                                    aria-label="Ansvarlig myndighed">Ansvarlig
+                                    myndighed</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
@@ -30,29 +31,27 @@ title: Footer-header-links-ext-support.html
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Hjælpende links"
-                                    aria-label="Hjælpende links">Hjælpende links</p>
+                                    aria-label="Hjælpende links">Hjælpende
+                                    links</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list footer-links">
-                            <li>
-                                <a href="javascript:void(0);">Link til et sted på siden</a>
+                            <li><a href="javascript:void(0);">Link til et
+                                    sted på siden</a></li>
+                            <li><a href="javascript:void(0);">Link til et
+                                    sted på siden</p>
                             </li>
-                            <li>
-                                <a href="javascript:void(0);">Link til et sted på siden</p>
+                            <li><a href="javascript:void(0);">Link til et
+                                    sted på siden</p>
                             </li>
-                            <li>
-                                <a href="javascript:void(0);">Link til et sted på siden</p>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon-link">Link til en ekstern side
-                                    <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon-link">Link til en ekstern side
-                                    <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg>
-                                </a>
-                            </li>
+                            <li><a href="javascript:void(0);" class="icon-link">Link
+                                    til en ekstern side
+                                    <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
+                                </a></li>
+                            <li><a href="javascript:void(0);" class="icon-link">Link
+                                    til en ekstern side
+                                    <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
+                                </a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,14 +60,14 @@ title: Footer-header-links-ext-support.html
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Telefonisk support"
-                                    aria-label="Telefonisk support">Telefonisk support</p>
+                                    aria-label="Telefonisk support">Telefonisk
+                                    support</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
                             <li>
-                                <p>
-                                    <a class="function-link" href="tel:004533925200">(+45) 33 92 52 00</a>
-                                </p>
+                                <p><a class="function-link" href="tel:004533925200">(+45)
+                                        33 92 52 00</a></p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
@@ -89,20 +88,19 @@ title: Footer-header-links-ext-support.html
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Skriftlig kontakt"
-                                    aria-label="Skriftlig kontakt">Skriftlig kontakt</p>
+                                    aria-label="Skriftlig kontakt">Skriftlig
+                                    kontakt</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
                             <li>
-                                <p>
-                                    <a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a>
-                                </p>
+                                <p><a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a></p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
                             <li>
-                                <p>Vi besvarer e-mails så hurtigt vi kan, indenfor
-                                    telefonisk åbningstid</p>
+                                <p>Vi besvarer e-mails så hurtigt vi kan,
+                                    indenfor telefonisk åbningstid</p>
                             </li>
                         </ul>
                     </div>

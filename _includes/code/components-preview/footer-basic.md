@@ -10,9 +10,7 @@ title: Footer-basic.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list inline-list ">
-                            <li>
-                                <span class="h5 weight-semibold">Undervisningsministeriet</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Undervisningsministeriet</span></li>
                             <li>
                                 <p>Styrelsen for IT og læring</p>
                             </li>
@@ -22,12 +20,9 @@ title: Footer-basic.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list inline-list ">
-                            <li>
-                                <a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:004533925200">(+45) 33 92 52 00</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a></li>
+                            <li><a class="function-link" href="tel:004533925200">(+45)
+                                    33 92 52 00</a></li>
                         </ul>
                     </div>
                 </div>

@@ -12,7 +12,8 @@ title: Footer-header.html
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Ansvarlig myndighed"
-                                    aria-label="Ansvarlig myndighed">Ansvarlig myndighed</p>
+                                    aria-label="Ansvarlig myndighed">Ansvarlig
+                                    myndighed</p>
                             </li>
                             <li>
                                 <p>Undervisningsministeriet</p>
@@ -27,14 +28,12 @@ title: Footer-header.html
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
                             <li>
-                                <p class="h5 weight-semibold" title="Kontakt" aria-label="Kontakt">Kontakt</p>
+                                <p class="h5 weight-semibold" title="Kontakt"
+                                    aria-label="Kontakt">Kontakt</p>
                             </li>
-                            <li>
-                                <a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:004533925200">(+45) 33 92 52 00</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a></li>
+                            <li><a class="function-link" href="tel:004533925200">(+45)
+                                    33 92 52 00</a></li>
                         </ul>
                     </div>
                 </div>

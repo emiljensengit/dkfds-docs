@@ -11,15 +11,12 @@ title: Base.html
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
         window.frctl = {
-            env: 'static'
-        };
+        env: 'static'
+    };
     </script>
-    <script>
-        var cl = document.querySelector('html').classList;
-        cl.remove('no-js');
-        cl.add('has-js');
-    </script>
-    <link rel="shortcut icon" href="../../themes/mandelbrot/favicon.ico" type="image/ico">
+    <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
+    <link rel="shortcut icon" href="../../themes/mandelbrot/favicon.ico"
+        type="image/ico">
 
     <link rel="stylesheet" href="../../themes/mandelbrot/css/white.css?cachebust=1.2.0"
         type="text/css">
@@ -35,8 +32,9 @@ title: Base.html
         <div class="Error Error--render">
             <h4 class="Error-title">Error rendering component</h4>
             <div class="Error-message Prose">
-                <p>(unknown path) Error: Could not render component &#39;@footer&#39;
-                    - component not found.</p>
+                <p>(unknown path)
+                    Error: Could not render component &#39;@footer&#39; -
+                    component not found.</p>
 
             </div>
 

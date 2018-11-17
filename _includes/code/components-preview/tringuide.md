@@ -16,7 +16,7 @@ title: Tringuide.html
 
                         <span class="sidenav-icon">
 
-                            <svg class="icon-svg "><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
 
                         </span>
 
@@ -29,7 +29,7 @@ title: Tringuide.html
 
                         <span class="sidenav-icon">
 
-                            <svg class="icon-svg "><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
 
                         </span>
 
@@ -71,7 +71,7 @@ title: Tringuide.html
 
                         <span class="sidenav-icon">
 
-                            <svg class="icon-svg "><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
 
                         </span>
 
@@ -84,7 +84,7 @@ title: Tringuide.html
 
                         <span class="sidenav-icon">
 
-                            <svg class="icon-svg "><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
 
                         </span>
 
@@ -92,7 +92,8 @@ title: Tringuide.html
                 </li>
 
                 <li class="disabled">
-                    <a class="active" disabled tab-index="-1" aria-disabled="true">
+                    <a class="active" disabled tab-index="-1"
+                        aria-disabled="true">
                         3. Trin 3 (valgt)
 
                     </a>
@@ -125,13 +126,14 @@ title: Tringuide.html
                         <div class="d-inline-block">
                             1. Trin 1
 
-                            <p class="sidenav-information">Informationstekst for trin 1</p>
+                            <p class="sidenav-information">Informationstekst
+                                for trin 1</p>
 
                         </div>
 
                         <span class="sidenav-icon">
 
-                            <svg class="icon-svg "><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
 
                         </span>
 
@@ -143,13 +145,14 @@ title: Tringuide.html
                         <div class="d-inline-block">
                             2. Trin 2
 
-                            <p class="sidenav-information">Informationstekst for trin 2</p>
+                            <p class="sidenav-information">Informationstekst
+                                for trin 2</p>
 
                         </div>
 
                         <span class="sidenav-icon">
 
-                            <svg class="icon-svg "><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
 
                         </span>
 
@@ -161,7 +164,8 @@ title: Tringuide.html
                         <div class="d-inline-block">
                             3. Trin 3 (valgt)
 
-                            <p class="sidenav-information">Informationstekst for trin 3</p>
+                            <p class="sidenav-information">Informationstekst
+                                for trin 3</p>
 
                         </div>
 
@@ -173,7 +177,8 @@ title: Tringuide.html
                         <div class="d-inline-block">
                             4. Trin 4
 
-                            <p class="sidenav-information">Informationstekst for trin 4</p>
+                            <p class="sidenav-information">Informationstekst
+                                for trin 4</p>
 
                         </div>
 
@@ -185,7 +190,8 @@ title: Tringuide.html
                         <div class="d-inline-block">
                             5. Trin 5
 
-                            <p class="sidenav-information">Informationstekst for trin 5</p>
+                            <p class="sidenav-information">Informationstekst
+                                for trin 5</p>
 
                         </div>
 
@@ -202,13 +208,15 @@ title: Tringuide.html
             <p class="h5 mt-6">Trinindikator i overflow-menu</p>
 
             <div class="overflow-menu  overflow-menu--open-right ">
-                <button class="button-overflow-menu js-dropdown " data-js-target="#overflow5"
-                    aria-haspopup="true" aria-expanded="false">
+                <button class="button-overflow-menu js-dropdown "
+                    data-js-target="#overflow5" aria-haspopup="true"
+                    aria-expanded="false">
                     Trin 3 af 5
                     <svg class="icon-svg"><use xlink:href="#menu-down"></use></svg>
                     <span class="sr-only">Åbner overflow menu</span>
                 </button>
-                <div class="overflow-menu-inner" id="overflow5" aria-hidden="true">
+                <div class="overflow-menu-inner" id="overflow5"
+                    aria-hidden="true">
 
                     <ul class='sidenav-list'>
                         <li>
@@ -249,16 +257,20 @@ title: Tringuide.html
 
         </div>
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 sidebar-col">
-            <p class="h5 mt-6 mb-3">Trinindikator - responsivt i overflow-menu</p>
-            <p class="form-hint mt-0">Du skal gøre browservinduet mindre for at se ændringen</p>
+            <p class="h5 mt-6 mb-3">Trinindikator - responsivt i
+                overflow-menu</p>
+            <p class="form-hint mt-0">Du skal gøre browservinduet mindre
+                for at se ændringen</p>
             <div class="overflow-menu  overflow-menu--open-right overflow-menu--md-no-responsive">
-                <button class="button-overflow-menu js-dropdown " data-js-target="#overflow4"
-                    aria-haspopup="true" aria-expanded="false">
+                <button class="button-overflow-menu js-dropdown "
+                    data-js-target="#overflow4" aria-haspopup="true"
+                    aria-expanded="false">
                     Trin 3 af 5
                     <svg class="icon-svg"><use xlink:href="#menu-down"></use></svg>
                     <span class="sr-only">Åbner overflow menu</span>
                 </button>
-                <div class="overflow-menu-inner" id="overflow4" aria-hidden="true">
+                <div class="overflow-menu-inner" id="overflow4"
+                    aria-hidden="true">
                     <ul class="sidenav-list">
                         <li>
                             <a href="#">

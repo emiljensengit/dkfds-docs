@@ -8,7 +8,8 @@ title: Example-praktikplads-page-3.html
     <!--1A: Portal header -->
     <div class="portal-header">
         <div class="container portal-header-inner">
-            <a href="javascript:void(0);" title="Hjem" aria-label="logo link" class="logo"></a>
+            <a href="javascript:void(0);" title="Hjem" aria-label="logo link"
+                class="logo"></a>
             <button class="button button-secondary button-menu-open js-menu-open ml-auto"
                 aria-haspopup="menu" title="Åben mobil menu">Menu</button>
 
@@ -39,9 +40,8 @@ title: Example-praktikplads-page-3.html
 
                 <h6 class="h5 authority-name"> Praktikplads-AUB</h6>
 
-                <p>
-                    <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-                </p>
+                <p><button class="button-unstyled button-contact"
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -50,9 +50,10 @@ title: Example-praktikplads-page-3.html
     <div class="overlay"></div>
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
-        <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+        <button class="button button-tertiary button-menu-close js-menu-close"
+            title="Luk mobil menu">
+            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
@@ -60,8 +61,8 @@ title: Example-praktikplads-page-3.html
             <div class="navbar-inner container">
                 <ul class="nav-primary">
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-1" class="nav-link"
-                            title="Designsystem">
+                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-1"
+                            class="nav-link" title="Designsystem">
                             <span>2021</span>
                         </a>
                     </li>
@@ -73,22 +74,24 @@ title: Example-praktikplads-page-3.html
                     <li>
                         <div class="overflow-menu">
                             <button class="current button-overflow-menu js-dropdown js-dropdown--responsive-collapse"
-                                data-js-target="#headeroverflow1" aria-haspopup="true"
-                                aria-expanded="false">
+                                data-js-target="#headeroverflow1"
+                                aria-haspopup="true" aria-expanded="false">
                                 <span>2019</span>
                             </button>
-                            <div class="overflow-menu-inner" id="headeroverflow1" aria-hidden="true">
+                            <div class="overflow-menu-inner" id="headeroverflow1"
+                                aria-hidden="true">
                                 <ul class="overflow-list">
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 3: Regulering<br> oprettet
-                                            01-12-2019</a>
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                            3: Regulering<br> oprettet 01-12-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 2: Regulering<br> oprettet
-                                            01-09-2019</a>
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                            2: Regulering<br> oprettet 01-09-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision 1: Opgørelse<br> oprettet 01-06-2019</a>
+                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                            1: Opgørelse<br> oprettet 01-06-2019</a>
                                     </li>
                                 </ul>
                             </div>
@@ -108,11 +111,11 @@ title: Example-praktikplads-page-3.html
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
                     <a href="#" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#printer"></use></svg>                        Udskriv
-                    </a>
+                        <svg class="icon-svg " ><use xlink:href="#printer"></use></svg>
+                        Udskriv</a>
                     <a href="" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#help-circle-outline"></use></svg>                        Hjælp
-                    </a>
+                        <svg class="icon-svg " ><use xlink:href="#help-circle-outline"></use></svg>
+                        Hjælp</a>
                 </div>
             </div>
         </div>
@@ -126,26 +129,24 @@ title: Example-praktikplads-page-3.html
 
         <div class="solution-info-mobile">
             <p><b>Erhvervsministeriet</b></p>
-            <p>
-                <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-            </p>
+            <p><button class="button-unstyled button-contact"
+                    data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
         </div>
 
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 <main class="container page-container">
     <header class="page-header">
         <h1>Forskudsopgørelse 2019</h1>
-        <p class="font-lead">I får udbetalt Praktikplads-AUB:
-            <span class="text-positive">18.316,00 kr.</span>
-        </p>
+        <p class="font-lead">I får udbetalt Praktikplads-AUB: <span class="text-positive">18.316,00
+                kr.</span></p>
 
     </header>
     <section class="page-content">
         <h2>Jeres elevpoint</h2>
-        <p class="mt-4 mb-0">Her kan I se, om I har opfyldt jeres mål for elevpoint for 2019.</p>
+        <p class="mt-4 mb-0">Her kan I se, om I har opfyldt jeres mål for
+            elevpoint for 2019.</p>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                 <table class="table table--borderless table--responsive-headers mt-9">
@@ -181,7 +182,8 @@ title: Example-praktikplads-page-3.html
             </div>
         </div>
         <h2 class="mt-7 mb-0">Jeres Praktikplads - AUB</h2>
-        <p class="mt-4 mb-0">Praktikplads-AUB er det endelige beløb i jeres årsopgørelse.</p>
+        <p class="mt-4 mb-0">Praktikplads-AUB er det endelige beløb i
+            jeres årsopgørelse.</p>
         <div class="row">
             <div class="col-12">
                 <table class="table table--borderless table--responsive-headers mt-7">
@@ -243,7 +245,8 @@ title: Example-praktikplads-page-3.html
                             <td>= -10.206,00</td>
                         </tr>
                         <tr>
-                            <td>Nedsættelse for erhvervsuddannede medarbejdere</td>
+                            <td>Nedsættelse for erhvervsuddannede
+                                medarbejdere</td>
                             <td>29,16</td>
                             <td>x 295,00</td>
                             <td>= 8.602,00</td>
@@ -272,8 +275,7 @@ title: Example-praktikplads-page-3.html
         </div>
         <p class="mt-7 mb-0">Udbetaling af Praktikplads-AUB for 2019: <b>18.316,00</b></p>
         <p class="mt-4 mb-0">Hvis du har spørgsmål, er du velkommen til at
-            <a href="#">kontakte AUB</a>
-        </p>
+            <a href="#">kontakte AUB</a></p>
     </section>
 </main>
 
@@ -284,9 +286,8 @@ title: Example-praktikplads-page-3.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
-                            <li>
-                                <span class="h5 weight-semibold">Ansvarlig myndighed</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Ansvarlig
+                                    myndighed</span></li>
                             <li>
                                 <p>Styrelsen for Eksempel</p>
                             </li>
@@ -296,12 +297,9 @@ title: Example-praktikplads-page-3.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list">
-                            <li>
-                                <a class="function-link" href="mailto:support@example.dk">support@example.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:12 34 56 78">12 34 56 78</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                            <li><a class="function-link" href="tel:12 34 56 78">12
+                                    34 56 78</a></li>
                         </ul>
                     </div>
                 </div>
@@ -311,8 +309,10 @@ title: Example-praktikplads-page-3.html
 </footer>
 
 <div class="modal" id="modal-contact" aria-hidden="true">
-    <div class="modal__overlay bg-modal" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-contact-1">
+    <div class="modal__overlay bg-modal" tabindex="-1"
+        data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true"
+            aria-labelledby="modal-contact-1">
             <header class="modal__header">
                 <h1 class="modal__title h2" id="modal-contact-1">
                     Kontakt
@@ -321,11 +321,14 @@ title: Example-praktikplads-page-3.html
             <main class="modal__content">
                 <div class="alert alert-warning" role="alert" aria-label="Beskedbox der viser en advarsel">
                     <div class="alert-body">
-                        <h3 class="alert-heading">Vi har noget information af advarende karakter</h3>
-                        <p class="alert-text">Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.</p>
+                        <h3 class="alert-heading">Vi har noget information
+                            af advarende karakter</h3>
+                        <p class="alert-text">Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.</p>
                     </div>
                 </div>
                 <h3>En form for support</h3>
@@ -338,12 +341,14 @@ title: Example-praktikplads-page-3.html
                 <p>Telefonen er åben:</p>
                 <p class="m-0">Mandag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. 9-17</p>
-                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp kl. 9-17</p>
+                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    kl. 9-17</p>
                 <p class="m-0">Fredag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal" data-micromodal-close>Luk</button>
+            <button class="modal__close button button-ghost" aria-label="Close modal"
+                data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

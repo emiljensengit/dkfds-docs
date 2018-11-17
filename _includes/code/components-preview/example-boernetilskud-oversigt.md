@@ -8,14 +8,16 @@ title: Example-boernetilskud-oversigt.html
     <!--1A: Portal header -->
     <div class="portal-header">
         <div class="container portal-header-inner">
-            <a href="javascript:void(0);" title="Hjem" aria-label="logo link" class="logo"></a>
+            <a href="javascript:void(0);" title="Hjem" aria-label="logo link"
+                class="logo"></a>
             <button class="button button-secondary button-menu-open js-menu-open ml-auto"
                 aria-haspopup="menu" title="Åben mobil menu">Menu</button>
 
             <!-- 1B: Portal header: info + actions-->
             <div class="portal-info">
 
-                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>                    </p>
+                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>
+                </p>
 
                 <a href="#" class="button button-secondary" role="button">
                     Log ud
@@ -48,9 +50,10 @@ title: Example-boernetilskud-oversigt.html
     <div class="overlay"></div>
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
-        <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+        <button class="button button-tertiary button-menu-close js-menu-close"
+            title="Luk mobil menu">
+            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
@@ -60,55 +63,58 @@ title: Example-boernetilskud-oversigt.html
                     <li>
                         <div class="overflow-menu">
                             <button class="current button-overflow-menu js-dropdown js-dropdown--responsive-collapse"
-                                data-js-target="#headeroverflow1" aria-haspopup="true"
-                                aria-expanded="false">
+                                data-js-target="#headeroverflow1"
+                                aria-haspopup="true" aria-expanded="false">
                                 <span>Oversigt</span>
                             </button>
-                            <div class="overflow-menu-inner" id="headeroverflow1" aria-hidden="true">
+                            <div class="overflow-menu-inner" id="headeroverflow1"
+                                aria-hidden="true">
                                 <ul class="overflow-list">
                                     <li>
-                                        <a class="current" href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt">Overssigtsside som liste</a>
+                                        <a class="current" href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt">Overssigtsside
+                                            som liste</a>
                                     </li>
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt-2">Oversigt med cards</a>
+                                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-oversigt-2">Oversigt
+                                            med cards</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
-                            title="Eksempler">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1"
+                            class="nav-link" title="Eksempler">
                             <span>Beskeder</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
-                            title="Kom godt i gang">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1"
+                            class="nav-link" title="Kom godt i gang">
                             <span>Udbetalinger</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
-                            title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1"
+                            class="nav-link" title="Fællesoffentlige krav">
                             <span>Sager</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
-                            title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1"
+                            class="nav-link" title="Fællesoffentlige krav">
                             <span>Ansøgninger</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
-                            title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1"
+                            class="nav-link" title="Fællesoffentlige krav">
                             <span>Ændringer</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1" class="nav-link"
-                            title="Fællesoffentlige krav">
+                        <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1"
+                            class="nav-link" title="Fællesoffentlige krav">
                             <span>Dokumentation</span>
                         </a>
                     </li>
@@ -126,45 +132,38 @@ title: Example-boernetilskud-oversigt.html
 
         <div class="solution-info-mobile">
             <p><b>Erhvervsministeriet</b></p>
-            <p>
-                <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-            </p>
+            <p><button class="button-unstyled button-contact"
+                    data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
         </div>
 
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 <main class="container page-container">
     <header class="page-header">
         <h1>Oversigt</h1>
-        <p class="font-lead">Brug en af de følgende funktioner, til at administrere børnetilskud:</p>
+        <p class="font-lead">Brug en af de følgende funktioner, til at
+            administrere børnetilskud:</p>
     </header>
     <section class="page-content">
         <p class="h3 mb-0">Beskeder</p>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Læs beskeder omkring dine aktive sager</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Læs
+                beskeder omkring dine aktive sager</a></p>
         <p class="h3 mb-0">Udbetalinger</p>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Se tidligere og kommende udbetalinger</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Se
+                tidligere og kommende udbetalinger</a></p>
         <p class="h3 mb-0">Sager</p>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Få status på dine nuværende sager</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Få
+                status på dine nuværende sager</a></p>
         <p class="h3 mb-0">Ansøgninger</p>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Se aktive og tidligere ansøgninger</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Se
+                aktive og tidligere ansøgninger</a></p>
         <p class="h3 mb-0">Ændringer</p>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Foretag ændringer omkring dit børnetilskud</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Foretag
+                ændringer omkring dit børnetilskud</a></p>
         <p class="h3 mb-0">Dokumentation</p>
-        <p class="mt-0">
-            <a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Opslagsværk for hvordan børnetilskud fungerer</a>
-        </p>
+        <p class="mt-0"><a href="/dkfds-docs/pages/page-templates/boernetilskud/boernetilskud-1">Opslagsværk
+                for hvordan børnetilskud fungerer</a></p>
     </section>
 </main>
 
@@ -175,9 +174,8 @@ title: Example-boernetilskud-oversigt.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
-                            <li>
-                                <span class="h5 weight-semibold">Ansvarlig myndighed</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Ansvarlig
+                                    myndighed</span></li>
                             <li>
                                 <p>Styrelsen for Eksempel</p>
                             </li>
@@ -187,12 +185,9 @@ title: Example-boernetilskud-oversigt.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list">
-                            <li>
-                                <a class="function-link" href="mailto:support@example.dk">support@example.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:12 34 56 78">12 34 56 78</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                            <li><a class="function-link" href="tel:12 34 56 78">12
+                                    34 56 78</a></li>
                         </ul>
                     </div>
                 </div>

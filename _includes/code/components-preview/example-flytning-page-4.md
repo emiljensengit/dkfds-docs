@@ -8,14 +8,16 @@ title: Example-flytning-page-4.html
     <!--1A: Portal header -->
     <div class="portal-header">
         <div class="container portal-header-inner">
-            <a href="javascript:void(0);" title="Hjem" aria-label="logo link" class="logo"></a>
+            <a href="javascript:void(0);" title="Hjem" aria-label="logo link"
+                class="logo"></a>
             <button class="button button-secondary button-menu-open js-menu-open ml-auto"
                 aria-haspopup="menu" title="Åben mobil menu">Menu</button>
 
             <!-- 1B: Portal header: info + actions-->
             <div class="portal-info">
 
-                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>                    </p>
+                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>
+                </p>
 
                 <a href="#" class="button button-secondary" role="button">
                     Log ud
@@ -39,9 +41,8 @@ title: Example-flytning-page-4.html
 
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
-                <p>
-                    <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-                </p>
+                <p><button class="button-unstyled button-contact"
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -50,9 +51,10 @@ title: Example-flytning-page-4.html
     <div class="overlay"></div>
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
-        <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+        <button class="button button-tertiary button-menu-close js-menu-close"
+            title="Luk mobil menu">
+            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>
@@ -64,25 +66,24 @@ title: Example-flytning-page-4.html
 
         <div class="solution-info-mobile">
             <p><b>Erhvervsministeriet</b></p>
-            <p>
-                <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-            </p>
+            <p><button class="button-unstyled button-contact"
+                    data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
         </div>
 
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
                     <a href="#" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#"></use></svg>                        Om digital flytning</a>
+                        <svg class="icon-svg " ><use xlink:href="#"></use></svg>
+                        Om digital flytning</a>
                     <a href="" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#language"></use></svg>                        Sprog
-                    </a>
+                        <svg class="icon-svg " ><use xlink:href="#language"></use></svg>
+                        Sprog</a>
                 </div>
             </div>
         </div>
 
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 <main class="container page-container">
@@ -122,7 +123,8 @@ title: Example-flytning-page-4.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-4' class='active'>
+                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-4'
+                        class='active'>
                         4. Særlig flytning
                     </a>
                 </li>
@@ -137,20 +139,25 @@ title: Example-flytning-page-4.html
     </div>
 
     <h1>Logivært</h1>
-    <p class="font-lead">Hvis du flytter til en anden persons adresse, skal denne person bekræfte
-        din indflytning. Kommunen indhenter selv denne bekræftelse.</p>
+    <p class="font-lead">Hvis du flytter til en anden persons adresse,
+        skal denne person bekræfte din indflytning. Kommunen indhenter
+        selv denne bekræftelse.</p>
     <div class="mt-6">
 
         <div class="form-group ">
             <input id="id-special-moving" type="checkbox" name="Person(er) på den nye adresse bliver boende (logivært)"
-                value="Person(er) på den nye adresse bliver boende (logivært)" class=" checkbox-large ">
-            <label for="id-special-moving" class="">Person(er) på den nye adresse bliver boende (logivært)</label>
+                value="Person(er) på den nye adresse bliver boende (logivært)"
+                class=" checkbox-large ">
+            <label for="id-special-moving" class="">Person(er) på den nye
+                adresse bliver boende (logivært)</label>
         </div>
 
     </div>
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-5" class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-3" class="button button-ghost">Tilbage</a>
+        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-5"
+            class="button button-primary">Næste</a>
+        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-3"
+            class="button button-ghost">Tilbage</a>
     </nav>
 </main>
 
@@ -161,9 +168,8 @@ title: Example-flytning-page-4.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
-                            <li>
-                                <span class="h5 weight-semibold">Ansvarlig myndighed</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Ansvarlig
+                                    myndighed</span></li>
                             <li>
                                 <p>Styrelsen for Eksempel</p>
                             </li>
@@ -173,12 +179,9 @@ title: Example-flytning-page-4.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list">
-                            <li>
-                                <a class="function-link" href="mailto:support@example.dk">support@example.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:12 34 56 78">12 34 56 78</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                            <li><a class="function-link" href="tel:12 34 56 78">12
+                                    34 56 78</a></li>
                         </ul>
                     </div>
                 </div>
@@ -188,8 +191,10 @@ title: Example-flytning-page-4.html
 </footer>
 
 <div class="modal" id="modal-contact" aria-hidden="true">
-    <div class="modal__overlay bg-modal" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-contact-1">
+    <div class="modal__overlay bg-modal" tabindex="-1"
+        data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true"
+            aria-labelledby="modal-contact-1">
             <header class="modal__header">
                 <h1 class="modal__title h2" id="modal-contact-1">
                     Kontakt
@@ -198,11 +203,14 @@ title: Example-flytning-page-4.html
             <main class="modal__content">
                 <div class="alert alert-warning" role="alert" aria-label="Beskedbox der viser en advarsel">
                     <div class="alert-body">
-                        <h3 class="alert-heading">Vi har noget information af advarende karakter</h3>
-                        <p class="alert-text">Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.</p>
+                        <h3 class="alert-heading">Vi har noget information
+                            af advarende karakter</h3>
+                        <p class="alert-text">Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.</p>
                     </div>
                 </div>
                 <h3>En form for support</h3>
@@ -215,12 +223,14 @@ title: Example-flytning-page-4.html
                 <p>Telefonen er åben:</p>
                 <p class="m-0">Mandag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. 9-17</p>
-                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp kl. 9-17</p>
+                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    kl. 9-17</p>
                 <p class="m-0">Fredag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal" data-micromodal-close>Luk</button>
+            <button class="modal__close button button-ghost" aria-label="Close modal"
+                data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

@@ -8,14 +8,16 @@ title: Example-virksomhedsalliancer-page-1.html
     <!--1A: Portal header -->
     <div class="portal-header">
         <div class="container portal-header-inner">
-            <a href="javascript:void(0);" title="Hjem" aria-label="logo link" class="logo"></a>
+            <a href="javascript:void(0);" title="Hjem" aria-label="logo link"
+                class="logo"></a>
             <button class="button button-secondary button-menu-open js-menu-open ml-auto"
                 aria-haspopup="menu" title="Åben mobil menu">Menu</button>
 
             <!-- 1B: Portal header: info + actions-->
             <div class="portal-info">
 
-                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>                    </p>
+                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>
+                </p>
 
                 <a href="#" class="button button-secondary" role="button">
                     Log ud
@@ -39,9 +41,8 @@ title: Example-virksomhedsalliancer-page-1.html
 
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
-                <p>
-                    <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-                </p>
+                <p><button class="button-unstyled button-contact"
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -49,9 +50,10 @@ title: Example-virksomhedsalliancer-page-1.html
 
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
-        <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+        <button class="button button-tertiary button-menu-close js-menu-close"
+            title="Luk mobil menu">
+            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>
@@ -63,12 +65,10 @@ title: Example-virksomhedsalliancer-page-1.html
 
         <div class="solution-info-mobile">
             <p><b>Erhvervsministeriet</b></p>
-            <p>
-                <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-            </p>
+            <p><button class="button-unstyled button-contact"
+                    data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
         </div>
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 <main class="container page-container">
@@ -112,14 +112,16 @@ title: Example-virksomhedsalliancer-page-1.html
     <h1>Stamdata</h1>
 
     <div class="form-group">
-        <label class="form-label icon-link " for="id-cvr-number">CVR nummer</label>
+        <label class="form-label icon-link " for="id-cvr-number">CVR
+            nummer</label>
 
-        <input class="form-input  input-char-8" placeholder="" id="id-cvr-number" value=""
-            name="Input til cvr nummer" type="text">
+        <input class="form-input  input-char-8" placeholder="" id="id-cvr-number"
+            value="" name="Input til cvr nummer" type="text">
     </div>
 
     <div class="form-group">
-        <label class="form-label icon-link " for="id-companyname">Navn på virksomhed</label>
+        <label class="form-label icon-link " for="id-companyname">Navn på
+            virksomhed</label>
 
         <input class="form-input  input-width-m" placeholder="" id="id-companyname"
             value="" name="Input til navn på virksomhed" type="text">
@@ -135,8 +137,8 @@ title: Example-virksomhedsalliancer-page-1.html
     <div class="form-group">
         <label class="form-label icon-link " for="id-zipcode">Postnr.</label>
 
-        <input class="form-input  input-char-4" placeholder="" id="id-zipcode" value=""
-            name="Input til postnummer" type="text">
+        <input class="form-input  input-char-4" placeholder="" id="id-zipcode"
+            value="" name="Input til postnummer" type="text">
     </div>
 
     <div class="form-group">
@@ -154,9 +156,8 @@ title: Example-virksomhedsalliancer-page-1.html
     </div>
 
     <div class="form-group">
-        <label class="form-label icon-link " for="id-companywebsite">Website
-            <span class="weight-normal"> (frivilligt)</span>
-        </label>
+        <label class="form-label icon-link " for="id-companywebsite">Website<span
+                class="weight-normal"> (frivilligt)</span></label>
 
         <input class="form-input  input-width-m" placeholder="" id="id-companywebsite"
             value="" name="Input til website" type="text">
@@ -171,7 +172,8 @@ title: Example-virksomhedsalliancer-page-1.html
 
     <div class="form-group">
         <label class="form-label icon-link " for="id-companyemail">E-mail</label>
-        <span class="form-hint" id="input-hint-message-id-companyemail">Kvittering bliver sendt til denne e-mailadresse</span>
+        <span class="form-hint" id="input-hint-message-id-companyemail">Kvittering
+            bliver sendt til denne e-mailadresse</span>
 
         <input class="form-input  input-width-m" placeholder="" id="id-companyemail"
             value="" name="Input til email" type="text">
@@ -180,8 +182,8 @@ title: Example-virksomhedsalliancer-page-1.html
     <div class="form-group">
         <label class="form-label icon-link " for="id-launchyear">Etableringsår</label>
 
-        <input class="form-input  input-char-4" placeholder="" id="id-launchyear" value=""
-            name="Input til etableringsår" type="text">
+        <input class="form-input  input-char-4" placeholder="" id="id-launchyear"
+            value="" name="Input til etableringsår" type="text">
     </div>
 
     <nav class="page-navigation">
@@ -197,9 +199,8 @@ title: Example-virksomhedsalliancer-page-1.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
-                            <li>
-                                <span class="h5 weight-semibold">Ansvarlig myndighed</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Ansvarlig
+                                    myndighed</span></li>
                             <li>
                                 <p>Styrelsen for Eksempel</p>
                             </li>
@@ -209,12 +210,9 @@ title: Example-virksomhedsalliancer-page-1.html
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list">
-                            <li>
-                                <a class="function-link" href="mailto:support@example.dk">support@example.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:12 34 56 78">12 34 56 78</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                            <li><a class="function-link" href="tel:12 34 56 78">12
+                                    34 56 78</a></li>
                         </ul>
                     </div>
                 </div>
@@ -224,8 +222,10 @@ title: Example-virksomhedsalliancer-page-1.html
 </footer>
 
 <div class="modal" id="modal-contact" aria-hidden="true">
-    <div class="modal__overlay bg-modal" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-contact-1">
+    <div class="modal__overlay bg-modal" tabindex="-1"
+        data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true"
+            aria-labelledby="modal-contact-1">
             <header class="modal__header">
                 <h1 class="modal__title h2" id="modal-contact-1">
                     Kontakt
@@ -234,11 +234,14 @@ title: Example-virksomhedsalliancer-page-1.html
             <main class="modal__content">
                 <div class="alert alert-warning" role="alert" aria-label="Beskedbox der viser en advarsel">
                     <div class="alert-body">
-                        <h3 class="alert-heading">Vi har noget information af advarende karakter</h3>
-                        <p class="alert-text">Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.</p>
+                        <h3 class="alert-heading">Vi har noget information
+                            af advarende karakter</h3>
+                        <p class="alert-text">Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.</p>
                     </div>
                 </div>
                 <h3>En form for support</h3>
@@ -251,12 +254,14 @@ title: Example-virksomhedsalliancer-page-1.html
                 <p>Telefonen er åben:</p>
                 <p class="m-0">Mandag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. 9-17</p>
-                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp kl. 9-17</p>
+                <p class="m-0">Tirsdag-torsdag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    kl. 9-17</p>
                 <p class="m-0">Fredag:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal" data-micromodal-close>Luk</button>
+            <button class="modal__close button button-ghost" aria-label="Close modal"
+                data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

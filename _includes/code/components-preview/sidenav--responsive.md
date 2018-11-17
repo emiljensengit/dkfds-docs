@@ -7,14 +7,16 @@ title: Sidenav--responsive.html
     <div class="row">
         <div class="col-12">
             <h4 class="my-4">Sidenav is toggeled with collapse.</h4>
-            <p>The browser needs to be less than 768px wide in order for the responsive
-                behaviour to appear.</p>
+            <p>The browser needs to be less than 768px wide in order for
+                the responsive behaviour to appear.</p>
         </div>
         <div class="col-12 sidebar-col">
             <div>
-                <button class="button button-primary mb-4 d-md-none js-collapse" data-js-target="#sidenav1"
-                    aria-controls="sidenav1" aria-expanded="false">Vis menu</button>
-                <nav class="d-md-block collapsed" id="sidenav1" aria-hidden="true">
+                <button class="button button-primary mb-4 d-md-none js-collapse"
+                    data-js-target="#sidenav1" aria-controls="sidenav1"
+                    aria-expanded="false">Vis menu</button>
+                <nav class="d-md-block collapsed" id="sidenav1"
+                    aria-hidden="true">
                     <ul class="sidenav-list">
 
                         <li>
@@ -173,12 +175,14 @@ title: Sidenav--responsive.html
 
             <div class="overflow-menu  overflow-menu--open-right ">
                 <button class="button-overflow-menu js-dropdown  js-dropdown--responsive-collapse "
-                    data-js-target="#overflow3" aria-haspopup="true" aria-expanded="false">
+                    data-js-target="#overflow3" aria-haspopup="true"
+                    aria-expanded="false">
                     Trin 3 af 5
                     <svg class="icon-svg"><use xlink:href="#menu-down"></use></svg>
                     <span class="sr-only">Åbner overflow menu</span>
                 </button>
-                <div class="overflow-menu-inner" id="overflow3" aria-hidden="true">
+                <div class="overflow-menu-inner" id="overflow3"
+                    aria-hidden="true">
 
                     <ul class='sidenav-list'>
                         <li>

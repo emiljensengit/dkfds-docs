@@ -7,11 +7,13 @@ title: Borders.html
     <div class="row">
         <div class="col-12 col-sm-12 col-md-6">
             <p class="h5 mb-2">Ydre-streger</p>
-            <p class="form-hint mt-2">Bruges til de yderste streger i et element, se fx tabeller.</p>
+            <p class="form-hint mt-2">Bruges til de yderste streger i et
+                element, se fx tabeller.</p>
             <div class="outer-border-example"></div>
 
             <p class="h5 mb-2">Indre-streger</p>
-            <p class="form-hint mt-2">Bruges til indre streger i et element, se fx tabeller.</p>
+            <p class="form-hint mt-2">Bruges til indre streger i et
+                element, se fx tabeller.</p>
             <div class="inner-border-example"></div>
 
             <p class="h5 mb-2">Knap-streger</p>

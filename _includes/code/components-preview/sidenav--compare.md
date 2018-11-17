@@ -217,7 +217,8 @@ title: Sidenav--compare.html
                                                     <a href="">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -228,7 +229,8 @@ title: Sidenav--compare.html
                                                     <a href="">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -239,7 +241,8 @@ title: Sidenav--compare.html
                                                     <a href="" class="active">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -250,7 +253,8 @@ title: Sidenav--compare.html
                                                     <a href="">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -334,7 +338,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Parent link
 
-                                            <p class="sidenav-information">Informationstekst for parent link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for parent link</p>
 
                                         </div>
                                     </a>
@@ -347,7 +352,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Current page
 
-                                            <p class="sidenav-information">Informationstekst for current link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for current link</p>
 
                                         </div>
                                     </a>
@@ -360,7 +366,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Another link
 
-                                            <p class="sidenav-information">Informationstekst for another link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for another link</p>
 
                                         </div>
                                     </a>
@@ -387,7 +394,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Parent link
 
-                                            <p class="sidenav-information">Informationstekst for parent link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for parent link</p>
 
                                         </div>
                                     </a>
@@ -400,7 +408,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Current page
 
-                                            <p class="sidenav-information">Informationstekst for current link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for current link</p>
 
                                         </div>
                                     </a>
@@ -472,7 +481,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Another link
 
-                                            <p class="sidenav-information">Informationstekst for another link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for another link</p>
 
                                         </div>
                                     </a>
@@ -499,7 +509,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Parent link
 
-                                            <p class="sidenav-information">Informationstekst for parent link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for parent link</p>
 
                                         </div>
                                     </a>
@@ -512,7 +523,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Current page
 
-                                            <p class="sidenav-information">Informationstekst for current link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for current link</p>
 
                                         </div>
                                     </a>
@@ -545,7 +557,8 @@ title: Sidenav--compare.html
                                                     <a href="">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -556,7 +569,8 @@ title: Sidenav--compare.html
                                                     <a href="">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -567,7 +581,8 @@ title: Sidenav--compare.html
                                                     <a href="" class="active">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -578,7 +593,8 @@ title: Sidenav--compare.html
                                                     <a href="">
 
                                                         <div class="d-inline-block">
-                                                            Grandchild link
+                                                            Grandchild
+                                                            link
 
                                                         </div>
                                                     </a>
@@ -632,7 +648,8 @@ title: Sidenav--compare.html
                                         <div class="d-inline-block">
                                             Another link
 
-                                            <p class="sidenav-information">Informationstekst for another link</p>
+                                            <p class="sidenav-information">Informationstekst
+                                                for another link</p>
 
                                         </div>
                                     </a>

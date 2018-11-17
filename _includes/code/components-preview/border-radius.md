@@ -7,12 +7,14 @@ title: Border-radius.html
     <div class="row">
         <div class="col-12 col-sm-12 col-md-6">
             <p class="h5 mb-2">Firkantede hjørner (0px)</p>
-            <p class="form-hint mt-2">Bruges til elementer som man ikke kan interagere med.</p>
+            <p class="form-hint mt-2">Bruges til elementer som man ikke
+                kan interagere med.</p>
             <div class="static-border-radius-example"></div>
         </div>
         <div class="col-12 col-sm-12 col-md-6">
             <p class="h5 mb-2">Runde hjørner (4px)</p>
-            <p class="form-hint mt-2">Bruges til interaktive elementer, fx. input-felter og knapper.</p>
+            <p class="form-hint mt-2">Bruges til interaktive elementer,
+                fx. input-felter og knapper.</p>
             <div class="interactive-border-radius-example"></div>
         </div>
     </div>

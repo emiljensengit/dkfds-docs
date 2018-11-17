@@ -10,13 +10,14 @@ title: Cards.html
             <div class="card">
 
                 <div class="card-header">
-                    <p class="h5 header-title" title="Card header" aria-label="Card header">Header</p>
+                    <p class="h5 header-title" title="Card header"
+                        aria-label="Card header">Header</p>
                     <p class="sub-header">Understøttende tekst</p>
                 </div>
 
                 <div class="card-text">
-                    <p class="text">Dette er et <em>tekstområde</em>, hvor du kan skrive hvad
-                        du har lyst til.</p>
+                    <p class="text">Dette er et <em>tekstområde</em>, hvor
+                        du kan skrive hvad du har lyst til.</p>
                 </div>
 
                 <div class="card-content">
@@ -42,12 +43,10 @@ title: Cards.html
                     </div>
                     <div class="action-links">
                         <ul class="unstyled-list">
-                            <li>
-                                <a href="javascript:void(0);" class="default link state">Et link til et sted i løsningen</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon-link">Et link til et sted uden for løsningen<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
-                            </li>
+                            <li><a href="javascript:void(0);" class="default link state">Et
+                                    link til et sted i løsningen</a></li>
+                            <li><a href="javascript:void(0);" class="icon-link">Et
+                                    link til et sted uden for løsningen<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +62,8 @@ title: Cards.html
             <div class="card">
 
                 <div class="card-header">
-                    <p class="h5 header-title" title="Card header" aria-label="Card header">Header</p>
+                    <p class="h5 header-title" title="Card header"
+                        aria-label="Card header">Header</p>
                     <p class="sub-header">Understøttende tekst</p>
                 </div>
 
@@ -81,8 +81,8 @@ title: Cards.html
                 </div>
 
                 <div class="card-text">
-                    <p class="text">Dette er et <em>tekstområde</em>, hvor du kan skrive hvad
-                        du har lyst til.</p>
+                    <p class="text">Dette er et <em>tekstområde</em>, hvor
+                        du kan skrive hvad du har lyst til.</p>
                 </div>
 
             </div>
@@ -105,7 +105,8 @@ title: Cards.html
                 </div>
 
                 <div class="card-header">
-                    <p class="h5 header-title" title="Card header" aria-label="Card header">Header</p>
+                    <p class="h5 header-title" title="Card header"
+                        aria-label="Card header">Header</p>
                     <p class="sub-header">Understøttende tekst</p>
                 </div>
 
@@ -119,12 +120,10 @@ title: Cards.html
                     </div>
                     <div class="action-links">
                         <ul class="unstyled-list">
-                            <li>
-                                <a href="javascript:void(0);" class="default link state">Et link til et sted i løsningen</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon-link">Et link til et sted uden for løsningen<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
-                            </li>
+                            <li><a href="javascript:void(0);" class="default link state">Et
+                                    link til et sted i løsningen</a></li>
+                            <li><a href="javascript:void(0);" class="icon-link">Et
+                                    link til et sted uden for løsningen<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
                         </ul>
                     </div>
                 </div>
@@ -140,13 +139,14 @@ title: Cards.html
             <div class="card">
 
                 <div class="card-header">
-                    <p class="h5 header-title" title="Card header" aria-label="Card header">Header</p>
+                    <p class="h5 header-title" title="Card header"
+                        aria-label="Card header">Header</p>
                     <p class="sub-header">Understøttende tekst</p>
                 </div>
 
                 <div class="card-text">
-                    <p class="text">Dette er et <em>tekstområde</em>, hvor du kan skrive hvad
-                        du har lyst til.</p>
+                    <p class="text">Dette er et <em>tekstområde</em>, hvor
+                        du kan skrive hvad du har lyst til.</p>
                 </div>
 
                 <div class="card-action">
@@ -159,12 +159,10 @@ title: Cards.html
                     </div>
                     <div class="action-links">
                         <ul class="unstyled-list">
-                            <li>
-                                <a href="javascript:void(0);" class="default link state">Et link til et sted i løsningen</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon-link">Et link til et sted uden for løsningen<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
-                            </li>
+                            <li><a href="javascript:void(0);" class="default link state">Et
+                                    link til et sted i løsningen</a></li>
+                            <li><a href="javascript:void(0);" class="icon-link">Et
+                                    link til et sted uden for løsningen<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
                         </ul>
                     </div>
                 </div>
@@ -176,7 +174,8 @@ title: Cards.html
             <div class="card">
 
                 <div class="card-header">
-                    <p class="h5 header-title" title="Card header" aria-label="Card header">Header</p>
+                    <p class="h5 header-title" title="Card header"
+                        aria-label="Card header">Header</p>
                     <p class="sub-header">Understøttende tekst</p>
                 </div>
 
@@ -200,13 +199,14 @@ title: Cards.html
             <div class="card">
 
                 <div class="card-header">
-                    <p class="h5 header-title" title="Card header" aria-label="Card header">Header</p>
+                    <p class="h5 header-title" title="Card header"
+                        aria-label="Card header">Header</p>
                     <p class="sub-header">Understøttende tekst</p>
                 </div>
 
                 <div class="card-text">
-                    <p class="text">Dette er et <em>tekstområde</em>, hvor du kan skrive hvad
-                        du har lyst til.</p>
+                    <p class="text">Dette er et <em>tekstområde</em>, hvor
+                        du kan skrive hvad du har lyst til.</p>
                 </div>
 
             </div>

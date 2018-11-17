@@ -12,7 +12,8 @@ title: Labels.html
             <table class="table table--borderless">
                 <thead>
                     <tr style="border-bottom:0;">
-                        <th style="border-bottom:0;">Dette er en kolonneoverskrift i en tabel</th>
+                        <th style="border-bottom:0;">Dette er en
+                            kolonneoverskrift i en tabel</th>
                     </tr>
                 </thead>
             </table>

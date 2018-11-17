@@ -8,7 +8,8 @@ title: Select2-multiselect.html
 
         <div class="form-group">
             <label class="form-label" for="options">Vælg flere muligheder</label>
-            <select name="options" id="js-select2-example1" class="d-none" multiple>
+            <select name="options" id="js-select2-example1" class="d-none"
+                multiple>
 
             </select>
         </div>
