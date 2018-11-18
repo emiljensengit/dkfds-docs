@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 import $ from "jquery";
 var Cookies = require('./vendor/js-cookie');
 require('./form-disable');
@@ -7,10 +7,10 @@ require('./scroll-to-top-for-hash');
 require('./sidenav');
 var iFrameResize = require('./vendor/iframeResizer');
 var calculateAnchorPosition = require('./calculate-anchor-position');
-*/
+
 import "dkfds";
 
-/*
+
 $(document).ready(function () {
   // Initialize The style switcher fill
   $('.style-switcher').val(window.curStyle);
@@ -55,7 +55,7 @@ $(document).ready(function () {
     });
   }, 2000);
 });
-*/
+
 
 //Below: resize the iframe to different sizes. Not used anymore.
 /*
