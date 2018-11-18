@@ -54,10 +54,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -75,13 +75,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -98,7 +98,7 @@
     <div class="solution-header">
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
-            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide </a>
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide</a>
             <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
@@ -965,15 +965,15 @@
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label icon-link "</span> <span class="na">for=</span><span class="s">"NaN"</span><span class="nt">&gt;</span>Fornavn<span class="nt">&lt;/label&gt;</span>
 
-            <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input  false"</span> <span class="na">placeholder=</span><span class="s">""</span> <span class="na">id=</span><span class="s">"NaN"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">name=</span><span class="s">"NaN"</span>
-                <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input  false"</span> <span class="na">placeholder=</span><span class="s">""</span> <span class="na">id=</span><span class="s">"NaN"</span> <span class="na">value=</span><span class="s">""</span>
+                <span class="na">name=</span><span class="s">"NaN"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
 
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label icon-link "</span> <span class="na">for=</span><span class="s">"NaN"</span><span class="nt">&gt;</span>Efternavn<span class="nt">&lt;/label&gt;</span>
 
-            <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input  false"</span> <span class="na">placeholder=</span><span class="s">""</span> <span class="na">id=</span><span class="s">"NaN"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">name=</span><span class="s">"NaN"</span>
-                <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input  false"</span> <span class="na">placeholder=</span><span class="s">""</span> <span class="na">id=</span><span class="s">"NaN"</span> <span class="na">value=</span><span class="s">""</span>
+                <span class="na">name=</span><span class="s">"NaN"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;/fieldset&gt;</span>
@@ -1060,9 +1060,9 @@
   </div>
 </footer>
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

@@ -57,10 +57,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -78,13 +78,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -112,33 +112,35 @@
                 <tr>
                     <td>Dagrenovation</td>
                     <td>Grøn</td>
-                    <td>Madaffald, samt papir, pap eller plastik der ikke kan genanvendes,
-                        fordi der er madrester eller andet snask på.</td>
-                    <td>Alt det affald, du smider ud i din primære skraldespand,
-                        som er dagrenovationen, bliver hentet og kørt på forbrændingen.
-                        </td>
+                    <td>Madaffald, samt papir, pap eller plastik der ikke
+                        kan genanvendes, fordi der er madrester eller
+                        andet snask på.</td>
+                    <td>Alt det affald, du smider ud i din primære
+                        skraldespand, som er dagrenovationen, bliver
+                        hentet og kørt på forbrændingen. </td>
                 </tr>
                 <tr>
                     <td>Bioaffald og kompost</td>
                     <td>Beige</td>
                     <td>Alt madaffald uden fødevareemballage.</td>
-                    <td>Bioaffaldet kommes i bionedbrydelige poser, som bliver komposteret
-                        til muld.</td>
+                    <td>Bioaffaldet kommes i bionedbrydelige poser, som
+                        bliver komposteret til muld.</td>
                 </tr>
                 <tr>
                     <td>Glas</td>
                     <td>Hvid</td>
                     <td>Alle typer glas og flasker.</td>
-                    <td>De hele vinflasker rengøres og genbruges af vinhuse, mens
-                        glasskårene bliver smeltet om til nyt glas.</td>
+                    <td>De hele vinflasker rengøres og genbruges af
+                        vinhuse, mens glasskårene bliver smeltet om til
+                        nyt glas.</td>
                 </tr>
                 <tr>
                     <td>Elektronik</td>
                     <td>Orange</td>
                     <td>Genstande der har brugt strøm.</td>
-                    <td>Det elektroniske affald bliver typisk kørt til et demonteringsanlæg,
-                        hvor det bliver skilt ad, så de forskellige dele kan
-                        genanvendes separat.</td>
+                    <td>Det elektroniske affald bliver typisk kørt til et
+                        demonteringsanlæg, hvor det bliver skilt ad, så de
+                        forskellige dele kan genanvendes separat.</td>
                 </tr>
             </tbody>
         </table>
@@ -161,42 +163,44 @@
             <tr>
                 <td>Dagrenovation</td>
                 <td>Grøn</td>
-                <td>Madaffald, samt papir, pap eller plastik der ikke kan genanvendes,
-                    fordi der er madrester eller andet snask på.</td>
-                <td>Alt det affald, du smider ud i din primære skraldespand, som
-                    er dagrenovationen, bliver hentet og kørt på forbrændingen.
-                    </td>
+                <td>Madaffald, samt papir, pap eller plastik der ikke kan
+                    genanvendes, fordi der er madrester eller andet snask
+                    på.</td>
+                <td>Alt det affald, du smider ud i din primære
+                    skraldespand, som er dagrenovationen, bliver hentet og
+                    kørt på forbrændingen. </td>
             </tr>
             <tr>
                 <td>Bioaffald og kompost</td>
                 <td>Beige</td>
                 <td>Alt madaffald uden fødevareemballage.</td>
-                <td>Bioaffaldet kommes i bionedbrydelige poser, som bliver komposteret
-                    til muld.</td>
+                <td>Bioaffaldet kommes i bionedbrydelige poser, som bliver
+                    komposteret til muld.</td>
             </tr>
             <tr>
                 <td>Glas</td>
                 <td>Hvid</td>
                 <td>Alle typer glas og flasker.</td>
-                <td>De hele vinflasker rengøres og genbruges af vinhuse, mens glasskårene
-                    bliver smeltet om til nyt glas.</td>
+                <td>De hele vinflasker rengøres og genbruges af vinhuse,
+                    mens glasskårene bliver smeltet om til nyt glas.</td>
             </tr>
             <tr>
                 <td>Elektronik</td>
                 <td>Orange</td>
                 <td>Genstande der har brugt strøm.</td>
-                <td>Det elektroniske affald bliver typisk kørt til et demonteringsanlæg,
-                    hvor det bliver skilt ad, så de forskellige dele kan genanvendes
-                    separat.</td>
+                <td>Det elektroniske affald bliver typisk kørt til et
+                    demonteringsanlæg, hvor det bliver skilt ad, så de
+                    forskellige dele kan genanvendes separat.</td>
             </tr>
         </tbody>
     </table>
 </div>
 
     
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
-    <script src="/dkfds-docs/assets/js/vendor/dkfds-vendor-examples.js"></script>
-    <script src="/dkfds-docs/assets/js/vendor/iframeResizer.contentWindow.min.js" defer></script>
+    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+    <!--<script src="/dkfds-docs/assets/js/vendor/dkfds-vendor-examples.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.3/iframeResizer.contentWindow.min.js" defer></script>
     <div data-iframe-height></div>
   </body>
 </html>

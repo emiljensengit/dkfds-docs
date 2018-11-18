@@ -51,10 +51,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -72,13 +72,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -95,7 +95,7 @@
     <div class="solution-header">
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
-            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide </a>
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide</a>
             <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
@@ -957,39 +957,45 @@
     <span class="nt">&lt;h4&gt;</span>Input bredde med rem<span class="nt">&lt;/h4&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-xxs"</span><span class="nt">&gt;</span>Inputfelt med klassen input-width-xxs (8rem)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xxs"</span> <span class="na">id=</span><span class="s">"input-type-text-xxs"</span> <span class="na">name=</span><span class="s">"input-type-text-xxs"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-xxs"</span><span class="nt">&gt;</span>Inputfelt med
+            klassen input-width-xxs (8rem)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xxs"</span> <span class="na">id=</span><span class="s">"input-type-text-xxs"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-xxs"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-xs"</span><span class="nt">&gt;</span>Inputfelt med klassen input-width-xs (16rem)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xs"</span> <span class="na">id=</span><span class="s">"input-type-text-xs"</span> <span class="na">name=</span><span class="s">"input-type-text-xs"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-xs"</span><span class="nt">&gt;</span>Inputfelt med
+            klassen input-width-xs (16rem)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xs"</span> <span class="na">id=</span><span class="s">"input-type-text-xs"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-xs"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-s"</span><span class="nt">&gt;</span>Inputfelt med klassen input-width-s (24rem)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-s"</span> <span class="na">id=</span><span class="s">"input-type-text-s"</span> <span class="na">name=</span><span class="s">"input-type-text-s"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-s"</span><span class="nt">&gt;</span>Inputfelt med
+            klassen input-width-s (24rem)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-s"</span> <span class="na">id=</span><span class="s">"input-type-text-s"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-s"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-m"</span><span class="nt">&gt;</span>Inputfelt med klassen input-width-m (32rem)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-m"</span> <span class="na">id=</span><span class="s">"input-type-text-m"</span> <span class="na">name=</span><span class="s">"input-type-text-m"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-m"</span><span class="nt">&gt;</span>Inputfelt med
+            klassen input-width-m (32rem)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-m"</span> <span class="na">id=</span><span class="s">"input-type-text-m"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-m"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-l"</span><span class="nt">&gt;</span>Inputfelt med klassen input-width-l (40rem)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-l"</span> <span class="na">id=</span><span class="s">"input-type-text-l"</span> <span class="na">name=</span><span class="s">"input-type-text-l"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-l"</span><span class="nt">&gt;</span>Inputfelt med
+            klassen input-width-l (40rem)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-l"</span> <span class="na">id=</span><span class="s">"input-type-text-l"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-l"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-xl"</span><span class="nt">&gt;</span>Inputfelt med klassen input-width-xl (48rem)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xl"</span> <span class="na">id=</span><span class="s">"input-type-text-xl"</span> <span class="na">name=</span><span class="s">"input-type-text-xl"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-xl"</span><span class="nt">&gt;</span>Inputfelt med
+            klassen input-width-xl (48rem)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xl"</span> <span class="na">id=</span><span class="s">"input-type-text-xl"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-xl"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
 <span class="nt">&lt;/div&gt;</span>
@@ -998,27 +1004,31 @@
     <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"mt-7"</span><span class="nt">&gt;</span>Input bredde med tegn<span class="nt">&lt;/h4&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-4"</span><span class="nt">&gt;</span>Inputfelt med klassen input-char-4 (4 tegn)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-4"</span> <span class="na">id=</span><span class="s">"input-type-text-char-4"</span> <span class="na">name=</span><span class="s">"input-type-text-char-4"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-4"</span><span class="nt">&gt;</span>Inputfelt
+            med klassen input-char-4 (4 tegn)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-4"</span> <span class="na">id=</span><span class="s">"input-type-text-char-4"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-char-4"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-8"</span><span class="nt">&gt;</span>Inputfelt med klassen input-char-8 (8 tegn)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-8"</span> <span class="na">id=</span><span class="s">"input-type-text-char-8"</span> <span class="na">name=</span><span class="s">"input-type-text-char-8"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-8"</span><span class="nt">&gt;</span>Inputfelt
+            med klassen input-char-8 (8 tegn)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-8"</span> <span class="na">id=</span><span class="s">"input-type-text-char-8"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-char-8"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-11"</span><span class="nt">&gt;</span>Inputfelt med klassen input-char-11 (11 tegn)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-11"</span> <span class="na">id=</span><span class="s">"input-type-text-char-11"</span> <span class="na">name=</span><span class="s">"input-type-text-char-11"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-11"</span><span class="nt">&gt;</span>Inputfelt
+            med klassen input-char-11 (11 tegn)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-11"</span> <span class="na">id=</span><span class="s">"input-type-text-char-11"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-char-11"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-27"</span><span class="nt">&gt;</span>Inputfelt med klassen input-char-27 (27 tegn)<span class="nt">&lt;/label&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-27"</span> <span class="na">id=</span><span class="s">"input-type-text-char-27"</span> <span class="na">name=</span><span class="s">"input-type-text-char-27"</span>
-            <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label "</span> <span class="na">for=</span><span class="s">"input-type-text-char-27"</span><span class="nt">&gt;</span>Inputfelt
+            med klassen input-char-27 (27 tegn)<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-27"</span> <span class="na">id=</span><span class="s">"input-type-text-char-27"</span>
+            <span class="na">name=</span><span class="s">"input-type-text-char-27"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
 <span class="nt">&lt;/div&gt;</span>
@@ -1127,9 +1137,9 @@
   </div>
 </footer>
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

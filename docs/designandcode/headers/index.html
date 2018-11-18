@@ -54,10 +54,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -75,13 +75,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -98,7 +98,7 @@
     <div class="solution-header">
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
-            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide </a>
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide</a>
             <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
@@ -1502,7 +1502,8 @@
     <span class="c">&lt;!--1A: Portal header --&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"portal-header"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container portal-header-inner"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"javascript:void(0);"</span> <span class="na">title=</span><span class="s">"Hjem"</span> <span class="na">aria-label=</span><span class="s">"logo link"</span> <span class="na">class=</span><span class="s">"logo"</span><span class="nt">&gt;&lt;/a&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"javascript:void(0);"</span> <span class="na">title=</span><span class="s">"Hjem"</span> <span class="na">aria-label=</span><span class="s">"logo link"</span>
+                <span class="na">class=</span><span class="s">"logo"</span><span class="nt">&gt;&lt;/a&gt;</span>
             <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-secondary button-menu-open js-menu-open ml-auto"</span>
                 <span class="na">aria-haspopup=</span><span class="s">"menu"</span> <span class="na">title=</span><span class="s">"Åben mobil menu"</span><span class="nt">&gt;</span>Menu<span class="nt">&lt;/button&gt;</span>
 
@@ -1542,9 +1543,10 @@
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overlay"</span><span class="nt">&gt;&lt;/div&gt;</span>
     <span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">"navigation"</span> <span class="na">class=</span><span class="s">" nav"</span><span class="nt">&gt;</span>
         <span class="c">&lt;!-- collapsible--&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-tertiary button-menu-close js-menu-close"</span> <span class="na">title=</span><span class="s">"Luk mobil menu"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span> Luk
-        <span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-tertiary button-menu-close js-menu-close"</span>
+            <span class="na">title=</span><span class="s">"Luk mobil menu"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+            Luk<span class="nt">&lt;/button&gt;</span>
 
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"portal-info-mobile"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user"</span><span class="nt">&gt;&lt;b&gt;</span>Lone Hansen<span class="nt">&lt;/b&gt;&lt;/p&gt;</span>
@@ -1558,8 +1560,7 @@
             <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78<span class="nt">&lt;/p&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
 
-    <span class="nt">&lt;/nav&gt;</span>
-    <span class="c">&lt;!-- collapsible nav end--&gt;</span>
+    <span class="nt">&lt;/nav&gt;</span> <span class="c">&lt;!-- collapsible nav end--&gt;</span>
 <span class="nt">&lt;/header&gt;</span>
 </code></pre>
 </div>
@@ -1593,7 +1594,8 @@
 
             <span class="c">&lt;!-- 1B: Portal header: info + actions--&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"portal-info"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user"</span><span class="nt">&gt;&lt;b</span> <span class="na">class=</span><span class="s">"username"</span><span class="nt">&gt;</span>Christian Emil Vestergaard Christensen<span class="nt">&lt;/b&gt;</span>                    · Københavns Urmager og Værksted v/Martin Elsig<span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user"</span><span class="nt">&gt;&lt;b</span> <span class="na">class=</span><span class="s">"username"</span><span class="nt">&gt;</span>Christian Emil Vestergaard Christensen<span class="nt">&lt;/b&gt;</span>
+                    · Københavns Urmager og Værksted v/Martin Elsig<span class="nt">&lt;/p&gt;</span>
                 <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"button button-secondary"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
                     Log ud
                 <span class="nt">&lt;/a&gt;</span>
@@ -1605,17 +1607,16 @@
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-header"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container solution-header-inner"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-heading"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">title=</span><span class="s">"Home"</span> <span class="na">aria-label=</span><span class="s">"Home"</span><span class="nt">&gt;</span>En længere løsningstitel<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">title=</span><span class="s">"Home"</span> <span class="na">aria-label=</span><span class="s">"Home"</span><span class="nt">&gt;</span>En længere
+                    løsningstitel<span class="nt">&lt;/a&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
 
             <span class="c">&lt;!--2B: Solution header: Authority name + text--&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-info"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- nav-secondary --&gt;</span>
                 <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"h5 authority-name"</span><span class="nt">&gt;</span>Myndighedsnavn<span class="nt">&lt;/h6&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 ·
-                    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
-                        <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;</span>
-                <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 · <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
+                        <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
@@ -1623,9 +1624,10 @@
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overlay"</span><span class="nt">&gt;&lt;/div&gt;</span>
     <span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">"navigation"</span> <span class="na">class=</span><span class="s">" nav"</span><span class="nt">&gt;</span>
         <span class="c">&lt;!-- collapsible--&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-secondary button-menu-close js-menu-close"</span> <span class="na">title=</span><span class="s">"Luk mobil menu"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span> Luk
-        <span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-secondary button-menu-close js-menu-close"</span>
+            <span class="na">title=</span><span class="s">"Luk mobil menu"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+            Luk<span class="nt">&lt;/button&gt;</span>
         <span class="c">&lt;!-- 3: Main navigation--&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar navbar-primary"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!--3A: Main navigation--&gt;</span>
@@ -1661,8 +1663,8 @@
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-inner navbar-context-actions container"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-actions"</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"function-link"</span><span class="nt">&gt;</span>
-                        <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#printer"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>                        Funktionsikon
-                    <span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#printer"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                        Funktionsikon<span class="nt">&lt;/a&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
@@ -1677,19 +1679,18 @@
 
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-info-mobile"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"h5 authority-name"</span><span class="nt">&gt;</span>Myndighedsnavn<span class="nt">&lt;/h6&gt;</span>
-            <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 ·
-                <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
-                    <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;</span>
-            <span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 · <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
+                    <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/p&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
 
-    <span class="nt">&lt;/nav&gt;</span>
-    <span class="c">&lt;!-- collapsible nav end--&gt;</span>
+    <span class="nt">&lt;/nav&gt;</span> <span class="c">&lt;!-- collapsible nav end--&gt;</span>
 <span class="nt">&lt;/header&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal"</span> <span class="na">id=</span><span class="s">"modal-contact"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__overlay bg-modal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__container"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-modal=</span><span class="s">"true"</span> <span class="na">aria-labelledby=</span><span class="s">"modal-contact-1"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__overlay bg-modal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span>
+        <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__container"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-modal=</span><span class="s">"true"</span>
+            <span class="na">aria-labelledby=</span><span class="s">"modal-contact-1"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"modal__header"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"modal__title h2"</span> <span class="na">id=</span><span class="s">"modal-contact-1"</span><span class="nt">&gt;</span>
                     Kontakt
@@ -1698,11 +1699,14 @@
             <span class="nt">&lt;main</span> <span class="na">class=</span><span class="s">"modal__content"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-warning"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">aria-label=</span><span class="s">"Beskedbox der viser en advarsel"</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert-body"</span><span class="nt">&gt;</span>
-                        <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"alert-heading"</span><span class="nt">&gt;</span>Vi har noget information af advarende karakter<span class="nt">&lt;/h3&gt;</span>
-                        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"alert-text"</span><span class="nt">&gt;</span>Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.<span class="nt">&lt;/p&gt;</span>
+                        <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"alert-heading"</span><span class="nt">&gt;</span>Vi har noget information
+                            af advarende karakter<span class="nt">&lt;/h3&gt;</span>
+                        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"alert-text"</span><span class="nt">&gt;</span>Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.<span class="nt">&lt;/p&gt;</span>
                     <span class="nt">&lt;/div&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
                 <span class="nt">&lt;h3&gt;</span>En form for support<span class="nt">&lt;/h3&gt;</span>
@@ -1715,12 +1719,14 @@
                 <span class="nt">&lt;p&gt;</span>Telefonen er åben:<span class="nt">&lt;/p&gt;</span>
                 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Mandag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp
                     kl. 9-17<span class="nt">&lt;/p&gt;</span>
-                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Tirsdag-torsdag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp kl. 9-17<span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Tirsdag-torsdag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp
+                    kl. 9-17<span class="nt">&lt;/p&gt;</span>
                 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Fredag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp
                     kl. kl. 9-14<span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/main&gt;</span>
 
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"modal__close button button-ghost"</span> <span class="na">aria-label=</span><span class="s">"Close modal"</span> <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>Luk<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"modal__close button button-ghost"</span> <span class="na">aria-label=</span><span class="s">"Close modal"</span>
+                <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>Luk<span class="nt">&lt;/button&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
@@ -1756,11 +1762,10 @@
 
             <span class="c">&lt;!-- 1B: Portal header: info + actions--&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"portal-info"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user"</span><span class="nt">&gt;&lt;b</span> <span class="na">class=</span><span class="s">"weight-semibold"</span><span class="nt">&gt;</span>Christian Emil Vestergaard Christensen<span class="nt">&lt;/b&gt;&lt;br&gt;</span>Københavns
-                    Urmager og Værksted v/Martin Elsig<span class="nt">&lt;/p&gt;</span>
-                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"button button-secondary"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
-                    Log ud
-                <span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user"</span><span class="nt">&gt;&lt;b</span> <span class="na">class=</span><span class="s">"weight-semibold"</span><span class="nt">&gt;</span>Christian Emil Vestergaard Christensen<span class="nt">&lt;/b&gt;&lt;br&gt;</span>Københavns Urmager og Værksted v/Martin Elsig<span class="nt">&lt;/p&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"button button-secondary"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+                        Log ud
+                    <span class="nt">&lt;/a&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
@@ -1769,17 +1774,16 @@
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-header"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container solution-header-inner"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-heading"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">title=</span><span class="s">"Home"</span> <span class="na">aria-label=</span><span class="s">"Home"</span><span class="nt">&gt;</span>En langt langt længere løsningstitel<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">title=</span><span class="s">"Home"</span> <span class="na">aria-label=</span><span class="s">"Home"</span><span class="nt">&gt;</span>En langt langt
+                    længere løsningstitel<span class="nt">&lt;/a&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
 
             <span class="c">&lt;!--2B: Solution header: Authority name + text--&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-info"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- nav-secondary --&gt;</span>
                 <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"h5 authority-name"</span><span class="nt">&gt;</span>Myndighedsnavn<span class="nt">&lt;/h6&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 ·
-                    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
-                        <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;</span>
-                <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 · <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
+                        <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
@@ -1787,9 +1791,10 @@
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overlay"</span><span class="nt">&gt;&lt;/div&gt;</span>
     <span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">"navigation"</span> <span class="na">class=</span><span class="s">" nav"</span><span class="nt">&gt;</span>
         <span class="c">&lt;!-- collapsible--&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-secondary button-menu-close js-menu-close"</span> <span class="na">title=</span><span class="s">"Luk mobil menu"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span> Luk
-        <span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-secondary button-menu-close js-menu-close"</span>
+            <span class="na">title=</span><span class="s">"Luk mobil menu"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+            Luk<span class="nt">&lt;/button&gt;</span>
         <span class="c">&lt;!-- 3: Main navigation--&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar navbar-primary"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!--3A: Main navigation--&gt;</span>
@@ -1818,14 +1823,16 @@
                     <span class="nt">&lt;li&gt;</span>
                         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu"</span><span class="nt">&gt;</span>
                             <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"current button-overflow-menu js-dropdown js-dropdown--responsive-collapse"</span>
-                                <span class="na">data-js-target=</span><span class="s">"#headeroverflow1"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span>
-                                <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                                <span class="na">data-js-target=</span><span class="s">"#headeroverflow1"</span>
+                                <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
                                 <span class="nt">&lt;span&gt;</span>Femte menupunkt<span class="nt">&lt;/span&gt;</span>
                             <span class="nt">&lt;/button&gt;</span>
-                            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu-inner"</span> <span class="na">id=</span><span class="s">"headeroverflow1"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu-inner"</span> <span class="na">id=</span><span class="s">"headeroverflow1"</span>
+                                <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
                                 <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"overflow-list"</span><span class="nt">&gt;</span>
                                     <span class="nt">&lt;li&gt;</span>
-                                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"current"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Subsektion med en meget lang titel som
+                                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"current"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Subsektion
+                                            med en meget lang titel som
                                             går i flere linier<span class="nt">&lt;/a&gt;</span>
                                     <span class="nt">&lt;/li&gt;</span>
                                     <span class="nt">&lt;li&gt;</span>
@@ -1835,8 +1842,8 @@
                                         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Subsektion title<span class="nt">&lt;/a&gt;</span>
                                     <span class="nt">&lt;/li&gt;</span>
                                     <span class="nt">&lt;li&gt;</span>
-                                        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Subsektion title som også er forholdsvis
-                                            lang<span class="nt">&lt;/a&gt;</span>
+                                        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Subsektion title som
+                                            også er forholdsvis lang<span class="nt">&lt;/a&gt;</span>
                                     <span class="nt">&lt;/li&gt;</span>
                                 <span class="nt">&lt;/ul&gt;</span>
                             <span class="nt">&lt;/div&gt;</span>
@@ -1867,24 +1874,19 @@
                     <span class="nt">&lt;li&gt;</span>
                         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu overflow-menu--open-left"</span><span class="nt">&gt;</span>
                             <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-overflow-menu js-dropdown js-dropdown--responsive-collapse"</span>
-                                <span class="na">data-js-target=</span><span class="s">"#headeroverflow2"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span>
-                                <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                                <span class="na">data-js-target=</span><span class="s">"#headeroverflow2"</span>
+                                <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
                                 Overflow menu
 
-                                <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-down"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                                <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-down"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                             <span class="nt">&lt;/button&gt;</span>
-                            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu-inner"</span> <span class="na">id=</span><span class="s">"headeroverflow2"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu-inner"</span> <span class="na">id=</span><span class="s">"headeroverflow2"</span>
+                                <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
                                 <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"overflow-list"</span><span class="nt">&gt;</span>
-                                    <span class="nt">&lt;li&gt;</span>
-                                        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Menupunkt 1<span class="nt">&lt;/a&gt;</span>
-                                    <span class="nt">&lt;/li&gt;</span>
-                                    <span class="nt">&lt;li&gt;</span>
-                                        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Et menupunkt 2<span class="nt">&lt;/a&gt;</span>
-                                    <span class="nt">&lt;/li&gt;</span>
-                                    <span class="nt">&lt;li&gt;</span>
-                                        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Tredje menupunkt 3<span class="nt">&lt;/a&gt;</span>
-                                    <span class="nt">&lt;/li&gt;</span>
+                                    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Menupunkt 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                                    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Et menupunkt 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                                    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Tredje menupunkt 3<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
                                 <span class="nt">&lt;/ul&gt;</span>
                             <span class="nt">&lt;/div&gt;</span>
                         <span class="nt">&lt;/div&gt;</span>
@@ -1898,29 +1900,25 @@
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-inner container"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-secondary"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"h4 nav-secondary-heading"</span><span class="nt">&gt;</span>Ekstra menu- og funktionslinje<span class="nt">&lt;/p&gt;</span>
+                    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"h4 nav-secondary-heading"</span><span class="nt">&gt;</span>Ekstra menu- og
+                        funktionslinje<span class="nt">&lt;/p&gt;</span>
                     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"unstyled-list nav-actions"</span><span class="nt">&gt;</span>
                         <span class="nt">&lt;li&gt;</span>
                             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu overflow-menu--open-right"</span><span class="nt">&gt;</span>
                                 <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-overflow-menu js-dropdown js-dropdown--responsive-collapse"</span>
-                                    <span class="na">data-js-target=</span><span class="s">"#headeroverflow3"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span>
-                                    <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                                    <span class="na">data-js-target=</span><span class="s">"#headeroverflow3"</span>
+                                    <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
                                     Overflow menu
 
-                                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-down"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-down"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                                 <span class="nt">&lt;/button&gt;</span>
-                                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu-inner"</span> <span class="na">id=</span><span class="s">"headeroverflow3"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+                                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"overflow-menu-inner"</span> <span class="na">id=</span><span class="s">"headeroverflow3"</span>
+                                    <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
                                     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"overflow-list"</span><span class="nt">&gt;</span>
-                                        <span class="nt">&lt;li&gt;</span>
-                                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Menupunkt 1<span class="nt">&lt;/a&gt;</span>
-                                        <span class="nt">&lt;/li&gt;</span>
-                                        <span class="nt">&lt;li&gt;</span>
-                                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Et menupunkt 2<span class="nt">&lt;/a&gt;</span>
-                                        <span class="nt">&lt;/li&gt;</span>
-                                        <span class="nt">&lt;li&gt;</span>
-                                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Tredje menupunkt 3<span class="nt">&lt;/a&gt;</span>
-                                        <span class="nt">&lt;/li&gt;</span>
+                                        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Menupunkt 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                                        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Et menupunkt 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+                                        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Tredje menupunkt 3<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
                                     <span class="nt">&lt;/ul&gt;</span>
                                 <span class="nt">&lt;/div&gt;</span>
                             <span class="nt">&lt;/div&gt;</span>
@@ -1948,11 +1946,11 @@
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-inner navbar-context-actions container"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-actions"</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"function-link"</span><span class="nt">&gt;</span>
-                        <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#printer"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>                        Funktionsikon
-                    <span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#printer"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                        Funktionsikon<span class="nt">&lt;/a&gt;</span>
                     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"function-link"</span><span class="nt">&gt;</span>
-                        <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#content-save"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>                        Funktionsikon
-                    <span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#content-save"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                        Funktionsikon<span class="nt">&lt;/a&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
@@ -1968,19 +1966,18 @@
 
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"solution-info-mobile"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"h5 authority-name"</span><span class="nt">&gt;</span>Myndighedsnavn<span class="nt">&lt;/h6&gt;</span>
-            <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 ·
-                <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
-                    <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;</span>
-            <span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;p&gt;</span>Support: 12 34 56 78 · <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-contact"</span>
+                    <span class="na">data-micromodal-trigger=</span><span class="s">"modal-contact"</span><span class="nt">&gt;</span>Kontakt<span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#menu-right"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/p&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
 
-    <span class="nt">&lt;/nav&gt;</span>
-    <span class="c">&lt;!-- collapsible nav end--&gt;</span>
+    <span class="nt">&lt;/nav&gt;</span> <span class="c">&lt;!-- collapsible nav end--&gt;</span>
 <span class="nt">&lt;/header&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal"</span> <span class="na">id=</span><span class="s">"modal-contact"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__overlay bg-modal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__container"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-modal=</span><span class="s">"true"</span> <span class="na">aria-labelledby=</span><span class="s">"modal-contact-1"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__overlay bg-modal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span>
+        <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal__container"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-modal=</span><span class="s">"true"</span>
+            <span class="na">aria-labelledby=</span><span class="s">"modal-contact-1"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"modal__header"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"modal__title h2"</span> <span class="na">id=</span><span class="s">"modal-contact-1"</span><span class="nt">&gt;</span>
                     Kontakt
@@ -1989,11 +1986,14 @@
             <span class="nt">&lt;main</span> <span class="na">class=</span><span class="s">"modal__content"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-warning"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">aria-label=</span><span class="s">"Beskedbox der viser en advarsel"</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert-body"</span><span class="nt">&gt;</span>
-                        <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"alert-heading"</span><span class="nt">&gt;</span>Vi har noget information af advarende karakter<span class="nt">&lt;/h3&gt;</span>
-                        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"alert-text"</span><span class="nt">&gt;</span>Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.<span class="nt">&lt;/p&gt;</span>
+                        <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"alert-heading"</span><span class="nt">&gt;</span>Vi har noget information
+                            af advarende karakter<span class="nt">&lt;/h3&gt;</span>
+                        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"alert-text"</span><span class="nt">&gt;</span>Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.<span class="nt">&lt;/p&gt;</span>
                     <span class="nt">&lt;/div&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
                 <span class="nt">&lt;h3&gt;</span>En form for support<span class="nt">&lt;/h3&gt;</span>
@@ -2006,12 +2006,14 @@
                 <span class="nt">&lt;p&gt;</span>Telefonen er åben:<span class="nt">&lt;/p&gt;</span>
                 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Mandag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp
                     kl. 9-17<span class="nt">&lt;/p&gt;</span>
-                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Tirsdag-torsdag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp kl. 9-17<span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Tirsdag-torsdag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp
+                    kl. 9-17<span class="nt">&lt;/p&gt;</span>
                 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"m-0"</span><span class="nt">&gt;</span>Fredag:<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp<span class="err">&amp;</span>nbsp
                     kl. kl. 9-14<span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/main&gt;</span>
 
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"modal__close button button-ghost"</span> <span class="na">aria-label=</span><span class="s">"Close modal"</span> <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>Luk<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"modal__close button button-ghost"</span> <span class="na">aria-label=</span><span class="s">"Close modal"</span>
+                <span class="na">data-micromodal-close</span><span class="nt">&gt;</span>Luk<span class="nt">&lt;/button&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
@@ -2091,9 +2093,9 @@
   </div>
 </footer>
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

@@ -54,10 +54,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -75,13 +75,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -98,7 +98,7 @@
     <div class="solution-header">
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
-            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide </a>
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide</a>
             <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
@@ -1477,270 +1477,298 @@
     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"accordion "</span><span class="nt">&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">""</span> <span class="na">aria-controls=</span><span class="s">"a1"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">""</span>
+                <span class="na">aria-controls=</span><span class="s">"a1"</span><span class="nt">&gt;</span>
                 Lorem ipsum dolor sit amet
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Information<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#info"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#info"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"a1"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-describedby=</span><span class="s">"error-message"</span>
-                <span class="na">aria-controls=</span><span class="s">"a2"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-describedby=</span><span class="s">"error-message"</span> <span class="na">aria-controls=</span><span class="s">"a2"</span><span class="nt">&gt;</span>
                 Consectetur adipiscing elit
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Fejl<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"a2"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"a3"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"a3"</span><span class="nt">&gt;</span>
                 Sed do eiusmod tempor
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Advarsel<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#alert-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#alert-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"a3"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"a4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"a4"</span><span class="nt">&gt;</span>
                 Labore et dolore magna
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Succes<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#check-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#check-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"a4"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"a5"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"a5"</span><span class="nt">&gt;</span>
                 Ut enim ad minim veniam<span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"a5"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
     <span class="nt">&lt;/ul&gt;</span>
 
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mt-6"</span><span class="nt">&gt;</span>Tilføj klassen `accordion-bordered` til `.accordion` for at tilføje en synlig
-        ramme:<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mt-6"</span><span class="nt">&gt;</span>Tilføj klassen `accordion-bordered` til `.accordion`
+        for at tilføje en synlig ramme:<span class="nt">&lt;/p&gt;</span>
 
     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"accordion accordion-bordered"</span><span class="nt">&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">""</span> <span class="na">aria-controls=</span><span class="s">"b-a1"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">""</span>
+                <span class="na">aria-controls=</span><span class="s">"b-a1"</span><span class="nt">&gt;</span>
                 Lorem ipsum dolor sit amet
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Information<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#info"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#info"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"b-a1"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-describedby=</span><span class="s">"error-message"</span>
-                <span class="na">aria-controls=</span><span class="s">"b-a2"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-describedby=</span><span class="s">"error-message"</span> <span class="na">aria-controls=</span><span class="s">"b-a2"</span><span class="nt">&gt;</span>
                 Consectetur adipiscing elit
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Fejl<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"b-a2"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"b-a3"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"b-a3"</span><span class="nt">&gt;</span>
                 Sed do eiusmod tempor
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Advarsel<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#alert-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#alert-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"b-a3"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"b-a4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"b-a4"</span><span class="nt">&gt;</span>
                 Labore et dolore magna
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Succes<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#check-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#check-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"b-a4"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"b-a5"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"b-a5"</span><span class="nt">&gt;</span>
                 Ut enim ad minim veniam<span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"b-a5"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
     <span class="nt">&lt;/ul&gt;</span>
 
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mt-6"</span><span class="nt">&gt;</span>Man kan også tillade at flere kan være åbne på samme tid. Dette gøres ved
-        at tilføje `aria-multiselectable="true"` attributten til `.accordion`.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mt-6"</span><span class="nt">&gt;</span>Man kan også tillade at flere kan være åbne på samme
+        tid. Dette gøres ved at tilføje `aria-multiselectable="true"`
+        attributten til `.accordion`.<span class="nt">&lt;/p&gt;</span>
 
     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"accordion "</span> <span class="na">aria-multiselectable=</span><span class="s">"true"</span><span class="nt">&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">""</span> <span class="na">aria-controls=</span><span class="s">"m-a1"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">""</span>
+                <span class="na">aria-controls=</span><span class="s">"m-a1"</span><span class="nt">&gt;</span>
                 Lorem ipsum dolor sit amet
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Information<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#info"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#info"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"m-a1"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-describedby=</span><span class="s">"error-message"</span>
-                <span class="na">aria-controls=</span><span class="s">"m-a2"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-describedby=</span><span class="s">"error-message"</span> <span class="na">aria-controls=</span><span class="s">"m-a2"</span><span class="nt">&gt;</span>
                 Consectetur adipiscing elit
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Fejl<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#close-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"m-a2"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"m-a3"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"m-a3"</span><span class="nt">&gt;</span>
                 Sed do eiusmod tempor
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Advarsel<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#alert-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#alert-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"m-a3"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"m-a4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"m-a4"</span><span class="nt">&gt;</span>
                 Labore et dolore magna
                 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"accordion-icon "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon_text"</span><span class="nt">&gt;</span>Succes<span class="nt">&lt;/span&gt;</span>
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#check-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#check-circle-outline"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"m-a4"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
 
         <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"m-a5"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"accordion-button"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span>
+                <span class="na">aria-controls=</span><span class="s">"m-a5"</span><span class="nt">&gt;</span>
                 Ut enim ad minim veniam<span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"m-a5"</span> <span class="na">class=</span><span class="s">"accordion-content"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
                 <span class="nt">&lt;/p&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/li&gt;</span>
@@ -1812,9 +1840,9 @@
   </div>
 </footer>
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

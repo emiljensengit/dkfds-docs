@@ -4,12 +4,13 @@
   "description": "Website and documentation on using the Frontend Styleguide",
   "scripts": {
     "build": "webpack --color ",
-    "dev-build": "webpack --mode development --color --watch",
+    "dev-build": "webpack --mode development --color",
+    "dev-build-watch": "webpack --mode development --color --watch",
     "build-html": "gulp html",
     "postinstall": "bundle",
     "prestart": "npm run build",
     "start": "bundle exec jekyll serve",
-    "publish": "npm run build && gulp html && bundle exec jekyll build"
+    "publish": "npm run build && bundle exec jekyll build && gulp publish"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",

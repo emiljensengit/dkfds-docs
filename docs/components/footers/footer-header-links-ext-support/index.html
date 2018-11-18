@@ -51,10 +51,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -72,13 +72,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -96,7 +96,8 @@
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Ansvarlig myndighed"
-                                    aria-label="Ansvarlig myndighed">Ansvarlig myndighed</p>
+                                    aria-label="Ansvarlig myndighed">Ansvarlig
+                                    myndighed</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
@@ -114,29 +115,27 @@
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Hjælpende links"
-                                    aria-label="Hjælpende links">Hjælpende links</p>
+                                    aria-label="Hjælpende links">Hjælpende
+                                    links</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list footer-links">
-                            <li>
-                                <a href="javascript:void(0);">Link til et sted på siden</a>
+                            <li><a href="javascript:void(0);">Link til et
+                                    sted på siden</a></li>
+                            <li><a href="javascript:void(0);">Link til et
+                                    sted på siden</p>
                             </li>
-                            <li>
-                                <a href="javascript:void(0);">Link til et sted på siden</p>
+                            <li><a href="javascript:void(0);">Link til et
+                                    sted på siden</p>
                             </li>
-                            <li>
-                                <a href="javascript:void(0);">Link til et sted på siden</p>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon-link">Link til en ekstern side
-                                    <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon-link">Link til en ekstern side
-                                    <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg>
-                                </a>
-                            </li>
+                            <li><a href="javascript:void(0);" class="icon-link">Link
+                                    til en ekstern side
+                                    <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
+                                </a></li>
+                            <li><a href="javascript:void(0);" class="icon-link">Link
+                                    til en ekstern side
+                                    <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
+                                </a></li>
                         </ul>
                     </div>
                 </div>
@@ -145,14 +144,14 @@
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Telefonisk support"
-                                    aria-label="Telefonisk support">Telefonisk support</p>
+                                    aria-label="Telefonisk support">Telefonisk
+                                    support</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
                             <li>
-                                <p>
-                                    <a class="function-link" href="tel:004533925200">(+45) 33 92 52 00</a>
-                                </p>
+                                <p><a class="function-link" href="tel:004533925200">(+45)
+                                        33 92 52 00</a></p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
@@ -173,20 +172,19 @@
                         <ul class="unstyled-list">
                             <li>
                                 <p class="h5 weight-semibold" title="Skriftlig kontakt"
-                                    aria-label="Skriftlig kontakt">Skriftlig kontakt</p>
+                                    aria-label="Skriftlig kontakt">Skriftlig
+                                    kontakt</p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
                             <li>
-                                <p>
-                                    <a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a>
-                                </p>
+                                <p><a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a></p>
                             </li>
                         </ul>
                         <ul class="unstyled-list">
                             <li>
-                                <p>Vi besvarer e-mails så hurtigt vi kan, indenfor
-                                    telefonisk åbningstid</p>
+                                <p>Vi besvarer e-mails så hurtigt vi kan,
+                                    indenfor telefonisk åbningstid</p>
                             </li>
                         </ul>
                     </div>
@@ -211,9 +209,9 @@
 </footer>
 
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

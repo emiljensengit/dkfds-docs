@@ -54,10 +54,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -75,13 +75,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -98,7 +98,7 @@
     <div class="solution-header">
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
-            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide </a>
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide</a>
             <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
@@ -964,29 +964,30 @@
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label icon-link"</span><span class="nt">&gt;</span>Indsendelsesfrist<span class="nt">&lt;/label&gt;</span>
             <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-hint"</span><span class="nt">&gt;</span>For eksempel: 05 12 2018<span class="nt">&lt;/span&gt;</span>
-            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-error-message"</span> <span class="na">id=</span><span class="s">"input-error-message-input-error"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-error-message"</span> <span class="na">id=</span><span class="s">"input-error-message-input-error"</span>
+                <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;&lt;/span&gt;</span>
             <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"date-group js-calendar-group mt-3"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group form-group-day"</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span> <span class="na">for=</span><span class="s">"date_of_day_2"</span><span class="nt">&gt;</span>Day<span class="nt">&lt;/label&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input js-calendar-day-input"</span> <span class="na">type=</span><span class="s">"tel"</span> <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"31"</span>
-                        <span class="na">maxlength=</span><span class="s">"2"</span> <span class="na">pattern=</span><span class="s">"^[0-9]{0,2}$"</span> <span class="na">data-input-regex=</span><span class="s">"^[0-9]{0,2}$"</span>
-                        <span class="na">title=</span><span class="s">"Indskriv dag på månenden som tal"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input js-calendar-day-input"</span> <span class="na">type=</span><span class="s">"tel"</span>
+                        <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"31"</span> <span class="na">maxlength=</span><span class="s">"2"</span> <span class="na">pattern=</span><span class="s">"^[0-9]{0,2}$"</span>
+                        <span class="na">data-input-regex=</span><span class="s">"^[0-9]{0,2}$"</span> <span class="na">title=</span><span class="s">"Indskriv dag på månenden som tal"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group form-group-month"</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span> <span class="na">for=</span><span class="s">"date_of_month_1"</span><span class="nt">&gt;</span>Måned<span class="nt">&lt;/label&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input js-calendar-month-input"</span> <span class="na">type=</span><span class="s">"tel"</span> <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"12"</span>
-                        <span class="na">maxlength=</span><span class="s">"2"</span> <span class="na">pattern=</span><span class="s">"^[0-9]{0,2}$"</span> <span class="na">data-input-regex=</span><span class="s">"^[0-9]{0,2}$"</span>
-                        <span class="na">title=</span><span class="s">"Indskriv månedens nummer"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input js-calendar-month-input"</span> <span class="na">type=</span><span class="s">"tel"</span>
+                        <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"12"</span> <span class="na">maxlength=</span><span class="s">"2"</span> <span class="na">pattern=</span><span class="s">"^[0-9]{0,2}$"</span>
+                        <span class="na">data-input-regex=</span><span class="s">"^[0-9]{0,2}$"</span> <span class="na">title=</span><span class="s">"Indskriv månedens nummer"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group form-group-year "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span> <span class="na">for=</span><span class="s">"date_of_year_3"</span><span class="nt">&gt;</span>År<span class="nt">&lt;/label&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input js-calendar-year-input"</span> <span class="na">type=</span><span class="s">"tel"</span> <span class="na">min=</span><span class="s">"1900"</span> <span class="na">max=</span><span class="s">"3000"</span>
-                        <span class="na">maxlength=</span><span class="s">"4"</span> <span class="na">pattern=</span><span class="s">"^[0-9]{0,4}$"</span> <span class="na">data-input-regex=</span><span class="s">"^[0-9]{0,4}$"</span>
-                        <span class="na">title=</span><span class="s">"Indskriv årstal"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input js-calendar-year-input"</span> <span class="na">type=</span><span class="s">"tel"</span>
+                        <span class="na">min=</span><span class="s">"1900"</span> <span class="na">max=</span><span class="s">"3000"</span> <span class="na">maxlength=</span><span class="s">"4"</span> <span class="na">pattern=</span><span class="s">"^[0-9]{0,4}$"</span>
+                        <span class="na">data-input-regex=</span><span class="s">"^[0-9]{0,4}$"</span> <span class="na">title=</span><span class="s">"Indskriv årstal"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
                 <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button-unstyled button-open-calendar js-calendar-datepicker"</span><span class="nt">&gt;</span>
 
-                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span><span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#calendar"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
+                    <span class="nt">&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg "</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#calendar"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;</span>
 
                 <span class="nt">&lt;/button&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
@@ -1079,9 +1080,9 @@
   </div>
 </footer>
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

@@ -57,10 +57,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -78,13 +78,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -106,7 +106,8 @@
             <!-- 1B: Portal header: info + actions-->
             <div class="portal-info">
 
-                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>                    </p>
+                <p class="user"><b class="username">Christian Emil Vestergaard Christiansen</b>
+                </p>
 
                 <a href="#" class="button button-secondary" role="button">
                     Log ud
@@ -130,9 +131,7 @@
 
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
-                <p>
-                    <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-                </p>
+                <p><button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -142,8 +141,8 @@
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+            <svg class="icon-svg "><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>
@@ -155,26 +154,25 @@
 
         <div class="solution-info-mobile">
             <p><b>Erhvervsministeriet</b></p>
-            <p>
-                <button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button>
-            </p>
+            <p><button class="button-unstyled button-contact" data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
         </div>
 
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
                     <a href="#" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#"></use></svg>                        Om digital flytning</a>
+                        <svg class="icon-svg "><use xlink:href="#"></use></svg>
+                        Om digital flytning</a>
                     <a href="" class="function-link">
-                        <svg class="icon-svg "><use xlink:href="#language"></use></svg>                        Sprog
+                        <svg class="icon-svg "><use xlink:href="#language"></use></svg>
+                        Sprog
 
                     </a>
                 </div>
             </div>
         </div>
 
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 <main class="container page-container">
@@ -219,8 +217,9 @@
     </div>
 
     <h1>Oversigt</h1>
-    <p class="font-lead">Digital Flytning er kommunernes digitale folkeregister, hvor du kan melde
-        flytning og samtidig foretage valg af læge.</p>
+    <p class="font-lead">Digital Flytning er kommunernes digitale
+        folkeregister, hvor du kan melde flytning og samtidig foretage
+        valg af læge.</p>
     <h2>Anmelder</h2>
     <div class="mt-5">
         <label class="form-label">Navn</label>
@@ -231,7 +230,8 @@
         <p class="mt-0">Odensegade 23, 4tv. 2100 København</p>
     </div>
     <div class="mt-5">
-        <label class="form-label">Du har følgende beskyttelse på din nuværende adresse:</label>
+        <label class="form-label">Du har følgende beskyttelse på din
+            nuværende adresse:</label>
         <ul class="mb-0">
             <li>Markedsføringsbeskyttelse</li>
             <li>Vejviserbeskyttelse</li>
@@ -242,11 +242,13 @@
 
         <div class="alert alert alert-warning alert--show-icon alert--paragraph" role="alert" aria-label="warning">
             <div class="alert-body">
-                <p class="alert-heading">Skal din nye adresse beskyttes fra første dag?</p>
-                <p class="alert-text">Hvis du ønsker navne- og adressebeskyttelse i forbindelse med
-                    denne flytning, bør du anmode om navne- og adressebeskyttelse,
-                    før du anmelder flytning. Ellers risikerer du, at navne-
-                    og adressebeskyttelsen ikke er gældende fra første dag på
+                <p class="alert-heading">Skal din nye adresse beskyttes
+                    fra første dag?</p>
+                <p class="alert-text">Hvis du ønsker navne- og
+                    adressebeskyttelse i forbindelse med denne flytning,
+                    bør du anmode om navne- og adressebeskyttelse, før du
+                    anmelder flytning. Ellers risikerer du, at navne- og
+                    adressebeskyttelsen ikke er gældende fra første dag på
                     din nye adresse.</p>
             </div>
         </div>
@@ -295,13 +297,15 @@
             <div class="card">
                 <div class="card-header">
                     <p class="h5 header-title" title="Card header" aria-label="Card header adressebeskyttelse">Adressebeskyttelse</p>
-                    <p class="sub-header">Her kan du kan oprette, rette eller slette dine adressebeskyttelser.</p>
+                    <p class="sub-header">Her kan du kan oprette, rette
+                        eller slette dine adressebeskyttelser.</p>
                 </div>
                 <div class="card-action">
                     <div class="action-links">
                         <ul class="unstyled-list">
                             <li>
-                                <a href="#" class="icon-link">Adressebeskyttelse <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
+                                <a href="#" class="icon-link">Adressebeskyttelse
+                                    <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
                             </li>
                         </ul>
                     </div>
@@ -312,14 +316,15 @@
             <div class="card">
                 <div class="card-header">
                     <p class="h5 header-title" title="Card header" aria-label="Card header adressebeskyttelse">Udrejse</p>
-                    <p class="sub-header">Hvis du flytter til udlandet, skal du benytte nedenstående
-                        link.</p>
+                    <p class="sub-header">Hvis du flytter til udlandet,
+                        skal du benytte nedenstående link.</p>
                 </div>
                 <div class="card-action">
                     <div class="action-links">
                         <ul class="unstyled-list">
                             <li>
-                                <a href="#" class="icon-link">Anmeld udrejse <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
+                                <a href="#" class="icon-link">Anmeld
+                                    udrejse <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
                             </li>
                         </ul>
                     </div>
@@ -330,13 +335,15 @@
             <div class="card">
                 <div class="card-header">
                     <p class="h5 header-title" title="Card header" aria-label="Card header adressebeskyttelse">Fuldmagt</p>
-                    <p class="sub-header">Afgiv en eller flere fulmagt til at anmelde flytning.</p>
+                    <p class="sub-header">Afgiv en eller flere fulmagt til
+                        at anmelde flytning.</p>
                 </div>
                 <div class="card-action">
                     <div class="action-links">
                         <ul class="unstyled-list">
                             <li>
-                                <a href="#" class="icon-link">Angiv fuldmagt <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
+                                <a href="#" class="icon-link">Angiv
+                                    fuldmagt <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
                             </li>
                         </ul>
                     </div>
@@ -353,9 +360,8 @@
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-left ">
                         <ul class="unstyled-list">
-                            <li>
-                                <span class="h5 weight-semibold">Ansvarlig myndighed</span>
-                            </li>
+                            <li><span class="h5 weight-semibold">Ansvarlig
+                                    myndighed</span></li>
                             <li>
                                 <p>Styrelsen for Eksempel</p>
                             </li>
@@ -365,12 +371,9 @@
                 <div class="col-12 col-sm-12 col-md-6 footer-col">
                     <div class=" align-text-right  ">
                         <ul class="unstyled-list">
-                            <li>
-                                <a class="function-link" href="mailto:support@example.dk">support@example.dk</a>
-                            </li>
-                            <li>
-                                <a class="function-link" href="tel:12 34 56 78">12 34 56 78</a>
-                            </li>
+                            <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                            <li><a class="function-link" href="tel:12 34 56 78">12
+                                    34 56 78</a></li>
                         </ul>
                     </div>
                 </div>
@@ -390,11 +393,14 @@
             <main class="modal__content">
                 <div class="alert alert-warning" role="alert" aria-label="Beskedbox der viser en advarsel">
                     <div class="alert-body">
-                        <h3 class="alert-heading">Vi har noget information af advarende karakter</h3>
-                        <p class="alert-text">Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.
-                            Noget tekst, der forklarer det af advarende karakter,
-                            som brugeren bør vide inden denne ringer eller skriver.</p>
+                        <h3 class="alert-heading">Vi har noget information
+                            af advarende karakter</h3>
+                        <p class="alert-text">Noget tekst, der forklarer
+                            det af advarende karakter, som brugeren bør
+                            vide inden denne ringer eller skriver. Noget
+                            tekst, der forklarer det af advarende
+                            karakter, som brugeren bør vide inden denne
+                            ringer eller skriver.</p>
                     </div>
                 </div>
                 <h3>En form for support</h3>
@@ -407,7 +413,8 @@
                 <p>Telefonen er åben:</p>
                 <p class="m-0">Mandag:&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp
                     kl. 9-17</p>
-                <p class="m-0">Tirsdag-torsdag:&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp kl. 9-17</p>
+                <p class="m-0">Tirsdag-torsdag:&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp
+                    kl. 9-17</p>
                 <p class="m-0">Fredag:&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp
                     kl. kl. 9-14</p>
             </main>
@@ -418,9 +425,10 @@
 </div>
 
     
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
-    <script src="/dkfds-docs/assets/js/vendor/dkfds-vendor-examples.js"></script>
-    <script src="/dkfds-docs/assets/js/vendor/iframeResizer.contentWindow.min.js" defer></script>
+    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+    <!--<script src="/dkfds-docs/assets/js/vendor/dkfds-vendor-examples.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.3/iframeResizer.contentWindow.min.js" defer></script>
     <div data-iframe-height></div>
   </body>
 </html>

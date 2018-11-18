@@ -51,10 +51,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -72,13 +72,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -92,7 +92,8 @@
     <!--1A: Portal header -->
     <div class="portal-header">
         <div class="container portal-header-inner">
-            <a href="javascript:void(0);" title="Hjem" aria-label="logo link" class="logo"></a>
+            <a href="javascript:void(0);" title="Hjem" aria-label="logo link"
+                class="logo"></a>
             <button class="button button-secondary button-menu-open js-menu-open ml-auto"
                 aria-haspopup="menu" title="Åben mobil menu">Menu</button>
 
@@ -132,9 +133,10 @@
     <div class="overlay"></div>
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
-        <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu">
-            <svg class="icon-svg "><use xlink:href="#close"></use></svg> Luk
-        </button>
+        <button class="button button-tertiary button-menu-close js-menu-close"
+            title="Luk mobil menu">
+            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
+            Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Lone Hansen</b></p>
@@ -148,8 +150,7 @@
             <p>Support: 12 34 56 78</p>
         </div>
 
-    </nav>
-    <!-- collapsible nav end-->
+    </nav> <!-- collapsible nav end-->
 </header>
 
 
@@ -167,9 +168,9 @@
 </footer>
 
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

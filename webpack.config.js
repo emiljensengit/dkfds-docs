@@ -97,11 +97,11 @@ module.exports = function (outputPath, prod) {
       modules: ["node_modules"]
     },
     plugins: [
-      new CopyWebpackPlugin( //copies all content from /images to /assets/img
+      new CopyWebpackPlugin( //copies all content from /img to /assets/img
         [
           {
             from: "./img/**/*",
-            to: "img"
+            to: "" //assets
           }
         ]),
       new MiniCssExtractPlugin(

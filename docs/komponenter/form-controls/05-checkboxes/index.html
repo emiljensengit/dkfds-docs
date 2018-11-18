@@ -51,10 +51,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -72,13 +72,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -95,7 +95,7 @@
     <div class="solution-header">
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
-            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide </a>
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide</a>
             <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
@@ -960,7 +960,8 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Unchecked"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"unchecked"</span> <span class="na">value=</span><span class="s">"unchecked"</span> <span class="na">class=</span><span class="s">"  "</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Unchecked"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"unchecked"</span>
+                        <span class="na">value=</span><span class="s">"unchecked"</span> <span class="na">class=</span><span class="s">"  "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"Unchecked"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Unchecked<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -969,8 +970,8 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Checked"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"checked"</span> <span class="na">value=</span><span class="s">"checked"</span> <span class="na">class=</span><span class="s">"  "</span>
-                        <span class="na">checked</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Checked"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"checked"</span>
+                        <span class="na">value=</span><span class="s">"checked"</span> <span class="na">class=</span><span class="s">"  "</span> <span class="na">checked</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"Checked"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Checked<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -979,8 +980,8 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"disabled"</span> <span class="na">value=</span><span class="s">"disabled"</span> <span class="na">class=</span><span class="s">"  "</span>
-                        <span class="na">disabled</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"disabled"</span>
+                        <span class="na">value=</span><span class="s">"disabled"</span> <span class="na">class=</span><span class="s">"  "</span> <span class="na">disabled</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"disabled"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Disabled<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -989,9 +990,11 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled-checked"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"disabled-checked"</span> <span class="na">value=</span><span class="s">"disabled-checked"</span>
-                        <span class="na">class=</span><span class="s">"  "</span> <span class="na">disabled</span> <span class="na">checked</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"disabled-checked"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Disabled checked<span class="nt">&lt;/label&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled-checked"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"disabled-checked"</span>
+                        <span class="na">value=</span><span class="s">"disabled-checked"</span> <span class="na">class=</span><span class="s">"  "</span> <span class="na">disabled</span>
+                        <span class="na">checked</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"disabled-checked"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Disabled
+                        checked<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
             <span class="nt">&lt;/li&gt;</span>
@@ -999,7 +1002,8 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"fokus"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"Focus"</span> <span class="na">value=</span><span class="s">"fokus"</span> <span class="na">class=</span><span class="s">"focus  "</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"fokus"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"Focus"</span> <span class="na">value=</span><span class="s">"fokus"</span>
+                        <span class="na">class=</span><span class="s">"focus  "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"fokus"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Focus<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -1008,8 +1012,8 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Unchecked-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"unchecked-large"</span> <span class="na">value=</span><span class="s">"unchecked-large"</span>
-                        <span class="na">class=</span><span class="s">" checkbox-large "</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Unchecked-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"unchecked-large"</span>
+                        <span class="na">value=</span><span class="s">"unchecked-large"</span> <span class="na">class=</span><span class="s">" checkbox-large "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"Unchecked-large"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Unchecked-large<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -1018,8 +1022,9 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Checked-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"checked-large"</span> <span class="na">value=</span><span class="s">"checked-large"</span>
-                        <span class="na">class=</span><span class="s">" checkbox-large "</span> <span class="na">checked</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"Checked-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"checked-large"</span>
+                        <span class="na">value=</span><span class="s">"checked-large"</span> <span class="na">class=</span><span class="s">" checkbox-large "</span>
+                        <span class="na">checked</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"Checked-large"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Checked-large<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -1028,8 +1033,9 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"disabled-large"</span> <span class="na">value=</span><span class="s">"disabled-large"</span>
-                        <span class="na">class=</span><span class="s">" checkbox-large "</span> <span class="na">disabled</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"disabled-large"</span>
+                        <span class="na">value=</span><span class="s">"disabled-large"</span> <span class="na">class=</span><span class="s">" checkbox-large "</span>
+                        <span class="na">disabled</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"disabled-large"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Disabled-large<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -1038,9 +1044,9 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled-checked-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"disabled-checked-large"</span>
-                        <span class="na">value=</span><span class="s">"disabled-checked-large"</span> <span class="na">class=</span><span class="s">" checkbox-large "</span>
-                        <span class="na">disabled</span> <span class="na">checked</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"disabled-checked-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span>
+                        <span class="na">name=</span><span class="s">"disabled-checked-large"</span> <span class="na">value=</span><span class="s">"disabled-checked-large"</span>
+                        <span class="na">class=</span><span class="s">" checkbox-large "</span> <span class="na">disabled</span> <span class="na">checked</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"disabled-checked-large"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Disabled-checked-large<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -1049,8 +1055,8 @@
             <span class="nt">&lt;li&gt;</span>
 
                 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group "</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"fokus-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"Focus-large"</span> <span class="na">value=</span><span class="s">"fokus-large"</span>
-                        <span class="na">class=</span><span class="s">"focus checkbox-large "</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"fokus-large"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">name=</span><span class="s">"Focus-large"</span>
+                        <span class="na">value=</span><span class="s">"fokus-large"</span> <span class="na">class=</span><span class="s">"focus checkbox-large "</span><span class="nt">&gt;</span>
                     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"fokus-large"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Focus-large<span class="nt">&lt;/label&gt;</span>
                 <span class="nt">&lt;/div&gt;</span>
 
@@ -1124,9 +1130,9 @@
   </div>
 </footer>
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

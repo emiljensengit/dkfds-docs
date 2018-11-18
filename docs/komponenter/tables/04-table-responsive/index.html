@@ -51,10 +51,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -72,13 +72,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -95,7 +95,7 @@
     <div class="solution-header">
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
-            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide </a>
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Frontend Styleguide</a>
             <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
@@ -970,33 +970,35 @@
                 <span class="nt">&lt;tr&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Dagrenovation<span class="nt">&lt;/td&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Grøn<span class="nt">&lt;/td&gt;</span>
-                    <span class="nt">&lt;td&gt;</span>Madaffald, samt papir, pap eller plastik der ikke kan genanvendes,
-                        fordi der er madrester eller andet snask på.<span class="nt">&lt;/td&gt;</span>
-                    <span class="nt">&lt;td&gt;</span>Alt det affald, du smider ud i din primære skraldespand,
-                        som er dagrenovationen, bliver hentet og kørt på forbrændingen.
-                        <span class="nt">&lt;/td&gt;</span>
+                    <span class="nt">&lt;td&gt;</span>Madaffald, samt papir, pap eller plastik der ikke
+                        kan genanvendes, fordi der er madrester eller
+                        andet snask på.<span class="nt">&lt;/td&gt;</span>
+                    <span class="nt">&lt;td&gt;</span>Alt det affald, du smider ud i din primære
+                        skraldespand, som er dagrenovationen, bliver
+                        hentet og kørt på forbrændingen. <span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;/tr&gt;</span>
                 <span class="nt">&lt;tr&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Bioaffald og kompost<span class="nt">&lt;/td&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Beige<span class="nt">&lt;/td&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Alt madaffald uden fødevareemballage.<span class="nt">&lt;/td&gt;</span>
-                    <span class="nt">&lt;td&gt;</span>Bioaffaldet kommes i bionedbrydelige poser, som bliver komposteret
-                        til muld.<span class="nt">&lt;/td&gt;</span>
+                    <span class="nt">&lt;td&gt;</span>Bioaffaldet kommes i bionedbrydelige poser, som
+                        bliver komposteret til muld.<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;/tr&gt;</span>
                 <span class="nt">&lt;tr&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Glas<span class="nt">&lt;/td&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Hvid<span class="nt">&lt;/td&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Alle typer glas og flasker.<span class="nt">&lt;/td&gt;</span>
-                    <span class="nt">&lt;td&gt;</span>De hele vinflasker rengøres og genbruges af vinhuse, mens
-                        glasskårene bliver smeltet om til nyt glas.<span class="nt">&lt;/td&gt;</span>
+                    <span class="nt">&lt;td&gt;</span>De hele vinflasker rengøres og genbruges af
+                        vinhuse, mens glasskårene bliver smeltet om til
+                        nyt glas.<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;/tr&gt;</span>
                 <span class="nt">&lt;tr&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Elektronik<span class="nt">&lt;/td&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Orange<span class="nt">&lt;/td&gt;</span>
                     <span class="nt">&lt;td&gt;</span>Genstande der har brugt strøm.<span class="nt">&lt;/td&gt;</span>
-                    <span class="nt">&lt;td&gt;</span>Det elektroniske affald bliver typisk kørt til et demonteringsanlæg,
-                        hvor det bliver skilt ad, så de forskellige dele kan
-                        genanvendes separat.<span class="nt">&lt;/td&gt;</span>
+                    <span class="nt">&lt;td&gt;</span>Det elektroniske affald bliver typisk kørt til et
+                        demonteringsanlæg, hvor det bliver skilt ad, så de
+                        forskellige dele kan genanvendes separat.<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;/tr&gt;</span>
             <span class="nt">&lt;/tbody&gt;</span>
         <span class="nt">&lt;/table&gt;</span>
@@ -1019,33 +1021,34 @@
             <span class="nt">&lt;tr&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Dagrenovation<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Grøn<span class="nt">&lt;/td&gt;</span>
-                <span class="nt">&lt;td&gt;</span>Madaffald, samt papir, pap eller plastik der ikke kan genanvendes,
-                    fordi der er madrester eller andet snask på.<span class="nt">&lt;/td&gt;</span>
-                <span class="nt">&lt;td&gt;</span>Alt det affald, du smider ud i din primære skraldespand, som
-                    er dagrenovationen, bliver hentet og kørt på forbrændingen.
-                    <span class="nt">&lt;/td&gt;</span>
+                <span class="nt">&lt;td&gt;</span>Madaffald, samt papir, pap eller plastik der ikke kan
+                    genanvendes, fordi der er madrester eller andet snask
+                    på.<span class="nt">&lt;/td&gt;</span>
+                <span class="nt">&lt;td&gt;</span>Alt det affald, du smider ud i din primære
+                    skraldespand, som er dagrenovationen, bliver hentet og
+                    kørt på forbrændingen. <span class="nt">&lt;/td&gt;</span>
             <span class="nt">&lt;/tr&gt;</span>
             <span class="nt">&lt;tr&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Bioaffald og kompost<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Beige<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Alt madaffald uden fødevareemballage.<span class="nt">&lt;/td&gt;</span>
-                <span class="nt">&lt;td&gt;</span>Bioaffaldet kommes i bionedbrydelige poser, som bliver komposteret
-                    til muld.<span class="nt">&lt;/td&gt;</span>
+                <span class="nt">&lt;td&gt;</span>Bioaffaldet kommes i bionedbrydelige poser, som bliver
+                    komposteret til muld.<span class="nt">&lt;/td&gt;</span>
             <span class="nt">&lt;/tr&gt;</span>
             <span class="nt">&lt;tr&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Glas<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Hvid<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Alle typer glas og flasker.<span class="nt">&lt;/td&gt;</span>
-                <span class="nt">&lt;td&gt;</span>De hele vinflasker rengøres og genbruges af vinhuse, mens glasskårene
-                    bliver smeltet om til nyt glas.<span class="nt">&lt;/td&gt;</span>
+                <span class="nt">&lt;td&gt;</span>De hele vinflasker rengøres og genbruges af vinhuse,
+                    mens glasskårene bliver smeltet om til nyt glas.<span class="nt">&lt;/td&gt;</span>
             <span class="nt">&lt;/tr&gt;</span>
             <span class="nt">&lt;tr&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Elektronik<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Orange<span class="nt">&lt;/td&gt;</span>
                 <span class="nt">&lt;td&gt;</span>Genstande der har brugt strøm.<span class="nt">&lt;/td&gt;</span>
-                <span class="nt">&lt;td&gt;</span>Det elektroniske affald bliver typisk kørt til et demonteringsanlæg,
-                    hvor det bliver skilt ad, så de forskellige dele kan genanvendes
-                    separat.<span class="nt">&lt;/td&gt;</span>
+                <span class="nt">&lt;td&gt;</span>Det elektroniske affald bliver typisk kørt til et
+                    demonteringsanlæg, hvor det bliver skilt ad, så de
+                    forskellige dele kan genanvendes separat.<span class="nt">&lt;/td&gt;</span>
             <span class="nt">&lt;/tr&gt;</span>
         <span class="nt">&lt;/tbody&gt;</span>
     <span class="nt">&lt;/table&gt;</span>
@@ -1106,9 +1109,9 @@
   </div>
 </footer>
 
-    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
-
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
+    
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+<script src="/dkfds-docs/assets/js/styleguide.js"></script>
 
   </body>
 </html>

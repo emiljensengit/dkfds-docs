@@ -57,10 +57,10 @@
 ================================================== -->
 
 <!-- Preload fonts -->
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
-<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Bold.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="/dkfds-docs/assets/fonts/IBMPlexSans-SemiBold.woff" as="font" crossorigin>
 
 
 <!--<link rel="stylesheet" href="/dkfds-docs/css/styleguide.css">-->
@@ -78,13 +78,13 @@
 
     window.baseurl='/dkfds-docs';
     if (window.location.search.indexOf('s=virkdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-virkdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_virkdk.css';
       window.curStyle = "virkdk";
     } else if(window.location.search.indexOf('s=borgerdk') !== -1) {
-      lnk.href= window.baseurl + '/css/styleguide-borgerdk.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide_borgerdk.css';
       window.curStyle = "borgerdk";
     } else {
-      lnk.href= window.baseurl + '/css/styleguide.css';
+      lnk.href= window.baseurl + '/assets/style/styleguide.css';
     }
     document.getElementsByTagName('head')[0].appendChild(lnk);
 </script>
@@ -102,10 +102,11 @@
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
-    <p class="font-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="font-lead">Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <h1>Oplysninger om dig</h1>
     <form class="form">
         <fieldset>
@@ -135,17 +136,13 @@
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-etage">Etage
-                    <span class="weight-normal"> (frivilligt)</span>
-                </label>
+                <label class="form-label icon-link " for="id-etage">Etage<span class="weight-normal"> (frivilligt)</span></label>
 
                 <input class="form-input  input-width-xs" placeholder="" id="id-etage" value="" name="Input til etage" type="text" />
             </div>
 
             <div class="form-group input-disabled">
-                <label class="form-label icon-link " for="id-side">Side
-                    <span class="weight-normal"> (frivilligt)</span>
-                </label>
+                <label class="form-label icon-link " for="id-side">Side<span class="weight-normal"> (frivilligt)</span></label>
 
                 <input class="form-input  input-width-xs" placeholder="" id="id-side" value="" name="Input til side" type="text" disabled="disabled" />
             </div>
@@ -163,9 +160,8 @@
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-co-adresse">Evt. CO-adresse
-                    <span class="weight-normal"> (frivilligt)</span>
-                </label>
+                <label class="form-label icon-link " for="id-co-adresse">Evt.
+                    CO-adresse<span class="weight-normal"> (frivilligt)</span></label>
 
                 <input class="form-input  input-width-m" placeholder="" id="id-co-adresse" value="" name="Input til CO-adresse" type="text" />
             </div>
@@ -199,42 +195,44 @@
             <tr>
                 <td>Dagrenovation</td>
                 <td>Grøn</td>
-                <td>Madaffald, samt papir, pap eller plastik der ikke kan genanvendes,
-                    fordi der er madrester eller andet snask på.</td>
-                <td>Alt det affald, du smider ud i din primære skraldespand, som
-                    er dagrenovationen, bliver hentet og kørt på forbrændingen.
-                    </td>
+                <td>Madaffald, samt papir, pap eller plastik der ikke kan
+                    genanvendes, fordi der er madrester eller andet snask
+                    på.</td>
+                <td>Alt det affald, du smider ud i din primære
+                    skraldespand, som er dagrenovationen, bliver hentet og
+                    kørt på forbrændingen. </td>
             </tr>
             <tr>
                 <td>Bioaffald og kompost</td>
                 <td>Beige</td>
                 <td>Alt madaffald uden fødevareemballage.</td>
-                <td>Bioaffaldet kommes i bionedbrydelige poser, som bliver komposteret
-                    til muld.</td>
+                <td>Bioaffaldet kommes i bionedbrydelige poser, som bliver
+                    komposteret til muld.</td>
             </tr>
             <tr>
                 <td>Glas</td>
                 <td>Hvid</td>
                 <td>Alle typer glas og flasker.</td>
-                <td>De hele vinflasker rengøres og genbruges af vinhuse, mens glasskårene
-                    bliver smeltet om til nyt glas.</td>
+                <td>De hele vinflasker rengøres og genbruges af vinhuse,
+                    mens glasskårene bliver smeltet om til nyt glas.</td>
             </tr>
             <tr>
                 <td>Elektronik</td>
                 <td>Orange</td>
                 <td>Genstande der har brugt strøm.</td>
-                <td>Det elektroniske affald bliver typisk kørt til et demonteringsanlæg,
-                    hvor det bliver skilt ad, så de forskellige dele kan genanvendes
-                    separat.</td>
+                <td>Det elektroniske affald bliver typisk kørt til et
+                    demonteringsanlæg, hvor det bliver skilt ad, så de
+                    forskellige dele kan genanvendes separat.</td>
             </tr>
         </tbody>
     </table>
 </div>
 
     
-    <script src="/dkfds-docs/assets/js/vendor/dkfds.js"></script>
-    <script src="/dkfds-docs/assets/js/vendor/dkfds-vendor-examples.js"></script>
-    <script src="/dkfds-docs/assets/js/vendor/iframeResizer.contentWindow.min.js" defer></script>
+    <script src="/dkfds-docs/assets/js/styleguide.js"></script>
+    <script src="/dkfds-docs/assets/js/vendor.js"></script>
+    <!--<script src="/dkfds-docs/assets/js/vendor/dkfds-vendor-examples.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.3/iframeResizer.contentWindow.min.js" defer></script>
     <div data-iframe-height></div>
   </body>
 </html>
