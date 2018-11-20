@@ -1,6 +1,6 @@
 --- 
 permalink: /preview-components/select2-multiselect.html
-layout: iframed 
+layout: iframed-plugins 
 title: Select2-multiselect.html
 ---
 <div class="container">

@@ -9,7 +9,7 @@ module.exports = function (outputPath, prod) {
     entry: {
       styleguide: ["./javascript/start.js", "./scss/styleguide.scss"],
       styleguide_borgerdk: ["./scss/styleguide-borgerdk.scss"],
-      styleguide_virkdk: ["./scss/styleguide-virkdk.scss"],
+      styleguide_virkdk: ["./scss/styleguide-virkdk.scss"]
     },
     module: {
       rules: [
@@ -97,11 +97,21 @@ module.exports = function (outputPath, prod) {
       modules: ["node_modules"]
     },
     plugins: [
-      new CopyWebpackPlugin( //copies all content from /img to /assets/img
+      new CopyWebpackPlugin( 
         [
-          {
+          {//copies all content from /img to /assets/img
             from: "./img/**/*",
-            to: "" //assets
+            to: "" // i assets
+          },
+          { //copy plugin example scripts
+            from: "./node_modules/dkdfd-plugins/dist/js/dkfds-datatables-examples.min.js",
+            to: "./js", // i assets
+            flatten: true
+          },
+          { //copy plugin example css
+            from: "./node_modules/dkdfd-plugins/dist/css/dkfds-datatables-theme.min.css",
+            to: "./style", //i assets
+            flatten: true
           }
         ]),
       new MiniCssExtractPlugin(

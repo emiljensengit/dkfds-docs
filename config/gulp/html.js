@@ -31,6 +31,11 @@ var distJekyllComponentPreview = '_preview-components';
  * https://github.com/beautify-web/js-beautify/blob/master/js/lib/beautify-html.js
  */
 
+
+ /**
+ * Generate Markdown for views in component project
+ */
+
 function createMarkdown(content, path, file) {
     var fileName = path.split("\\").pop();    
     var header = `--- 
@@ -42,11 +47,10 @@ title: ` + fileName[0].toUpperCase() + fileName.slice(1) + `
     return header + content;
 }
 
+//gulp.task('generateComponentsHtml', runCmd('npm run fb', {'cwd': './node_modules/dkfds/'}));
 
-gulp.task('generateComponentsHtml', runCmd('npm run fb', {'cwd': './node_modules/dkfds/'}));
-
-gulp.task('generateDocMarkdown', function (done) {
-    return gulp.src('./node_modules/dkfds/build/components/render/**/*')
+gulp.task('generateDocMarkdown', function (done) {       
+    return gulp.src(['./node_modules/dkfds/build/components/render/**/*'])
     .pipe(prettify({
 
         wrap_line_length: 75, 
@@ -72,9 +76,55 @@ gulp.task('generateDocMarkdown', function (done) {
     .pipe(gulp.dest(distJekyllComponentPreview));
 });
 
+/**
+ * Generate Markdown for views in plugins project
+ */
 
-gulp.task(task, ['generateDocMarkdown'], function (done) { 
+function createMarkdownPlugins(content, path, file) {
+    var fileName = path.split("\\").pop();    
+    var header = `--- 
+permalink: /preview-components/` + fileName + `
+layout: iframed-plugins 
+title: ` + fileName[0].toUpperCase() + fileName.slice(1) + `
+---
+`
+    return header + content;
+}
 
-    done();
+gulp.task('generateDocMarkdownPlugins', function (done) { 
+    return gulp.src(['./node_modules/dkdfd-plugins/build/components/render/**/*'])
+    .pipe(prettify({
+
+        wrap_line_length: 75, 
+        max_preserve_newlines: 1, 
+        unformatted: [ /*'a',*/ 'abbr', 'area', 'audio', 'b', 'bdi', 'bdo', 'br', /*'button',*/ 'canvas', 'cite',
+            'code', 'data', 'datalist', 'del', 'dfn', 'em', 'embed', /*'i',*/ 'iframe', 'img',
+            /*'input',*/ 'ins', 'kbd', 'keygen', /*'label',*/ 'map', 'mark', 'math', 'meter', 'noscript',
+            'object', 'output', 'progress', 'q', 'ruby', 's', 'samp', /* 'script', */ /*'select',*/ 'small',
+            /*'span',*/ 'strong', 'sub', 'sup', 'svg', 'template', 'textarea', 'time', 'u', 'var',
+            'video', 'wbr', /*'text',*/
+            // prexisting - not sure of full effect of removing, leaving in
+            'acronym', /*'address',*/ 'big', 'dt', 'ins', 'strike', 'tt',
+        ],
+        content_unformatted:'',
+        extra_liners: 'head,body,/html'
+    }))
+    .pipe(gulp.dest(distComponentCode))
+    .pipe(modifyFile(createMarkdownPlugins))
+    .pipe(rename(function(path){
+        path.extname = ".md";        
+    }))
+    .pipe(gulp.dest(distComponentPreview))
+    .pipe(gulp.dest(distJekyllComponentPreview));
+});
+
+
+gulp.task(task, function (done) { 
+    
+  runSequence(
+    'generateDocMarkdown',
+    'generateDocMarkdownPlugins',
+    done
+  );
 });
 

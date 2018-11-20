@@ -1,5 +1,5 @@
 // Site image path, relative to /css/
-$site-image-path: '../img';
+$site-image-path: '../img' !default;
 
 // Variables used by doc site styling
 $borger-primary:              #568331 !default;

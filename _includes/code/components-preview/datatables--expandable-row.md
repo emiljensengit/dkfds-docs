@@ -1,6 +1,6 @@
 --- 
 permalink: /preview-components/datatables--expandable-row.html
-layout: iframed 
+layout: iframed-plugins 
 title: Datatables--expandable-row.html
 ---
 <div class="container">
