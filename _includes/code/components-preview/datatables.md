@@ -1,6 +1,6 @@
 --- 
 permalink: /preview-components/datatables.html
-layout: iframed-plugins 
+layout: iframed 
 title: Datatables.html
 ---
 <div class="container">

@@ -104,12 +104,12 @@ module.exports = function (outputPath, prod) {
             to: "" // i assets
           },
           { //copy plugin example scripts
-            from: "./node_modules/dkdfd-plugins/dist/js/dkfds-datatables-examples.min.js",
+            from: "./node_modules/dkfds-plugins/dist/js/*.js",
             to: "./js", // i assets
             flatten: true
           },
           { //copy plugin example css
-            from: "./node_modules/dkdfd-plugins/dist/css/dkfds-datatables-theme.min.css",
+            from: "./node_modules/dkfds-plugins/dist/css/*.css",
             to: "./style", //i assets
             flatten: true
           }

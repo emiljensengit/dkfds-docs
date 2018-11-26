@@ -92,7 +92,7 @@ title: ` + fileName[0].toUpperCase() + fileName.slice(1) + `
 }
 
 gulp.task('generateDocMarkdownPlugins', function (done) { 
-    return gulp.src(['./node_modules/dkdfd-plugins/build/components/render/**/*'])
+    return gulp.src(['./node_modules/dkfds-plugins/build/components/render/**/*'])
     .pipe(prettify({
 
         wrap_line_length: 75, 
