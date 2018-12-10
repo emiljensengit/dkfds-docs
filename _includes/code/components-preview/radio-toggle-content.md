@@ -7,7 +7,7 @@ title: Radio-toggle-content.html
 
     <div class="form-group ">
         <input id="id-radio1" type="radio" name="radio-group1" value="Value"
-            class=" radio-large " checked data-js-target='#collapse-radio1'
+            class="form-radio  radio-large " checked data-js-target='#collapse-radio1'
             aria-controls='collapse-radio1' aria-expanded='false'>
         <label for="id-radio1" class="">Radioknap viser indhold</label>
     </div>
@@ -20,7 +20,7 @@ title: Radio-toggle-content.html
 
     <div class="form-group ">
         <input id="id-radio2" type="radio" name="radio-group1" value="Value"
-            class=" radio-large " data-js-target='#collapse-radio2'>
+            class="form-radio  radio-large " data-js-target='#collapse-radio2'>
         <label for="id-radio2" class="">Radioknap viser indhold</label>
     </div>
 

@@ -9,12 +9,6 @@ title: Dkfds-framed.html
 <head>
     <title>Dkfds Framed: Default</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Vendor example stylesheets (Select2 and Datatables)-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
-
     <!-- Frontend styleguide stylesheet-->
     <link rel="stylesheet" href="../../dist/css/dkfds.min.css">
 </head>
@@ -30,7 +24,6 @@ title: Dkfds-framed.html
     </div>
 
     <script src="../../dist/js/dkfds.js"></script>
-    <script src="../../dist/js/dkfds-vendor-examples.js"></script>
     <script>
         window.addEventListener('load', function() {
             document.body.addEventListener('submit', function(e) {

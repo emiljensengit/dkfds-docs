@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/accordions/
+permalink: /komponenter/accordions/
 layout: styleguide
 type: component
 title: Accordions
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: Accordions are a list of headers that can be clicked to hide or reveal additional content.
 ---

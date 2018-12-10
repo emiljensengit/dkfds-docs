@@ -99,7 +99,7 @@ title: Example-aes-page-8.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-1'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-1'>
                         1. Oplysninger om afsender
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -107,7 +107,7 @@ title: Example-aes-page-8.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-2'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-2'>
                         2. Hvis AES har spørgsmål til sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -115,7 +115,7 @@ title: Example-aes-page-8.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-3'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-3'>
                         3. Oplysninger om skadelidte
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -123,7 +123,7 @@ title: Example-aes-page-8.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-4'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-4'>
                         4. Sagens natur
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -131,7 +131,7 @@ title: Example-aes-page-8.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5'>
                         5. Oplysninger om sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -139,7 +139,7 @@ title: Example-aes-page-8.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-6'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-6'>
                         6. Tilføj dokumentation for første undersøgelse af
                         skaden
                         <span class='sidenav-icon'>
@@ -148,7 +148,7 @@ title: Example-aes-page-8.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7'>
                         7. Tilføj dokumentation fra sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -156,13 +156,13 @@ title: Example-aes-page-8.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-8'
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-8'
                         class='active'>
                         8. Tilføj kommentarer til sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-9'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-9'>
                         9. Opsummering
                     </a>
                 </li>
@@ -176,7 +176,7 @@ title: Example-aes-page-8.html
 
         <div class="form-group ">
             <input id="id-comments-1" type="checkbox" name="Faktuelle oplysninger"
-                value="Faktuelle oplysninger" class=" checkbox-large js-checkbox-toggle-content"
+                value="Faktuelle oplysninger" class="form-checkbox  checkbox-large js-checkbox-toggle-content"
                 data-js-target='#collapse-check' aria-controls='collapse-check'
                 aria-expanded='false'>
             <label for="id-comments-1" class="">Faktuelle oplysninger</label>
@@ -188,7 +188,7 @@ title: Example-aes-page-8.html
                 <div class="form-group">
                     <label class="form-label " for="id-comment-1-expanded">Kommentar</label>
 
-                    <textarea class="form-input textarea input-width-m input-width-m" placeholder="" id="id-comment-1-expanded" name="Kommentar" type="text" ></textarea>
+                    <textarea class="form-input input-width-m" placeholder="" id="id-comment-1-expanded" name="Kommentar" type="text" ></textarea>
                 </div>
 
             </div>
@@ -198,7 +198,7 @@ title: Example-aes-page-8.html
 
         <div class="form-group ">
             <input id="id-comments-2" type="checkbox" name="Spørgsmål til AES"
-                value="Spørgsmål til AES" class=" checkbox-large js-checkbox-toggle-content"
+                value="Spørgsmål til AES" class="form-checkbox  checkbox-large js-checkbox-toggle-content"
                 data-js-target='#collapse-check1' aria-controls='collapse-check'
                 aria-expanded='false'>
             <label for="id-comments-2" class="">Spørgsmål til AES</label>
@@ -210,7 +210,7 @@ title: Example-aes-page-8.html
                 <div class="form-group">
                     <label class="form-label " for="id-comment-2-expanded">Kommentar</label>
 
-                    <textarea class="form-input textarea input-width-m input-width-m" placeholder="" id="id-comment-2-expanded" name="Kommentar" type="text" ></textarea>
+                    <textarea class="form-input input-width-m" placeholder="" id="id-comment-2-expanded" name="Kommentar" type="text" ></textarea>
                 </div>
 
             </div>
@@ -220,7 +220,7 @@ title: Example-aes-page-8.html
 
         <div class="form-group ">
             <input id="id-comments-3" type="checkbox" name="Instruks til AES"
-                value="Instruks til AES" class=" checkbox-large js-checkbox-toggle-content"
+                value="Instruks til AES" class="form-checkbox  checkbox-large js-checkbox-toggle-content"
                 data-js-target='#collapse-check2' aria-controls='collapse-check'
                 aria-expanded='false'>
             <label for="id-comments-3" class="">Instruks til AES</label>
@@ -232,7 +232,7 @@ title: Example-aes-page-8.html
                 <div class="form-group">
                     <label class="form-label " for="id-comment-3-expanded">Kommentar</label>
 
-                    <textarea class="form-input textarea input-width-m input-width-m" placeholder="" id="id-comment-3-expanded" name="Kommentar" type="text" ></textarea>
+                    <textarea class="form-input input-width-m" placeholder="" id="id-comment-3-expanded" name="Kommentar" type="text" ></textarea>
                 </div>
 
             </div>
@@ -242,7 +242,7 @@ title: Example-aes-page-8.html
 
         <div class="form-group ">
             <input id="id-comments-4" type="checkbox" name="Særlige forsikringsbetingelser"
-                value="Særlige forsikringsbetingelser" class=" checkbox-large js-checkbox-toggle-content"
+                value="Særlige forsikringsbetingelser" class="form-checkbox  checkbox-large js-checkbox-toggle-content"
                 data-js-target='#collapse-check3' aria-controls='collapse-check'
                 aria-expanded='false'>
             <label for="id-comments-4" class="">Særlige
@@ -255,7 +255,7 @@ title: Example-aes-page-8.html
                 <div class="form-group">
                     <label class="form-label " for="id-comment-4-expanded">Kommentar</label>
 
-                    <textarea class="form-input textarea input-width-m input-width-m" placeholder="" id="id-comment-4-expanded" name="Kommentar" type="text" ></textarea>
+                    <textarea class="form-input input-width-m" placeholder="" id="id-comment-4-expanded" name="Kommentar" type="text" ></textarea>
                 </div>
 
             </div>
@@ -263,9 +263,9 @@ title: Example-aes-page-8.html
     </div>
 
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-9"
+        <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-9"
             class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7"
+        <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7"
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>

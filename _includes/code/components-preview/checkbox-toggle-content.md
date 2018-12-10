@@ -7,7 +7,7 @@ title: Checkbox-toggle-content.html
 
     <div class="form-group ">
         <input id="id-checkbox1" type="checkbox" name="Name" value="Value"
-            class=" checkbox-large js-checkbox-toggle-content"
+            class="form-checkbox  checkbox-large js-checkbox-toggle-content"
             data-js-target='#collapse-check1' aria-controls='collapse-check1'
             aria-expanded='false'>
         <label for="id-checkbox1" class="">Checbox viser indhold</label>
@@ -21,8 +21,8 @@ title: Checkbox-toggle-content.html
 
     <div class="form-group ">
         <input id="id-checkbox2" type="checkbox" name="Name" value="Value"
-            class=" checkbox-large js-checkbox-toggle-content" checked
-            data-js-target='#collapse-check2' aria-controls='collapse-check2'
+            class="form-checkbox  checkbox-large js-checkbox-toggle-content"
+            checked data-js-target='#collapse-check2' aria-controls='collapse-check2'
             aria-expanded='false'>
         <label for="id-checkbox2" class="">Checbox viser indhold</label>
     </div>

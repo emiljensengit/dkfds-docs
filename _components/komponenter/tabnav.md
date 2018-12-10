@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/tabnav/
+permalink: /komponenter/tabnav/
 layout: styleguide
 type: component
 title: Faneblade
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: "Horizontal navigation."
 ---

@@ -25,6 +25,9 @@ collections:
   components:
     output: true
     permalink: /:path/
+  pages:
+    output: true
+    permalink: /:path/
   preview-components:
     output: true
     permalink: /:path/

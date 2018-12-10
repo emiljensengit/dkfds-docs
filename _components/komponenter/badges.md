@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/badges/
+permalink: /komponenter/badges/
 layout: styleguide
 type: element
 title: Badges
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: Badges draw attention to new or important content.
 ---

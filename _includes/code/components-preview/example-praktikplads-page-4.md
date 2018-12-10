@@ -61,7 +61,7 @@ title: Example-praktikplads-page-4.html
             <div class="navbar-inner container">
                 <ul class="nav-primary">
                     <li>
-                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-1"
+                        <a href="/dkfds-docs/pages/eksempler/praktikplads/praktikplads-1"
                             class="current nav-link" title="Designsystem">
                             <span>2021</span>
                         </a>
@@ -82,15 +82,15 @@ title: Example-praktikplads-page-4.html
                                 aria-hidden="true">
                                 <ul class="overflow-list">
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                        <a href="/dkfds-docs/pages/eksempler/praktikplads/praktikplads-2">Revision
                                             3: Regulering<br> oprettet 01-12-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                        <a href="/dkfds-docs/pages/eksempler/praktikplads/praktikplads-2">Revision
                                             2: Regulering<br> oprettet 01-09-2019</a>
                                     </li>
                                     <li>
-                                        <a href="/dkfds-docs/pages/page-templates/praktikplads/praktikplads-2">Revision
+                                        <a href="/dkfds-docs/pages/eksempler/praktikplads/praktikplads-2">Revision
                                             1: Opgørelse<br> oprettet 01-06-2019</a>
                                     </li>
                                 </ul>
@@ -144,8 +144,8 @@ title: Example-praktikplads-page-4.html
         <div class="mt-6">
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-search-keyword">Søg
-                    via nøgleord</label>
+                <label class="form-label " for="id-search-keyword">Søg via
+                    nøgleord</label>
 
                 <input class="form-input  input-width-m" placeholder="" id="id-search-keyword"
                     value="" name="Input til søg via nøgleord" type="text">
@@ -172,7 +172,7 @@ title: Example-praktikplads-page-4.html
 
             <div class="form-group ">
                 <input id="id-view1" type="radio" name="Vælg visning"
-                    value="Elevpoint" class="  ">
+                    value="Elevpoint" class="form-radio   ">
                 <label for="id-view1" class="">Elevpoint</label>
             </div>
 
@@ -181,31 +181,30 @@ title: Example-praktikplads-page-4.html
 
             <div class="form-group ">
                 <input id="id-view2" type="radio" name="Vælg visning"
-                    value="Aftaleperiode" class="  " checked>
+                    value="Aftaleperiode" class="form-radio   " checked>
                 <label for="id-view2" class="">Aftaleperiode</label>
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-12">
-                <table class="mt-5 table table--zebra table--lines w-percent-100"
-                    id="js-datatable-example-praktikplads">
-                    <thead>
-                        <tr>
-                            <th>Elev</th>
-                            <th>Fødselsdato</th>
-                            <th>Uddannelse</th>
-                            <th>Uddannelsesvægt</th>
-                            <th>Erhvervsuddannede medarbejdere</th>
-                            <th>Beregnede erhvervsuddannede</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+        <!--<div class="row">
+        <div class="col-12">
+         <table class="mt-5 table table--zebra table--lines w-percent-100" id="js-datatable-example-praktikplads">
+          <thead>
+            <tr>
+              <th>Elev</th>
+              <th>Fødselsdato</th>
+              <th>Uddannelse</th>
+              <th>Uddannelsesvægt</th>
+              <th>Erhvervsuddannede medarbejdere</th>
+              <th>Beregnede erhvervsuddannede</th>
+            </tr>
+          </thead>
+          <tbody>
 
-                    </tbody>
-                </table>
-            </div>
+          </tbody>
+        </table>
         </div>
+      </div>-->
 
     </section>
 </main>

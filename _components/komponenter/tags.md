@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/tags/
+permalink: /komponenter/tags/
 layout: styleguide
 type: element
 title: Tags
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: 
 ---

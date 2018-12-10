@@ -7,6 +7,8 @@ The documentation site can be found [here](https://detfaellesdesignsystem.github
 
 The components project can be found [here](https://github.com/detfaellesdesignsystem/dkfds-components).
 
+The plugins project can be found [here](https://github.com/detfaellesdesignsystem/dkfds-plugins).
+
 ## Running locally
 
 The Style Guide documentation is built using Jekyll as the file framework and gulp is used for task management

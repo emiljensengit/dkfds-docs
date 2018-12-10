@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/buttons/
+permalink: /komponenter/buttons/
 layout: styleguide
 type: element
 title: Knapper
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: 
 ---

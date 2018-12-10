@@ -12,10 +12,10 @@ var timeout;
  * title correctly.
  */
 function scrollToTopForHash () {
-  var hash = window.location.hash.substr(1);
+  var hash = decodeURIComponent(window.location.hash.substr(1));
   var scrollTopPos = (hash ? calculateAnchorPosition(hash) : 0);
 
-  if (scrollTopPos > 0) {
+  if (scrollTopPos > 0 && scrollTopPos !== NaN && scrollTopPos !== undefined && scrollTopPos !== null) {
     clearTimeout(timeout);
     // setTimeout ensures proper ordering of events
     // and makes this happens after the browser's default jump

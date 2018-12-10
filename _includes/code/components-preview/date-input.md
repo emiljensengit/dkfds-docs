@@ -9,7 +9,7 @@ title: Date-input.html
         <div class="form-group">
             <label class="form-label icon-link">Indsendelsesfrist</label>
             <span class="form-hint">For eksempel: 05 12 2018</span>
-            <span class="input-error-message" id="input-error-message-input-error"
+            <span class="form-error-message" id="form-error-message-input-error"
                 role="alert"></span>
             <div class="date-group js-calendar-group mt-3">
                 <div class="form-group form-group-day">

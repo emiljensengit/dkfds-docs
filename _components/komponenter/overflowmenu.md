@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/overflowmenu/
+permalink: /komponenter/overflowmenu/
 layout: styleguide
 type: component
 title: Overflow menu
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: Toggle overlay with lists of links or buttons.
 ---

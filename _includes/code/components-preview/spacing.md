@@ -20,28 +20,28 @@ title: Spacing.html
         <fieldset>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-fornavn">Fornavn</label>
+                <label class="form-label " for="id-fornavn">Fornavn</label>
 
                 <input class="form-input  input-width-m" placeholder="" id="id-fornavn"
                     value="" name="Input til fornavn" type="text">
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-efternavn">Efternavn</label>
+                <label class="form-label " for="id-efternavn">Efternavn</label>
 
                 <input class="form-input  input-width-m" placeholder="" id="id-efternavn"
                     value="" name="Input til efternavn" type="text">
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-gade-vej">Gade/vej</label>
+                <label class="form-label " for="id-gade-vej">Gade/vej</label>
 
                 <input class="form-input  input-width-m" placeholder="" id="id-gade-vej"
                     value="" name="Input til gade/vej" type="text">
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-husnummer">Husnummer</label>
+                <label class="form-label " for="id-husnummer">Husnummer</label>
 
                 <input class="form-input  input-width-xs" placeholder=""
                     id="id-husnummer" value="" name="Input til husnummer"
@@ -49,16 +49,16 @@ title: Spacing.html
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-etage">Etage<span
-                        class="weight-normal"> (frivilligt)</span></label>
+                <label class="form-label " for="id-etage">Etage<span class="weight-normal">
+                        (frivilligt)</span></label>
 
                 <input class="form-input  input-width-xs" placeholder=""
                     id="id-etage" value="" name="Input til etage" type="text">
             </div>
 
-            <div class="form-group input-disabled">
-                <label class="form-label icon-link " for="id-side">Side<span
-                        class="weight-normal"> (frivilligt)</span></label>
+            <div class="form-group">
+                <label class="form-label " for="id-side">Side<span class="weight-normal">
+                        (frivilligt)</span></label>
 
                 <input class="form-input  input-width-xs" placeholder=""
                     id="id-side" value="" name="Input til side" type="text"
@@ -66,21 +66,21 @@ title: Spacing.html
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-postnummer">Postnummer</label>
+                <label class="form-label " for="id-postnummer">Postnummer</label>
 
                 <input class="form-input  input-width-s" placeholder="" id="id-postnummer"
                     value="" name="Input til postnummer" type="text">
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-by">By</label>
+                <label class="form-label " for="id-by">By</label>
 
                 <input class="form-input  input-width-m" placeholder="" id="id-by"
                     value="" name="Input til by" type="text">
             </div>
 
             <div class="form-group">
-                <label class="form-label icon-link " for="id-co-adresse">Evt.
+                <label class="form-label " for="id-co-adresse">Evt.
                     CO-adresse<span class="weight-normal"> (frivilligt)</span></label>
 
                 <input class="form-input  input-width-m" placeholder="" id="id-co-adresse"
@@ -92,13 +92,13 @@ title: Spacing.html
 
             <div class="form-group ">
                 <input id="id-aktindsigt-ja" type="radio" name="aktindsigt"
-                    value="Ja" class=" radio-large ">
+                    value="Ja" class="form-radio  radio-large ">
                 <label for="id-aktindsigt-ja" class="radio-large">Ja</label>
             </div>
 
             <div class="form-group ">
                 <input id="id-aktindsigt-nej" type="radio" name="aktindsigt"
-                    value="Ja" class=" radio-large ">
+                    value="Ja" class="form-radio  radio-large ">
                 <label for="id-aktindsigt-nej" class="radio-large">Nej</label>
             </div>
 

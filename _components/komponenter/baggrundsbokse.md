@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/baggrundsbokse/
+permalink: /komponenter/baggrundsbokse/
 layout: styleguide
 type: component
 title: Baggrundsbokse
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: Baggrundsbokse are a list of headers that can be clicked to hide or reveal additional content.
 ---

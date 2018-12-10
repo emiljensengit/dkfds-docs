@@ -7,7 +7,7 @@ title: Frontend Styleguiden
 <div class="alert alert-info" role="alert" aria-label="Styleguiden er gået i beta">
   <div class="alert-body">
       <p class="alert-heading">BETA</p>
-      <p class="alert-text">Frontend Styleguiden er den kommende fælles guide til selvbetjeningsløsninger, der skal på borger.dk og Virk. Hjælp os gerne med at forbedre den via <a href="https://github.com/FSGpilot/dkfds-docs-components">GitHub</a>.</p>
+      <p class="alert-text">Det Fælles Designsystem (FDS) er den kommende fælles guide til selvbetjeningsløsninger, der skal på borger.dk og Virk. Hjælp os gerne med at forbedre den via <a href="https://github.com/FSGpilot/dkfds-docs-components">GitHub</a>.</p>
   </div>
 </div>
 
@@ -32,7 +32,7 @@ title: Frontend Styleguiden
     <div class="bg-alternative demo-img-placeholder"></div>
     <h3 class="h5">Komponenter og styling</h3>
     <p>Udforsk designsystemets styling elementer og komponenter</p>
-    <a href="{{ site.baseurl }}/designandcode/">Design og kode</a>
+    <a href="{{ site.baseurl }}/komponenter/">Design og kode</a>
   </div>
   <div class="col-12 col-md-4 mt-6 mt-md-0">
     <div class="bg-alternative demo-img-placeholder"></div>

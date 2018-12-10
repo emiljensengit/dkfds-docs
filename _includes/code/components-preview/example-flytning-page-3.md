@@ -99,7 +99,7 @@ title: Example-flytning-page-3.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-1'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-1'>
                         1. Oversigt
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -107,7 +107,7 @@ title: Example-flytning-page-3.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-2'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-2'>
                         2. Personer
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -115,18 +115,18 @@ title: Example-flytning-page-3.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-3'
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-3'
                         class='active'>
                         3. Adresse
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-4'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-4'>
                         4. Særlig flytning
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-5'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-5'>
                         5. Lægevalg
                     </a>
                 </li>
@@ -153,7 +153,7 @@ title: Example-flytning-page-3.html
             <div class="form-group">
                 <label class="form-label icon-link">Dato for flytning</label>
                 <span class="form-hint">Fx. 28 04 1996</span>
-                <span class="input-error-message" id="input-error-message-input-error"
+                <span class="form-error-message" id="form-error-message-input-error"
                     role="alert"></span>
                 <div class="date-group js-calendar-group mt-3">
                     <div class="form-group form-group-day">
@@ -228,8 +228,8 @@ title: Example-flytning-page-3.html
     <div class="mt-6">
 
         <div class="form-group">
-            <label class="form-label icon-link " for="id-co">C/O navn<span
-                    class="weight-normal"> (frivilligt)</span></label>
+            <label class="form-label " for="id-co">C/O navn<span class="weight-normal">
+                    (frivilligt)</span></label>
             <span class="form-hint" id="input-hint-message-id-co">C/O navn
                 skal kun udfyldes, hvis du skal bo til leje hos de
                 nuværende beboere.</span>
@@ -241,9 +241,9 @@ title: Example-flytning-page-3.html
     </div>
 
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-4"
+        <a href="/dkfds-docs/pages/eksempler/digital-flytning/flytning-4"
             class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/digital-flytning/flytning-2"
+        <a href="/dkfds-docs/pages/eksempler/digital-flytning/flytning-2"
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>

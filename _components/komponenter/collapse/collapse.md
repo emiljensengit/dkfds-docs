@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/collapse/
+permalink: /komponenter/collapse/
 layout: styleguide
 type: component
 title: Skjul og vis (Collapse)
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: Skjul og vis inhold.
 subnav:

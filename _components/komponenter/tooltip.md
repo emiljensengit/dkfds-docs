@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/tooltip/
+permalink: /komponenter/tooltip/
 layout: styleguide
 type: element
 title: Tooltip og popover
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: 
 ---

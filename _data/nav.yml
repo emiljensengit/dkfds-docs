@@ -1,70 +1,100 @@
+#Primary menu on desktop:
 primary:
-  - href: /designandcode/
-  - href: /examples/
-#  - href: /getting-started/
-#  - href: /faellesoffentlige-krav/
-  - href: /about/
+  - href: /design/
+  - href: /komponenter/
+  - href: /udvidelser/
+  - href: /eksempler/
+  - href: /krav/
+  - href: /omdesignsystemet/
 
+#Primary menu on mobile:
 mobile:
-  - href: /designandcode/
-    categorynav: 'UI components'
-  - href: /examples/
-    categorynav: 'Page templates'
-#  - href: /getting-started/
-#  - href: /faellesoffentlige-krav/
-  - href: /about/
+  - href: /design/
+    categorynav: 'Design_category'
+  - href: /komponenter/
+    categorynav: 'Komponenter_category'
+  - href: /udvidelser/
+    categorynav: 'Udvidelser_category'
+  - href: /eksempler/
+    categorynav: 'Eksempler_category'
+  - href: /krav/
+    categorynav: 'Krav_category'
+  - href: /omdesignsystemet/
 
-UI components:
+#Left menu for design-category
+Design_category:
   - alternative_text: Overblik
-    href: /designandcode/
-  - href: /designandcode/accessibility/
-  - href: /designandcode/utility/
-  - href: /designandcode/typography/
-  - href: /designandcode/colors/
-  - href: /designandcode/ikoner/
-  - href: /designandcode/kanter/
-  - href: /designandcode/grids/
-  - href: /designandcode/buttons/
-  - href: /designandcode/tags/
-  - href: /designandcode/accordions/
-  - href: /designandcode/beskeder/
-  - href: /designandcode/cards/
-  - href: /designandcode/form-controls/
-  - href: /designandcode/selectwoo-multiselect/
-  - href: /designandcode/search/
-  - href: /designandcode/badges/
-  - href: /designandcode/tables/
-  - href: /designandcode/datatables/
-  - href: /designandcode/trinindikatorer/
-  - href: /designandcode/sidenav/
-  - href: /designandcode/tabnav/
-  - href: /designandcode/spinner/
-  - href: /designandcode/overflowmenu/
-  - href: /designandcode/modals/
-  - href: /designandcode/tooltip/
-  - href: /designandcode/collapse/
-  - href: /designandcode/headers/
-  - href: /designandcode/footers/
+    href: /design/
+#  - href: /design/accessibility/
+  - href: /design/farver/
+  - href: /design/typography/
+  - href: /design/grid/
+  - href: /design/ikoner/
+  - href: /design/kanter/
+  - href: /design/sideopbygning/
+  - href: /design/visueltdesign/
 
-Getting started:
+#Left menu for komponent-category
+Komponenter_category:
   - alternative_text: Overblik
-    href: /getting-started/
-  - href: /getting-started/developers/
-  - href: /getting-started/designers/
-  - href: /getting-started/projectmanagers/
-  - href: /getting-started/integration-til-portalerne/
-  - href: /getting-started/bidrag-til-designsystemet/
-  - href: /getting-started/video-tutorials/
-  - href: /getting-started/loesninger/
+    href: /komponenter/
+  - href: /komponenter/utility/
+  - href: /komponenter/buttons/
+  - href: /komponenter/tags/
+  - href: /komponenter/accordions/
+  - href: /komponenter/beskeder/
+  - href: /komponenter/cards/
+  - href: /komponenter/form-controls/
+  - href: /komponenter/search/
+  - href: /komponenter/badges/
+  - href: /komponenter/tables/
+  - href: /komponenter/trinindikatorer/
+  - href: /komponenter/sidenav/
+  - href: /komponenter/tabnav/
+  - href: /komponenter/spinner/
+  - href: /komponenter/overflowmenu/
+  - href: /komponenter/modals/
+  - href: /komponenter/tooltip/
+  - href: /komponenter/collapse/
+  - href: /komponenter/headers/
+  - href: /komponenter/footers/
 
-Page templates:
-  - href: /examples/
-  - href: /examples/pageexamples/
+#Left menu for udvidelser-category
+Udvidelser_category:
+  - alternative_text: Overblik
+    href: /udvidelser/ 
+  - href: /udvidelser/selectwoo-multiselect/
+  - href: /udvidelser/datatables/
+
+Eksempler_category:
+  - alternative_text: Overblik
+    href: /eksempler/
+  - href: /eksempler/sideeksempler/
+
+Krav_category:
+  - alternative_text: Overblik
+    href: /krav/
+  - href: /krav/krav_til_design/
+  - href: /krav/krav_til_integration/
+  - href: /krav/faellesoffentligekrav/
+
+#Left menu for 
+#Getting started:
+#  - alternative_text: Overblik
+#    href: /getting-started/
+#  - href: /getting-started/developers/
+#  - href: /getting-started/designers/
+#  - href: /getting-started/projectmanagers/
+#  - href: /getting-started/integration-til-portalerne/
+#  - href: /getting-started/bidrag-til-designsystemet/
+#  - href: /getting-started/video-tutorials/
+#  - href: /getting-started/loesninger/
+
+
 
 About:
-  - alternative_text: Overblik
-    href: /about/
-  - href: /about/releases/
+  - href: /omdesignsystemet/
+  - href: /omdesignsystemet/releases/
 # - href: /about/updates/
 # - href: /about/product-roadmap/
 # - href: /about/research/

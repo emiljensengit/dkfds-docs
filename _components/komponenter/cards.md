@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/cards/
+permalink: /komponenter/cards/
 layout: styleguide
 type: component
 title: Cards
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode 
 lead: A card is a sheet of material that serves as an entry point to more detailed information.
 ---

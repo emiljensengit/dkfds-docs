@@ -85,7 +85,7 @@ title: Example-aktindsigt-page-2.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-1'>
+                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-1'>
                         1. Inden du går igang
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -93,13 +93,13 @@ title: Example-aktindsigt-page-2.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2'
+                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2'
                         class='active'>
                         2. Oplysninger om dig
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-3'>
+                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-3'>
                         3. Bekræft oplysninger
                     </a>
                 </li>
@@ -114,7 +114,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-0">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-fornavn">Fornavn</label>
+                    <label class="form-label " for="id-fornavn">Fornavn</label>
 
                     <input class="form-input  input-width-m" placeholder=""
                         id="id-fornavn" value="" name="Input til fornavn"
@@ -125,7 +125,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-efternavn">Efternavn</label>
+                    <label class="form-label " for="id-efternavn">Efternavn</label>
 
                     <input class="form-input  input-width-m" placeholder=""
                         id="id-efternavn" value="" name="Input til efternavn"
@@ -136,7 +136,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-gade-vej">Gade/vej</label>
+                    <label class="form-label " for="id-gade-vej">Gade/vej</label>
 
                     <input class="form-input  input-width-m" placeholder=""
                         id="id-gade-vej" value="" name="Input til gade/vej"
@@ -147,7 +147,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-husnummer">Husnummer</label>
+                    <label class="form-label " for="id-husnummer">Husnummer</label>
 
                     <input class="form-input  input-width-xxs" placeholder=""
                         id="id-husnummer" value="" name="Input til husnummer"
@@ -158,7 +158,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-etage">Etage<span
+                    <label class="form-label " for="id-etage">Etage<span
                             class="weight-normal"> (frivilligt)</span></label>
 
                     <input class="form-input  input-width-xxs" placeholder=""
@@ -169,7 +169,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-side">Side<span
+                    <label class="form-label " for="id-side">Side<span
                             class="weight-normal"> (frivilligt)</span></label>
                     <span class="form-hint" id="input-hint-message-id-side">Fx:
                         TV, 2. dør</span>
@@ -182,7 +182,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-postnummer">Postnummer</label>
+                    <label class="form-label " for="id-postnummer">Postnummer</label>
 
                     <input class="form-input  input-width-xxs" placeholder=""
                         id="id-postnummer" value="" name="Input til postnummer"
@@ -193,7 +193,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-by">By</label>
+                    <label class="form-label " for="id-by">By</label>
 
                     <input class="form-input  input-width-m" placeholder=""
                         id="id-by" value="" name="Input til by" type="text">
@@ -203,7 +203,7 @@ title: Example-aktindsigt-page-2.html
             <div class="mt-5">
 
                 <div class="form-group">
-                    <label class="form-label icon-link " for="id-co-adresse">Evt.
+                    <label class="form-label " for="id-co-adresse">Evt.
                         CO-adresse<span class="weight-normal">
                             (frivilligt)</span></label>
 
@@ -221,7 +221,7 @@ title: Example-aktindsigt-page-2.html
 
                 <div class="form-group ">
                     <input id="id-aktindsigt-ja" type="radio" name="aktindsigt"
-                        value="Ja" class=" radio-large ">
+                        value="Ja" class="form-radio  radio-large ">
                     <label for="id-aktindsigt-ja" class="radio-large">Ja</label>
                 </div>
 
@@ -230,7 +230,7 @@ title: Example-aktindsigt-page-2.html
 
                 <div class="form-group ">
                     <input id="id-aktindsigt-nej" type="radio" name="aktindsigt"
-                        value="Ja" class=" radio-large ">
+                        value="Ja" class="form-radio  radio-large ">
                     <label for="id-aktindsigt-nej" class="radio-large">Nej</label>
                 </div>
 
@@ -238,9 +238,9 @@ title: Example-aktindsigt-page-2.html
         </fieldset>
     </form>
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-3"
+        <a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-3"
             class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-1"
+        <a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-1"
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>

@@ -1,5 +1,5 @@
 ---
-title: Tekstområde
+title: Textarea
 parent: Form controls
 order: 03
 lead: 

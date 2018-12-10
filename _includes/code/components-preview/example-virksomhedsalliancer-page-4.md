@@ -84,7 +84,7 @@ title: Example-virksomhedsalliancer-page-4.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-1'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-1'>
                         1. Stamdata
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -92,7 +92,7 @@ title: Example-virksomhedsalliancer-page-4.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-2'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-2'>
                         2. SMV-kriterier
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -100,7 +100,7 @@ title: Example-virksomhedsalliancer-page-4.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-3'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-3'>
                         3. Statsstøtte
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -108,7 +108,7 @@ title: Example-virksomhedsalliancer-page-4.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-4'
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-4'
                         class='active'>
                         4. Tilskud til land
                     </a>
@@ -127,15 +127,15 @@ title: Example-virksomhedsalliancer-page-4.html
             <span class="form-hint" id="input-hint-message-id-advisors">Navne
                 skal skrives i samme rækkefølge, som landene er anført</span>
 
-            <textarea class="form-input textarea input-width-m input-width-m" placeholder="" id="id-advisors" name="Input til navn(-e) på rådgivere på ambassaden/generalkonsulatet" type="text" ></textarea>
+            <textarea class="form-input input-width-m" placeholder="" id="id-advisors" name="Input til navn(-e) på rådgivere på ambassaden/generalkonsulatet" type="text" ></textarea>
         </div>
 
     </div>
     <div class="mt-6">
 
         <div class="form-group">
-            <label class="form-label icon-link " for="id-companyalliance">Navn
-                på virksomhedsalliance</label>
+            <label class="form-label " for="id-companyalliance">Navn på
+                virksomhedsalliance</label>
 
             <input class="form-input  input-width-m" placeholder="" id="id-companyalliance"
                 value="" name="Input til navn på virksomhedsalliance" type="text">
@@ -150,7 +150,7 @@ title: Example-virksomhedsalliancer-page-4.html
 
             <div class="form-group ">
                 <input id="id-state-yes" type="radio" name="minimis" value="Ja"
-                    class=" radio-large " data-js-target='#collapse-radio'
+                    class="form-radio  radio-large " data-js-target='#collapse-radio'
                     aria-controls='collapse-radio' aria-expanded='false'>
                 <label for="id-state-yes" class="radio-large">Ja</label>
             </div>
@@ -207,7 +207,7 @@ title: Example-virksomhedsalliancer-page-4.html
 
             <div class="form-group ">
                 <input id="id-state-no" type="radio" name="minimis" value="Nej"
-                    class=" radio-large ">
+                    class="form-radio  radio-large ">
                 <label for="id-state-no" class="radio-large">Nej</label>
             </div>
 
@@ -216,7 +216,7 @@ title: Example-virksomhedsalliancer-page-4.html
 
     <nav class="page-navigation">
         <a href="#" class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-3"
+        <a href="/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-3"
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>

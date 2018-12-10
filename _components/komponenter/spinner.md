@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/spinner/
+permalink: /komponenter/spinner/
 layout: styleguide
 type: element
 title: Spinner
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: Spinner lead
 ---

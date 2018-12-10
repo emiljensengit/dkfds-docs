@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/modals/
+permalink: /komponenter/modals/
 layout: styleguide
 type: component
 title: Modalvinduer
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: 
 ---

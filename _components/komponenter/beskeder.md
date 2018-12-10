@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/beskeder/
+permalink: /komponenter/beskeder/
 layout: styleguide
 type: component
 title: Beskeder (Alerts)
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: Alerts keep users informed of important and sometimes time-sensitive changes.
 ---

@@ -98,49 +98,49 @@ title: Example-aes-page-1.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-1'
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-1'
                         class='active'>
                         1. Oplysninger om afsender
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-2'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-2'>
                         2. Hvis AES har spørgsmål til sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-3'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-3'>
                         3. Oplysninger om skadelidte
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-4'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-4'>
                         4. Sagens natur
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5'>
                         5. Oplysninger om sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-6'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-6'>
                         6. Tilføj dokumentation for første undersøgelse af
                         skaden
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7'>
                         7. Tilføj dokumentation fra sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-8'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-8'>
                         8. Tilføj kommentarer til sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-9'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-9'>
                         9. Opsummering
                     </a>
                 </li>
@@ -157,39 +157,39 @@ title: Example-aes-page-1.html
 
         <div class="form-group mt-3">
             <input id="id-afsender1" type="radio" name="afsender" value="Advokat for forsikringsselskab"
-                class=" radio-large ">
+                class="form-radio  radio-large ">
             <label for="id-afsender1" class="radio-large">Advokat for
                 forsikringsselskab</label>
         </div>
 
         <div class="form-group mt-3">
             <input id="id-afsender2" type="radio" name="afsender" value="Advokat for skadelidte"
-                class=" radio-large ">
+                class="form-radio  radio-large ">
             <label for="id-afsender2" class="radio-large">Advokat for
                 skadelidte</label>
         </div>
 
         <div class="form-group mt-3">
             <input id="id-afsender3" type="radio" name="afsender" value="Forsikringsselskab"
-                class=" radio-large ">
+                class="form-radio  radio-large ">
             <label for="id-afsender3" class="radio-large">Forsikringsselskab</label>
         </div>
 
         <div class="form-group mt-3">
             <input id="id-afsender4" type="radio" name="afsender" value="Erstatningsnævnet"
-                class=" radio-large ">
+                class="form-radio  radio-large ">
             <label for="id-afsender4" class="radio-large">Erstatningsnævnet</label>
         </div>
 
         <div class="form-group mt-3">
             <input id="id-afsender5" type="radio" name="afsender" value="Anden"
-                class=" radio-large ">
+                class="form-radio  radio-large ">
             <label for="id-afsender5" class="radio-large">Anden</label>
         </div>
 
     </div>
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-2"
+        <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-2"
             class="button button-primary">Næste</a>
     </nav>
 </main>

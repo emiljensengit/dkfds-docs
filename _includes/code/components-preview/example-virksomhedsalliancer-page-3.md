@@ -84,7 +84,7 @@ title: Example-virksomhedsalliancer-page-3.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-1'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-1'>
                         1. Stamdata
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -92,7 +92,7 @@ title: Example-virksomhedsalliancer-page-3.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-2'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-2'>
                         2. SMV-kriterier
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -100,13 +100,13 @@ title: Example-virksomhedsalliancer-page-3.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-3'
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-3'
                         class='active'>
                         3. Statsstøtte
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-4'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-4'>
                         4. Tilskud til land
                     </a>
                 </li>
@@ -131,8 +131,8 @@ title: Example-virksomhedsalliancer-page-3.html
     <div class="mt-6">
 
         <div class="form-group">
-            <label class="form-label icon-link " for="id-state">Statsstøtte
-                (EU de-minimis) i DKK</label>
+            <label class="form-label " for="id-state">Statsstøtte (EU
+                de-minimis) i DKK</label>
             <span class="form-hint" id="input-hint-message-id-state">Modtaget
                 fra dags dato og de tre seneste løbende år eksl. det
                 aktuelle projekt.</span>
@@ -150,7 +150,7 @@ title: Example-virksomhedsalliancer-page-3.html
 
             <div class="form-group ">
                 <input id="id-state-yes" type="radio" name="minimis" value="Ja"
-                    class=" radio-large " data-js-target='#collapse-radio'
+                    class="form-radio  radio-large " data-js-target='#collapse-radio'
                     aria-controls='collapse-radio' aria-expanded='false'>
                 <label for="id-state-yes" class="radio-large"
                     data-js-target='#collapse-radio' aria-controls='collapse-radio'
@@ -161,7 +161,7 @@ title: Example-virksomhedsalliancer-page-3.html
                 <div class="py-4">
 
                     <div class="form-group">
-                        <label class="form-label icon-link " for="id-minimis-name">Ordningens
+                        <label class="form-label " for="id-minimis-name">Ordningens
                             navn</label>
 
                         <input class="form-input  input-width-m"
@@ -174,7 +174,7 @@ title: Example-virksomhedsalliancer-page-3.html
                             <label class="form-label icon-link">Dato for
                                 modtagelse</label>
                             <span class="form-hint">Fx. 28 04 1996</span>
-                            <span class="input-error-message" id="input-error-message-input-error"
+                            <span class="form-error-message" id="form-error-message-input-error"
                                 role="alert"></span>
                             <div class="date-group js-calendar-group mt-3">
                                 <div class="form-group form-group-day">
@@ -211,8 +211,8 @@ title: Example-virksomhedsalliancer-page-3.html
                     </fieldset>
 
                     <div class="form-group">
-                        <label class="form-label icon-link " for="id-amount">Beløb
-                            i DKK</label>
+                        <label class="form-label " for="id-amount">Beløb i
+                            DKK</label>
 
                         <input class="form-input  input-width-xs"
                             placeholder="" id="id-amount" value="" name="Input til beløb i DKK"
@@ -220,7 +220,7 @@ title: Example-virksomhedsalliancer-page-3.html
                     </div>
 
                     <div class="form-group">
-                        <label class="form-label icon-link " for="id-reference">Henvisning
+                        <label class="form-label " for="id-reference">Henvisning
                             til yderligere information om ordningen</label>
                         <span class="form-hint" id="input-hint-message-id-reference">Fx.
                             et link (url)</span>
@@ -237,7 +237,7 @@ title: Example-virksomhedsalliancer-page-3.html
 
             <div class="form-group ">
                 <input id="id-state-no" type="radio" name="minimis" value="Nej"
-                    class=" radio-large ">
+                    class="form-radio  radio-large ">
                 <label for="id-state-no" class="radio-large">Nej</label>
             </div>
 
@@ -245,9 +245,9 @@ title: Example-virksomhedsalliancer-page-3.html
     </div>
 
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-4"
+        <a href="/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-4"
             class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-2"
+        <a href="/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-2"
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>

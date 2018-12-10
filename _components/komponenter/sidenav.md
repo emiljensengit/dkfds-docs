@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/sidenav/
+permalink: /komponenter/sidenav/
 layout: styleguide
 type: component
 title: Sidenavigation
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead: 
 ---

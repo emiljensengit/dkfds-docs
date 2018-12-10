@@ -1,9 +1,9 @@
 ---
-permalink: /designandcode/trinindikatorer/
+permalink: /komponenter/trinindikatorer/
 layout: styleguide
 type: component
 title: Trinindikatorer
-category: UI components
+category: Komponenter_category
 subcategory: Design og kode
 lead:
 ---

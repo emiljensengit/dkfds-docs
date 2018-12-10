@@ -97,7 +97,7 @@ title: Example-aes-page-5.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-1'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-1'>
                         1. Oplysninger om afsender
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -105,7 +105,7 @@ title: Example-aes-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-2'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-2'>
                         2. Hvis AES har spørgsmål til sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -113,7 +113,7 @@ title: Example-aes-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-3'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-3'>
                         3. Oplysninger om skadelidte
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -121,7 +121,7 @@ title: Example-aes-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-4'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-4'>
                         4. Sagens natur
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -129,29 +129,29 @@ title: Example-aes-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5'
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5'
                         class='active'>
                         5. Oplysninger om sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-6'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-6'>
                         6. Tilføj dokumentation for første undersøgelse af
                         skaden
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7'>
                         7. Tilføj dokumentation fra sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-8'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-8'>
                         8. Tilføj kommentarer til sagen
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-9'>
+                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-9'>
                         9. Opsummering
                     </a>
                 </li>
@@ -168,7 +168,7 @@ title: Example-aes-page-5.html
                     data-tippy-trigger="click" title="Her står relevant uddybbende hjælpetekst.  Lorem ipsum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum."
                     aria-label="Her står relevant uddybbende hjælpetekst.  Lorem ipsum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum."><svg class='icon-svg'><use xlink:href='#help-circle-outline'></use></svg></button></label>
             <span class="form-hint">Fx. 28 04 1996</span>
-            <span class="input-error-message" id="input-error-message-input-error"
+            <span class="form-error-message" id="form-error-message-input-error"
                 role="alert"></span>
             <div class="date-group js-calendar-group mt-3">
                 <div class="form-group form-group-day">
@@ -201,7 +201,7 @@ title: Example-aes-page-5.html
     <div class="mt-6">
 
         <div class="form-group">
-            <label class="form-label icon-link " for="id-skadenummer">Jeres
+            <label class="form-label " for="id-skadenummer">Jeres
                 sags-/skadenummer<button class="js-tooltip tooltip"
                     data-tippy-trigger="click" title="Her står relevant uddybbende hjælpetekst.  Lorem ipsum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum."
                     aria-label="Her står relevant uddybbende hjælpetekst.  Lorem ipsum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum psum lorem ipsum."><svg class='icon-svg'><use xlink:href='#help-circle-outline'></use></svg></button></label>
@@ -215,7 +215,7 @@ title: Example-aes-page-5.html
 
         <div class="form-group ">
             <input id="id-retssag" type="checkbox" name="Der verserer en retssag"
-                value="Der verserer en retssag" class=" checkbox-large js-checkbox-toggle-content"
+                value="Der verserer en retssag" class="form-checkbox  checkbox-large js-checkbox-toggle-content"
                 data-js-target='#collapse-check' aria-controls='collapse-check'
                 aria-expanded='false'>
             <label for="id-retssag" class="">Der verserer en retssag</label>
@@ -228,7 +228,7 @@ title: Example-aes-page-5.html
                     <div class="form-group">
                         <label class="form-label icon-link">Berammelsesdato</label>
                         <span class="form-hint">Fx. 28 04 1996</span>
-                        <span class="input-error-message" id="input-error-message-input-error"
+                        <span class="form-error-message" id="form-error-message-input-error"
                             role="alert"></span>
                         <div class="date-group js-calendar-group mt-3">
                             <div class="form-group form-group-day">
@@ -265,7 +265,7 @@ title: Example-aes-page-5.html
 
                     <div class="form-group ">
                         <input id="id-berammet" type="checkbox" name="Ikke berammet"
-                            value="Ikke berammet" class=" checkbox-large ">
+                            value="Ikke berammet" class="form-checkbox  checkbox-large ">
                         <label for="id-berammet" class="">Ikke berammet</label>
                     </div>
 
@@ -274,9 +274,9 @@ title: Example-aes-page-5.html
         </div>
     </div>
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-6"
+        <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-6"
             class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-4"
+        <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-4"
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>

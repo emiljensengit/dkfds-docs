@@ -84,7 +84,7 @@ title: Example-virksomhedsalliancer-page-2.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-1'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-1'>
                         1. Stamdata
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -92,18 +92,18 @@ title: Example-virksomhedsalliancer-page-2.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-2'
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-2'
                         class='active'>
                         2. SMV-kriterier
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-3'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-3'>
                         3. Statsstøtte
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-4'>
+                    <a href='/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-4'>
                         4. Tilskud til land
                     </a>
                 </li>
@@ -128,8 +128,8 @@ title: Example-virksomhedsalliancer-page-2.html
         <a href="#" class="5">Se eksempel</a>
 
         <div class="form-group">
-            <label class="form-label icon-link " for="id-employees">Antal
-                ansatte i seneste regnskabsår</label>
+            <label class="form-label " for="id-employees">Antal ansatte i
+                seneste regnskabsår</label>
 
             <input class="form-input  input-width-m" placeholder="" id="id-employees"
                 value="" name="Input til antal ansatte i seneste regnskabsår"
@@ -137,8 +137,8 @@ title: Example-virksomhedsalliancer-page-2.html
         </div>
 
         <div class="form-group">
-            <label class="form-label icon-link " for="id-sales">Omsætning
-                i DKK i seneste regnskabsår</label>
+            <label class="form-label " for="id-sales">Omsætning i DKK i
+                seneste regnskabsår</label>
             <span class="form-hint" id="input-hint-message-id-sales">Angives
                 i helt tal, fx. 11.650.334</span>
 
@@ -148,9 +148,9 @@ title: Example-virksomhedsalliancer-page-2.html
         </div>
 
         <nav class="page-navigation">
-            <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-3"
+            <a href="/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-3"
                 class="button button-primary">Næste</a>
-            <a href="/dkfds-docs/pages/page-templates/strategiske-virksomhedsalliancer/virksomhedsalliancer-1"
+            <a href="/dkfds-docs/pages/eksempler/strategiske-virksomhedsalliancer/virksomhedsalliancer-1"
                 class="button button-ghost">Tilbage</a>
         </nav>
 </main>
