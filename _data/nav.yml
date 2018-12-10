@@ -74,9 +74,9 @@ Eksempler_category:
 Krav_category:
   - alternative_text: Overblik
     href: /krav/
-  - href: /krav/krav_til_design/
-  - href: /krav/krav_til_integration/
-  - href: /krav/faellesoffentligekrav/
+#  - href: /krav/krav_til_design/
+#  - href: /krav/krav_til_integration/
+#  - href: /krav/faellesoffentligekrav/
 
 #Left menu for 
 #Getting started:

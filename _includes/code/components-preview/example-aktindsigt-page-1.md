@@ -85,18 +85,18 @@ title: Example-aktindsigt-page-1.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-1'
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-1'
                         class='active'>
                         1. Inden du går igang
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2'>
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2'>
                         2. Oplysninger om dig
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-3'>
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-3'>
                         3. Bekræft oplysninger
                     </a>
                 </li>
@@ -122,7 +122,7 @@ title: Example-aktindsigt-page-1.html
         afgørelsen af din ansøgning.</p>
 
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2"
+        <a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2"
             class="button button-primary">Næste</a>
     </nav>
 </main>

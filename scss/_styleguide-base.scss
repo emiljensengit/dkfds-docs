@@ -643,6 +643,11 @@ code {
   }
 }
 
+.description-image{ //creates a border around an image.
+  border: $outer-border;
+  padding: 8px;
+}
+
 .demo-img-placeholder{
   height: 150px;
 }

@@ -34,17 +34,17 @@ subnav:
 <p>Alle andre komponenter er helt ens på tværs af de to portaler.</p>
 
 <h3 class="h5">Header-temaer</h3>
-<img src="">
+<figure><img src="{{ site.baseurl }}/img/descriptionimages/header-temaer.png" alt="Temahåndtering i header" class="description-image"></figure>
 <p><a href="#">Gå til headerkomponenten</a></p>
 <p><a href="#">Læs om layout til headeren</a></p>
 
 <h3 class="h5">Venstremenu/tringuide-temaer</h3>
-<img src="">
+<figure><img src="{{ site.baseurl }}/img/descriptionimages/venstremenu-tringuide.png" alt="Temahåndtering i venstremenu" class="description-image"></figure>
 <p><a href="#">Gå til venstremenukomponenten</a></p>
 <p><a href="#">Læs om de forskellige tringuides</a></p>
 
 <h3 class="h5">Primærknap-temaer</h3>
-<img src="">
+<figure><img src="{{ site.baseurl }}/img/descriptionimages/Primaerknapper.png" alt="Temahåndtering og knapper" class="description-image"></figure>
 <p><a href="#">Læs om knapper</a></p>
 
 
@@ -98,18 +98,18 @@ myndighedskonstruktioner. Neutralt betyder også at konservativt og tidsløst de
 <div class="row">
   <div class="col-12 col-md-6">
     <h4 class="h5">HTML-guiden</h4>
-    <img src="#">
+    <img src="{{ site.baseurl }}/img/descriptionimages/HTML-guiden.png" alt="HTML-guiden" class="description-image">
   </div>
   <div class="col-12 col-md-6">
     <h4 class="h5">Virks Designmanual</h4>
-    <img src="#">
+    <img src="{{ site.baseurl }}/img/descriptionimages/Virks-designmanual.png" alt="Virks designmanual" class="description-image">
   </div>
 </div>
 <h3>Det Fælles Designsystem</h3>
 <div class="row">
   <div class="col-12 col-md-6">
     <h4 class="h5">Det Fælles Designsystem</h4>
-    <img src="#">
+    <img src="{{ site.baseurl }}/img/descriptionimages/Det-faellles-designsystem.png" alt="Det Fælles Designsystem" class="description-image">
   </div>
 </div>
 
@@ -119,10 +119,10 @@ sammenhæng på tværs, uanset hvilken portal en selvbetjeningsløsning påbegyn
 <div class="row">
   <div class="col-12 col-md-6">
     <h4 class="h5 mb-0">Borger.dk</h4>
-    <img src="#">
+    <img src="{{ site.baseurl }}/img/descriptionimages/borger.dk.png" alt="Borger.dk">
   </div>
   <div class="col-12 col-md-6">
     <h4 class="h5 mb-0">Virk</h4>
-    <img src="#">
+    <img src="{{ site.baseurl }}/img/descriptionimages/virk.png" alt="Virk">
   </div>
 </div>

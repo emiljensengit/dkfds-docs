@@ -11,7 +11,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
             <a href="/dkfds-docs/design/typography/" class="demo-component-box__img">
-                <img src="{{ site.baseurl }}/img/componentimages/Farver.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/Farver.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/farver/">Farver</a></p>
         </div>
@@ -19,7 +19,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
              <a href="/dkfds-docs/design/typography/" class="demo-component-box__img">
-                <img src="{{ site.baseurl }}/img/componentimages/Typography.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/Typography.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/typography/">Fonte og Typografi</a></p>
         </div>
@@ -27,7 +27,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
             <a href="/dkfds-docs/design/typography/" class="demo-component-box__img">
-                <img src="{{ site.baseurl }}/img/componentimages/Grid.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/Grid.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/grid/">Grid</a></p>
         </div>
@@ -35,7 +35,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
             <a href="/dkfds-docs/design/kanter/" class="demo-component-box__img">
-                <img src="{{ site.baseurl }}/img/componentimages/Streger.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/Streger.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/kanter/">Hjørner, streger og skygger</a></p>
         </div>
@@ -43,7 +43,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
             <a href="/dkfds-docs/design/ikoner/" class="demo-component-box__img">
-                <img src="{{ site.baseurl }}/img/componentimages/Ikoner.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/Ikoner.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/ikoner/">Ikoner</a></p>
         </div>
@@ -51,7 +51,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <!--<div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
             <a href="/dkfds-docs/design/typography/">
-                <img src="{{ site.baseurl }}/img/componentimages/human.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/human.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/typography/">Typografi</a></p>
         </div>
@@ -59,7 +59,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
             <a href="/dkfds-docs/design/sideopbygning/" class="demo-component-box__img">
-                <img src="{{ site.baseurl }}/img/componentimages/outline-view_quilt.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/outline-view_quilt.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/sideopbygning/">Sideopbygning (layout)</a></p>
         </div>
@@ -67,7 +67,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
             <a href="/dkfds-docs/design/visueltdesign/" class="demo-component-box__img">
-                <img src="{{ site.baseurl }}/img/componentimages/outline-palette.svg" alt="">
+                <img src="{{ site.baseurl }}/img/componenticons/outline-palette.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/visueltdesign/">Visuelt Design (Look & feel)</a></p>
         </div>

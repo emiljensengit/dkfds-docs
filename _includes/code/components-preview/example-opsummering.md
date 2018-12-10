@@ -97,7 +97,7 @@ title: Example-opsummering.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-1'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-1'>
                         1. Oplysninger om afsender
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -105,7 +105,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-2'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-2'>
                         2. Hvis AES har spørgsmål til sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -113,7 +113,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-3'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-3'>
                         3. Oplysninger om skadelidte
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -121,7 +121,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-4'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-4'>
                         4. Sagens natur
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -129,7 +129,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5'>
                         5. Oplysninger om sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -137,7 +137,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-6'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-6'>
                         6. Tilføj dokumentation for første undersøgelse af
                         skaden
                         <span class='sidenav-icon'>
@@ -146,7 +146,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7'>
                         7. Tilføj dokumentation fra sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -154,7 +154,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-8'>
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-8'>
                         8. Tilføj kommentarer til sagen
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -162,7 +162,7 @@ title: Example-opsummering.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-9'
+                    <a href='/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-9'
                         class='active'>
                         9. Opsummering
                     </a>
@@ -183,17 +183,17 @@ title: Example-opsummering.html
                     <tr>
                         <th class="w-percent-md-30">Virksomhedens navn</th>
                         <td>Forsikringens forsikring (enhed)</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-1">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-1">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Kontaktperson</th>
                         <td>John Doe<br>privatskade@ff.dk<br>+45 1234 5678</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-2">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-2">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Afsender er</th>
                         <td>Forsikringens forsikring (enhed)</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-1">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-1">Rediger</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -203,12 +203,12 @@ title: Example-opsummering.html
                     <tr>
                         <th class="w-percent-md-30">Skadelidtes navn</th>
                         <td>Susanne Maria Zaggariasen</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-3">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-3">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Skadelidtes CPR</th>
                         <td>110687-1478</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-3">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-3">Rediger</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -218,32 +218,32 @@ title: Example-opsummering.html
                     <tr>
                         <th class="w-percent-md-30">Sagstype</th>
                         <td>Erstatningsansvarloven</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-4">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-4">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Emne</th>
                         <td>Mén (6.220 kr.)</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-4">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-4">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Skadedato</th>
                         <td>1/10-2017</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Sagsnummer</th>
                         <td>prsk013456</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Verserende retsag</th>
                         <td>Nej</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Skadelidtes advokat</th>
                         <td>Nej</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-5">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-5">Rediger</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -287,7 +287,7 @@ title: Example-opsummering.html
                         <td>Journal fra egen læge</td>
                         <td>2/10-2017</td>
                         <td>2,3 mb</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7">Rediger</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -308,14 +308,14 @@ title: Example-opsummering.html
                         <td>Journal fra egen læge</td>
                         <td>2/10-2017</td>
                         <td>2,3 mb</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7">Rediger</a></td>
                     </tr>
                     <tr>
                         <td>prn1023152_attest.pdf</td>
                         <td>Journal fra egen læge</td>
                         <td>2/10-2017</td>
                         <td>2,3 mb</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7">Rediger</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -336,15 +336,15 @@ title: Example-opsummering.html
                         <td>Journal fra egen læge</td>
                         <td>2/10-2017</td>
                         <td>2,3 mb</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-7">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-7">Rediger</a></td>
                     </tr>
                 </tbody>
             </table>
 
             <nav class="page-navigation">
-                <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-10"
+                <a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-10"
                     class="button button-primary">Send sagen til AES</a>
-                <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-8"
+                <a href="/dkfds-docs/pages/page-templates/AES-erstatningssag/aes-8"
                     class="button button-ghost">Tilbage</a>
             </nav>
         </div>

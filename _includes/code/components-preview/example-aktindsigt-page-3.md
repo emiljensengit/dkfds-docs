@@ -85,7 +85,7 @@ title: Example-aktindsigt-page-3.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-1'>
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-1'>
                         1. Inden du går igang
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -93,7 +93,7 @@ title: Example-aktindsigt-page-3.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2'>
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2'>
                         2. Oplysninger om dig
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -101,7 +101,7 @@ title: Example-aktindsigt-page-3.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-3'
+                    <a href='/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-3'
                         class='active'>
                         3. Bekræft oplysninger
                     </a>
@@ -119,22 +119,22 @@ title: Example-aktindsigt-page-3.html
                     <tr>
                         <th class="w-percent-md-30">Navn</th>
                         <td>Karen Jensen</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Adresse</th>
                         <td>Vængetstræde 77<br>0081 Købstad</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Alder</th>
                         <td>39</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2">Rediger</a></td>
                     </tr>
                     <tr>
                         <th class="w-percent-md-30">Tidligere ansøgninger</th>
                         <td>Nej</td>
-                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2">Rediger</a></td>
+                        <td class="align-text-md-right"><a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2">Rediger</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -142,9 +142,9 @@ title: Example-aktindsigt-page-3.html
     </div>
 
     <nav class="page-navigation">
-        <a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-4"
+        <a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-4"
             class="button button-primary">Næste</a>
-        <a href="/dkfds-docs/pages/eksempler/aktindsigt/aktindsigt-2"
+        <a href="/dkfds-docs/pages/page-templates/aktindsigt/aktindsigt-2"
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>
