@@ -644,6 +644,36 @@ code {
   padding: 8px;
 }
 
+.demo-img-container{
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: map-get($spacers, 4);
+  background-color: $background-alternative;
+  img{
+    height: 100%;
+  }
+  &--turquoise{
+    background-color: $color-data-turquoise;
+  }
+  &--teal{
+    background-color: $color-data-teal;
+  }
+  &--orange{
+    background-color: $color-data-orange;
+  }
+  &--magenta{
+    background-color: $color-data-magenta;
+  }
+  &--purple{
+    background-color: $color-data-purple;
+  }
+  &--violet{
+    background-color: $color-data-violet;
+  }
+}
+
 .demo-img-placeholder{
   height: 150px;
 }
