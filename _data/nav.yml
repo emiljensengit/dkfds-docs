@@ -38,33 +38,33 @@ Design_category:
 Komponenter_category:
   - alternative_text: Overblik
     href: /komponenter/
-  - href: /komponenter/utility/
-  - href: /komponenter/buttons/
-  - href: /komponenter/tags/
   - href: /komponenter/accordions/
+  - href: /komponenter/badges/
   - href: /komponenter/beskeder/
   - href: /komponenter/cards/
-  - href: /komponenter/form-controls/
-  - href: /komponenter/search/
-  - href: /komponenter/badges/
-  - href: /komponenter/tables/
-  - href: /komponenter/trinindikatorer/
-  - href: /komponenter/sidenav/
   - href: /komponenter/tabnav/
-  - href: /komponenter/spinner/
-  - href: /komponenter/overflowmenu/
-  - href: /komponenter/modals/
-  - href: /komponenter/tooltip/
-  - href: /komponenter/collapse/
-  - href: /komponenter/headers/
   - href: /komponenter/footers/
+  - href: /komponenter/form-controls/
+  - href: /komponenter/headers/
+  - href: /komponenter/utility/
+  - href: /komponenter/buttons/
+  - href: /komponenter/modals/
+  - href: /komponenter/overflowmenu/
+  - href: /komponenter/sidenav/
+  - href: /komponenter/collapse/
+  - href: /komponenter/spinner/
+  - href: /komponenter/search/
+  - href: /komponenter/tables/
+  - href: /komponenter/tags/
+  - href: /komponenter/tooltip/
+  - href: /komponenter/trinindikatorer/
 
 #Left menu for udvidelser-category
 Udvidelser_category:
   - alternative_text: Overblik
     href: /udvidelser/ 
-  - href: /udvidelser/selectwoo-multiselect/
   - href: /udvidelser/datatables/
+  - href: /udvidelser/selectwoo-multiselect/
 
 Eksempler_category:
   - alternative_text: Overblik

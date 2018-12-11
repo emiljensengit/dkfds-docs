@@ -1609,43 +1609,50 @@ h1, .h1 {
   font-size: 4rem;
   line-height: 4.8rem;
   font-weight: 700;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
   @media (max-width: 767px) {
     h1, .h1 {
       font-size: 3rem;
       line-height: 4rem;
       font-weight: 600;
-      color: #1a1a1a; } }
+      color: #1a1a1a;
+      text-transform: none; } }
 
 h2, .h2 {
   font-size: 3rem;
   line-height: 4rem;
   font-weight: 600;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
   @media (max-width: 767px) {
     h2, .h2 {
       font-size: 2.4rem;
       line-height: 3.2rem;
       font-weight: 600;
-      color: #1a1a1a; } }
+      color: #1a1a1a;
+      text-transform: none; } }
 
 h3, .h3 {
   font-size: 2.4rem;
   line-height: 3.2rem;
   font-weight: 600;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
 
 h4, .h4 {
   font-size: 1.9rem;
   line-height: 2.4rem;
   font-weight: 700;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
 
 h5, .h5 {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 700;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
 
 h6, .h6 {
   font-size: 1.3rem;
@@ -1658,7 +1665,8 @@ p, .body-text, .body-copy-text {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 400;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
 
 .font-lead {
   font-size: 2rem;
@@ -1671,7 +1679,8 @@ p, .body-text, .body-copy-text {
       font-size: 1.6rem;
       line-height: 2.4rem;
       font-weight: 400;
-      color: #1a1a1a; } }
+      color: #1a1a1a;
+      text-transform: none; } }
 
 .weight-normal {
   font-weight: 400; }
@@ -1694,7 +1703,8 @@ small, .small-text {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 600;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
 
 /*h1, .h1, //Removed this styling, it make for a messy margin handling. 
 h2, .h2,
@@ -1765,6 +1775,7 @@ h5 + p, h5 + ul, h5 + ol, .h5 + p, .h5 + ul, .h5 + ol, h6 + p, h6 + ul, h6 + ol,
   line-height: 2.4rem;
   font-weight: 400;
   color: #1a1a1a;
+  text-transform: none;
   display: inline-flex; }
   .function-link:hover, .function-link:visited, .function-link:focus {
     color: #1a1a1a; }
@@ -4549,6 +4560,7 @@ figure {
   line-height: 2.4rem;
   font-weight: 400;
   color: #1a1a1a;
+  text-transform: none;
   display: block;
   color: #747474; }
 
@@ -4557,7 +4569,8 @@ figure {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 600;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
 
 .form-input {
   -webkit-appearance: none;
@@ -4629,6 +4642,7 @@ table .form-select {
   line-height: 2.4rem;
   font-weight: 600;
   color: #1a1a1a;
+  text-transform: none;
   display: block;
   color: #E92021;
   margin-top: 4px; }
@@ -4996,7 +5010,8 @@ ol {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 600;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  text-transform: none; }
 
 .pika-prev,
 .pika-next {
@@ -6209,6 +6224,7 @@ footer .footer-theme {
     line-height: 2.4rem;
     font-weight: 400;
     color: #1a1a1a;
+    text-transform: none;
     display: block;
     text-decoration: none; }
     .nav-primary .overflow-menu .overflow-menu-inner a:hover, .nav-primary .overflow-menu .overflow-menu-inner a:visited, .nav-primary .overflow-menu .overflow-menu-inner a:focus {
@@ -6522,6 +6538,7 @@ input[type="search"] {
     line-height: 2.4rem;
     font-weight: 400;
     color: #1a1a1a;
+    text-transform: none;
     font-weight: 600;
     color: #1a1a1a;
     margin: 0; }
@@ -6530,12 +6547,14 @@ input[type="search"] {
       line-height: 4.8rem;
       font-weight: 700;
       color: #1a1a1a;
+      text-transform: none;
       color: #454545; }
   .card-header .sub-header {
     font-size: 1.6rem;
     line-height: 2.4rem;
     font-weight: 400;
     color: #1a1a1a;
+    text-transform: none;
     margin-top: 0;
     margin-bottom: 0;
     color: #747474; }
@@ -6548,6 +6567,7 @@ input[type="search"] {
     line-height: 2.4rem;
     font-weight: 400;
     color: #1a1a1a;
+    text-transform: none;
     margin-top: 16px;
     color: #454545;
     margin-bottom: 0; }
@@ -6557,6 +6577,7 @@ input[type="search"] {
   line-height: 2.4rem;
   font-weight: 400;
   color: #1a1a1a;
+  text-transform: none;
   padding: 0;
   padding-left: 24px;
   padding-right: 24px;
@@ -6576,6 +6597,7 @@ input[type="search"] {
   line-height: 2.4rem;
   font-weight: 400;
   color: #1a1a1a;
+  text-transform: none;
   padding: 16px 24px;
   color: #454545;
   margin-bottom: 0; }
@@ -6893,6 +6915,7 @@ input[type="search"] {
       line-height: 2.4rem;
       font-weight: 400;
       color: #1a1a1a;
+      text-transform: none;
       display: block;
       text-decoration: none; }
       .overflow-menu .overflow-list a:hover, .overflow-menu .overflow-list a:visited, .overflow-menu .overflow-list a:focus {
@@ -7009,6 +7032,7 @@ input[type="search"] {
   line-height: 2.4rem;
   font-weight: 400;
   color: #1a1a1a;
+  text-transform: none;
   font-size: 1.3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   background-color: #fff;
@@ -7533,9 +7557,6 @@ code {
   justify-content: center;
   padding: 16px;
   background-color: #F5F5F5; }
-  .demo-component-box__img img {
-    height: 100%;
-    width: auto; }
   .demo-component-box__img:focus {
     background-color: #F5F5F5;
     outline: 4px solid #febb30; }

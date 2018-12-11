@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: landing
-title: Frontend Styleguiden
+title: Forside
 ---
 
 <div class="alert alert-info" role="alert" aria-label="Styleguiden er gået i beta">
