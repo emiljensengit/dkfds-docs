@@ -920,23 +920,13 @@ body {
   color: #1a1a1a;
   overflow-x: hidden; }
 
-.lt-ie9 * {
-  -webkit-filter: none !important;
-          filter: none !important;
-  /* stylelint-disable-line declaration-no-important */ }
-
 [hidden] {
-  display: none !important;
-  /* stylelint-disable-line declaration-no-important */ }
+  display: none !important; }
 
 a:focus, button:focus, input:focus, select:focus, textarea:focus,
 .focus {
   outline: 4px solid #febb30;
   outline-offset: 0; }
-
-hr {
-  border-color: #999999;
-  border-top: 0; }
 
 /* stylelint-disable */
 .container {
@@ -1610,7 +1600,8 @@ h1, .h1 {
   line-height: 4.8rem;
   font-weight: 700;
   color: #1a1a1a;
-  text-transform: none; }
+  text-transform: none;
+  word-break: break-word; }
   @media (max-width: 767px) {
     h1, .h1 {
       font-size: 3rem;
@@ -5389,6 +5380,10 @@ input.input-char-27, select.input-char-27, textarea.input-char-27 {
   overflow-x: auto;
   min-height: .01%; }
 
+hr {
+  border-color: #BFBFBF;
+  border-top: 0; }
+
 .accordion-button {
   background-color: transparent;
   border: 0;
@@ -5642,6 +5637,7 @@ footer .footer-theme {
     background-image: url("https://via.placeholder.com/200x60");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
     height: 60px;
     width: 200px;
@@ -6548,6 +6544,7 @@ input[type="search"] {
       font-weight: 700;
       color: #1a1a1a;
       text-transform: none;
+      word-break: break-word;
       color: #454545; }
   .card-header .sub-header {
     font-size: 1.6rem;
@@ -7568,6 +7565,28 @@ code {
 .description-image {
   border: 1px solid #999999;
   padding: 8px; }
+
+.demo-img-container {
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: #F5F5F5; }
+  .demo-img-container img {
+    height: 100%; }
+  .demo-img-container--turquoise {
+    background-color: #56D4D6; }
+  .demo-img-container--teal {
+    background-color: #15b094; }
+  .demo-img-container--orange {
+    background-color: #FF6A38; }
+  .demo-img-container--magenta {
+    background-color: #D81884; }
+  .demo-img-container--purple {
+    background-color: #8F2B8F; }
+  .demo-img-container--violet {
+    background-color: #474E95; }
 
 .demo-img-placeholder {
   height: 150px; }
