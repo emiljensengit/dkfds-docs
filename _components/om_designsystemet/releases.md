@@ -1,7 +1,7 @@
 ---
 permalink: /omdesignsystemet/releases/
 layout: styleguide
-title: Versionsnoter
+title: Releasenotes
 category: Om_designsystemet_category
 subnav:
 - text: Version 2.1.2

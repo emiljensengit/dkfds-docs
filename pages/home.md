@@ -5,7 +5,7 @@ title: Forside
 ---
 <div class="row mt-6">
   <div class="col-12 col-md-5">
-    <h1 class="mt-0">Designsystemet til selvbetjeningsløsninger, der skal på borger.dk og Virk</h1>
+    <h1 class="mt-0">Designsystemet til selvbetjenings-&shy;løsninger, der skal på borger.dk og Virk</h1>
     <p class="font-lead">
       Vær med til at bygge simple og effektive selvbetjeningsløsninger fra et solidt grundlag, der lader dig fokusere på brugervenlighed og brugerinddragelse frem for at diskutere nyt design igen og igen.
     </p>  

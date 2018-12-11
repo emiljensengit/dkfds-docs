@@ -20,6 +20,7 @@ mobile:
   - href: /krav/
     categorynav: 'Krav_category'
   - href: /omdesignsystemet/
+    categorynav: 'Om_designsystemet_category'    
 
 #Left menu for design-category
 Design_category:
@@ -74,6 +75,7 @@ Eksempler_category:
 Krav_category:
   - alternative_text: Overblik
     href: /krav/
+    
 #  - href: /krav/krav_til_design/
 #  - href: /krav/krav_til_integration/
 #  - href: /krav/faellesoffentligekrav/
@@ -92,8 +94,9 @@ Krav_category:
 
 
 
-About:
-  - href: /omdesignsystemet/
+Om_designsystemet_category:
+  - alternative_text: Overblik
+    href: /omdesignsystemet/
   - href: /omdesignsystemet/releases/
 # - href: /about/updates/
 # - href: /about/product-roadmap/
