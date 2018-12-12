@@ -100,7 +100,7 @@
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
             <a href="/dkfds-docs/" title="Home" aria-label="Home">Det Fælles Designsystem</a>
-            <!--<div class="badge badge-large mx-3">BETA</div>-->
+            <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
       </div>
@@ -1750,7 +1750,18 @@
             <p class="font-lead">Brug formular elementerne til at opbygge blanketter til din selvbetjeningsløsning.</p>
           
       
-          
+          <h4>Generelt om tilgængelighed af formularelementer</h4>
+<ul>
+    <li>Formularelementer markeres tydeligt med en focus-tilstand, når brugere vha tab-tasten navigerer sig frem til dem.</li>
+    <li>Overhold sammenhængen mellem den viste rækkefølge af formularelementer på skærmen og deres rækkefølge i koden. Anvend ikke CSS til at omarrangere formularelementerne, da skærmlæsere følger rækkefølgen, som den er angivet i koden.</li>
+    <li>Sørg for at alle elementer står i register – at de står på linje og i et naturligt vertikalt læse-flow fra top til bund.</li>
+    <li>Grupper sammenhængende formularelementer vha. fieldset og brug et enkelt legend for hvert fieldset.</li>
+    <li>Tilføj label til alle formularelementer udover fieldset.</li>
+    <li>Labels til formularelementer skal være meningsfulde og præcise.</li>
+    <li>Undgå placeholder-tekst, da browserne ikke kan garantere tilstrækkeligt kontrastniveau og teksten desuden kan være forvirrende for brugerne. Placeholder-tekst forsvinder, når brugeren klikker i feltet og dermed forsvinder information, der kunne være brugeren til gavn.</li>
+    <li>Tillad copy/paste.</li>
+</ul>
+
 <section class="styleguide-child-container content" id="section-/komponenter/form-controls/01-text-input">
   <h2 id="felter">Felter</h2>
   
@@ -1874,7 +1885,32 @@
     Brugervenlighed
   </button>
   <div id="text-input-docs" aria-hidden="false" class="accordion-content">
-  
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Undgå at opdele felter fx til telefonnumre, da det enkelte felt ikke kan tilføjes et meningsfuldt label.</p>
+      </section>
+      <section>
+        <h4>Brugervenlighed</h4>
+        <h5>Anvendes til</h5>
+        <ul>
+            <li>Bruger-input af information i form af bogstaver, tal og en kombination af begge.</li>
+            <li>Bruges hovedsageligt, når der er behov for at brugeren kan tilføje information, som ikke kan vælges i mellem prædefinerede værdier eller på anden måde forudses af løsningen.</li>
+            <li>Når det er nemmere at skrive information end at vælge den gennem en kompliceret proces. Ofte kan et datofelt være nemmere at anvende – og gøre tilgængeligt – end en date picker funktion.</li>
+            <li>Når brugeren skal kunne copy/paste information ind i en formular.</li>
+        </ul>
+
+        <h5>Anvendes ikke til</h5>
+        <p>Når brugeren skal kunne vælge ud fra et prædefineret sæt af værdier og der er behov for datakonsistens.</p>
+        <h5>Vejledning</h5>
+        <ul>
+            <li>Vis kun fejlbeskeder, når brugeren har indtastet en ugyldig værdi.</li>
+            <li>Fejlbeskeder skal være meningsfulde og hjælpsomme. </li>
+            <li>Fejlbeskeder placeres imellem label og feltet, som markeres med rødt.</li>
+            <li>Felter er ikke perfekte til mobile løsninger. Overvej om de er nødvendige eller om brugeren kan tilbydes en anden form for interaktion.</li>
+        </ul>
+      </section>
+    </article>
   </div>
 </div>
 
@@ -2067,7 +2103,22 @@
     Brugervenlighed
   </button>
   <div id="text-input-width-docs" aria-hidden="false" class="accordion-content">
-    
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Feltets bredde skal modsvare det, brugeren forventes at indtaste, så tegn ikke skjules.</p>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <p>Feltbredden angiver det forventede omfang, så brugeren kan få en fornemmelse af, hvad der skal indtastes. Dvs fx et felt til et dansk postnummer bør kun være 4 tegn bredt, hvorimod et felt til gadenavn bør være fx 27 tegn. </p>
+          <p>Feltbredde bruges til at begrænse antallet af tegn i et felt.</p>
+          <h5>Anvendes ikke til</h5>
+          <p>Feltbredde anvendes ikke til at validere brugerens input. Hvis der er et bestemt krav til inputvalidering, bør det angives i en vejledning.</p>
+          <h5>Vejledning</h5>
+          <p>Tilføj feltbredde-værdier som modsvarer den mængde information, brugeren forventes at indtaste, så tegn ikke skjules eller brugeren bliver i tvivl om, vedkommende har indtastet for lidt.</p>
+      </section>
+    </article>
   </div>
 </div>
 
@@ -2159,7 +2210,31 @@
     Brugervenlighed
   </button>
   <div id="text-area-docs" aria-hidden="false" class="accordion-content">
-  
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Tekstområdet markeres tydeligt med en focus-tilstand, når brugere vha tab-tasten navigerer sig frem til dem.</p>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <ul>
+              <li>Tekstområder anvendes til sammenhængende (mere end 2 linjer), men ustruktureret tekst og sætninger, der har karakter af prosa som fx en baggrundsfortælling.</li>
+              <li>Når der er behov for yderligere, sammenhængende information, hvis karakter ikke kan vælges fra et prædefineret sæt værdier.</li>
+              <li>Når løsningen stiller et spørgsmål, der ikke kan besvares i et felt.</li>
+          </ul>
+          <h5>Anvendes ikke til</h5>
+          <p>Tekstområder anvendes ikke til struktureret information, hvor datakonsistens har betydning.</p>
+          <h5>Vejledning</h5>
+          <ul>
+              <li>Angiv tekstområdets højde, så det modsvarer den tekstmængde, du forventer brugeren skal levere.</li>
+              <li>Overvej at begrænse antallet af tegn, hvis det giver mening.</li>
+              <li>Vis kun fejlbeskeder, når brugeren har indtastet en ugyldig værdi.</li>
+              <li>Fejlbeskeder skal være meningsfulde og hjælpsomme. </li>
+              <li>Fejlbeskeder placeres imellem label og feltet, som markeres med rødt.</li>
+          </ul>
+      </section>
+    </article>
   </div>
 </div>
 
@@ -2253,7 +2328,33 @@
     Brugervenlighed
   </button>
   <div id="dropdown-docs" aria-hidden="false" class="accordion-content">
-   
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Dropdown-menu skal have et label tilknyttet.</p>
+          <p>Anvend ikke JavaScript til automatisk at sende den valgte værdi, da en skærmlæser vælger hver option i takt med, at de læser dem op.</p>
+          <p>Dropdown-menuens værdier er ikke umiddelbart synlige, øger sidens kompleksitet og bør kun anvendes sparsomt</p>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <p>Anvend kun dropdown-menuer, når det er absolut nødvendigt og kun i tilfælde, hvor brugeren skal vælge mellem 7-15 værdier på begrænset plads.</p>
+          <h5>Anvendes ikke til</h5>
+          <ul>
+              <li>Lister med færre værdier end 7.</li>
+              <li>Lister med flere værdier end 15. I så tilfælde bør brugeren tilbydes et felt med auto-forslag, når brugeren begynder at indtaste.</li>
+              <li>Hvis brugeren skal vælge mere end 1 værdi, skal der i stedet anvendes tjekbokse.</li>
+              <li>Dropdown-menu er ikke velegnet til navigation.</li>
+          </ul>
+          <h5>Vejledning</h5>
+          <ul>
+              <li>Dropdown-menuer kræver ekstra aftestning på målgruppen pga de kognitive udfordringer, de kan afføde.</li>
+              <li>Undgå at lade en dropdown-menus valg påvirke en anden. Det forvirrer mange brugere.</li>
+              <li>Hvis du på forhånd ved, at mange brugere vil vælge den samme værdi, så marker den med <code>option selected="selected"&gt;Default/option</code>, så de ikke skal bruge tid på at gennemsøge listen.</li>
+              <li>Anvend ikke JavaScript til automatisk at sende den valgte værdi, men sørg for at der er en submit-knap til at afsende formularen med.</li>
+          </ul>
+      </section>
+    </article>
   </div>
 </div>
 
@@ -2436,7 +2537,40 @@
     Brugervenlighed
   </button>
   <div id="checkbox-docs" aria-hidden="false" class="accordion-content">
-    
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <ul>
+          <li>Tjekbokse (mere end 1) skal altid indsættes i et fieldset inkl. legend. En enkelt tjekboks skal ikke sidde i et fieldset.</li>
+          <li>Hver tjekboks skal have label tilknyttet. Label kan erstattes med title-attributten.</li>
+          <li>Hver tjekboks skal have sit eget id og dets tilhørende label den samme værdi angivet.</li>
+          <li>Tjekboksenes design er ændret ift standardvisningen for at gøre dem tydeligere og øge deres visuelle respons til brugerens interaktion.</li>
+          <li>Tjekboksene er gjort tilgængelige for skærmlæsere på trods af deres visuelle design, ved at selve checkbox tagget er placeret udenfor det synlige skærmområde.</li>
+          </ul>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <ul>
+          <li>Tjekbokse giver brugeren mulighed for at vælge en eller flere værdier ud fra en synlig liste.</li>
+          <li>Når brugeren skal kunne få overblik over de mulige valg.</li>
+          <li>Når brugeren skal be- eller afkræfte et valg fx Ja/Nej ( i det tilfælde en enkelt tjekboks) eller slå noget til eller fra (toggle).</li>
+          <li>Når listen over mulige valg kan være på en mobilvisning.</li>
+          </ul>
+          <h5>Anvendes ikke til</h5>
+          <ul>
+              <li>Hvis der er for mange valg til at give mening på en mobilvisning.</li>
+              <li>Hvis brugeren kun kan vælge én værdi, skal du vælge radio buttons.</li>
+          </ul>
+          <h5>Vejledning</h5>
+          <ul>
+              <li>Brugeren skal kunne tappe eller klikke på tjekboksen eller dens label for at vælge eller fravælge dens værdi.</li>
+              <li>Lister med tjekbokse bør opstilles vertikalt af hensyn til aflæsning.</li>
+              <li>Anvend et positivt sprog til værdierne. I stedet for fx ”Jeg vil ikke modtage bekræftelse på email” bør der stå ”Jeg vil gerne modtage bekræftelse på email”.</li>
+              <li>Sørg for at der er tilstrækkelig luft omkring den enkelte tjekboks, så den er brugbar på touchskærme.</li>
+          </ul>
+      </section>
+    </article>
   </div>
 </div>
 
@@ -2619,7 +2753,40 @@
     Brugervenlighed
   </button>
   <div id="radio-docs" aria-hidden="false" class="accordion-content">
-   
+   <article>
+      <section>
+        <h4>Tilgængelighed</h4>
+        <ul>
+            <li>Radioknapper (mere end 1) skal altid indsættes i et fieldset inkl. legend. En enkelt tjekboks skal ikke sidde i et fieldset.</li>
+            <li>Hver radioknap skal have label tilknyttet. Label kan erstattes med title-attributten.</li>
+            <li>Hver radioknap skal have sit eget id og dets tilhørende label den samme værdi angivet. </li>
+            <li>Tjekboksenes aktuelle design er ændret ift standardvisningen for at gøre dem tydeligere og øge deres visuelle respons til brugerens interaktion.</li>
+            <li>Tjekboksene er gjort tilgængelige for skærmlæsere, på trods af deres visuelle design, ved at selve checkbox tagget er placeret udenfor det synlige skærmområde.</li>
+        </ul>
+      </section>
+      <section>
+        <h4>Brugervenlighed</h4>
+        <h5>Anvendes til</h5>
+        <ul>
+            <li>Radioknapper giver brugeren mulighed for at vælge en enkelt værdi ud fra en synlig liste.</li>
+            <li>Når brugeren skal kunne få overblik over de mulige valg.</li>
+            <li>Når listen over mulige valg kan være på en mobilvisning.</li>
+        </ul>
+        <h5>Anvendes ikke til</h5>
+        <ul>
+            <li>Når brugeren skal kunne vælge mere end én værdi ud fra en synlig liste.</li>
+            <li>Hvis antallet af mulige værdier er for mange til en mobilvisning, bør du overveje en dropdown-menu.</li>
+            <li>Hvis brugeren skal kunne undlade at vælge en værdi.</li>
+        </ul>
+        <h5>Vejledning</h5>
+        <ul>
+            <li>Brugeren skal kunne tappe eller klikke på radioknappen eller dens label for at vælge eller fravælge dens værdi.</li>
+            <li>Lister med radioknapper bør opstilles vertikalt af hensyn til aflæsning.</li>
+            <li>Sørg for at der er tilstrækkelig luft omkring den enkelte tjekboks, så den er brugbar på touchskærme.</li>
+            <li>Vær forsigtig med at angive et standard valg, da det kan have en modsat effekt, hvor brugeren ikke foretager et bevidst valg eller føler sig manipuleret.</li>
+        </ul>
+      </section>
+    </article>
   </div>
 </div>
 
@@ -2712,9 +2879,34 @@
       <li>the control functions using assistive technology</li>
       <li>the control functions when javascript is not available</li>
     </ul>
-    <br />
     <p>A custom Implementering of this control would need to meet the criteria above.</p>
   </div>
+</div>
+
+<div class="accordion-bordered">
+  <button class="button-unstyled accordion-button" aria-expanded="true" aria-controls="file-input-docs">
+    Brugervenlighed
+  </button>
+  <div id="file-input-docs" aria-hidden="false" class="accordion-content">
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Bør kun anvendes, hvis det er strengt nødvendigt for din løsning.</p>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <p>Lade brugeren vælge og overføre en fil fra sin egen computer, tablet eller mobil.</p>
+          <h5>Anvendes ikke til</h5>
+          <h5>Vejledning</h5>
+          <ul>
+              <li>Sørg for at brugeren får en respons, når filen er overført.</li>
+              <li>Gør tydeligt opmærksom på, hvilke formater og størrelser, der vil blive accepteret.</li>
+              <li>Tjek filformatet før overførslen går i gang, så brugeren ikke spilder tid.</li>
+          </ul>
+      </section>
+  </article>
+</div>
 </div>
 
 </section>
@@ -2822,10 +3014,10 @@
 </div>
 
 <div class="accordion-bordered">
-  <button class="button-unstyled accordion-button" aria-expanded="true" aria-controls="date-input-tech">
+  <button class="button-unstyled accordion-button" aria-expanded="false" aria-controls="date-input-tech">
     Implementering
   </button>
-  <div id="date-input-tech" aria-hidden="false" class="accordion-content">
+  <div id="date-input-tech" aria-hidden="true" class="accordion-content">
      <ul>
       <li>Dato-komponenten består af 2 dele: 3 input-felter og en datepicker.</li>
       <li>Datepickeren er implementeret med vendor scriptet <a href="https://github.com/dbushell/Pikaday">Pikaday</a>. Dette script og den javascript-kode som initialisere dato-komponenten er inkluderet i core javascript filen (dkfds.js).</li>
@@ -2846,7 +3038,21 @@
     Brugervenlighed
   </button>
   <div id="date-input-docs" aria-hidden="false" class="accordion-content">
-
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Anvend ikke JavaScript til automatisk at flytte fokus fra felt til felt, da det gør det svært for tastatur-brugere at navigere i formularen.</p>          
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <p>Sætte brugeren i stand til at tilføje struktureret datoinformation.</p>
+          <h5>Anvendes ikke til</h5>
+          <p>Fx en booking, planlægning eller mere præcis dato- og tidsangivelse. Der bør du i stedet overveje en date picker.</p>
+          <h5>Vejledning</h5>
+          <p>Felternes rækkefølge skal modsvare den datoform, der anvendes i Danmark, dvs. dag, måned og år. Det skal afspejles i felternes labels.</p>
+      </section>
+    </article>
   </div>
 </div>
 

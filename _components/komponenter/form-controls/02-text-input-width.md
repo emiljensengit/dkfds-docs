@@ -54,6 +54,21 @@ lead:
     Brugervenlighed
   </button>
   <div id="text-input-width-docs" aria-hidden="false" class="accordion-content">
-    
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Feltets bredde skal modsvare det, brugeren forventes at indtaste, så tegn ikke skjules.</p>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <p>Feltbredden angiver det forventede omfang, så brugeren kan få en fornemmelse af, hvad der skal indtastes. Dvs fx et felt til et dansk postnummer bør kun være 4 tegn bredt, hvorimod et felt til gadenavn bør være fx 27 tegn. </p>
+          <p>Feltbredde bruges til at begrænse antallet af tegn i et felt.</p>
+          <h5>Anvendes ikke til</h5>
+          <p>Feltbredde anvendes ikke til at validere brugerens input. Hvis der er et bestemt krav til inputvalidering, bør det angives i en vejledning.</p>
+          <h5>Vejledning</h5>
+          <p>Tilføj feltbredde-værdier som modsvarer den mængde information, brugeren forventes at indtaste, så tegn ikke skjules eller brugeren bliver i tvivl om, vedkommende har indtastet for lidt.</p>
+      </section>
+    </article>
   </div>
 </div>

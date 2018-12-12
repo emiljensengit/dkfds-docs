@@ -97,7 +97,7 @@
       <div class="solution-header-inner container">
         <div class="solution-heading d-flex align-items-center">
             <a href="/dkfds-docs/" title="Home" aria-label="Home">Det Fælles Designsystem</a>
-            <!--<div class="badge badge-large mx-3">BETA</div>-->
+            <div class="badge badge-large mx-3">BETA</div>
         </div>
         <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
       </div>
@@ -1701,7 +1701,41 @@
     Brugervenlighed
   </button>
   <div id="accordion-bordered-docs" aria-hidden="false" class="accordion-content">
-   
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <ul>
+              <li>Knapper markeres tydeligt med en focus-tilstand, når brugere vha tab-tasten navigerer sig frem til dem.</li>
+              <li>Undgå at anvende <code>div</code> eller <code>img</code> tags til at konstruere en knap, da skærmlæsere ikke automatisk kan afkode funktionaliteten i så fald.</li>
+              <li>Hvis du styler et link, så det ligner en knap, skal du være opmærksom på, at skærmlæsere håndterer link og knap forskelligt:
+
+                  <ul>
+                      <li>Et link aktiveres ved at trykke ”Enter”</li>
+                      <li>En knap aktiveres ved at trykke ”Space”.</li>
+                  </ul>
+
+              </li>
+          </ul>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <p>Knapper anvendes til centrale funktioner som fx ”Gem”, ”Hent”, ”Log ind” og ”Log ud”.</p>
+          <h5>Anvendes ikke til</h5>
+          <p>Knapper skal ikke anvendes til at navigere mellem sidevisninger. Der skal du i stedet anvende link.</p>
+          <h5>Vejledning</h5>
+          <ul>
+              <li>Generelt skal du anvende primære knapper til handlinger, der bringer brugeren videre i sit forløb og sekundære knapper til handlinger, der foregår på indenfor den aktuelle sidevisning.</li>
+              <li>Der er kun en primær-knap pr side.</li>
+              <li>Undgå for mange knapbaserede funktioner på samme side.</li>
+              <li>Brug stort forbogstav og små bogstaver for resten på knappen.</li>
+              <li>Skriv kort og præcist</li>
+              <li>Skriv i aktiv form: I stedet for at skrive ”Fejlindmelding” bør du skrive ”Indmeld en fejl”.</li>
+              <li>I nogle tilfælde kan det være meningsunderstøttende at indlejre et svg-ikon i knappen for at signalere bestemte handlinger som fx ”Gem”.</li>
+              <li>Funktioner af mindre vigtighed bør styles som link.</li>
+          </ul>
+      </section>
+    </article>
   </div>
 </div>
 
