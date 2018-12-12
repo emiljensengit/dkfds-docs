@@ -40,7 +40,7 @@ subnav:
         <p>Designsystemet udtaler sig udelukkende om layout, typografi, farver og grundlæggende funktioner.</p>
         <p>I takt med at US Web Design System og Gov.uk udvides og forbedres, vil disse ændringer,  af hensyn til integriteten i Designsystemet, blive gennemgået og vurderet af en teknisk redaktion, før de implementeres.</p>
         <figure>
-            <img src="images/faa.png" width="60%" title="Det Fælles Designsystems frontend arkitektur" alt="Grafik der viser Det Fælles Designsystems frontend arkitektur">
+            <img src="{{ site.baseurl }}/img/descriptionimages/faa.png" width="60%" title="Det Fælles Designsystems frontend arkitektur" alt="Grafik der viser Det Fælles Designsystems frontend arkitektur">
             <figcaption>Det Fælles Designsystems frontend arkitektur</figcaption>
         </figure>
         <h3>Det Fælles Designsystems komponenter</h3>
@@ -49,7 +49,7 @@ subnav:
                 <thead>
                     <tr>
                         <th>Kerne</th>
-                        <th>Komponentliste, DKFDS</th>
+                        <th>DKFDS</th>
                         <th>Integreret komponent eller udvidelse</th>
                         <th>Udgangspunkt fra USWDS</th>
                         <th>Udgangspunkt fra GOV.UK</th>
@@ -326,11 +326,11 @@ subnav:
         <p>Med modulær mener vi, at opbygningen af designsystemet består af en kerne (dkfds_core.css), der danner det grundlæggende fundament for brugergrænsefladen. Kernen udtaler sig udelukkende om layout, typografi, farver og grundlæggende funktioner. </p>
         <p>Kernen indlæses på alle hjemmesider, der anvender designsystemet ¬ – uanset om løsningen er udviklet til borger.dk eller Virk.</p>
         <p>Udover kernen kan der tilføjes fx myndighedsspecifik styling og diverse funktions-udvidelser. </p>
+        <h3>Hvad mener vi med skalerbar?</h3>
+        <p>Med skalerbar mener vi, at designsystemet løbende kan skaleres i takt med nye udvidelser. Selvbetjeningsløsninger kan fx have et interaktionsbehov, der ikke understøttes direkte i designsystemet. Designsystemet er derfor konstrueret omkring det modulære princip, der gennem af- og tilkobling af udvidelser muliggør en løbende skalering af de tilbudte funktioner. </p>
         <h3>Borger og Virk.dk</h3>
         <p>For at opnå den ønskede myndighedsbranding fra borger.dk eller Virk på dokumentationssitet indlæses enten dkfds_borger.css eller dkfds_virk.css parallelt med dkfds_core.css.</p>
         <p>Hver af de to css-filer tilføjer nødvendig brand-styling af hensyn til de to myndigheders genkendelighed. </p>
-        <h3>Hvad mener vi med skalerbar?</h3>
-        <p>Med skalerbar mener vi, at designsystemet løbende kan skaleres i takt med nye udvidelser. Selvbetjeningsløsninger kan fx have et interaktionsbehov, der ikke understøttes direkte i designsystemet. Designsystemet er derfor konstrueret omkring det modulære princip, der gennem af- og tilkobling af udvidelser muliggør en løbende skalering af de tilbudte funktioner. </p>
     </section>
     <section>
         <h2 id="tilgaengelighed">Tilgængelighed</h2>
@@ -365,17 +365,17 @@ subnav:
             <li>Mobil: 480px</li>
         </ul>
         <figure>
-            <img src="images/dfd-grid.png" width="100%" alt="Grafik der viser Det Fælles Designsystems grid-layout" title="Det Fælles Designsystems grid-layout">
+            <img src="{{ site.baseurl }}/img/descriptionimages/dfd-grid.png" width="100%" alt="Grafik der viser Det Fælles Designsystems grid-layout" title="Det Fælles Designsystems grid-layout">
             <figcaption>Det Fælles Designsystems grid-layout fra mobil til desktop</figcaption>
         </figure>
         <h3>Typiske grid-layouts</h3>
         <p>De 12 kolonner kombineres og flettes sammen, så man ender med layout varianter, der fx består af 3/9, 4/8, 4/4/4 osv. På denne måde bygger alle sider på samme fundament, som er medvirkende til at bibringe ro og overblik.</p>
         <figure>
-            <img src="images/grid-inddelinger.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
-            <img src="images/grid-inddelinger-artikel.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
-            <img src="images/grid-inddelinger-nav1.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
-            <img src="images/grid-inddelinger-nav2.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
-            <img src="images/grid-inddelinger-search.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
+            <img src="{{ site.baseurl }}/img/descriptionimages/grid-inddelinger.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
+            <img src="{{ site.baseurl }}/img/descriptionimages/grid-inddelinger-artikel.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
+            <img src="{{ site.baseurl }}/img/descriptionimages/grid-inddelinger-nav1.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
+            <img src="{{ site.baseurl }}/img/descriptionimages/grid-inddelinger-nav2.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
+            <img src="{{ site.baseurl }}/img/descriptionimages/grid-inddelinger-search.jpg" width="25%" alt="Grafik der viser Det Fælles Designsystems grid-inddelinger" title="">
             <figcaption>Eksempler på mulige kombinationer af kolonner indenfor Det Fælles Designsystems 12-grid layout</figcaption>
         </figure>
         <h3>Baseline grid (8px vertikalt)</h3>
@@ -434,7 +434,7 @@ subnav:
         <p>Brugeren af en typisk selvbetjeningsløsning har ofte behov for yderligere interaktion end blot layout og typografi, og derfor har vi tilføjet en række funktioner i form af udvidelser til dkfds_core.css  samt et anbefalet udvidelseskatalog med ekstra funktionalitet.</p>
         <p>En udvidelse kan være alt lige fra en spinner, der viser at en løsning er under indlæsning til et avanceret tabel-system som Data Tables.</p>
         <p>Visse funktions-udvidelser er meget generelle og derfor placeret i dkfds_core.css. Udvidelser, der på denne måde bliver del af kernen, vil altid være bygget af teamet bag designsystemet. Det drejer sig i release 1.0 om:</p>
-            <ul class="unstyled-list">
+        <ul>
             <li>Overflow-menu</li>
             <li>Spinner</li>
             <li>Tags</li>
@@ -443,7 +443,7 @@ subnav:
         <p>Andre udvidelser er valgfrie, og det er derfor op til  udvikleren i samarbejde med sin forretning at vurdere, hvad der er nødvendigt for den enkelte løsning.
         </p>
         <p>Det Fælles Designsystem anbefaler følgende udvidelser:</p>
-            <ul class="unstyled-list">
+        <ul>
             <li><a href="https://www.lightningdesignsystem.com/components/cards/">Cards</a></li>
             <li><a href="https://datatables.net/">Avancerede tabeller</a></li>
             <li><a href="https://micromodal.now.sh/">Modalvinduer</a></li>
@@ -471,17 +471,17 @@ subnav:
         <h4>Gradueret indfasning</h4>
         <p>Der er tre niveauer for udvidelser til designsystemet af hensyn til både stabilitet og drift.</p>
         <h5>Sandbox</h5>
-            <ul class="unstyled-list">
+        <ul>
             <li>Har ufuldstændig dokumentation</li>
             <li>Er ikke fuldt kompatibel (kræver ændringer i løsningen udover tilføjelsen)</li>
             <li>Unik løsning</li>
             <li>Ikke del af komponentoversigten på dokumentationssiden</li>
             <li>Ikke del af designsystemets releases</li>
         </ul>
-        <h6>Definition af "sandbox" udvidelse</h6>
+        <h6 class="h5">Definition af "sandbox" udvidelse</h6>
         <p>En udvidelse, der opfylder et eller flere UX og tekniske krav, men ikke nævnes på dokumentationssiden og ikke er en del af designsystemets releases. En udvidelse, hvis anvendelse i en løsning designsystemets team er opmærksom på, og som teamet kan vælge at placere i ”Sandbox” af orienteringshensyn. </p>
         <h5>Anbefalet udvidelse</h5>
-            <ul class="unstyled-list">
+        <ul>
             <li>Anvendt af en eller flere løsninger</li>
             <li>Opfylder alle UX-krav og tekniske krav</li>
             <li>Fuldstændig dokumentation</li>
@@ -490,12 +490,12 @@ subnav:
             <li>Del af komponentoversigten</li>
             <li>Theming er del af designsystemets releases</li>   
         </ul>
-        <h6>Definition af "anbefalet" udvidelse</h6>
+        <h6 class="h5">Definition af "anbefalet" udvidelse</h6>
         <p>En udvidelse, der er anvendt på en eller flere løsninger og er gennemtestet for sin integritet. Udvidelsen optræder i komponentoversigten på dokumentationssiden, men er markeret med et ”Anbefalet udvidelse” badge samt en Alert, der forklarer overstående princip. Eventuelle UX betragtninger og anbefalinger omkring anvendelse af udvidelsen står på dokumentationssiden. 
-</p>
+        </p>
         <p>Det Fælles Designsystem tilbyder styling (theme),  eksempelløsning som reference og en package.json med reference til den anbefalede version hos tredjeparts-leverandøren, hvor udvikleren selv skal hente koden. Alle supporthenvendelser omkring  udvidelsen skal rettes direkte til tredjeparts-leverandøren.</p>
         <h5>Integreret udvidelse</h5>
-            <ul class="unstyled-list">
+        <ul>
             <li>”Home grown”</li>
             <li>HTML5, CSS, Vanilla JS</li>
             <li>Opfylder alle UX krav og fremstår som en ”naturlig” del af designsystemet</li>
@@ -505,7 +505,7 @@ subnav:
             <li>Optræder i komponentoversigten på dokumentationssiden</li>
             <li>Koden er del af designsystemets releases </li>   
         </ul>
-        <h6>Definition af "integreret" udvidelse</h6>
+        <h6 class="h5">Definition af "integreret" udvidelse</h6>
         <p>”Home grown” udvidelse, der ligger som del af designsystemets kerne. En integreret udvidelse kan tage udgangspunkt i en ”anbefalet udvidelse”, men på grund af udbredelse på tværs af løsninger, har vi valgt at lave vores egen tilsvarende komponent og gøre den til en kernefunktionalitet i designsystemet. </p>
     </section>
     <section id="performance">

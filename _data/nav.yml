@@ -94,6 +94,9 @@ Krav_category:
 Om_designsystemet_category:
   - alternative_text: Overblik
     href: /omdesignsystemet/
+  - href: /omdesignsystemet/tilpopl/
+  - href: /omdesignsystemet/tiludviklere/
+  - href: /omdesignsystemet/anbefalingerudvikling/
   - href: /omdesignsystemet/releases/
 # - href: /about/updates/
 # - href: /about/product-roadmap/
