@@ -11,14 +11,6 @@ var calculateAnchorPosition = function (hash) {
     return topOffset;
   }
 
-  var navPadding    = parseInt($('.sidenav').css('padding-top'), 10);
-  var anchorPadding = parseInt(anchor.css('padding-top'), 10);
-
-  //start with the height of the header
-  topOffset = $('.site-nav-secondary').first().outerHeight();
-  //subtract the diffence in padding between nav top and anchor
-  topOffset = topOffset - (anchorPadding - navPadding);
-
   //anchor should now align with first item inside nav
   return anchor.offset().top - topOffset;
 };
