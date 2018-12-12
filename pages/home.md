@@ -90,13 +90,13 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     <p><a href="/dkfds-docs/eksempler/">Eksempler</a></p>
   </div>
 </div>
-
+<!--
 <hr class="my-6">
-
-<h2>Selvevaluer om din selvbetjeningsløsnings lever op til designkravene</h2>
+-->
+<!--<h2>Selvevaluer om din selvbetjeningsløsnings lever op til designkravene</h2>
 <p>Selvevaluer om du overholder designsystemet, og se hvilke krav der gælder for selvbetjeningsløsninger, der skal på borger.dk og Virk.</p>
 <p><a href="/dkfds-docs/krav/">Se om du lever op til kravet om brug af designsystemet</a></p>
-
+-->
 <hr class="my-6">
 
 <h2>Deltag i designsystemet</h2>
