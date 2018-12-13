@@ -10,7 +10,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
 <div class="row">
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
-            <a href="/dkfds-docs/design/typography/" class="demo-component-box__img">
+            <a href="/dkfds-docs/design/farver/" class="demo-component-box__img">
                 <img src="{{ site.baseurl }}/img/componenticons/Farver.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/farver/">Farver</a></p>
@@ -26,7 +26,7 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
     </div>
     <div class="col-12 col-sm-6 col-md-4">
         <div class="demo-component-box">
-            <a href="/dkfds-docs/design/typography/" class="demo-component-box__img">
+            <a href="/dkfds-docs/design/grid/" class="demo-component-box__img">
                 <img src="{{ site.baseurl }}/img/componenticons/Grid.svg" alt="">
             </a>
             <p><a href="/dkfds-docs/design/grid/">Grid</a></p>
