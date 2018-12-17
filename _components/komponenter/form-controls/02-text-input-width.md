@@ -51,7 +51,7 @@ lead:
 <div class="accordion-bordered accordion-docs">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="text-input-width-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="text-input-width-docs" aria-hidden="false" class="accordion-content">
     <article>

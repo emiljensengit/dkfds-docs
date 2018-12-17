@@ -10,10 +10,9 @@ lead: Lader brugeren vælge en fil.
 <div class="accordion-bordered">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="date-input-docs">
-    Brugervenlighed
+    Implementering
   </button>
   <div id="date-input-docs" aria-hidden="false" class="accordion-content">
-    <h4 class="heading">Implementering</h4>
     <p>We recommend using a native input using type="file", rather than a custom Implementering.</p>
     <p>This is so:</p>
       <ul class="content-list">
@@ -29,7 +28,7 @@ lead: Lader brugeren vælge en fil.
 <div class="accordion-bordered">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="file-input-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="file-input-docs" aria-hidden="false" class="accordion-content">
     <article>

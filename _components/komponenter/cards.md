@@ -47,7 +47,7 @@ lead: A card is a sheet of material that serves as an entry point to more detail
 <div class="accordion-bordered">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="alert-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="alert-docs" aria-hidden="false" class="accordion-content">
      <article>

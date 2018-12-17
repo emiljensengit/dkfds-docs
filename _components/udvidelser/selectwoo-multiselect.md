@@ -37,7 +37,7 @@ lead: Gør det muligt for brugeren at vælge flere elementer fra en liste.
 <div class="accordion-bordered">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="multiselect-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="multiselect-docs" aria-hidden="false" class="accordion-content">
     

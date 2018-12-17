@@ -30,7 +30,7 @@ lead:
 <div class="accordion-bordered accordion-docs">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="checkbox-toggle-content-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="checkbox-toggle-content-docs" class="accordion-content">
     

@@ -11,7 +11,7 @@ lead:
 <div class="accordion-bordered accordion-docs">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="checkbox-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="checkbox-docs" aria-hidden="false" class="accordion-content">
     <article>

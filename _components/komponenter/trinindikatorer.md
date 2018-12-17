@@ -41,7 +41,7 @@ lead:
 <div class="accordion-bordered">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="trin-documentation">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="trin-documentation" aria-hidden="false" class="accordion-content">
   </div>

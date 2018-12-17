@@ -34,7 +34,7 @@ lead:
 <div class="accordion-bordered accordion-docs">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="sidenav-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="sidenav-docs" class="accordion-content">
     

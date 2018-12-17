@@ -6947,7 +6947,10 @@ input[type="search"] {
       display: none; }
     .overflow-menu .button-overflow-menu.js-dropdown--responsive-collapse ~ .overflow-menu-inner {
       width: 100%;
-      position: static; } }
+      position: static;
+      border: none;
+      box-shadow: none;
+      min-width: inherit; } }
   @media (min-width: 768px) {
     .overflow-menu.overflow-menu--md-no-responsive {
       display: block; }

@@ -23,7 +23,7 @@ order: 07
 <div class="accordion-bordered accordion-docs">
   <button class="button-unstyled accordion-button"
       aria-expanded="true" aria-controls="typesetting-docs">
-    Brugervenlighed
+    Retningslinjer
   </button>
   <div id="typesetting-docs" class="accordion-content">
 
