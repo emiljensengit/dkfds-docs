@@ -40,27 +40,31 @@ lead: Badges draw attention to new or important content.
     Brugervenlighed
   </button>
   <div id="label-docs" aria-hidden="false" class="accordion-content">
-    <h3>Accessibility</h3>
-    <p>When labels are used to call out new content that is dynamically loaded onto a page, be sure to use ARIA live regions to alert screen readers of the change.</p>
-    <h3>Usability</h3>
-    <h4>When to use</h4>
-    <ul>
-      <li>To draw attention to new, important content on a page that might otherwise be missed.</li>
-      <li>To filter results with one or more tags.</li>
-      <li>To indicate the number of new or unread items within a container. For example, to indicate the number of unread emails within a person’s inbox.</li>
-    </ul>
-    <h4>When to consider something else</h4>
-    <ul>
-      <li>When users are likely to confuse a static label with a button. For example, when the label appears in the same area of the page as buttons.</li>
-      <li>To call attention to new or updated content, consider changing the background color of the object itself or experiment with changing the font weight.</li>
-      <li>When users already expect content to be updated frequently. For example, on a site dedicated to breaking news. In this case placing the new content at the top may be enough.</li>
-    </ul>
-    <h4>Guidance</h4>
-    <ul>
-      <li>Users frequently confuse labels as buttons. Always conduct usability testing to make sure your particular Implementering is not causing frustration.</li>
-      <li>If your labels are not interactive, be sure to disable hover, focus, and active styles.</li>
-      <li>Don’t mix interactive and static labels on your site. Once you establish a pattern for how labels behave, users will expect that behavior every time.</li>
-      <li>Don’t overdo it — if everything on a page is called out as important, nothing is important.</li>
-    </ul>
+     <article>
+        <section>
+            <h4>Tilgængelighed</h4>
+            <ul>
+                <li>Interaktive badges markeres tydeligt med en focus-tilstand, når brugere vha tab-tasten navigerer sig frem til dem.</li>
+                <li>Hvis badges anvendes dynamisk i løsningen til at gøre opmærksom på nyt indlæst indhold eller ændringer på siden, skal du anvende ARIA live regions til at gøre skærmlæsere på opmærksomme på ændringerne.</li>
+            </ul>
+        </section>
+        <section>
+            <h4>Brugervenlighed</h4>
+            <h5>Anvendes til</h5>
+            <p>Badges anvendes til at gøre opmærksom på ændringer, nyt eller vigtigt indhold.</p>
+            <h5>Anvendes ikke til</h5>
+            <ul>
+                <li>Hvis et badges placering gør, at det kan misforstås som en knap, skal du undlade at anvende det. Test altid for dette, når du anvender badges.</li>
+                <li>Overvej at markere ændringer på siden ved at markere selve det ændrede fx med en baggrundsfarve eller en typografisk markering som fx fed tekst.</li>
+                <li>Hvis indholdet forventes at udskiftes dynamisk som fx en nyhedsside, kan det være nok blot at placere nyeste øverst og undlade badge.</li>
+            </ul>
+            <h5>Vejledning</h5>                
+            <ul>
+                <li>Hvis det anvendte badge ikke er interaktivt (fx som link), skal det ikke have hover, focus eller active styling.</li>
+                <li>Bland aldrig interaktive og statiske badges i samme løsning. Brugerne forventer ensartet opførsel indenfor løsningen.</li>
+                <li>Vær varsom med at markere for meget badges – brug dem kun, hvor det virkelig er meningsfuldt.</li>
+            </ul>
+        </section>
+      </article>
   </div>
 </div>

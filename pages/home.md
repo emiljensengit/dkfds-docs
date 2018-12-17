@@ -3,7 +3,7 @@ permalink: /
 layout: landing
 title: Forside
 ---
-<div class="row mt-6">
+<div class="row">
   <div class="col-12 col-md-5">
     <h1 class="mt-0">Designsystemet til selvbetjenings&shy;løsninger, der skal på borger.dk og Virk</h1>
     <p class="font-lead">
@@ -22,7 +22,7 @@ title: Forside
     </p>-->
   </div>
   <div class="col-12 col-md-7">
-    <img src="{{ site.baseurl }}/img/descriptionimages/forsidebillede.png" alt="Det Fælles Designsystem forside billede">
+    <img src="{{ site.baseurl }}/img/descriptionimages/forsidebillede.png" alt="Det Fælles Designsystem forside billede" class="d-none d-md-block">
   </div>
 </div>
 
@@ -62,7 +62,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
 
 <hr class="my-6">
 
-<h2>Brugervenlighed over tidens designtrend</h2>
+<h2>Byg en selvbetjeningsløsning</h2>
 <div class="row">
   <div class="col-12 col-md-4">
     <div class="demo-img-container demo-img-container--turquoise">

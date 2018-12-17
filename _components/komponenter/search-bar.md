@@ -28,6 +28,34 @@ lead: A block that allows users to search for specific content if they know what
     Brugervenlighed
   </button>
   <div id="search-bar-docs" aria-hidden="false" class="accordion-content">
-    
+       <article>
+        <section>
+            <h4>Tilgængelighed</h4>
+            <ul>
+                <li>Søgefeltet skal overholde samme krav til tilgængelighed som andre formularelementer. </li>
+                <li>Ordet ”Søg” skal altid fremgå af søgeknappen. Hvis der anvendes et lup-ikon, skal ”Søg” fremgå i koden, så skærmlæsere kan se funktionen.</li>
+                <li>Formularens felt skal have et skjult label af hensyn til skærmlæsere.</li>
+            </ul>
+        </section>
+        <section>
+            <h4>Brugervenlighed</h4>
+            <h5>Anvendes til</h5>
+            <ul>
+                <li>Søgefeltet er en samlet komponent (søgefelt og -knap), der giver brugeren mulighed for at søge efter specifikt indhold, hvis de kender søgeordene eller ikke kan finde indholdet gennem menuer eller anden navigation.</li>
+                <li>Søgefeltet giver et alternativ til brugere, der af den ene eller anden årsag ikke kan anvende løsningens navigation.</li>
+            </ul>
+            <h5>Anvendes ikke til</h5>
+            <p>På meget små løsninger eller løsninger, der kun består af en enkelt side, bør det ikke være nødvendigt med et søgefelt.</p>
+            <h5>Vejledning</h5>
+            <ul>
+                <li>Det er vigtigt for brugerne, at kunne se de indtastede søgeord. Søgefeltet skal være så bredt, som det er muligt indenfor løsningens design – dog minimum 27 karakterer (27ch). </li>
+                <li>Hvis der anvendes et lup-ikon, skal ”Søg” fremgå i koden, så skærmlæsere kan se funktionen.</li>
+                <li>Søgefeltet vises i sin helhed på løsningens hjemmeside og ikke kun som et link.</li>
+                <li>Vis fortsat søgefeltet – også på søgeresultatet, der viser søgeordene.</li>
+                <li>Brug kun avanceret søgning som valgmulighed. Den primære søgning skal være en standardsøgning for at undgå forvirring omkring dens anvendelse.</li>
+                <li>Søgeknappen skal være en submit-knap.</li>
+            </ul>
+        </section>
+      </article>
   </div>
 </div>

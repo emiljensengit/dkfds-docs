@@ -48,7 +48,11 @@ lead:
           <h5>Anvendes til</h5>
           <p>Et tag er en sekundær funktionalitet, der typisk anvendes til meta-information om indhold, der kan kategoriseres, filtreres eller på anden beskrives med nøgleord.</p>
           <h5>Anvendes ikke til</h5>
-          <p>Primær funktionalitet som fx ”Gem”, hvor der i stedet bør anvendes en knap.</p>
+          <ul>
+          <li>Primær funktionalitet som fx ”Gem”, hvor der i stedet bør anvendes en knap.</li>
+          <li>Hvis tags anvendes i tæt forbindelse med knapper, kan det forvirre brugeren. Overvej nøje placering og anvendelse og udfør brugertest.</li>
+          </ul>
+          <p></p>
           <h5>Vejledning</h5>
           <ul>
               <li>Generelt skal du bruge tags til at give brugeren yderligere, sekundær information og nøgleord i relation til  indholdet. </li>
