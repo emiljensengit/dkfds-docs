@@ -5,6 +5,8 @@ title: Sideopbygning (layout)
 category: Design_category
 lead: Afsnittet beskriver regler og principper for struktur og placering af komponenter i en selvbetjeningsløsning. Et godt layout er harmonisk, ensartet, logisk opbygget, og understøtter brugerens handlinger. Det er således både behageligt for øjet og let for brugeren at anvende.
 subnav:
+- text: Baseline grid
+  href: '#baselinegrid'
 - text: Grundlæggende struktur
   href: '#struktur'
 - text: Header
@@ -14,7 +16,9 @@ subnav:
 - text: Footer
   href: '#footer'
 ---
-
+<h2 id="baselinegrid">Baseline grid</h2>
+<p>I Det Fælles Designsystem går alle vertikale dimensioner, højder på komponenter og afstande i højderetningen, op med en faktor 8. 8px, 16px, 24px, 32px, 40px, 48px, 56px... Gennem gentagelsen af værdier opstår en ro og balance på tværs af det visuelle layout og mellem sidens vertikale elementer. På tekst er det ikke tekstens størrelse, men linjehøjden, der skal gå op i 8. </p>
+<p>Læs mere om baseline grid'et i artiklen <a href="https://builttoadapt.io/8-point-grid-vertical-rhythm-90d05ad95032" class="icon-link">8-Point Grid: Vertical Rhythm<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>.</p>
 
 <h2 id="struktur">Grundlæggende struktur</h2>
 <p>Selvbetjeningsløsningen er delt op i tre overordnede områder.</p>

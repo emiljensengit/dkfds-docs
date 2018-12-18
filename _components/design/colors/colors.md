@@ -6,13 +6,13 @@ layout: styleguide
 title: Farver
 category: Design_category
 subcategory: Design
-lead: Introduktion af farverne
+lead: Da designsystemet er fælles for både borger.dk og Virk er der portalspecifikke farver og samtidig en generel palette, der anvendes uanset, hvilken portal din selvbetjeningsløsning skal på. 
 ---
 
 <p>Forklaring af farvevalg og sammenhæng til portalerne</p>
 
-<h2>Temahåndtering</h2>
-<p>Styleguiden er udviklet med 3 forskellige temaer. Standard temaet er det neutrale tema hvor primærfarven er grå. De to andre teamer er målrettet borger.dk og virk.dk.</p>
+<h2>Portalfarver (temaer)</h2>
+<p>Din selvbetjeningsløsning skal, alt efter hvilken portal løsningen skal på, gøre brug af den givne portals primærfarve. Dette gøres nemt ved hjælp af temahåndtering i koden.</p>
 
 <div class="accordion-bordered mb-6">
   <button class="button-unstyled accordion-button"

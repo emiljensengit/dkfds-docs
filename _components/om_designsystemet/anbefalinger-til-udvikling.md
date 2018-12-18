@@ -5,8 +5,6 @@ title: Anbefalinger omkring udvikling
 category: Om_designsystemet_category
 lead: 
 subnav:
-- text: Introduktion
-  href: '#introduktion'
 - text: Anbefalinger til kode og kodekvalitet
   href: '#anbefalinger-kode'
 - text: Frontend koden
@@ -20,14 +18,13 @@ subnav:
 ---
 
 <article>
-    <header>
-        <h2 id="introduktion">Introduktion</h2>
+    <section>
         <p>Det Fælles Designsystem er en simpel samling af grundlæggende funktioner og design, der skaber et solidt grundlag for udviklingen af selvbetjeningsløsninger, der skal ligge på borger.dk og virk.dk.</p>
         <p>Designsystemets frontend arkitektur bygger på princippet om en minimal, modulær og skalerbar opbygning, der kan forgrene sig yderligere som behovet i takt med øget behov. Når du udvikler til designsystemet skal du følge tankerne bag, som de er formuleret i dette dokument.</p>
         <h3>Omkring dette dokument </h3>
         <p>Dette dokument beskriver anbefalinger for kode og kvalitet, performance, tilgængelighed og yderligere anvisninger til dig, der skal udvikle til eller i Det Fælles Designsystem (i det følgende også kaldet ”designsystemet”).</p>
         <p>”Generelle anbefalinger omkring udvikling til Det Fælles Designsystem” revideres i takt med alle større releases.</p>
-    </header>
+    </section>
     <section>
         <h2 id="anbefalinger-kode">Anbefalinger omkring kode og kodekvalitet</h2>
         <ul>

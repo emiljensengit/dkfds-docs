@@ -5,17 +5,16 @@ parent: colors
 order: 01
 ---
 
-<p>Om paletten</p>
-
 <!-- new setup start -->
-<h3 class="h4">Primærfarver (Temafarver)</h3>
+<h3 class="h4">Primærfarver for borger.dk</h3>
+<p>Primærfarven bruges på få centrale elementer, såsom på primærknappen og i menuer i designsystemet for at skabe sammenhæng til borger.dk.</p>
 <div class="color-row-container">
   <div class="row color-row">
     <!-- borger primary START -->
     <div class="col-md-3">
       <div class="color-container-large borger-primary"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#568331</p>
+        <p class="code-color-hex">#44831E</p>
         <p class="code-color-variable">$primary-color</p>
       </div>
     </div>
@@ -40,6 +39,8 @@ order: 01
     <!-- borger dark END -->
   </div>
 </div>
+<h3 class="h4">Primærfarver for Virk</h3>
+<p>Primærfarven bruges på få centrale elementer, såsom på primærknappen og i menuer i designsystemet for at skabe sammenhæng til Virk.</p>
 <div class="color-row-container">
   <div class="row color-row">
     <!-- virk primary START -->
@@ -72,6 +73,8 @@ order: 01
   </div>
 </div>
 
+<h2>Generel palette</h2>
+<p>Den generelle palette består mest af gråtoner og nogle få dedikerede farver til kommunikation og feedback. Paletten understøtter de visuelle principper om et neutralt, simpelt og fleksibelt designsystem.</p>
 <h3 class="h4">Gråtoneskala</h3>
 <div class="color-row-container">
   <div class="row color-row">
@@ -150,7 +153,7 @@ order: 01
   </div>
 </div>
 
- <h3 class="h4">Beskeder (alerts)</h3>
+ <h3 class="h4">Besked-farver (alerts)</h3>
 <div class="color-row-container">
   <div class="row color-row">
     <!-- color-success START -->
@@ -228,7 +231,7 @@ order: 01
   </div>
 </div>
 
-<h3 class="h4">Link farver</h3>
+<h3 class="h4">Link-farver</h3>
 <div class="color-row-container">
 
   <div class="row color-row">
@@ -344,6 +347,7 @@ order: 01
 </div>
 
 <h3 class="h4">Datavisualiseringsfarver</h3>
+<p>Du kan bruge datavisualiseringsfarver til grafer, diagrammer eller andre former for visuelle fremstillinger til kommunikative formål.</p>
 <div class="color-row-container">
   <div class="row color-row">
     <!-- color-data-turquoise START -->
@@ -584,13 +588,19 @@ order: 01
   </div>
 </div>
 
-<h2 class="heading">Tilgængelig tekst</h2>
-<p class="font-lead">Om kontrastforhold i forhold til baggrundsfarver</p>
 
-
+<h2 class="heading">Tekst på baggrundsfarver</h2>
+<p class="font-lead">Din tekst skal være læsbar for alle og efterleve gældende regler for kontrastforhold.</p>
+<p>Nedenfor er angivet på hvilke baggrundsfarver, du kan regne med at designsystemets tekst har kontrast nok.</p>
+<ul class="unstyled-list">
+  <li><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">Læs om kontrastforhold i WCAG 2.1 (W3)<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
+  <li><a href="https://webaim.org/resources/contrastchecker/">Tjek din teksts kontrast (WebAIM)<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
+  <li><a href="https://webaim.org/resources/linkcontrastchecker/">Tjek dit links kontrast (WebAIM) <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
+</ul>
+<h3 class="h4">Normal tekst og links</h3>
 <div class="color-row-container">
   <div class="row color-row">
-    <div class="col-12 col-sm-12 col-md-6 col-md-lg">
+    <div class="col-12 col-md-6">
       <h3 class="h4">Normal tekst og links</h3>
       <!-- black-on-white start -->
       <div class="color-container-small bordered color-white mt-0">
@@ -602,7 +612,7 @@ order: 01
       <!-- black-on-pale start -->
       <div class="color-container-small color-gray-pale">
         <div class="color-text-container">
-          <p class="text-black">Normalt tekst på pale</p>
+          <p class="text-black">Normal tekst på pale</p>
         </div>
       </div>
       <!-- black-on-pale end -->
@@ -628,7 +638,7 @@ order: 01
       </div>
       <!-- link-on-gray end -->
     </div>
-    <div class="col-12 col-sm-12 col-md-6 col-md-lg">
+    <div class="col-12 col-md-6">
       <h3 class="h4">Positiv og negativ tekst</h3>
       <!-- negative on white start -->
       <div class="color-container-small bordered color-white mt-0">
@@ -662,11 +672,10 @@ order: 01
   </div>
 </div>
 
-
-<h3 class="h4">Datavisualisering</h3>
+<h3 class="h4">Tekst på datavisualiseringsfarver</h3>
 <div class="color-row-container">
   <div class="row color-row">
-    <div class="col-12 col-sm-12 col-md-6 col-md-lg">
+    <div class="col-12 col-md-6">
       <!-- color-black start -->
       <div class="color-container-small color-black mt-0">
         <div class="color-text-container">
@@ -780,7 +789,7 @@ order: 01
       </div>
       <!-- color-data-magenta-low-opacity end -->
     </div>
-    <div class="col-12 col-sm-12 col-md-6 col-md-lg">
+    <div class="col-12 col-md-6">
       <!-- color-data-orange start -->
       <div class="color-container-small color-data-orange mt-0">
         <div class="color-text-container">

@@ -10,7 +10,7 @@ subnav:
   href: '#version-212'
 ---
 <p class="font-lead">Nedenfor vises release notes — en opsummering af bug fixes, nye features og andre opdateringer.</p>
-<p>Her du et nyt forslag til en feature eller et bug fix? <a href="https://github.com/FSGpilot/dkfds-docs-components/issues">Så må du meget gerne oprette et issue på github</a></p>
+<p>Her du et nyt forslag til en feature eller et bug fix? <a href="https://github.com/detfaellesdesignsystem/dkfds-components/issues">Så må du meget gerne oprette et issue på github</a></p>
 
 
 <div id="version-300" class="mt-8">

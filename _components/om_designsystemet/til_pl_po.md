@@ -4,19 +4,16 @@ layout: styleguide
 title: Til produktejere og projektledere
 category: Om_designsystemet_category
 subnav:
-- text: Introduktion
-  href: '#introduktion'
 - text: Fordele ved at anvende Det Fælles Designsystem
   href: '#fordele'
 - text: Følg op på din løsning
   href: '#foelg-op'
 ---
-<header>
-    <h2 id="introduktion">Introduktion</h2>
+<section>
     <p>En selvbetjeningsløsning er en dialog med brugeren. Du efterspørger nogle informationer og giver brugeren et sted at svare, hvorefter du følger op.</p>
     <p>En selvbetjeningsløsning er ikke en monolog, hvor du deler din viden med brugeren. Monologer har karakter af artikler, vejledninger, regel- og informationssider. Alle disse er kendetegnet ved at brugeren ikke kan afgive svar eller på anden vis interagere med materialet ud over at læse det. Artikler, vejledninger, regler og informationer af generel karakter placeres på de hertil egnede sider på borger.dk og Virk.</p>
     <p>Hvis dit projekt passer ind i ovenstående definition eller er under lovkrav for at følge Den Fællesoffentlige Digitaliseringstrategi skal du anvende Det fælles designsystem.</p>
-</header>
+</section>
 <section>
     <h2 id="fordele">Fordele ved at anvende Det Fælles Designsystem</h2>
     <p>Når du anvender designsystemet, følger du internationalt anerkendte best practices.  </p>

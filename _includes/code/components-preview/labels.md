@@ -4,11 +4,17 @@ layout: iframed
 title: Labels.html
 ---
 <div class="container">
+
     <div class="row">
-        <div class="col-12">
-            <p>
-                <label class="form-label">Dette er en feltoverskrift</label>
-            </p>
+        <div class="col-12 col-md-6">
+            <label class="form-label">Dette er en feltoverskrift</label>
+        </div>
+        <div class="col-12 col-md-6">
+            <pre>font-family: "IBMPlexSans","system"<br>font-weight:600<br>font-size:1.6rem<br>line-height:2.4rem<br>margin:1.6rem 0 1.6rem 0</pre>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
             <table class="table table--borderless">
                 <thead>
                     <tr style="border-bottom:0;">
@@ -17,6 +23,9 @@ title: Labels.html
                     </tr>
                 </thead>
             </table>
+        </div>
+        <div class="col-12 col-md-6">
+            <pre>font-family: "IBMPlexSans","system"<br>font-weight:600<br>font-size:1.6rem<br>line-height:2.4rem<br>margin:1.6rem 0 1.6rem 0</pre>
         </div>
     </div>
 </div>
