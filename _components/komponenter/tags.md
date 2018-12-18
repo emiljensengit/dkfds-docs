@@ -4,7 +4,7 @@ layout: styleguide
 type: element
 title: Tags
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: 
 ---
 

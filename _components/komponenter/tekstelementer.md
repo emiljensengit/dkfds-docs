@@ -4,7 +4,7 @@ layout: styleguide
 type: element
 title: Tekstelementer
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Tekstelementer show tabular data in columns and rows.
 ---
 

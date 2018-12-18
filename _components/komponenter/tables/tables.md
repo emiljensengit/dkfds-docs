@@ -6,7 +6,7 @@ layout: styleguide
 type: component
 title: Tabeller
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Tables show tabular data in columns and rows.
 subnav:
 - text: Standard

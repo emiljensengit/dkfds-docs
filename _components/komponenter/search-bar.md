@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Søgefelt
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: A block that allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation
 ---
 

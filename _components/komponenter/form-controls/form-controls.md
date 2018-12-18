@@ -6,7 +6,7 @@ layout: styleguide
 type: component
 title: Formular elementer
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Brug formular elementerne til at opbygge blanketter til din selvbetjeningsløsning. 
 subnav:
 - text: Felter

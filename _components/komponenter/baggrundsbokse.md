@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Baggrundsbokse
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Baggrundsbokse are a list of headers that can be clicked to hide or reveal additional content.
 ---
 

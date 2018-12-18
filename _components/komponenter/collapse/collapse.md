@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Skjul og vis (Collapse)
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Skjul og vis inhold.
 subnav:
 - text: Skjul/vis indhold via radioknap

@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Beskeder (Alerts)
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: 
 ---
 

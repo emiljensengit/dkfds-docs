@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Overflow menu
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Toggle overlay with lists of links or buttons.
 ---
 

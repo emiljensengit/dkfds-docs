@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Sidenavigation
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: 
 ---
 

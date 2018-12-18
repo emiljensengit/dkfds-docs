@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Accordions
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Accordions are a list of headers that can be clicked to hide or reveal additional content.
 ---
 

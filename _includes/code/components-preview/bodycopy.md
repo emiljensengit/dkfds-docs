@@ -8,7 +8,6 @@ title: Bodycopy.html
         <div class="col-12">
             <p>This is a normal body text </p>
             <p class="bold">This is a bold body text</p>
-            <p><em>This is an italic body text </em></p>
             <p><small>This is an italic body text </small></p>
         </div>
     </div>

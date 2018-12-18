@@ -4,7 +4,7 @@ layout: styleguide
 type: component
 title: Cards
 category: Komponenter_category
-subcategory: Design og kode 
+subcategory: Komponenter 
 lead: A card is a sheet of material that serves as an entry point to more detailed information.
 ---
 

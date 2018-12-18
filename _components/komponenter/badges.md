@@ -4,7 +4,7 @@ layout: styleguide
 type: element
 title: Badges
 category: Komponenter_category
-subcategory: Design og kode
+subcategory: Komponenter
 lead: Badges draw attention to new or important content.
 ---
 
