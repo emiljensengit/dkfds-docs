@@ -37,6 +37,31 @@ lead:
     Retningslinjer
   </button>
   <div id="sidenav-docs" class="accordion-content">
-    
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <p>Sidenavigationen skal kunne aktiveres og håndteres fra tastatur og brugeren skal kunne anvende tab-tasten til navigation.</p>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <ul>
+              <li>Sidenavigation anvendes til at afspejle et navigations-hierarki i op til tre niveauer.</li>
+              <li>Sidenavigation anvendes til den sekundære navigation/undermenu på en side i en større løsning.</li>
+          </ul>
+          <h5>Anvendes ikke til</h5>
+          <ul>
+              <li>Sidenavigation bør ikke anvendes på mindre løsninger (mindre end 5 sider).</li>
+              <li>Hvis din løsning allerede har topmenu og evt. tilknyttet dropdown menu, bør du overveje at forenkle din navigation før du vælger en sidenavigation.</li>
+          </ul>
+          <h5>Vejledning</h5>                
+          <ul>
+              <li>Marker det aktive punkt (”der hvor brugeren er”) i sidenavigationen.</li>
+              <li>Brug korte og præcise ord og begreber. De må eksempelvis gerne være kortere varianter af selve sidernes indholdstitler.</li>
+              <li>Undgå at lave for mange punkter.</li>
+              <li>Undgå at lave menuen for dyb – forsøg at undgå mere end 1-2 niveauer.</li>
+          </ul>
+      </section>
+    </article>
   </div>
 </div>

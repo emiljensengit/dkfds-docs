@@ -44,5 +44,30 @@ lead:
     Retningslinjer
   </button>
   <div id="trin-documentation" aria-hidden="false" class="accordion-content">
+     <article>
+        <section>
+            <h4>Tilgængelighed</h4>
+            <p>Tringuides skal kunne aktiveres og håndteres fra tastatur og brugeren skal kunne anvende tab-tasten til navigation.</p>
+            <p>Tringuides kan have et højt kognitivt niveau. Før du vælger at anvende en tringuide, bør du teste en prototype med en alternativ løsning for at se, om det overhovedet er nødvendigt med en tringuide. </p>    
+        </section>
+        <section>
+            <h4>Brugervenlighed</h4>
+            <h5>Anvendes til</h5>
+            <p>Tringuides anvendes til struktureret at føre brugeren igennem en kendt sekvens af spørgsmål.</p>
+            <h5>Anvendes ikke til</h5>
+            <p>Tringuides skal ikke anvendes som primær eller sekundær navigationselement.</p>
+            <h5>Vejledning</h5>                
+            <ul>
+                <li>Forsøg med ændret opsætning af dit indhold, type og antallet af spørgsmål før du vælger en tringuide til din løsning.</li>
+                <li>Vælg den tringuide-model, der passer til dine brugeres behov.</li>
+                <li>Undgå at lave en horisontal tringuide.</li>
+                <li>Anvend trin der virker naturlige og logiske for brugerne</li>
+                <li>Gør det synligt hvilket trin brugeren er kommet til.</li>
+                <li>Giv hvert trin et nummer</li>
+                <li>Det sidste trin bør være "kvittering"</li>
+                <li>Tilstræb så få trin som muligt</li>
+            </ul>
+        </section>
+    </article>
   </div>
 </div>

@@ -34,6 +34,24 @@ lead:
     Retningslinjer
   </button>
   <div id="checkbox-toggle-content-docs" class="accordion-content">
-    
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <ul>
+              <li>Radioknapperne skal kunne aktiveres og håndteres fra tastatur.</li>
+              <li>Skjul ikke meningsbærende indhold som fx beskrivelser/labels med denne funktionalitet.</li>
+              <li>Vis kun de ekstra muligheder, når brugeren har foretaget et valg.</li>
+          </ul>
+      </section>
+      <section>
+          <h4>Brugervenlighed</h4>
+          <h5>Anvendes til</h5>
+          <p>Vise yderligere information eller en ekstra funktion relevant til brugerens valg, fx kan du vise et email-felt, når brugeren vælger at ville kontaktes per email.</p>
+          <h5>Anvendes ikke til</h5>
+          <p>Anvend ikke denne mulighed til inline-placerede radioknapper. </p>
+          <h5>Vejledning</h5>                
+          <p>Hold det enkelt. Hvis du har behov for at eksponere større mængder af ekstra funktionalitet, bør du overveje, at fordele det ud over flere sider i stedet.</p>
+      </section>
+    </article>
   </div>
 </div>
