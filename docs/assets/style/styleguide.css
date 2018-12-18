@@ -1556,15 +1556,13 @@ a {
     color: #000040; }
   a:focus, a.link-focus {
     color: #004D99;
-    outline: 4px solid #747474; }
+    outline: 4px solid #747474;
+    outline-offset: 1px; }
   a:visited, a.link-visited {
     color: #800080; }
   a:disabled, a.disabled {
-    box-shadow: none !important;
     cursor: not-allowed !important;
-    color: #BFBFBF !important;
-    box-shadow: none !important;
-    outline-offset: inherit !important; }
+    color: #BFBFBF !important; }
     a:disabled:focus, a.disabled:focus {
       outline: none;
       background-color: transparent; }
@@ -1619,21 +1617,21 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.9rem;
   line-height: 2.4rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #1a1a1a;
   text-transform: none; }
 
 h5, .h5 {
   font-size: 1.6rem;
   line-height: 2.4rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #1a1a1a;
   text-transform: none; }
 
 h6, .h6 {
   font-size: 1.3rem;
   line-height: 2.4rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #1a1a1a;
   text-transform: uppercase; }
 
@@ -1690,51 +1688,45 @@ p{
   }
 }*/
 h1, .h1 {
-  margin-top: 4rem;
-  margin-bottom: 2.4rem; }
+  margin-top: 3rem;
+  margin-bottom: 1.6rem; }
   @media (min-width: 768px) {
     h1, .h1 {
-      margin-top: 4.8rem; } }
+      margin-top: 4rem; } }
 
 h2, .h2 {
-  margin-top: 3.2rem;
-  margin-bottom: 2.4rem; }
+  margin-top: 3rem;
+  margin-bottom: 1.6rem; }
   @media (min-width: 768px) {
     h2, .h2 {
       margin-top: 4rem; } }
 
 h3, .h3 {
-  margin-top: 2.4rem;
-  margin-bottom: 2.4rem; }
+  margin-top: 3rem;
+  margin-bottom: 1.6rem; }
   @media (min-width: 768px) {
     h3, .h3 {
-      margin-top: 3.2rem; } }
+      margin-top: 4rem; } }
 
 h4, .h4 {
   margin-top: 2.4rem;
-  margin-bottom: 2.4rem; }
-  @media (min-width: 768px) {
-    h4, .h4 {
-      margin-top: 2.4rem; } }
+  margin-bottom: 1.6rem; }
 
 h5, .h5 {
   margin-top: 2.4rem;
   margin-bottom: 0; }
-  @media (min-width: 768px) {
-    h5, .h5 {
-      margin-top: 2.4rem; } }
 
 h6, .h6 {
   margin-top: 2.4rem;
   margin-bottom: 0; }
 
 .font-lead {
-  margin-top: 3.2rem;
-  margin-bottom: 2.4rem; }
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem; }
 
 p, .body-text {
-  margin-top: 2.4rem;
-  margin-bottom: 2.4rem; }
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem; }
 
 h5 + p, h5 + ul, h5 + ol, .h5 + p, .h5 + ul, .h5 + ol, h6 + p, h6 + ul, h6 + ol, .h6 + p, .h6 + ul, .h6 + ol {
   margin-top: 0; }
@@ -4075,19 +4067,9 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
   @media (min-width: 768px) {
     .button {
       width: auto; } }
-  .button:not(.button-quaternary).focus, .button:not(.button-quaternary):focus {
-    border-color: #747474;
-    outline-color: #747474;
-    position: relative; }
-    .button:not(.button-quaternary).focus:after, .button:not(.button-quaternary):focus:after {
-      content: "";
-      background: #747474;
-      position: absolute;
-      width: calc(100% + 4px);
-      height: calc(100% + 4px);
-      left: -2px;
-      top: -2px;
-      z-index: -1; }
+  .button.focus, .button:focus {
+    outline: 4px solid #747474;
+    outline-offset: 1px; }
   .button.button-primary {
     color: #ffffff;
     background-color: #747474;
@@ -4555,6 +4537,9 @@ figure {
   max-width: 32rem;
   margin-top: 8px;
   text-align: left; }
+  .form-input:focus, .form-input.focus {
+    outline: 4px solid #747474;
+    outline-offset: 1px; }
 
 table .form-input {
   margin-top: 0; }
@@ -4587,6 +4572,9 @@ textarea.form-input {
   .form-select:-moz-focusring {
     color: transparent;
     text-shadow: 0 0 0 #1a1a1a; }
+  .form-select:focus, .form-select.focus {
+    outline: 4px solid #747474;
+    outline-offset: 1px; }
   .form-select:disabled {
     background-color: #F5F5F5;
     color: #999999;
@@ -4748,7 +4736,7 @@ input[type=text]:disabled, input[type=textarea]:disabled {
 .form-checkbox:focus + label::before,
 .form-checkbox.focus + label::before {
   outline: 4px solid #747474;
-  outline-offset: 0px; }
+  outline-offset: 1px; }
 
 .form-radio:focus + label::before,
 .form-radio.focus + label::before {
