@@ -2,7 +2,6 @@
 
 import $ from "jquery";
 var Cookies = require('./vendor/js-cookie');
-require('./form-disable');
 require('./scroll-to-top-for-hash');
 require('./sidenav');
 var iFrameResize = require('./vendor/iframeResizer');

@@ -10,10 +10,10 @@ lead: Gør det muligt for brugeren at vælge flere elementer fra en liste.
 
 <div class="alert alert-warning" role="alert">
   <div class="alert-body">
-    <h3 class="alert-heading">Denne feature er ikke en del af Det Fælles Designsystem.</h3>
+    <h3 class="alert-heading">Denne komponent er ikke en del af kerne af FDS</h3>
     <p class="alert-text">
-      SelectWoo er ikke inkluderet i kernen af Det Fælles Designsystem. For at inkludere SelectWoo skal der inkluderes et eksternt bibliotek, se implementeringsafsnittet nedenfor.<br><br>
-      Det Fælles Designsystem har implementeret et tema til SelectWoo og findes i <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins">Plugins</a> projektet.
+      SelectWoo er ikke inkluderet i kernen af FDS. For at inkludere SelectWoo skal der inkluderes et eksternt bibliotek, se implementeringsafsnittet nedenfor.<br><br>
+      FDS har implementeret et tema til SelectWoo og findes i <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins">Plugins</a> projektet.
     </p>
   </div>
 </div>

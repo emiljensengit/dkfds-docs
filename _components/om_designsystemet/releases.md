@@ -4,11 +4,52 @@ layout: styleguide
 title: Releasenotes
 category: Om_designsystemet_category
 subnav:
+- text: Version 3.0.0
+  href: '#version-300'
 - text: Version 2.1.2
   href: '#version-212'
 ---
 <p class="font-lead">Nedenfor vises release notes — en opsummering af bug fixes, nye features og andre opdateringer.</p>
 <p>Her du et nyt forslag til en feature eller et bug fix? <a href="https://github.com/FSGpilot/dkfds-docs-components/issues">Så må du meget gerne oprette et issue på github</a></p>
+
+
+<div id="version-300" class="mt-8">
+  <h3 class="mb-0">Version 3.0.0</h3>
+  <p class="small-text mt-0">14-01-2019</p>
+  <ul>
+    <li>
+      <b>Refaktoreret fra 'dkwds' til 'dkfds'</b>
+      <p>Alt kode er blevet refaktoreret så den nu benytter forkortelsen <a href="https://www.npmjs.com/package/dkfds">'dkfds'</a> i steden for 'dkwds'. </p>
+    </li>
+    <li class="mt-4">
+      <b>Bourbon er fjernet</b>
+      <p class="m-0">Biblioteket 'Bourbon' er ikke længere en del af designsystemet. Det vil derfor ikke længere være muligt at benytte sig af deres hjælpeklasser og funktioner. </p>
+    </li>
+    <li class="mt-4">
+      <b>Nyt gridsystem</b>
+      <p class="m-0"> USDW's gamle float-grid (NEAT) og Bootstraps grid er fjernet. I steden for er USWD's nye grid inkluderet. Der er lavet tilpasninger af dette grid så det køre på de samme variable og klassenavne som i den forrige version af FDS. Der skal derfor ikke laves nogen tilpasninger for at få dette grid inkluderet.</p>
+    </li>
+    <li class="mt-4">
+      <b>Plugins project</b>
+      <p class="m-0"> Datatables og SelectWoo er ikke længere en del af komponent-biblioteket. Der er derimod oprettet et nyt projekt (dkfds-plugins) hvor disse nu lever.</p>
+    </li>
+    <li class="mt-4">
+      <b>Nye klasser</b>
+      <p class="m-0"> De følgende klasser er blev omdøbt:</p>
+      <ul>
+        <li>.input-success --> .form-success</li>
+        <li>.input-error-message --> .form-error-message</li>
+      </ul>
+    </li>
+    <li class="mt-4">
+      <b>Radioknapper og checkbokse</b>
+      <ul>
+        <li>Styling af radiobuttons kræver nu denne klasse på selve input[type=radio]: "form-radio".</li>
+        <li> Styling af checkboxe kræver nu denne klasse på selve input[type=checkbox]: "form-check".</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <div id="version-212" class="mt-8">
   <h3 class="mb-0">Version 2.1.2</h3>

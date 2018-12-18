@@ -122,6 +122,15 @@ order: 01
     <!-- color-gray-light end -->
     <!-- color-gray-pale start -->
     <div class="col-md-3">
+      <div class="color-container-large color-gray-mediumpale"></div>
+      <div class="color-text-container">
+        <p class="code-color-hex">#DCDCDC</p>
+        <p class="code-color-variable">$color-gray-mediumpale</p>
+      </div>
+    </div>
+    <!-- color-gray-pale end -->
+    <!-- color-gray-pale start -->
+    <div class="col-md-3">
       <div class="color-container-large color-gray-pale"></div>
       <div class="color-text-container">
         <p class="code-color-hex">#F5F5F5</p>
@@ -166,7 +175,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-error"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#E92021</p>
+        <p class="code-color-hex">#E31616</p>
         <p class="code-color-variable">$color-error</p>
       </div>
     </div>
@@ -227,7 +236,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-link"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#0059B3</p>
+        <p class="code-color-hex">#004D99</p>
         <p class="code-color-variable">$color-link</p>
       </div>
     </div>

@@ -33,14 +33,6 @@ title: Text-input.html
             aria-describedby="input-hint-message-form-error">
     </div>
 
-    <div class="form-group form-success">
-        <label class="form-label " for="input-success">Inputfelt med
-            succes</label>
-
-        <input class="form-input  " placeholder="" id="input-success"
-            value="" name="" type="text">
-    </div>
-
     <div class="form-group">
         <label class="form-label " for="input-disabled">Inputfelt som er
             låst</label>
@@ -53,8 +45,8 @@ title: Text-input.html
         <label class="form-label " for="input-optinal">Inputfelt som er
             valgfrit<span class="weight-normal"> (frivilligt)</span></label>
 
-        <input class="form-input  " placeholder="Indskriv en frivillig tekst"
-            id="input-optinal" value="" name="" type="text">
+        <input class="form-input  " placeholder="" id="input-optinal"
+            value="" name="" type="text">
     </div>
 
 </div>

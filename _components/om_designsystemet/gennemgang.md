@@ -1,5 +1,5 @@
 ---
-permalink: /omdesignsystemet/gennemgang
+permalink: /omdesignsystemet/gennemgang/
 layout: styleguide
 title: Gennemgang af designsystemet
 category: Om_designsystemet_category

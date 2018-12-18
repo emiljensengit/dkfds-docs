@@ -112,7 +112,7 @@ title: Example-flytning-page-5.html
 
             <ul class='sidenav-list'>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-1'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-1'>
                         1. Oversigt
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -120,7 +120,7 @@ title: Example-flytning-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-2'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-2'>
                         2. Personer
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -128,7 +128,7 @@ title: Example-flytning-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-3'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-3'>
                         3. Adresse
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -136,7 +136,7 @@ title: Example-flytning-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-4'>
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-4'>
                         4. Særlig flytning
                         <span class='sidenav-icon'>
                             <svg class='icon-svg'><use xlink:href='#check'></use></svg>
@@ -144,7 +144,7 @@ title: Example-flytning-page-5.html
                     </a>
                 </li>
                 <li>
-                    <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-5'
+                    <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-5'
                         class='active'>
                         5. Lægevalg
                     </a>
@@ -197,7 +197,7 @@ title: Example-flytning-page-5.html
 
     <nav class="page-navigation">
         <a href="#" class="button button-primary">Næste</a>
-        <a href='/dkfds-docs/pages/page-templates/digital-flytning/flytning-4'
+        <a href='/dkfds-docs/pages/eksempler/digital-flytning/flytning-4'
             class="button button-ghost">Tilbage</a>
     </nav>
 </main>

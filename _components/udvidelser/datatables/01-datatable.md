@@ -7,9 +7,11 @@ lead: A datatable is an arrangement of data in rows and columns that make compar
 
 <div class="alert alert-info alert--paragraph" role="alert" aria-label="Bruger ekstern script informationsboks">
   <div class="alert-body">
-    <h3 class="alert-heading">Kræver speciel implementering</h3>
+    <h3 class="alert-heading">Denne komponent er ikke en del af kerne af FDS</h3>
     <p class="alert-text">
-      Datatables  gør brug af et eksternt bibliotek (<a href="https://datatables.net/">datatables.net</a>) som skal inkluderes ud over standard filerne til Frontend Styleguiden.  
+      Datatables er et eksternt bibliotek (<a href="https://datatables.net/">datatables.net</a>), som ikke er inkluderet i FDS.<br>
+      I <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins">FDS-plugins</a> projektet kan man finde et tema til Datatables (dkfds-datatables-theme.css). <br>
+      Javascripten i FDS-plugins projektet kan bruges som inspiration til hvordan datatables kan inkluderes og bruges i et projekt.
     </p>
   </div>
 </div>
