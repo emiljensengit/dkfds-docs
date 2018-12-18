@@ -278,7 +278,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-focus"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#FEBB30</p>
+        <p class="code-color-hex">#747474</p>
         <p class="code-color-variable">$color-focus</p>
       </div>
     </div>
