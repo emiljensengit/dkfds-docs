@@ -27,12 +27,3 @@ order: 05
     </div>
   </div>
 </div>
-<div class="accordion-bordered accordion-docs">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="bodycopy-docs">
-    Retningslinjer
-  </button>
-  <div id="bodycopy-docs" class="accordion-content">
-    
-  </div>
-</div>

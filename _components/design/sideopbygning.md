@@ -53,7 +53,7 @@ subnav:
 <h3 class="h5">Række 5 (frivillig)</h3>
 <p>Funktionslinks (igangsætter system- eller OS-funktionalitet, fx gem, print osv.)</p>
 <p>En header med fem rækker er meget kompleks og kan som udgangspunkt ikke anbefales, men da designsystemet både skal servicere simple og komplekse løsninger, har der været behov for at headeren er meget tilpasningsvenlig.</p>
-<p><a href="#">Se header-komponenten</a></p>
+<p><a href="/dkfds-docs/komponenter/headers/">Se header-komponenten</a></p>
 
 <h2 id="indhold">Indhold</h2>
 <p>Vi kender ikke det specifikke indhold i alle selvbetjeningsløsninger, hvorfor konkrete retningslinjer for et layout er erstattet af nogle principper. Principperne er at betragte som anbefalinger, der særligt retter sig mod selvbetjeningsløsninger til lavfrekvente og ikke-proffesionelle brugere. Principperne udsiger ikke noget om hvordan en given selvbetjeningsløsning specifikt skal se ud.</p>
@@ -82,8 +82,8 @@ subnav:
         <h3 class="h5">Brug et responsivt grid</h3>
         <p>Brug et grid-system til at styre dit layout.</p>
         <img src="{{ site.baseurl }}/img/descriptionimages/brug-et-grid.png" alt="Side med gridsystem." class="description-image">
-        <p><a href="#">Grid’et i designsystemet</a></p>
-        <p><a href="#">Eksempler på selvbetjeningsløsninger</a></p>
+        <p><a href="/dkfds-docs/design/grid/">Grid’et i designsystemet</a></p>
+        <p><a href="/dkfds-docs/eksempler/">Eksempler på selvbetjeningsløsninger</a></p>
     </li>
 </ul>
 
@@ -104,5 +104,5 @@ subnav:
 
 <p>Footeren indeholder altid ansvarlig myndighed, tilgængelighedserklæring og cookieoplsyning. Det er op til den enkelte at vælge en footer som passer til den mængde indhold, der er rigtig for en given selvbetjeningsløsning.</p>
 
-<p><a href="#">Se footer-komponenten</a></p>
+<p><a href="/dkfds-docs/komponenter/footers/">Se footer-komponenten</a></p>
 

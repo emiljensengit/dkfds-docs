@@ -1,7 +1,7 @@
 ---
 permalink: /design/kanter/
 layout: styleguide
-title: Hjørner, streger og skygger
+title: Kanter, streger, skygger
 category: Design_category
 subcategory: Design
 lead: ""

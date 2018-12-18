@@ -112,7 +112,7 @@ subnav:
     {% include code/accordion.html component="grid--column-wrapping" %}
 
     <h3>Indlejre</h3>
-    <p>Flere rækker og dertilhørende kolonner kan indjeres inde i hinanden.</p>
+    <p>Flere rækker og dertilhørende kolonner kan indlejres i hinanden.</p>
 
     {% include code/preview.html component="grid--nesting" %}
     {% include code/accordion.html component="grid--nesting" %}

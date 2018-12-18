@@ -11,12 +11,3 @@ order: 06
 
 {% include code/preview.html component="links" %}
 {% include code/accordion.html component="links" %}
-<div class="accordion-bordered accordion-docs">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="link-docs">
-    Retningslinjer
-  </button>
-  <div id="link-docs" class="accordion-content" aria-hidden="false">
-   
-  </div>
-</div>

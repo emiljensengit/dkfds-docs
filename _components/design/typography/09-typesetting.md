@@ -19,13 +19,3 @@ order: 07
     <p>Bredden er styret af variablen <code>$text-max-width</code> in <code>src/stylesheets/core/<wbr>_variables.scss</code>.</p>
   </div>
 </div>
-
-<div class="accordion-bordered accordion-docs">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="typesetting-docs">
-    Retningslinjer
-  </button>
-  <div id="typesetting-docs" class="accordion-content">
-
-  </div>
-</div>

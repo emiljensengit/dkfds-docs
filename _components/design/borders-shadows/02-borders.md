@@ -64,13 +64,3 @@ order: 02
     </div>
   </div>
 </div>
-
-<div class="accordion-bordered">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="alert-docs">
-    Retningslinjer
-  </button>
-  <div id="alert-docs" aria-hidden="false" class="accordion-content">
-    
-  </div>
-</div>

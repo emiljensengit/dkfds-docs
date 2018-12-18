@@ -9,7 +9,7 @@ lead: Udvidelser er komponenter som er for store og specialiserede til, at de ka
 
 
 <div class="row">
- <div class="col-12 col-sm-6 col-md-4">
+ <div class="col-12 col-md-4">
       <div class="demo-component-box">
           <a href="/dkfds-docs/udvidelser/datatables/" class="demo-component-box__img">
               <img src="{{ site.baseurl }}/img/componenticons/datatabeller.svg" alt="">
@@ -17,7 +17,7 @@ lead: Udvidelser er komponenter som er for store og specialiserede til, at de ka
           <p><a href="/dkfds-docs/udvidelser/datatables/">Advancerede tabeller</a></p>
       </div>
   </div>
-  <div class="col-12 col-sm-6 col-md-4">
+  <div class="col-12 col-md-4">
       <div class="demo-component-box">
           <a href="/dkfds-docs/udvidelser/selectwoo-multiselect/" class="demo-component-box__img">
               <img src="{{ site.baseurl }}/img/componenticons/Multiselect.svg" alt="">

@@ -3,6 +3,14 @@ permalink: /
 layout: landing
 title: Forside
 ---
+
+<div class="alert alert-info" role="alert" aria-label="Styleguiden er gået i beta">
+  <div class="alert-body">
+      <p class="alert-heading">BETA</p>
+      <p class="alert-text">Det Fælles Designsystem er den kommende fælles guide til selvbetjeningsløsninger, der skal på borger.dk og Virk. Hjælp os gerne med at forbedre den via <a href="https://github.com/detfaellesdesignsystem/dkfds-components">GitHub</a>.</p>
+  </div>
+</div>
+
 <div class="row">
   <div class="col-12 col-md-5">
     <h1 class="mt-0">Designsystemet til selvbetjenings&shy;løsninger, der skal på borger.dk og Virk</h1>

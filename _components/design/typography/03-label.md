@@ -20,12 +20,3 @@ order: 03
     <p>Kolonneoverskrifter bruges i tabeller og indsættes som <code>&lt;th&gt;&lt;/th&gt;</code> i en thead. Kolonneoverskrifter skal hverken have label-tag eller label klasse.</p>
   </div>
 </div>
-<div class="accordion-bordered accordion-docs">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="labels-docs">
-    Retningslinjer
-  </button>
-  <div id="labels-docs" class="accordion-content">
-    
-  </div>
-</div>

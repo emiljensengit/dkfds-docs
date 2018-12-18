@@ -39,12 +39,3 @@ order: 02
       <p>Der er oprettet klasser for hver heading, som arver styling fra heading mixins. Dette betyder at hvis der ønskes en h1 med styling fra h2, skal klassen .h2 blot indsættes på &lt;h1 class="h2"&gt;</p>
   </div>
 </div>
-<div class="accordion-bordered accordion-docs">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="link-docs">
-    Retningslinjer
-  </button>
-  <div id="link-docs" class="accordion-content">
-    
-  </div>
-</div>

@@ -19,13 +19,3 @@ order: 07
     <p>For at lave en liste uden styling kan enten klassen <code>.unstyled-list</code> benyttes eller et mixin <code>@include unstyled-list;</code>.</p>
   </div>
 </div>
-
-<div class="accordion-bordered accordion-docs">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="list-docs">
-    Retningslinjer
-  </button>
-  <div id="list-docs" class="accordion-content">
-    
-  </div>
-</div>
