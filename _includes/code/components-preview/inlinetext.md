@@ -18,7 +18,6 @@ title: Inlinetext.html
             <p class="small-text">Dette er lille brødtekst (.small-text)</p>
             <p class="weight-semibold">Dette er semi-fed brødtekst</p>
             <p><strong>Dette er fed brødtekst</strong></p>
-            <p><b>Dette er også fed brødtekst lavet med et b-tag.</b></p>
         </div>
     </div>
 </div>

@@ -51,16 +51,7 @@ subnav:
                 <tbody>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/accessibility/">Tilgængelighed</a></td>
-                        <td></td>
-                        <td><a href="https://designsystem.digital.gov/documentation/accessibility/">Accessibility</a></td>
-                        <td><a href=""></a></td>
-                        <td><a href=""></a></td>
-                        <td><a href=""></a></td>
-                    </tr>
-                    <tr>
-                        <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/utility/">Hjælpeklasser (utilities)</a></td>
+                        <td><a href="/dkfds-docs/komponenter/utility/">Hjælpeklasser (utilities)</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -69,7 +60,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/typography/">Typografi</a></td>
+                        <td><a href="/dkfds-docs/design/typography/">Typografi</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/typography/">Typography</a></td>
                         <td><a href=""></a></td>
@@ -78,7 +69,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/colors/">Farver</a></td>
+                        <td><a href="/dkfds-docs/design/farver/">Farver</a></td>
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -87,7 +78,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/ikoner/">Ikoner</a></td>
+                        <td><a href="/dkfds-docs/design/ikoner/">Ikoner</a></td>
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -96,7 +87,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/kanter/">Hjørner, streger og skygger</a></td>
+                        <td><a href="/dkfds-docs/design/kanter/">Hjørner, streger og skygger</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -105,7 +96,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/grids/">Grid</a></td>
+                        <td><a href="/dkfds-docs/design/grid/">Grid</a></td>
                         <td></td>
                         <td><a href="https://v2.designsystem.digital.gov/utilities/layout-grid/">Layout Grid</a></td>
                         <td><a href=""></a></td>
@@ -114,7 +105,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/buttons/">Knapper</a></td>
+                        <td><a href="/dkfds-docs/komponenter/buttons/">Knapper</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/buttons/">Buttons</a></td>
                         <td><a href=""></a></td>
@@ -123,7 +114,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/tags/">Tags</a></td>
+                        <td><a href="/dkfds-docs/komponenter/tags/">Tags</a></td>
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -132,7 +123,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/accordions/">Accordions</a></td>
+                        <td><a href="/dkfds-docs/komponenter/accordions/">Accordions</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/accordions/">Accordions</a></td>
                         <td><a href=""></a></td>
@@ -141,7 +132,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/beskeder/">Beskeder</a></td>
+                        <td><a href="/dkfds-docs/komponenter/beskeder/">Beskeder</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/alerts/">Alerts</a></td>
                         <td><a href=""></a></td>
@@ -150,7 +141,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/cards/">Cards</a></td>
+                        <td><a href="/dkfds-docs/komponenter/cards/">Cards</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -159,7 +150,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/form-controls/">Formular elementer</a></td>
+                        <td><a href="/dkfds-docs/komponenter/form-controls/">Formular elementer</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/form-controls/">Form controls</a></td>
                         <td><a href="https://design-system.service.gov.uk/components/radios/">Radio</a><br>
@@ -172,7 +163,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Nej</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/select2-multiselect/">Multiselect dropdown</a></td>
+                        <td><a href="/dkfds-docs/udvidelser/selectwoo-multiselect/">Multiselect dropdown</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -181,7 +172,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/search/">Søgefelt</a></td>
+                        <td><a href="/dkfds-docs/komponenter/search/">Søgefelt</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/search-bar/">Search bar</a></td>
                         <td><a href=""></a></td>
@@ -190,7 +181,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/badges/">Badges</a></td>
+                        <td><a href="/dkfds-docs/komponenter/badges/">Badges</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/labels/">Labels</a></td>
                         <td><a href="https://design-system.service.gov.uk/components/tag/">Tags</a><br>
@@ -201,7 +192,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/tables/">Tabeller</a></td>
+                        <td><a href="/dkfds-docs/komponenter/tables/">Tabeller</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/tables/">Tables</a></td>
                         <td><a href=""></a></td>
@@ -210,7 +201,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Nej</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/datatables/">Avancerede tabeller</a></td>
+                        <td><a href="/dkfds-docs/udvidelser/datatables/">Avancerede tabeller</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -219,7 +210,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/trinindikatorer/">Trinindikatorer</a></td>
+                        <td><a href="/dkfds-docs/komponenter/trinindikatorer/">Trinindikatorer</a></td>
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -228,7 +219,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/sidenav/">Sidenavigation</a></td>
+                        <td><a href="/dkfds-docs/komponenter/sidenav/">Sidenavigation</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/sidenav/">Sidenavigation</a></td>
                         <td><a href=""></a></td>
@@ -237,7 +228,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/tabnav/">Faneblade</a></td>
+                        <td><a href="/dkfds-docs/komponenter/tabnav/">Faneblade</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/headers/">Headers</a></td>
                         <td><a href=""></a></td>
@@ -246,7 +237,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/spinner/">Spinner</a></td>
+                        <td><a href="/dkfds-docs/komponenter/spinner/">Spinner</a></td>
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -255,7 +246,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/overflowmenu/">Overflow menu</a></td>
+                        <td><a href="/dkfds-docs/komponenter/overflowmenu/">Overflow menu</a></td>
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -264,7 +255,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Nej</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/modals/">Modalvinduer</a></td>
+                        <td><a href="/dkfds-docs/komponenter/modals/">Modalvinduer</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -273,7 +264,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Nej</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/tooltip/">Tooltip og popover</a></td>
+                        <td><a href="/dkfds-docs/komponenter/tooltip/">Tooltip og popover</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -282,7 +273,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/collapse/">Skjul og vis (Collapse)</a></td>
+                        <td><a href="/dkfds-docs/komponenter/collapse/">Skjul og vis (Collapse)</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href="https://design-system.service.gov.uk/components/radios/">Radios</a></td>
@@ -291,7 +282,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/headers/">Headers</a></td>
+                        <td><a href="/dkfds-docs/komponenter/headers/">Headers</a></td>
                         <td></td>
                         <td><a href="https://designsystem.digital.gov/components/headers/"></a></td>
                         <td><a href=""></a></td>
@@ -300,7 +291,7 @@ subnav:
                     </tr>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="https://fsgpilot.github.io/frontend-styleguide/designandcode/footers/">Footers</a></td>
+                        <td><a href="/dkfds-docs/komponenter/footers/">Footers</a></td>
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>

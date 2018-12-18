@@ -626,7 +626,10 @@ code {
 .demo-component-box{
   &__img{
     height: 156px;
-    display: flex;
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
     align-items: center;
     justify-content: center;
     padding: map-get($spacers, 4);

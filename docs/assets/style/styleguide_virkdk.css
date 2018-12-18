@@ -1655,13 +1655,6 @@ p, .body-text, .body-copy-text {
   line-height: 3.2rem;
   max-width: 66ch;
   color: #1a1a1a; }
-  @media (max-width: 767px) {
-    .font-lead {
-      font-size: 1.6rem;
-      line-height: 2.4rem;
-      font-weight: 400;
-      color: #1a1a1a;
-      text-transform: none; } }
 
 .weight-normal {
   font-weight: 400; }
@@ -5510,7 +5503,7 @@ hr {
   border: solid 2px #E31616 !important; }
 
 .accordion-button[aria-expanded=true] {
-  font-weight: 600; }
+  background-color: #DCDCDC; }
   .accordion-bordered .accordion-button[aria-expanded=true] {
     border-bottom: 1px solid #BFBFBF; }
 
@@ -7552,11 +7545,14 @@ code {
 
 .demo-component-box__img {
   height: 156px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   padding: 16px;
   background-color: #F5F5F5; }
+  @media (min-width: 768px) {
+    .demo-component-box__img {
+      display: flex; } }
   .demo-component-box__img:focus {
     background-color: #F5F5F5;
     outline: 4px solid #747474; }
