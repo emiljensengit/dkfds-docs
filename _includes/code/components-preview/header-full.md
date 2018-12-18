@@ -264,8 +264,8 @@ title: Header-full.html
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal"
-                data-micromodal-close>Luk</button>
+            <button class="modal__close button button-quaternary"
+                aria-label="Close modal" data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

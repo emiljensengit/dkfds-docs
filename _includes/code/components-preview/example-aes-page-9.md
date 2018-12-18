@@ -349,7 +349,7 @@ title: Example-aes-page-9.html
                 <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-10"
                     class="button button-primary">Send sagen til AES</a>
                 <a href="/dkfds-docs/pages/eksempler/AES-erstatningssag/aes-8"
-                    class="button button-ghost">Tilbage</a>
+                    class="button button-quaternary">Tilbage</a>
             </nav>
         </div>
     </div>
@@ -423,8 +423,8 @@ title: Example-aes-page-9.html
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal"
-                data-micromodal-close>Luk</button>
+            <button class="modal__close button button-quaternary"
+                aria-label="Close modal" data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

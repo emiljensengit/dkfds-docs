@@ -37,8 +37,8 @@ title: Modal.html
                     aria-label="Fx lukker modal vinduet">Sekundærknap</button>
             </footer>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal"
-                data-micromodal-close>Luk</button>
+            <button class="modal__close button button-quaternary"
+                aria-label="Close modal" data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>
@@ -61,8 +61,8 @@ title: Modal.html
                     laboris nisi ut aliquip ex ea commodo consequat</p>
             </main>
 
-            <button class="modal__close button button-ghost" aria-label="Close modal"
-                data-micromodal-close>Luk</button>
+            <button class="modal__close button button-quaternary"
+                aria-label="Close modal" data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

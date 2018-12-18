@@ -42,6 +42,14 @@ subnav:
       </ul>
     </li>
     <li class="mt-4">
+      <b>Accordion</b>
+      <p class="m-0">Accordions plus og minus ikon er flyttet til starten af accordion-knappen</p>
+    </li>
+    <li class="mt-4">
+      <b>Focus farve</b>
+      <p class="m-0">Focus-farven er ændret fra den gule farve (#febb30) til en grå farve (#747474). Farven er blevet ændret fordi den gule farve ikke overholder WCAG 2.1. Hvis man ønsker en anden focus-farve kan variablen <code>$color-focus</code> overskrives.</p>
+    </li>
+    <li class="mt-4">
       <b>Radioknapper og checkbokse</b>
       <ul>
         <li>Styling af radiobuttons kræver nu denne klasse på selve input[type=radio]: "form-radio".</li>

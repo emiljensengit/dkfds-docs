@@ -245,7 +245,7 @@ title: Example-boernetilskud-ansoegning-2.html
     <nav class="page-navigation">
         <a href="#" class="button button-primary">Næste</a>
         <a href="/dkfds-docs/pages/eksempler/boernetilskud/boernetilskud-1"
-            class="button button-ghost">Tilbage</a>
+            class="button button-quaternary">Tilbage</a>
     </nav>
 </main>
 
