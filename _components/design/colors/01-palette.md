@@ -160,7 +160,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-success"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#87C51C</p>
+        <p class="code-color-hex">#358000</p>
         <p class="code-color-variable">$color-success</p>
       </div>
     </div>
@@ -178,7 +178,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-error"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#E31616</p>
+        <p class="code-color-hex">#CC0000</p>
         <p class="code-color-variable">$color-error</p>
       </div>
     </div>
@@ -205,7 +205,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-warning-light"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#FFEECC</p>
+        <p class="code-color-hex">#EEFFE2</p>
         <p class="code-color-variable">$color-warning-light</p>
       </div>
     </div>
@@ -214,7 +214,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-error-light"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#FBD3D3</p>
+        <p class="code-color-hex">#FFE0E0</p>
         <p class="code-color-variable">$color-error-light</p>
       </div>
     </div>
