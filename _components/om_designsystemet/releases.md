@@ -69,7 +69,7 @@ subnav:
         <li>H1 går fra 36px til 40px.</li>
         <li>H2 går fra 27px til 30px.</li>
         <li>H3 er stadig 24px.</li>
-        <li>H4 går fra 22px til 19px;</li>
+        <li>H4 går fra 22px til 20px;</li>
         <li>H5 går fra 20px til 16px;</li>
         <li>H6 går fra 16px til 13px;</li>
         <li>Display-1 går fra 120px til 80px</li>

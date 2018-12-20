@@ -26,6 +26,8 @@
 
 
   
+  <link rel="canonical" href="http://localhost:4000/design/typography/06-links/">
+  
 
 <!-- Favicons
 ================================================== -->
@@ -251,7 +253,7 @@
   <!-- Do not render subnavs-->
   <a href="/dkfds-docs/omdesignsystemet/" 
     class="nav-link">
-    <span>Om designsystem</span>
+    <span>Om designsystemet</span>
   </a>
 
 
@@ -937,7 +939,7 @@
 
 <a href="/dkfds-docs/udvidelser/datatables/" 
   class="  nav-link">
-  Advancerede tabeller
+  Avancerede tabeller
 </a>
 
 
@@ -1128,7 +1130,7 @@
   
     <div class="overflow-menu">
       <button class=" button-overflow-menu js-dropdown js-dropdown--responsive-collapse" data-js-target="#headeroverflow6" aria-haspopup="true" aria-expanded="false"  >
-        <span>Om designsystem</span>
+        <span>Om designsystemet</span>
       </button>
       <div class="overflow-menu-inner" id="headeroverflow6" aria-hidden="true">
         <ul class="overflow-list">
@@ -1142,7 +1144,7 @@
 
 <a href="/dkfds-docs/omdesignsystemet/" 
   class="  nav-link">
-  Om designsystem
+  Om designsystemet
 </a>
 
 
@@ -1284,9 +1286,8 @@
           <h1 class="mt-0" id="links">Links</h1>
           
       
-          <!-- Links section begin -->
-
-<p class="font-lead">Links lead users to a different page or further information.</p>
+          <p class="font-lead">Links anvendes til at linke rundt i løsningen og til at linke ud af løsningen til eksterne sites.</p>
+<p>Vær dog opmærksom på, at hvis der linkes for meget ud til eksterne websites i en selvbetjeningsløsning, kan det virke forstyrrende for flowet og få brugeren ud af kontekst.</p>
 
 <div class="component-preview ">
     <ul class="unstyled-list preview-buttons">
@@ -1445,6 +1446,37 @@
   </div>
 </div>
 
+<div class="accordion-bordered">
+  <button class="button-unstyled accordion-button" aria-expanded="true" aria-controls="typolinks-docs">
+    Retningslinjer
+  </button>
+  <div id="typolinks-docs" aria-hidden="false" class="accordion-content">
+    <article>
+      <section>
+          <h4>Tilgængelighed</h4>
+          <ul>
+              <li>Linkteksten skal give mening for brugeren og angive, hvad linket fører hen til.</li>
+              <li>Links skal enten understreges eller på anden vis markeres, et link må ikke kun være angivet med en farve.</li>
+              <li>Brugerne skal kunne tabulere imellem links og aktivere dem via enter-knappen på keyboardet.</li>
+              <li>Links skal have en defineret “href” attribut i koden.</li>
+              <li>Har linket en “hover” skal denne kunne aktiveres både med keyboard og mus.</li>
+          </ul>
+      </section>
+      <section>
+        <h4>Anvendes til</h4>
+        <ul>
+            <li>Brug links til at lade brugeren navigere til andre sider i din løsning.</li>
+            <li>Brug links til at linke til sider uden for din løsning og husk at markere dette med et ikon.</li>
+        </ul>
+        <h4>Brugervenlighed</h4>
+        <p>Hvis et link fører væk fra den aktuelle side og brugeren kan miste data eller risikere at skulle udfylde samme del igen, så adviser brugeren om dette i et modal vindue og bed denne om at be- eller afkræfte ønsket om at forlade siden.</p>
+        <p>Links skal anvendes med omtanke i en selvbetjeningsløsning. Hvis der linkes for meget ud til eksterne websites i en selvbetjeningsløning, kan det virke forstyrrende for flowet og få brugeren ud af kontekst. Omvendt kan det give stor værdi, hvis der linkes ud til relevante informationer, der understøtter brugerens vej gennem selvbetjeningsløsningen, og som kan give væsentlige input til, hvad brugeren skal indtaste i løsningen.</p>
+        <p>Gør gerne brugeren opmærksom på, hvor det eksterne link fører hen, fx i en parentes som en del af linket, hvis ikke selve linkteksten viser det.</p>
+      </section>
+    </article>
+  </div>
+</div>
+
 
       </section>
     </div>
@@ -1482,7 +1514,7 @@
               <li><p class="h5 semibold"  title="Skriftlig kontakt" aria-label="Skriftlig kontakt">Bidrag til arbejdet</p></li>
             </ul>
             <ul class="unstyled-list">
-              <li><p><a class="function-link" href="https://github.com/FSGpilot/dkfds-docs">Github repository</a></p></li>
+              <li><p><a class="function-link" href="https://github.com/detfaellesdesignsystem">Github repository</a></p></li>
             </ul>
             <ul class="unstyled-list">
               <li><p>Opret gerne issues hvis du har spørgsmål eller finder fejl i systemt.</p></li>

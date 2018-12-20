@@ -1,7 +1,7 @@
 ---
 permalink: /omdesignsystemet/
 layout: styleguide
-title: Om designsystem
+title: Om designsystemet
 category: Om_designsystemet_category
 ---
 <p>Det Fælles Designsystem er inspireret af og bygger på et fundament af international best practice med et stærkt udgangspunkt i det amerikanske offentlige US Web Design System og den engelske pendant GOV.uk Design System. </p>
