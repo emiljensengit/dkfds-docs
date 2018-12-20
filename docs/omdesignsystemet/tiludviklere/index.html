@@ -1409,7 +1409,73 @@
           <h1 class="mt-0" id="til-udviklere">Til udviklere</h1>
           
       
-          <p>På vej</p>
+          <p>FDS er opdelt i to projekter:</p>
+<ul>
+    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-components">DKFDS Components (kernen som indeholder komponenterne)</a></li>
+    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-plugins">DKFDS Plugins</a></li>
+</ul>
+
+<h2>DKFDS Components</h2>
+<p>Projektet er på npm og kan installeres ved at skrive følgende i en kommando-prompt:</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>npm install --save dkfds
+</code></pre>
+</div>
+<p>Modulet 'dkfds' er nu installeret i 'node_modules' mappen.<br />
+Du kan enten benytte source-filerne i 'src/'-mappen er de kompilerede filer i 'dist/'-mappen.</p>
+
+<h3>Inkluder DKFDS Components i dit projekt</h3>
+<p>Den hurtigst måde at få inkluderet FDS' css i dit projekt er at tilføje følgende link-tag:</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>  &lt;link <span class="nb">type</span><span class="o">=</span><span class="s1">'text/css'</span> <span class="nv">rel</span><span class="o">=</span><span class="s1">'stylesheet'</span> <span class="nv">href</span><span class="o">=</span><span class="s1">'[path to dkfds folder]/dist/css/dkfds.css'</span>&gt;
+</code></pre>
+</div>
+<p>For at inkludere javascripten, tilføj følgende tag i slutningen af body-tagget:</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>  &lt;script <span class="nv">src</span><span class="o">=</span><span class="s1">'[path to dkfds folder]/dist/js/dkfds.js'</span>&gt;&lt;/script&gt;
+</code></pre>
+</div>
+
+<h4>Note til Webpack</h4>
+<p>For at inkludere stylingen skal visse variable tilpasses:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>  <span class="nv">$font</span>-path:         <span class="s1">'~dkfds/src/fonts/IBMPlexSans/'</span>;
+  <span class="nv">$image</span>-path:        <span class="s1">'~dkfds/src/img'</span>;
+  <span class="nv">$site</span>-image-path:   <span class="s1">'~dkfds/src/img'</span>;
+  <span class="nv">$icons</span>-folder-path: <span class="s1">'~dkfds/src/img/svg-icons'</span>;
+  @import <span class="s1">'../node_modules/dkfds/src/stylesheets/dkfds'</span>;
+</code></pre>
+</div>
+
+<p>For at inkludere javascripten via webpack, tilføj følgende linie i din main.js fil:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>  import <span class="s2">"dkfds"</span>;
+</code></pre>
+</div>
+
+<h2>DKFDS Plugins</h2>
+<p>Det er kun styling (css eller scss) som skal inkluderes from plugins projektet. Den javascript og HTML som findes i projektet er kun til lave de eksempler som kan ses på dette dokumentationssite.</p>
+<p>Der er i øjeblikket lavet temaer til følgende:</p>
+<ul>
+    <li><a href="https://datatables.net/">Datatables</a></li>
+    <li><a href="https://github.com/woocommerce/selectWoo">SelectWoo</a></li>
+</ul>
+
+<p>Projektet er på npm og kan installeres ved at skrive følgende i en kommando-prompt:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>npm install dkfds-plugins --save
+</code></pre>
+</div>
+
+<p>Modulet 'dkfds-plugins' er nu installeret i 'node_modules' mappen.<br />
+<p>Inkluder derefter temaerne enten som css direkte:</p>
+
+```shell
+<link rel="stylesheet" href="[path-to-plugins-project]/dist/css/dkfds-datatables-theme.min.css" />
+```
+<p>Eller inkluder temaet i scss:</p>
+
+<pre>
+@import "~dkfds-plugins/dist/datatables/style/dkfds-datatables-theme.scss";
+</pre>
+</p>
 
       </section>
     </div>

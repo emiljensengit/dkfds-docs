@@ -24,8 +24,6 @@ You will need to have the following installed on your machine before following t
 
 ### Building the documentation with gulp
 
-Some parts of the documentation are built using [gulp](http://gulpjs.com/).
-
 To work on the site, clone a local copy of this repository. Then open a terminal and run the following commands to install project dependencies:
 
 ```sh

@@ -2,7 +2,7 @@
 permalink: /eksempler/sideeksempler/
 layout: styleguide
 title: Sideeksempler
-category: Page templates
+category: Eksempler_category
 lead: 
 subnav:
 - text: Opsummeringsside
