@@ -64,9 +64,10 @@ npm install dkfds-plugins --save
 <p>Modulet 'dkfds-plugins' er nu installeret i 'node_modules' mappen.<br>
 <p>Inkluder derefter temaerne enten som css direkte:</p>
 
-```shell
-<link rel="stylesheet" href="[path-to-plugins-project]/dist/css/dkfds-datatables-theme.min.css">
-```
+<pre>
+&lt;link rel="stylesheet" href="[path-to-plugins-project]/dist/css/dkfds-datatables-theme.min.css"&gt;
+</pre>
+
 <p>Eller inkluder temaet i scss:</p>
 
 <pre>
