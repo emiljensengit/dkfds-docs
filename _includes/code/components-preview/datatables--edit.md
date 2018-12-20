@@ -95,13 +95,13 @@ title: Datatables--edit.html
             <footer class="modal__footer">
                 <button class="button button-primary js-edit-save-trigger"
                     aria-label="Save changes to the row">Gem</button>
-                <button class="button button-ghost" data-micromodal-close
-                    aria-label="Close this dialog window, no changes saved">Annuller</button>
+                <button class="button button-quaternary"
+                    data-micromodal-close aria-label="Close this dialog window, no changes saved">Annuller</button>
                 <!--<button class="button button-primary">En knap</button>
                 <button class="button button-secondary" data-micromodal-close aria-label="Close this dialog window">Knap som lukker modal</button>-->
             </footer>
-            <button class="modal__close button button-ghost" aria-label="Close modal"
-                data-micromodal-close>Luk</button>
+            <button class="modal__close button button-quaternary"
+                aria-label="Close modal" data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>
@@ -125,8 +125,8 @@ title: Datatables--edit.html
                 <button class="button button-secondary"
                     data-micromodal-close aria-label="Close this dialog window">Nej</button>
             </footer>
-            <button class="modal__close button button-ghost" aria-label="Close modal"
-                data-micromodal-close>Luk</button>
+            <button class="modal__close button button-quaternary"
+                aria-label="Close modal" data-micromodal-close>Luk</button>
         </div>
     </div>
 </div>

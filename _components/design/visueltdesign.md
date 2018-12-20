@@ -35,17 +35,17 @@ subnav:
 
 <h3 class="h5">Header-temaer</h3>
 <figure><img src="{{ site.baseurl }}/img/descriptionimages/header-temaer.png" alt="Temahåndtering i header" class="description-image"></figure>
-<p><a href="#">Gå til headerkomponenten</a></p>
-<p><a href="#">Læs om layout til headeren</a></p>
+<p><a href="/dkfds-docs/komponenter/headers/">Gå til headerkomponenten</a></p>
+<p><a href="/dkfds-docs/design/sideopbygning/?s=undefined#header">Læs om layout til headeren</a></p>
 
 <h3 class="h5">Venstremenu/tringuide-temaer</h3>
 <figure><img src="{{ site.baseurl }}/img/descriptionimages/venstremenu-tringuide.png" alt="Temahåndtering i venstremenu" class="description-image"></figure>
-<p><a href="#">Gå til venstremenukomponenten</a></p>
-<p><a href="#">Læs om de forskellige tringuides</a></p>
+<p><a href="/dkfds-docs/komponenter/sidenav/">Gå til venstremenukomponenten</a></p>
+<p><a href="/dkfds-docs/komponenter/trinindikatorer/">Læs om de forskellige tringuides</a></p>
 
 <h3 class="h5">Primærknap-temaer</h3>
 <figure><img src="{{ site.baseurl }}/img/descriptionimages/Primaerknapper.png" alt="Temahåndtering og knapper" class="description-image"></figure>
-<p><a href="#">Læs om knapper</a></p>
+<p><a href="/dkfds-docs/komponenter/buttons/">Læs om knapper</a></p>
 
 
 <h2 id="principper_for_den_visuelle_stil">Principper for den visuelle stil</h2>
@@ -74,7 +74,7 @@ myndighedskonstruktioner. Neutralt betyder også at konservativt og tidsløst de
 
 <h3 class="h5">Brugeroplevelsen bliver bedre</h3>
 <p>Når du bruger mere tid på brugerinddragelse, brugertests, procesforbedringer og sammenhænge til andre selvbetjeningsløsninger end på at designe og genopfinde de samme komponenter igen, så bliver brugeroplevelsen bedre.</p>
-<p><a href="#">Se eksempler på selvbetjeningsløsninger</a></p>
+<p><a href="/dkfds-docs/eksempler/">Se eksempler på selvbetjeningsløsninger</a></p>
 
 
 <h2 id="baggrund_for_designsystemet">Baggrund for designsystemet</h2>
@@ -109,7 +109,7 @@ myndighedskonstruktioner. Neutralt betyder også at konservativt og tidsløst de
 <div class="row">
   <div class="col-12 col-md-6">
     <h4 class="h5">Det Fælles Designsystem</h4>
-    <img src="{{ site.baseurl }}/img/descriptionimages/Det-faellles-designsystem.png" alt="Det Fælles Designsystem" class="description-image">
+    <img src="{{ site.baseurl }}/img/descriptionimages/Det-faellles-designsystem.jpg" alt="Det Fælles Designsystem" class="description-image">
   </div>
 </div>
 
@@ -119,7 +119,7 @@ sammenhæng på tværs, uanset hvilken portal en selvbetjeningsløsning påbegyn
 <div class="row">
   <div class="col-12 col-md-6">
     <h4 class="h5 mb-0">Borger.dk</h4>
-    <img src="{{ site.baseurl }}/img/descriptionimages/borger.dk.png" alt="Borger.dk">
+    <img src="{{ site.baseurl }}/img/descriptionimages/borger.dk.jpg" alt="Borger.dk">
   </div>
   <div class="col-12 col-md-6">
     <h4 class="h5 mb-0">Virk</h4>

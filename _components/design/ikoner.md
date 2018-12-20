@@ -9,10 +9,11 @@ order: 25
 
 <p>Nedenfor vises de ikoner som er inkluderet i designsystemet. Ikonerne er reserveret til deres specifikke formål og skal anvendes som sådan. Hvis du har brug for yderligere ikoner henviser vi til <a href="https://material.io/tools/icons/?style=outline" class="icon-link">Material Design<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></p>
 
-## Krav
-
-* Ikonerne i designsystemet må kun anvendes til deres specificerede formål
-* Bruges eller skabes andre ikoner end de viste skal de <a href="https://material.io/design/iconography/system-icons.html#grid-keyline-shapes" class="icon-link">passe ind i visuelt<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> og de må ikke ligne eller kunne forvirres med designsystemets andre ikoner.
+<div class="alert alert-info alert--paragraph" role="alert" aria-label="Beskedbox der viser information">
+  <div class="alert-body">
+    <p class="alert-text">Bruges eller skabes andre ikoner end de viste skal de <a class="icon-link" href="https://material.io/design/iconography/system-icons.html#grid-keyline-shapes">passe ind visuelt<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a> og de må ikke ligne eller kunne forvirres med designsystemets andre ikoner.</p>
+  </div>
+</div>
 
 {% include code/preview.html component="icons--svg" %}
 {% include code/accordion.html component="icons--svg" %}

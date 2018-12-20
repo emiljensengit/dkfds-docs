@@ -5,7 +5,7 @@ parent: typography
 order: 05
 ---
 
-<p>The Frontend styleguide's global default <code>font-size</code> is <strong>16px</strong>, with a <code>line-height</code> of <strong>24px</strong>. This is applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a bottom margin of half their computed line-height (10px by default).</p>
+<p class="font-lead">Brødtekst er standardformateringen for tekst i designsystemet og bruges i særdeleshed til afsnit af tekst.</p>
 
 {% include code/preview.html component="inlinetext" %}
 {% include code/accordion.html component="inlinetext" %}
@@ -25,5 +25,25 @@ order: 05
             p &nbsp;&nbsp;&nbsp;{ font-size: 1.6rem; } /* =16px */ <br>
         </code>
     </div>
+  </div>
+</div>
+
+<div class="accordion-bordered">
+  <button class="button-unstyled accordion-button"
+      aria-expanded="true" aria-controls="typobody-docs">
+    Retningslinjer
+  </button>
+  <div id="typobody-docs" aria-hidden="false" class="accordion-content">
+    <article>
+      <section>   
+          <ul>
+            <li>Undgå "mure af tekst" i din selvbetjeningsløsning.</li>
+            <li>Brug kun fed tekst i meget begrænset omfang inde i sætninger til at fremhæve særligt centrale tal eller pointer.</li>
+            <li>Brug ikke fed tekst som overskrift.</li>
+            <li>Brug ikke understreget tekst, da det ligner links.</li>
+            <li>Brug ikke kursiv tekst, da det nedsætter læsbarheden.</li>
+          </ul>
+      </section>
+    </article>
   </div>
 </div>

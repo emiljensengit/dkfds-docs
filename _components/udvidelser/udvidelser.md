@@ -14,7 +14,7 @@ lead: Udvidelser er komponenter som er for store og specialiserede til, at de ka
           <a href="/dkfds-docs/udvidelser/datatables/" class="demo-component-box__img">
               <img src="{{ site.baseurl }}/img/componenticons/datatabeller.svg" alt="">
           </a>
-          <p><a href="/dkfds-docs/udvidelser/datatables/">Advancerede tabeller</a></p>
+          <p><a href="/dkfds-docs/udvidelser/datatables/">Avancerede tabeller</a></p>
       </div>
   </div>
   <div class="col-12 col-md-4">

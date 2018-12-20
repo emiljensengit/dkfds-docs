@@ -102,7 +102,7 @@ subnav:
 <h3 class="h4">Footer i 4 blokke af 3 kolonner</h3>
 <figure><img src="{{ site.baseurl }}/img/descriptionimages/footer-i-4-blokke-af-3-kolonner.png" alt="Footer i 4 kolonner"></figure>
 
-<p>Linjen skærer hele skærmensbredde og er 1px tyk i farven #999. Footeren placerer sig enten i bunden af browservinduet eller 64px fra sidste element på siden ned til linjen.</p>
+<p>Linjen skærer hele skærmensbredde og er af typen "ydre streg". Footeren placerer sig enten i bunden af browservinduet eller 64px fra sidste element på siden ned til linjen.</p>
 
 <p>Under linjen er der 24 px til overskrifter og tekst. Overskrifter og tekst er 16px med linjehøjde 24px og herunder er der endnu 24 px inden siden slutter.</p>
 

@@ -5,7 +5,7 @@ parent: typography
 order: 07
 ---
 
-<!-- Typsetting section begin -->
+<p class="font-lead">For at sikre optimal læsbarhed er der i koden sat en maksimal bredde på linjelængden for brød- og manchettekst.</p>
 
 {% include code/preview.html component="typesetting" %}
 {% include code/accordion.html component="typesetting" %}

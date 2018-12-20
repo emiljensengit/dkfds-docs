@@ -104,7 +104,7 @@ lead:
             </li>
             <li>
                 <h3 class="h5">Vær konsekvent</h3>
-                <p>Forudsigelighed og pålidelighed i designet skabes, når brugerne kan stole på at ens elementer gør det samme overalt! Ens elementer må ikke pludselig gøre forskellige ting. En knap er ikke pludselig en dropdownmenu. Et link er ikke pludselig en knap. Dette er helt essentielt og ufravigeligt uanset ”gode” argumenter for det modsatte. Når tingene ikke stemmer overens fra side til side, bliver oplevelsen usammenhængende, forvirrende og ubehagelig. Brugerne vil begynde at sætte spørgsmålstegn ved deres forståelse af designet og om de kan stole på det de ser. Sammenhæng på tværs indebærer stabilitet, hvilket fører til at brugerne føler at de er i gode hænder. </p>
+                <p>Forudsigelighed og pålidelighed i designet skabes, når brugerne kan stole på at ens elementer gør det samme overalt! Ens elementer må ikke pludselig gøre forskellige ting. Dette er helt essentielt og ufravigeligt uanset ”gode” argumenter for det modsatte. Når tingene ikke stemmer overens fra side til side, bliver oplevelsen usammenhængende, forvirrende og ubehagelig. Brugerne vil begynde at sætte spørgsmålstegn ved deres forståelse af designet og om de kan stole på det de ser. Sammenhæng på tværs indebærer stabilitet, hvilket fører til at brugerne føler at de er i gode hænder. </p>
             </li>
             <li>
                 <h3 class="h5">Gør et godt førstehåndsindtryk</h3>
