@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
+    "dkfds": "^3.0.0",
     "dkfds-plugins": "*",
-    "dkfds": "*",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
@@ -25,6 +25,7 @@
     "babel-loader": "^8.0.4",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^1.0.1",
+    "event-stream": "^4.0.1",
     "file-loader": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-count": "^1.0.0",
