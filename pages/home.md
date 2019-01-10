@@ -12,7 +12,7 @@ title: Forside
 </div>
 
 <div class="row">
-  <div class="col-12 col-md-5">
+  <div class="col-12 col-lg-5">
     <h1 class="mt-0">Designsystemet til selvbetjenings&shy;løsninger, der skal på borger.dk og Virk</h1>
     <p class="font-lead">
       Vær med til at bygge simple og effektive selvbetjeningsløsninger fra et solidt grundlag, der lader dig fokusere på brugervenlighed og brugerinddragelse frem for at diskutere nyt design igen og igen.
@@ -29,8 +29,8 @@ title: Forside
       </a>
     </p>-->
   </div>
-  <div class="col-12 col-md-7">
-    <img src="{{ site.baseurl }}/img/descriptionimages/forsidebillede.png" alt="Det Fælles Designsystem forside billede" class="d-none d-md-block">
+  <div class="col-12 col-lg-7">
+    <img src="{{ site.baseurl }}/img/descriptionimages/forsidebillede.png" alt="Det Fælles Designsystem forside billede" class="d-none d-lg-block">
   </div>
 </div>
 
