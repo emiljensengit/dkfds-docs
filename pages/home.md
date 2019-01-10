@@ -131,8 +131,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
       <img src="{{ site.baseurl }}/img/descriptionimages/account-group.svg" alt="Forum for deltagelse">
     </div>
     <h3 class="h4">Forum for deltagelse</h3>
-    <p>Udforsk de forskellige eksempler og se, hvordan designsystemet kan anvendes til at bygge forskelligartede selvbetjeningsløsninger.</p>
-    <p><a href="/dkfds-docs/eksempler/">Eksempler</a></p>
+    <p>Alle myndigheder med en interesse i at præge udviklingen og få indflydelse på designsystemets indhold er velkomne. Man skal blot allerede benytte systemet eller have planlagt at benytte det.</p>
   </div>
 </div>
 
