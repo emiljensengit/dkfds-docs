@@ -17,6 +17,7 @@ lead:
       <section>
           <h4>Tilgængelighed</h4>
           <p>Undgå at opdele felter fx til telefonnumre, da det enkelte felt ikke kan tilføjes et meningsfuldt label.</p>
+          <p>Felter skal have et kontrastforhold på minimum 3:1 i forhold til baggrundsfarven. Tjek kontraster hos <a href="https://webaim.org/resources/contrastchecker/">WebAIM+ <svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></p>
       </section>
       <section>
         <h4>Brugervenlighed</h4>
