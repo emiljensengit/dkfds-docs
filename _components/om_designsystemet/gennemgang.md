@@ -62,7 +62,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/design/typography/">Typografi</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/typography/">Typography</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/typography/">Typography<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -82,7 +82,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://materialdesignicons.com/">Material Design Icons</a></td>
+                        <td><a href="https://materialdesignicons.com/">Material Design Icons<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                     </tr>
                     <tr>
@@ -98,7 +98,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/design/grid/">Grid</a></td>
                         <td></td>
-                        <td><a href="https://v2.designsystem.digital.gov/utilities/layout-grid/">Layout Grid</a></td>
+                        <td><a href="https://v2.designsystem.digital.gov/utilities/layout-grid/">Layout Grid<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -107,7 +107,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/buttons/">Knapper</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/buttons/">Buttons</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/buttons/">Buttons<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -125,7 +125,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/accordions/">Accordions</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/accordions/">Accordions</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/accordions/">Accordions<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -134,7 +134,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/beskeder/">Beskeder</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/alerts/">Alerts</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/alerts/">Alerts<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -146,17 +146,17 @@ subnav:
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://www.lightningdesignsystem.com/components/cards/">Lightning Design System</a></td>
+                        <td><a href="https://www.lightningdesignsystem.com/components/cards/">Lightning Design System<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                     </tr>
                     <tr>
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/form-controls/">Formular elementer</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/form-controls/">Form controls</a></td>
-                        <td><a href="https://design-system.service.gov.uk/components/radios/">Radio</a><br>
-                            <a href="https://design-system.service.gov.uk/components/checkboxes/">Checkbox</a><br>
-                            <a href="https://design-system.service.gov.uk/components/date-input/">Date input</a><br>
-                            <a href="https://design-system.service.gov.uk/components/file-upload/">File upload</a><br>
+                        <td><a href="https://designsystem.digital.gov/components/form-controls/">Form controls<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
+                        <td><a href="https://design-system.service.gov.uk/components/radios/">Radio<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a><br>
+                            <a href="https://design-system.service.gov.uk/components/checkboxes/">Checkbox<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a><br>
+                            <a href="https://design-system.service.gov.uk/components/date-input/">Date input<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a><br>
+                            <a href="https://design-system.service.gov.uk/components/file-upload/">File upload<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a><br>
                         </td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -168,13 +168,13 @@ subnav:
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://github.com/woocommerce/selectWoo">SelectWoo</a></td>
+                        <td><a href="https://github.com/woocommerce/selectWoo">SelectWoo<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                     </tr>
                     <tr>
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/search/">Søgefelt</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/search-bar/">Search bar</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/search-bar/">Search bar<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -183,9 +183,9 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/badges/">Badges</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/labels/">Labels</a></td>
-                        <td><a href="https://design-system.service.gov.uk/components/tag/">Tags</a><br>
-                            <a href="https://design-system.service.gov.uk/components/phase-banner/">Phase banner</a>
+                        <td><a href="https://designsystem.digital.gov/components/labels/">Labels<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
+                        <td><a href="https://design-system.service.gov.uk/components/tag/">Tags<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a><br>
+                            <a href="https://design-system.service.gov.uk/components/phase-banner/">Phase banner<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>
                         </td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -194,7 +194,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/tables/">Tabeller</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/tables/">Tables</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/tables/">Tables<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -206,7 +206,7 @@ subnav:
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://datatables.net/">Data Tables</a></td>
+                        <td><a href="https://datatables.net/">Data Tables<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                     </tr>
                     <tr>
                         <td>Ja</td>
@@ -221,7 +221,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/sidenav/">Sidenavigation</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/sidenav/">Sidenavigation</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/sidenav/">Sidenavigation<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -230,7 +230,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/tabnav/">Faneblade</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/headers/">Headers</a></td>
+                        <td><a href="https://designsystem.digital.gov/components/headers/">Headers<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -242,7 +242,7 @@ subnav:
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://projects.lukehaas.me/css-loaders/">CSS Loaders</a></td>
+                        <td><a href="https://projects.lukehaas.me/css-loaders/">CSS Loaders<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                     </tr>
                     <tr>
                         <td>Ja</td>
@@ -251,7 +251,7 @@ subnav:
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="http://www.carbondesignsystem.com/components/overflow-menu/code">Carbon Design System</a></td>
+                        <td><a href="http://www.carbondesignsystem.com/components/overflow-menu/code">Carbon Design System<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                     </tr>
                     <tr>
                         <td>Nej</td>
@@ -260,7 +260,7 @@ subnav:
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://micromodal.now.sh/">MicroModal</a></td>
+                        <td><a href="https://micromodal.now.sh/">MicroModal<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                     </tr>
                     <tr>
                         <td>Nej</td>
@@ -269,14 +269,14 @@ subnav:
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://atomiks.github.io/tippyjs/">Tippy.js</a></td>
+                        <td><a href="https://atomiks.github.io/tippyjs/">Tippy.js<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                     </tr>
                     <tr>
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/collapse/">Skjul og vis (Collapse)</a></td>
                         <td></td>
                         <td><a href=""></a></td>
-                        <td><a href="https://design-system.service.gov.uk/components/radios/">Radios</a></td>
+                        <td><a href="https://design-system.service.gov.uk/components/radios/">Radios<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                     </tr>
@@ -284,7 +284,7 @@ subnav:
                         <td>Ja</td>
                         <td><a href="/dkfds-docs/komponenter/headers/">Headers</a></td>
                         <td></td>
-                        <td><a href="https://designsystem.digital.gov/components/headers/"></a></td>
+                        <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>
@@ -321,13 +321,13 @@ subnav:
         <h3>Læs mere om webtilgængelighed</h3>
         <ul class="unstyled-list">
             <li>
-                <a href="https://digst.dk/digital-service/webtilgaengelighed/">Webtilgængelighed</a>
+                <a href="https://digst.dk/digital-service/webtilgaengelighed/">Webtilgængelighed<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>
             </li>
             <li>
-                <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a>
+                <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>
             </li>
             <li>
-                <a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2 (Quick Reference)</a>
+                <a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2 (Quick Reference)<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>
             </li>
         </ul>
     </section>
@@ -364,46 +364,46 @@ subnav:
         <p>I Det Fælles Designsystem går alle vertikale dimensioner og afstande op med en faktor af 8. Gennem gentagelsen af værdier opstår en ro og balance på tværs af det visuelle layout og mellem sidens vertikale elementer.</p>
         <h4>Læs mere om 8pt grid</h4>
             <ul class="unstyled-list">
-            <li><a href="https://builttoadapt.io/8-point-grid-vertical-rhythm-90d05ad95032">8-Point Grid: Vertical Rhythm</a></li>
+            <li><a href="https://builttoadapt.io/8-point-grid-vertical-rhythm-90d05ad95032">8-Point Grid: Vertical Rhythm<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
     </section>
     <section>
         <h2 id="font">Font</h2>
         <p>Det Fælles Designsystem anvender en typografi baseret på skrifttypen IBM Plex Sans (som er en webfont), en farveskala og specificeringer til bl.a. hjørner, streger og skygger. </p>
-        <p>IBM Plex Sans er valgt som font, da det er en æstetisk og læsbar open source font, der kan anvendes gratis under <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web">SIL Open Font License.</a></p>
+        <p>IBM Plex Sans er valgt som font, da det er en æstetisk og læsbar open source font, der kan anvendes gratis under <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web">SIL Open Font License<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>.</p>
         <p>IBM Plex Sans er en alsidig sans serif font, der egner sig godt til brugergrænseflader. Fonten har de karakteristika, som designsystemet promoverer. Den er simpel og neutral i sit udtryk og yderst skalerbar grundet de mange variationer (typer, vægte, sprog, mm.), som fonten understøtter.</p>
         <h3 class="">Læs mere om font</h3>
             <ul class="unstyled-list">
-            <li><a href="https://www.ibm.com/plex/">IBM Plex Sans</a></li>
+            <li><a href="https://www.ibm.com/plex/">IBM Plex Sans<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
     </section>
     <section id="koden">
         <h2>Koden</h2>
         <p>Det Fælles designsystem er kodet i HTML5/CSS3 og det er tilstræbt, at al kode validerer.</p>
             <ul class="unstyled-list">
-            <li><a href="https://whatwg.org/">Whatwg HTML5 specifikationer</a></li>
-            <li><a href="https://www.w3.org/Style/CSS/specs.en.html">W3C CSS specifikationer</a></li>
-            <li><a href="http://html5doctor.com/">HTML5 Doctor</a></li>
-            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Guide to flexbox</a></li>
+            <li><a href="https://whatwg.org/">Whatwg HTML5 specifikationer<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://www.w3.org/Style/CSS/specs.en.html">W3C CSS specifikationer<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="http://html5doctor.com/">HTML5 Doctor<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Guide to flexbox<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h3>Vanilla JS</h3>
         <p>For at øge performance gennem færre requests, overhead og, ikke mindst, mindske afhængigheden til tredjepartsleverandører og deres potentielle tekniske gæld, er det besluttet, at designsystemet anvender Vanilla JS (Plain JS). Det vil sige, at designsystemet og de integrerede udvidelser ikke anvender framework som fx jQuery eller andet.</p>
         <h4>Læs mere om Vanilla JS her</h4>
             <ul class="unstyled-list">
-            <li><a href="https://google.github.io/styleguide/jsguide.html">Google JavaScript Style Guide</a></li>
-            <li><a href="https://www.w3schools.com/js/js_conventions.asp">JavaScript Style Guide</a></li>
-            <li><a href="https://plainjs.com/">Plain JS</a></li>
+            <li><a href="https://google.github.io/styleguide/jsguide.html">Google JavaScript Style Guide<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://www.w3schools.com/js/js_conventions.asp">JavaScript Style Guide<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://plainjs.com/">Plain JS<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h3>Styling og temaer</h3>
         <h4>Læs mere om styling her</h4>
             <ul class="unstyled-list">
-            <li><a href="https://designsystem.digital.gov/documentation/developers/#customization-and-theming">Customization and theming</a></li>
+            <li><a href="https://designsystem.digital.gov/documentation/developers/#customization-and-theming">Customization and theming<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h3>CSS og JS arkitektur</h3>
         <p>Det Fælles Designsystem har en tilsvarende opbygning som US Web Design Standards.</p>    
         <h4>Læs mere om CSS og JS arkitektur her</h4>
             <ul class="unstyled-list">
-            <li><a href="https://designsystem.digital.gov/documentation/developers/#css-architecture">CSS architecture</a></li>
+            <li><a href="https://designsystem.digital.gov/documentation/developers/#css-architecture">CSS architecture<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h3>Det Fælles Designsystem giver framework-frihed</h3>
         <p>Det Fælles Designsystem er en UX reference med en simpel, valgfri kodeløsning og ikke et endegyldigt teknologivalg. Designsystemet er en række anbefalinger, der understøtter en mere ensartet brugeroplevelse af offentlige selvbetjeningsløsninger.</p>
@@ -421,15 +421,15 @@ subnav:
             <li>Spinner</li>
             <li>Tags</li>
             <li>Trinindikatorer </li>
-            <li><a href="https://micromodal.now.sh/">Modalvinduer</a></li>
-            <li><a href="https://atomiks.github.io/tippyjs/">Tooltip</a></li>
+            <li><a href="https://micromodal.now.sh/">Modalvinduer<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://atomiks.github.io/tippyjs/">Tooltip<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <p>Andre udvidelser er valgfrie, og det er derfor op til  udvikleren i samarbejde med sin forretning at vurdere, hvad der er nødvendigt for den enkelte løsning.
         </p>
         <p>Det Fælles Designsystem anbefaler følgende udvidelser:</p>
-        <ul>
-            <li><a href="https://datatables.net/">Avancerede tabeller</a></li>
-            <li><a href="https://github.com/woocommerce/selectWoo">Multiselect</a></li>
+        <ul class="unstyled-list">
+            <li><a href="https://datatables.net/">Avancerede tabeller<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://github.com/woocommerce/selectWoo">Multiselect<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>   
         <h3>Ikoner</h3>
         <p>Ikoner betragtes ikke som en reel udvidelse, selvom de hentes udefra. Vi har udvalgt ikoner fra Material Design i .svg (Scalable Vector Graphic) format. De ligger som en samlet “pakke” af <code>symbol</code> efter <code>body</code>. På denne måde sparer vi et større antal requests for den enkelte side. Koden for ikoner fylder ganske lidt.</p>
@@ -438,8 +438,8 @@ subnav:
         <p>Det lille ikon for eksternt link til højre for et link indsættes via CSS, der bl.a. tjekker for http://. Hvis URL er til en adresse udenfor det aktuelle domæne indsættes en class på <a> ikonet vha. en :after deklaration.</p>-->
         <h4>Læs mere om ikoner her</h4>
             <ul class="unstyled-list">
-            <li><a href="https://materialdesignicons.com/">Material Design Icons</a></li>
-            <li><a href="https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/">Styling SVG <code>use</code> Content with CSS</a></li>
+            <li><a href="https://materialdesignicons.com/">Material Design Icons<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/">Styling SVG <code>use</code> Content with CSS<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>  
         <h3>Det Fælles Designsystem stiller krav til udvidelser</h3>
         <p>For at sikre sammenhæng og ensartethed i designsystemet har vi opstillet en række minimumskrav til udvidelser af systemet:</p>
@@ -499,8 +499,8 @@ subnav:
         <p>Ved at browseren først åbner forbindelse til en given server og derefter laver en tidlig indlæsning af en ressource, kan den senere hurtigt beregne eksempelvis layout. Bemærk, at browseren ikke anvender ressourcerne på dette tidspunkt, men kun gør dem klar. Det kaldes også ”lazy load”.</p>
         <h4>Læs mere om preload her</h4>
             <ul class="unstyled-list">
-            <li><a href="https://www.w3.org/TR/preload/">Preload</a></li>
-            <li><a href="https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/">Preload - what is it good for?</a></li>
+            <li><a href="https://www.w3.org/TR/preload/"><svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/">Preload - what is it good for?<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h3>Fonte</h3>
         <p>Indlæsning og beregning af web-fonte kontra system-fonte kan potentielt være omkostningstungt for både leverandør og bruger. Ved at anvende preconnect, preload samt font-display:swap understøtter designsystemet brugerens behov for hurtig adgang til løsningens indhold.</p>
@@ -511,17 +511,17 @@ subnav:
         <p>Font-display er endnu ikke implementeret i IE/Edge. Løsningen er ikke desto mindre valgt, da den generelt set tilbyder det bedste alternativ.</p>
         <h5>Læs mere om font-stack her</h5>
             <ul class="unstyled-list">
-            <li><a href="https://css-tricks.com/snippets/css/system-font-stack/">System font-stack</a></li>
+            <li><a href="https://css-tricks.com/snippets/css/system-font-stack/">System font-stack<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h3>Favicon</h3>
         <p>Et favicon er en lille grafik, der vises i browserens fane – eksempelvis som desktop-ikon, bogmærke eller lignende. Der skal være et favicon til stede på serveren af hensyn til et default browser-request, der ellers vil få indlæsningen til at føles langsom og generere en 404-fejl i loggen. </p>
         <p>Det er nødvendigt at generere en lang række varianter af favicons af hensyn til de mange platforme, brugere i dag benytter sig af.</p>
-        <p> I Det Fælles Designsystem har vi valgt at anvende <a href="https://realfavicongenerator.net/">Real Favicon Generator</a>  og  favicon-filerne er placeret i en undermappe. </p>
+        <p> I Det Fælles Designsystem har vi valgt at anvende <a href="https://realfavicongenerator.net/">Real Favicon Generator<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>  og  favicon-filerne er placeret i en undermappe. </p>
         <h3>Bemærk</h3>
         <p>Det har tidligere været et problem for iframes, at deres indhold også skulle have et favicon for ikke at generere en 404. Det har ikke været muligt at teste og bekræfte denne opførsel i moderne browsere.</p>
         <h4>Læs mere om favicon her</h4>
             <ul class="unstyled-list">
-            <li><a href="https://realfavicongenerator.net/">Real Favicon Generator</a></li>
+            <li><a href="https://realfavicongenerator.net/">Real Favicon Generator<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
     </section>
     <section id="versioner">
