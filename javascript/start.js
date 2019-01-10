@@ -27,7 +27,7 @@ $(document).ready(function () {
     if(hashLocation == undefined){ //if normal link
       e.preventDefault();
       var onlyUrl =  $(this).attr('href');
-      var s = !onlyUrl.includes('http') && '?s='+window.curStyle;
+      var s = (!onlyUrl.includes('http') ? '?s='+window.curStyle : "");
       var url = (onlyUrl.indexOf('#') != -1 ? onlyUrl.split('#')[0]+s+'#'+ onlyUrl.split('#')[1] : onlyUrl + s);
       window.location.href = url;
     }

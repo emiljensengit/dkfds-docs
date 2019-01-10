@@ -499,7 +499,7 @@ subnav:
         <p>Ved at browseren først åbner forbindelse til en given server og derefter laver en tidlig indlæsning af en ressource, kan den senere hurtigt beregne eksempelvis layout. Bemærk, at browseren ikke anvender ressourcerne på dette tidspunkt, men kun gør dem klar. Det kaldes også ”lazy load”.</p>
         <h4>Læs mere om preload her</h4>
             <ul class="unstyled-list">
-            <li><a href="https://www.w3.org/TR/preload/"><svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+            <li><a href="https://www.w3.org/TR/preload/">Preload<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/">Preload - what is it good for?<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h3>Fonte</h3>
