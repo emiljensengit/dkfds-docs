@@ -29,8 +29,6 @@
 
 
   
-  <link rel="canonical" href="http://localhost:4000/udvidelser/selectwoo-multiselect/">
-  
 
 <!-- Favicons
 ================================================== -->
@@ -1463,7 +1461,39 @@
     Retningslinjer
   </button>
   <div id="multiselect-docs" aria-hidden="false" class="accordion-content">
+    <article>
+                <section>
+                    <h4>Tilgængelighed</h4>
+                    <ul>
+                        <li>Bemærk: Multiselect dropdown-funktionen (SelectWoo) er gennemtestet af Det Fælles Designsystem og opfylder ikke alle krav til en anbefalet udvidelse. Det er dog den bedste, vi har kunnet finde indtil videre. Du skal bruger- og performanceteste prototyper med SelectWoo med entydigt positive resultat i forhold til din målgruppe, hvis du ønsker at anvende den. Det anbefales generelt, at du overvejer en anden løsning end en multiselect i din løsning.
     
+    </li>
+                        <li>Multiselect dropdown anvender bl.a. ARIA til at øge den umiddelbare tilgængelighed. Du skal imidlertid være opmærksom på, at en lang valgliste øger den kognitive belastning og dermed sænker den reelle tilgængelighed.</li>
+                    </ul>
+                
+                </section>
+                <section>
+                    <h4>Brugervenlighed</h4>
+                    <h5>Anvendes til</h5>
+                    <p>Multiselect dropdown anvendes til at give brugeren mulighed for at fortage mere end ét valg fra en prædefineret liste.</p>
+                    <h5>Anvendes ikke til</h5>
+                    <ul>
+                        <li>Multiselect dropdown egner sig ikke til valg i lister med længere værdier.</li>
+                        <li>Multiselect dropdown egner sig ikke til mobile løsninger.</li>
+                    </ul>
+                    <h5>Vejledning</h5>                
+                    <ul>
+                        <li>En multiselect dropdown er en avanceret funktion, der bør anvendes i meget begrænset omfang.</li>
+                        <li>Overvej om du kan tilbyde en bedre og mere overskuelig løsning fx tjekbokse.</li>
+                        <li>På trods af de udvidede muligheder i Select2-udvidelsen bør implementationen holdes så enkel som muligt. </li>
+                        <li>Var varsom med at ændre indholdet af næste multiselect i forhold til det forrige valg.</li>
+                        <li>Begræns antallet af valgmuligheder i listen, så brugeren ikke mister overblik over sit valg.</li>
+                        <li>SelectWoo er afhængig af jQuery og dermed kræver den et ekstra request og ekstra kode i indlæsningen – dette kan nedsætte funktionens performance.</li>
+                        <li><a href="https://medium.com/@kollinz/dropdown-alternatives-for-better-mobile-forms-53e40d641b53">Du kan læse mere om alternativer til multiselects her <svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+                    </ul>
+                </section>
+            
+            </article>
   </div>
 </div>
 
