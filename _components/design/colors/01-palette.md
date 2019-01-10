@@ -196,7 +196,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-succes-light"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#E7FBE4</p>
+        <p class="code-color-hex">#EEFFE2</p>
         <p class="code-color-variable">$color-success-light</p>
       </div>
     </div>
@@ -205,7 +205,7 @@ order: 01
     <div class="col-md-3">
       <div class="color-container-large color-warning-light"></div>
       <div class="color-text-container">
-        <p class="code-color-hex">#EEFFE2</p>
+        <p class="code-color-hex">#FFEECC</p>
         <p class="code-color-variable">$color-warning-light</p>
       </div>
     </div>
