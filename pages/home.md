@@ -61,9 +61,9 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
 </p>
 
 <h2>Kodefrihed under ansvar</h2>
-<p class="font-lead">Vi har bestræbt os på at lave et designsystem, der er let at anvende og kode med, men vi vil ikke tvinge nogen væk fra deres favorit (javaScript) framework. Sålænge det visuelle design består som beskrevet i systemet, så er du velkommen til at udnytte de teknologier du finder bedst, men giv vores kode et kig, den er lige til at gå til.</p>
+<p>Vi har bestræbt os på at lave et designsystem, der er let at anvende og kode med, men vi vil ikke tvinge nogen væk fra deres favorit (javaScript) framework. Sålænge det visuelle design består som beskrevet i systemet, så er du velkommen til at udnytte de teknologier du finder bedst, men giv vores kode et kig, den er lige til at gå til.</p>
 <p>
-  <a href="#"> 
+  <a href="/dkfds-docs/omdesignsystemet/tiludviklere/"> 
     Til udviklere
   </a>
 </p>
