@@ -73,7 +73,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
 <h2>Byg en selvbetjeningsløsning</h2>
 <div class="row">
   <div class="col-12 col-md-4">
-    <div class="demo-img-container demo-img-container--turquoise d-none d-md-block">
+    <div class="demo-img-container demo-img-container--turquoise d-none d-md-flex">
       <img src="{{ site.baseurl }}/img/descriptionimages/format-line-style.svg" alt="Kom godt i gang med designet">
     </div>
     <h3 class="h4">Kom godt i gang med designet</h3>
@@ -81,7 +81,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     <p><a href="/dkfds-docs/design/">Design</a></p>
   </div>
   <div class="col-12 col-md-4">
-    <div class="demo-img-container demo-img-container--orange d-none d-md-block">
+    <div class="demo-img-container demo-img-container--orange d-none d-md-flex">
       <img src="{{ site.baseurl }}/img/descriptionimages/puzzle-outline.svg" alt="Skab ensartede løsninger">
     </div>
     <h3 class="h4">Skab ensartede løsninger</h3>
@@ -90,7 +90,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     <p><a href="/dkfds-docs/udvidelser/">Udvidelser</a></p>
   </div>
   <div class="col-12 col-md-4">
-    <div class="demo-img-container demo-img-container--purple d-none d-md-block">
+    <div class="demo-img-container demo-img-container--purple d-none d-md-flex">
       <img src="{{ site.baseurl }}/img/descriptionimages/monitor-dashboard.svg" alt="Lad dig inspirere">
     </div>
     <h3 class="h4">Lad dig inspirere</h3>
@@ -110,7 +110,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
 <h2>Deltag i designsystemet</h2>
 <div class="row">
   <div class="col-12 col-md-4">
-    <div class="demo-img-container demo-img-container--violet d-none d-md-block">
+    <div class="demo-img-container demo-img-container--violet d-none d-md-flex">
       <img src="{{ site.baseurl }}/img/descriptionimages/outline-share.svg" alt="Et levende designsystem">
     </div>
     <h3 class="h4">Et levende designsystem</h3>
@@ -118,7 +118,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     <p><a href="/dkfds-docs/omdesignsystemet/">Bidrag til designsystemet</a></p>
   </div>
   <div class="col-12 col-md-4">
-    <div class="demo-img-container demo-img-container--magenta d-none d-md-block">
+    <div class="demo-img-container demo-img-container--magenta d-none d-md-flex">
       <img src="{{ site.baseurl }}/img/descriptionimages/outline-forum.svg" alt="Et åbent team">
     </div>
     <h3 class="h4">Et åbent team</h3>
@@ -127,7 +127,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     <p><a href="https://github.com/detfaellesdesignsystem/dkfds-components">Få support via GitHub</a></p>
   </div>
   <div class="col-12 col-md-4">
-    <div class="demo-img-container demo-img-container--teal d-none d-md-block">
+    <div class="demo-img-container demo-img-container--teal d-none d-md-flex">
       <img src="{{ site.baseurl }}/img/descriptionimages/account-group.svg" alt="Forum for deltagelse">
     </div>
     <h3 class="h4">Forum for deltagelse</h3>
