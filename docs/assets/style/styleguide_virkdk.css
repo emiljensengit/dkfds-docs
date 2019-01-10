@@ -5352,7 +5352,9 @@ input.input-char-27, select.input-char-27, textarea.input-char-27 {
 
 hr {
   border-color: #BFBFBF;
-  border-top: 0; }
+  display: block;
+  border-top-width: 0;
+  border-bottom-width: 1px; }
 
 .accordion-button {
   background-color: transparent;
