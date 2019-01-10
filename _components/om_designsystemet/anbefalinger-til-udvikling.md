@@ -20,7 +20,7 @@ subnav:
 <article>
     <section>
         <p>Det Fælles Designsystem er en simpel samling af grundlæggende funktioner og design, der skaber et solidt grundlag for udviklingen af selvbetjeningsløsninger, der skal ligge på borger.dk og virk.dk.</p>
-        <p>Designsystemets frontend arkitektur bygger på princippet om en minimal, modulær og skalerbar opbygning, der kan forgrene sig yderligere som behovet i takt med øget behov. Når du udvikler til designsystemet skal du følge tankerne bag, som de er formuleret i dette dokument.</p>
+        <p>Designsystemets frontend arkitektur bygger på princippet om en minimal, modulær og skalerbar opbygning, der kan forgrene sig yderligere i takt med øget behov. Når du udvikler til designsystemet skal du følge tankerne bag, som de er formuleret i dette dokument.</p>
         <h3>Omkring dette dokument </h3>
         <p>Dette dokument beskriver anbefalinger for kode og kvalitet, performance, tilgængelighed og yderligere anvisninger til dig, der skal udvikle til eller i Det Fælles Designsystem (i det følgende også kaldet ”designsystemet”).</p>
         <p>”Generelle anbefalinger omkring udvikling til Det Fælles Designsystem” revideres i takt med alle større releases.</p>
@@ -33,7 +33,7 @@ subnav:
             <li>Brug altid code review og formaliserede test </li>
             <li>Anvend WhatWG til HTML reference og W3C til CSS reference og til at sikre kodens validitet gennem https://checker.html5.org/ og https://jigsaw.w3.org/css-validator/</li>
             <li>Undgå unødigt kompliceret funktionalitet</li>
-            <li>Indlæs ikke et bibliotek (fx Jquery), hvis det kan undværes</li>
+            <li>Indlæs ikke et bibliotek (fx jQuery), hvis det kan undværes</li>
             <li>Anvend eksempelkoden i Det Fælles Designsystem som reference for den aktuelle løsning</li>
             <li>Anvend konsekvent og gennemskuelig navngivning af CSS-klasser og gerne med løsningsspecifik præfix</li>
             <li>Test i alle browsere, der skal understøttes jf forretningens aktuelle baseline. </li>
@@ -111,7 +111,7 @@ subnav:
         <p>Sider af stor betydning for brugeren bør anvende så simpelt layout med færrest mulige ændringer og genberegninger i brugssituationen. Så få dele af skærmens indhold som muligt, bør rammes af dynamiske layout-ændringer, for at kunne facilitere brugerens behov. I det hele taget: jo færre interaktive elementer per side jo bedre.  </p>
         <h3>Ressourcer</h3>
         <p>Jo flere ressourcer en løsning skal hente før brugeren kan anvende den, jo længere tid vil der gå (den kritiske sti øges) - og desto flere brugere vil blive frustrerede og få en dårlig oplevelse. </p>
-        <p>Det er et centralt princip i performance at hente så få og så små ressourcer som muligt. Dette skal naturligvis vejes op i mod de krav og forventer brugerne har til en given løsning. Det Fælles Designsystem bestræber sig på at understøtte dette ved at alle udvidelser til designsystemets funktioner er tilvalg udvikleren skal foretage sig.</p>
+        <p>Det er et centralt princip i performance at hente så få og så små ressourcer som muligt. Dette skal naturligvis vejes op i mod de krav og forventninger brugerne har til en given løsning. Det Fælles Designsystem bestræber sig på at understøtte dette ved at alle udvidelser til designsystemets funktioner er tilvalg udvikleren skal foretage sig.</p>
         <p>Det bør overvejes at anvende et Content Delivery Network (CDN) for at optimere load-hastigheden. </p>
         <h3>Baseline for load-hastighed</h3>
         <p>Krav til load-hastighed (tiden til der er funktionel grænseflade på skærmen) er relative i forhold til en løsnings forretningskritikalitet for både brugere og forretning holdt op i mod, hvor mange der forventes at skulle anvende løsningen indenfor et givent tidsrum. For at en løsnings baseline kan formuleres, skal de udpegede målepunkter overvejes, defineres og løbende testes og revurderes – typisk i forbindelse med større releases.</p>
@@ -119,7 +119,7 @@ subnav:
         <p>Nedenstående skala blev formuleret af Norman Nielsen Group helt tilbage i 1993- 1997, gen-bekræftet i 2010 og er fortsat den skala, brugeres ”fokus-vindue” vurderes ud fra:</p>
         <ul>
             <li>0–100 ms — Instant feel, constant flow;</li>
-            <li>100–300 ms —Slight percetible delay;</li>
+            <li>100–300 ms —Slight perceptible delay;</li>
             <li>300–1000 ms — Loss of task focus, perceptible delay;</li>
             <li>1s+ — Mental context switch;</li>
             <li>10s+ — User leaves;</li>

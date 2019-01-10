@@ -21,7 +21,7 @@ Denne guide er for dig som ingen kendskab til kode har, men stadigt vil bidrage 
 Guiden vil hjælpe dig igennem - step for step - hvordan du opsætter din computer til at kunne bidrage.
 
 ### Hvad kan du bidrage med?
-Man skal bestemt ikke kunne kode for at bidrage til Frontend Styleguiden. Faktisk er størstedelen af Styleguiden bygget op af simple tekstsider, der dokumenterer alle de gode råd og regler man bør følge når man skal opbygge en ny underside til f.eks. borger.dk eller virk.dk. Disse tekstsider er alle skrevet af ikke-kodere, og du kan nemt være med til at tilføje dine gode råd og regler til disse sider, så Styleguiden kan blive endnu bedre og mere præcis.
+Man skal bestemt ikke kunne kode for at bidrage til Frontend Styleguiden. Faktisk er størstedelen af Styleguiden bygget op af simple tekstsider, der dokumenterer alle de gode råd og regler man bør følge når man skal opbygge en ny underside til fx borger.dk eller virk.dk. Disse tekstsider er alle skrevet af ikke-kodere, og du kan nemt være med til at tilføje dine gode råd og regler til disse sider, så Styleguiden kan blive endnu bedre og mere præcis.
 
 #### Tekstsidernes opbygning
 Tekstsiderne er skrevet med noget der hedder "Markdown", som er næsten ligesom at skrive et almindeligt word-dokument. Når du har skrevet dit Markdown-dokument og lægger det op på Frontend Styleguiden, bliver det automatisk omdannet til en præsentabelt side på Frontend Styleguidens hjemmeside. F.eks. er denne side skrevet med Markdown, så nemt er det! 
@@ -68,7 +68,7 @@ Følg skridtene nedenfor:
 
 ### Skab dit bidrag til Frontend Styleguiden
 
-Når du har hentet Frontend Styleguiden, kan du frit lave ændringer i de sider de har lyst til. Da du "clonede" tidligere, blev Frontend Styleguiden lagt ind i en mappe, der i de fleste tilfælde har lagt sig i din dokumenter-mappe. Frontend Styleguide-mappen du leder efter hedder noget med *dkfds-docs-poc*, og inde i den finder du en masse forskellige filer og mapper. Selvom det kan se uoverskueligt ud, skal du ikke blive skræmt, da du som ikke-koder kun skal fokusere på mapperne *_components* og *pages*. I disse to mapper vil der ligge utalige markdown filer, (Bemærk at filer der slutter på .md er markdown filer) som hver især svarer til en underside på Frontend Styleguidens hjemmeside. Et par forskellige markdown dokumenter du f.eks. kan åbne for at se hvordan det ser ud i Typora, ligger i *_components*-mappen efterfulgt af *fundament*-mappen:
+Når du har hentet Frontend Styleguiden, kan du frit lave ændringer i de sider de har lyst til. Da du "clonede" tidligere, blev Frontend Styleguiden lagt ind i en mappe, der i de fleste tilfælde har lagt sig i din dokumenter-mappe. Frontend Styleguide-mappen du leder efter hedder noget med *dkfds-docs-poc*, og inde i den finder du en masse forskellige filer og mapper. Selvom det kan se uoverskueligt ud, skal du ikke blive skræmt, da du som ikke-koder kun skal fokusere på mapperne *_components* og *pages*. I disse to mapper vil der ligge utalige markdown filer, (Bemærk at filer der slutter på .md er markdown filer) som hver især svarer til en underside på Frontend Styleguidens hjemmeside. Et par forskellige markdown dokumenter du fx kan åbne for at se hvordan det ser ud i Typora, ligger i *_components*-mappen efterfulgt af *fundament*-mappen:
 
 1. **layout.md** svarer til følgende side: 
     <https://FSGpilot.github.io/dkfds-docs/components/fundament/layout/?s=undefined>
@@ -119,7 +119,7 @@ Som sagt kan Typora ses lidt ligesom word. Hvis du vil ændre din tekst, skal du
 
 ![]({{site.baseurl}}/img/docsimages/typora-menus.png)
 
-Menuerne *paragraph* og *format* er dem vi kommer til at bruge mest, da det er disse som bruges til at ændre teksten til f.eks. at være en overskrift, fed, kursiv, osv. Lad os først prøve at lave den største overskrift man kan. En overskrift kaldes en header i markdown og i markdown kan man lave op til seks forskellige størrelser af headers. Markér "Hej verden" og tryk på *paragraph > Heading 1*. Din tekst vil nu ændre sig til en stor overskrift. Du kan vælge forskellige størrelser af overskrifter ved at klikke på de forskellige *Headings* under *paragraph*. 
+Menuerne *paragraph* og *format* er dem vi kommer til at bruge mest, da det er disse som bruges til at ændre teksten til fx at være en overskrift, fed, kursiv, osv. Lad os først prøve at lave den største overskrift man kan. En overskrift kaldes en header i markdown og i markdown kan man lave op til seks forskellige størrelser af headers. Markér "Hej verden" og tryk på *paragraph > Heading 1*. Din tekst vil nu ændre sig til en stor overskrift. Du kan vælge forskellige størrelser af overskrifter ved at klikke på de forskellige *Headings* under *paragraph*. 
 
 Ved at vælge forskellige ændringer til dine tekster under de forskellige menuer, kan du opbygge et hurtigt og pænt markdown-dokument. Dog kan det godt være besværligt at skulle klikke på menuerne i toppen hver gang en ændring skal laves, men heldigvis fungerer Typora virkelig godt med tastatur-genveje. Disse genveje kan findes når man klikker på de forskellige menuer. Ved siden af de fleste af mulighederne kan man se en genvej skrevet med en lys-grå farve. F.eks. hvis man vil lave en hurtig *Heading 3* kan man i stedet for at finde *Heading 3* under *paragraph*, blot trykke på CTRL + 3. 
 

@@ -34,7 +34,7 @@ subnav:
 
 <section class="section">
     <h2 id="grid-settings">Indstillinger</h2>
-    <p>Grid systemet har følgende standardinstillinger:</p>
+    <p>Grid systemet har følgende standardindstillinger:</p>
     <table class="table">
         <thead>
             <tr>
@@ -163,7 +163,7 @@ subnav:
     <h2 id="utility">Hjælpeklasser</h2>
     <p>Designsystemet kommer med forskellige hjælpeklasser, fx. flex, margin og bredde. Disse hjælpeklasser kan kombineres med grid-systemet.</p>
     <h3 >Hjælpeklasser: Flexbox</h3>
-    <p>Bruge designsystemets flexbox hjælpeklasser-klasser til at ændre på placeringsen af kolonnerne og placeringen af indholdet i kolonnerne.</p>
+    <p>Brug designsystemets flexbox hjælpeklasser-klasser til at ændre på placeringsen af kolonnerne og placeringen af indholdet i kolonnerne.</p>
 
     <h4>Vertikal alignment</h4>
 
@@ -190,7 +190,7 @@ subnav:
 </section>
 
 <section class="section">
-    <h2 id="variables">Sass variable i designsystemet</h2>
+    <h2 id="variables">Sass variabler i designsystemet</h2>
     <pre>
     <code class="lang-scss">$grid-columns:      12;
     $grid-gutter-width: 30px;

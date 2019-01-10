@@ -17,9 +17,9 @@ lead:
   </button>
   <div id="sidenav-tech-docs" aria-hidden="false" class="accordion-content">
     <h4>Sidenavigation</h4>
-    <h5>Aktivte menupunkter</h5>
+    <h5>Aktive menupunkter</h5>
     <ul>
-      <li>Teksten i det aktive menupunkt bliver styret af primærfarven, som og sættes med variablen <code>$color-primary</code></li>
+      <li>Teksten i det aktive menupunkt bliver styret af primærfarven, som sættes med variablen <code>$color-primary</code></li>
       <li>Aktive menupunkter skal have <code>.current</code> klassen.</li>
       <li>Kun det sidste aktive menupunkt skal i stedet have <code>.active</code> klassen.</li>
     </ul>

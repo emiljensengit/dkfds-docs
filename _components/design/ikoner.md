@@ -28,7 +28,7 @@ order: 25
     <h5>Ikoner indsat via klasser</h5>
     <p>Ikoner der indsættes inline med i-tagget får på den måde samme skriftstørrelse og farve. Følgende kode indsætter et 'alert'-ikon: <code>&lt;i class="icon icon-alert-outline"&gt;&lt;/i&gt;</code></p>
     <h5>Ikoner indsat via inline svg</h5>
-    <p>I toppen af <code>&lt;body&gt;</code> er alle svg-ikoner indsat i et område som er skjult. Følgende kode linker til et af disse svg ikoner og indsætter det via dets <code>id</code>: <code>&lt;svg class="icon-svg" &lt;use xlink:href="#alert-outline"&gt;&lt;/use&gt;&lt;/svg&gt;</code></p>
+    <p>I toppen af <code>&lt;body&gt;</code> er alle svg-ikoner indsat i et område som er skjult. Følgende kode linker til et af disse svg ikoner og indsætter det via dets <code>id</code>: <code>&lt;svg class="icon-svg"&gt;&lt;use xlink:href="#alert-outline"&gt;&lt;/use&gt;&lt;/svg&gt;</code></p>
     <h5>Tilgængelighed</h5>
     <p>Husk at beskrive ikonet med tekst, evt. med “alt” tekst i koden, hvis ikonet står for sig selv, fx ikonet for “åbner i nyt vindue” <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg> skal der altid “alt” tekst på i koden. Fx: <code>&lt;i class="icon icon-alert-outline” alt=“beskrivelse af ikonet skrives her”&gt;&lt;/i&gt;</code></p>
     <p>Dekorative ikoner bør undgås, men hvis de bruges skal de ikke beskrives eller have “alt” tekst, da de ikke bærer nogen betydning eller er vigtige for brugeren.</p>
@@ -52,7 +52,7 @@ order: 25
   </ul>
   <h5>Illustrative ikoner</h5>
   <p>Illustrative ikoner er unikke for en given selvbetjeningsløsning, der giver mening i den givne kontekst, men ikke nødvendigvis i andre sammenhænge.</p>
-  <p>Ikoner der anvendes illustrativt må ikke være ligne eller være de samme som anvendes til navigation, feedback og funktionalitet.</p>
+  <p>Ikoner der anvendes illustrativt må ikke ligne eller være de samme som anvendes til navigation, feedback og funktionalitet.</p>
   <p>Vi bruger material design ikoner som udgangspunkt, men illustrative ikoner kan også tegnes specifikt til en løsning. Gøres dette anbefaler vi at følge <a href="https://material.io/tools/icons/?style=outline" class="icon-link">Material Designs anvisninger for design af ikoner<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>.
   </p>
   <h5>Links</h5>

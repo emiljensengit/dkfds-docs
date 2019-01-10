@@ -72,7 +72,7 @@ subnav:
     </ul>
     <p>Målingerne bør foretages på en løsning, der serveres fra et eksternt produktions- eller identisk testmiljø, så billedet er så realistisk som muligt.</p>
     <p>Fortolkningen af Lighthouse/Audit-resultaterne bør foregå sammen med en udvikler, da der flere steder refereres til tekniske begreber.</p>
-    <p>Hvis din selvbetjeningsløsning er en  ”high performance løsning” skal den opnå en vurdering på mere end 90 på mindst fire af punkter (ikke et gennemsnit).</p>
+    <p>Hvis din selvbetjeningsløsning er en  ”high performance løsning” skal den opnå en vurdering på mere end 90 på mindst fire af punkterne (ikke et gennemsnit).</p>
     <h4>Kvalitative KPIer</h4>
     <p>Performance er mere end hastigheden fra server til bruger. Det er også, hvordan interaktionen med selvbetjeningsløsningen opleves fra brugerens side; subjektive og kvalitative krav, som du skal være i dialog med brugerne for at afdække fx:</p>
     <ul>

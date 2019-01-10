@@ -11,7 +11,7 @@ title: Table--bordered-zebra.html
                     <th>Affaldstype</th>
                     <th>Farvekode</th>
                     <th>Beskrivelse</th>
-                    <th>hvor ender det?</th>
+                    <th>Hvor ender det?</th>
                 </tr>
             </thead>
             <tbody>

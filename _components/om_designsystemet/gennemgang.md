@@ -27,7 +27,7 @@ subnav:
     <section>
         <h2 id="frontend-arkitektur">Frontend arkitektur</h2>
         <p>Det Fælles Designsystem er en simpel samling af grundlæggende funktioner og design, der skaber et solidt grundlag for udviklingen af selvbetjeningsløsninger, der skal ligge på borger.dk og virk.dk.</p>
-        <p>Designsystemets frontend arkitektur bygger på princippet om en minimal, modulær og skalerbar opbygning, der kan forgrene sig yderligere som behovet i takt med øget behov.</p>
+        <p>Designsystemets frontend arkitektur bygger på princippet om en minimal, modulær og skalerbar opbygning, der kan forgrene sig yderligere i takt med øget behov.</p>
         <p>Designsystemet udtaler sig udelukkende om layout, typografi, farver og grundlæggende funktioner.</p>
         <p>I takt med at US Web Design System og Gov.uk udvides og forbedres, vil disse ændringer,  af hensyn til integriteten i Designsystemet, blive gennemgået og vurderet af en teknisk redaktion, før de implementeres.</p>
         <figure>

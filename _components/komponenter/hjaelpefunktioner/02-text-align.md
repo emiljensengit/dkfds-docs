@@ -4,7 +4,7 @@ parent: Hjælpefunktioner
 order: 02
 ---
 
-<p>Der er opsat en hjælpefunktion som automatisk generere klasser til text-align baseret på de definerede breakpoints i $grid-breakpoints.</p>
+<p>Der er opsat en hjælpefunktion som automatisk genererer klasser til text-align baseret på de definerede breakpoints i $grid-breakpoints.</p>
 
 Format: <code>align-text-{retning}</code> og <code>align-text-{breakpoint}-{retning}</code>
 

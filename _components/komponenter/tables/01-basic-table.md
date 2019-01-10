@@ -19,7 +19,7 @@ lead:
         <section>
             <h4>Tilgængelighed</h4>
             <ul>
-                <li>Tabeller i Det Fælles Designsystem overholder HTML standarden, men du skal selv tilføje <code>scope=col</code> eller <code>scope=row</code> til hver header celle <code>th</code>th.</li>
+                <li>Tabeller i Det Fælles Designsystem overholder HTML standarden, men du skal selv tilføje <code>scope=col</code> eller <code>scope=row</code> til hver header celle <code>th</code></li>
                 <li>Hvis du konstruerer en såkaldt kompleks tabel – en tabel med flere header-niveauer -  skal hver header have tilføjet et unikt id (fx <code>id=header-eksempel</code>) og hver celle tilføjes en header-attribut med den relevante og tilknyttede tabel header’s <code>id</code> angivet (fx <code>header=header-eksempel</code>).</li>
                 <li>Når du tilføjer en titel til en tabel, skal du skrive den i <code>caption</code> indenfor table-elementet.</li>
             </ul>

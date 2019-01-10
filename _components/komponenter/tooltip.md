@@ -23,7 +23,7 @@ lead:
         &lt;button class="button button-primary js-tooltip" title="Dette er et tooltip"&gt;Knap med tooltip&lt;/button&gt;	
       </code> 
     </div>
-    <p>Vi definere et tooltip som en hjælpetekst som vises ved mouseover, og en popover som hjælpetekst der vises ved et klik. For at lave et tooltip om til en popover skal der tilføjes følgende attribut: <code>data-tippy-trigger="click"</code></p>
+    <p>Vi definerer et tooltip som en hjælpetekst som vises ved mouseover, og en popover som hjælpetekst der vises ved et klik. For at lave et tooltip om til en popover skal der tilføjes følgende attribut: <code>data-tippy-trigger="click"</code></p>
     <p>Tippy.js har mange konfigurationsmuligheder, og den fulde liste kan ses på deres hjemmeside: <a href="https://atomiks.github.io/tippyjs/">https://atomiks.github.io/tippyjs/</a></p>
     <p>I følgende eksempel er tooltippet konfigureret til at vises til venstre: </p>
     <div class="code-highlight">

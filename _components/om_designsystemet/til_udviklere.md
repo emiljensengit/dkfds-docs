@@ -18,7 +18,7 @@ subnav:
 npm install --save dkfds
 ```
 <p>Modulet 'dkfds' er nu installeret i 'node_modules' mappen.<br>
-Du kan enten benytte source-filerne i 'src/'-mappen er de kompilerede filer i 'dist/'-mappen.</p>
+Du kan enten benytte source-filerne i 'src/'-mappen eller de kompilerede filer i 'dist/'-mappen.</p>
 
 <h3>Inkluder DKFDS Components i dit projekt</h3>
 <p>Den hurtigst måde at få inkluderet FDS' css i dit projekt er at tilføje følgende link-tag:</p>
@@ -31,7 +31,7 @@ Du kan enten benytte source-filerne i 'src/'-mappen er de kompilerede filer i 'd
 ```
 
 <h4>Note til Webpack</h4>
-<p>For at inkludere stylingen skal visse variable tilpasses:</p>
+<p>For at inkludere stylingen skal visse variabler tilpasses:</p>
 
 ```shell
   $font-path:         '~dkfds/src/fonts/IBMPlexSans/';
@@ -48,7 +48,7 @@ Du kan enten benytte source-filerne i 'src/'-mappen er de kompilerede filer i 'd
 ```
 
 <h2>DKFDS Plugins</h2>
-<p>Det er kun styling (css eller scss) som skal inkluderes from plugins projektet. Den javascript og HTML som findes i projektet er kun til lave de eksempler som kan ses på dette dokumentationssite.</p>
+<p>Det er kun styling (css eller scss) som skal inkluderes fra plugins projektet. Den JavaScript og HTML som findes i projektet er kun til at lave de eksempler som kan ses på dette dokumentationssite.</p>
 <p>Der er i øjeblikket lavet temaer til følgende:</p>
 <ul>
     <li><a href="https://datatables.net/">Datatables</a></li>

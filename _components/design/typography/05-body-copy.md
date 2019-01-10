@@ -17,8 +17,8 @@ order: 05
   </button>
   <div id="bodycopy-docs-tech" aria-hidden="true" class="accordion-content">
     <p>Fontstørrelsen for brødtekst er som udgangspunkt <strong>16px</strong>, og har en liniehøjde som svarer til 24px.</p>
-    <p>Alle fontstørrelser er angiver i rem-værdier og forholder sig derfor til fontstørrelsen som er angivet <code>&lt;html&gt;</code>-tagget.</p>
-    <p>HTML-taggets fontstørrelse er angivet i procent således at fontstørrelen er relativ til broswerens brugervalgte fontstørrelse. De fleste brugere har en standardinstilling på 16px, 62.5% af dette er 10px og en font-størrelse på 1.6rem giver derfor en fontstørrelse på 16px. Hvis brugeren vælger at indstille en standard fontstørrelse som er større end 16px vil hele sitet afspejle brugerens ønske.</p>
+    <p>Alle fontstørrelser er angivet i rem-værdier og forholder sig derfor til fontstørrelsen som er angivet i <code>&lt;html&gt;</code>-tagget.</p>
+    <p>HTML-taggets fontstørrelse er angivet i procent således at fontstørrelsen er relativ til browserens brugervalgte fontstørrelse. De fleste brugere har en standardindstilling på 16px, 62.5% af dette er 10px og en fontstørrelse på 1.6rem giver derfor en fontstørrelse på 16px. Hvis brugeren vælger at indstille en standard fontstørrelse som er større end 16px vil hele sitet afspejle brugerens ønske.</p>
     <div class="code-highlight">
         <code>        
             html { font-size: 62.5%; } <br>

@@ -37,7 +37,7 @@ lead:
       <section>
           <h4>Tilgængelighed</h4>
           <ul>
-              <li>Skjul ikke meningsbærende indhold med denne funktionalitet..</li>
+              <li>Skjul ikke meningsbærende indhold med denne funktionalitet.</li>
               <li>Skjult indhold skal fortsat overholde dokumentets outline (overskriftshierarki) og tilgængelighedskrav.</li>
           </ul>  
       </section>

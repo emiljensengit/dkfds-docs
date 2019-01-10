@@ -56,7 +56,7 @@ lead:
           <p>Knapper skal ikke anvendes til at navigere mellem sidevisninger. Der skal du i stedet anvende link.</p>
           <h5>Vejledning</h5>
           <ul>
-              <li>Generelt skal du anvende primære knapper til handlinger, der bringer brugeren videre i sit forløb og sekundære knapper til handlinger, der foregår på indenfor den aktuelle sidevisning.</li>
+              <li>Generelt skal du anvende primære knapper til handlinger, der bringer brugeren videre i sit forløb og sekundære knapper til handlinger, der foregår indenfor den aktuelle sidevisning.</li>
               <li>Der er kun en primær-knap pr side.</li>
               <li>Undgå for mange knapbaserede funktioner på samme side.</li>
               <li>Brug stort forbogstav og små bogstaver for resten på knappen.</li>

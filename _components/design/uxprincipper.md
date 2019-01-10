@@ -45,7 +45,7 @@ lead:
             </li>
             <li>
                 <h3 class="h5">Begræns omfanget af forstyrrelser</h3>
-                <p>Det er en myte, at folk kan multitaske. Brugerne kan ikke gøre to ting på én gang; de ender med at give mindre opmærksomhed til begge ting og kommer galt afsted. Et effektivt design fokuserer brugerens opmærksomhed på en given opgave og fjerner distraktioner. Er der flere opgaver, der skal løses, så del dem op, så brugeren kan gøre en ting færdig af gangen. </p>
+                <p>Det er en myte, at folk kan multitaske. Brugerne kan ikke gøre to ting på én gang; de ender med at give mindre opmærksomhed til begge ting og kommer galt afsted. Et effektivt design fokuserer brugerens opmærksomhed på en given opgave og fjerner distraktioner. Er der flere opgaver, der skal løses, så del dem op, så brugeren kan gøre en ting færdig ad gangen. </p>
             </li>
             <li>
                 <h3 class="h5">Gruppér relaterede elementer tæt på hinanden</h3>
@@ -61,7 +61,7 @@ lead:
             </li>
             <li>
                 <h3 class="h5">Gør det tydeligt for brugeren hvor han er</h3>
-                <p>Lad aldrig brugeren fare vild. Designet skal gøre det muligt for brugeren altid at kunne se, hvor han er i overordnet set på en klar og tydelig måde. Hvis du viser brugerne, hvor de er kommet fra, og hvor de skal hen, vil de have tillid til at de kan finde rundt og at de er i kontrol.</p>
+                <p>Lad aldrig brugeren fare vild. Designet skal gøre det muligt for brugeren altid at kunne se, hvor han er overordnet set på en klar og tydelig måde. Hvis du viser brugerne, hvor de er kommet fra, og hvor de skal hen, vil de have tillid til at de kan finde rundt og at de er i kontrol.</p>
             </li>
             <li>
                 <h3 class="h5">Skab tydelige sammenhænge og sæt konteksten</h3>
@@ -73,11 +73,11 @@ lead:
             </li>
             <li>
                 <h3 class="h5">Det handler om brugernes effektivitet</h3>
-                <p>Et primært formål med oplevelsesdesign er at gøre tingene mere effektive for brugerne modsat at fokusere på systemets effektivitet. Et strømlignet design øger brugernes effektivitet og reducerer den indsats de skal lægge for dagen. Når brugerne kan mærke, at man har lagt sig i selen for at gøre det så nemt for dem som muligt, øges deres positive oplevelse af designet.</p>
+                <p>Et primært formål med oplevelsesdesign er at gøre tingene mere effektive for brugerne modsat at fokusere på systemets effektivitet. Et strømlinet design øger brugernes effektivitet og reducerer den indsats de skal lægge for dagen. Når brugerne kan mærke, at man har lagt sig i selen for at gøre det så nemt for dem som muligt, øges deres positive oplevelse af designet.</p>
             </li>
             <li>
                 <h3 class="h5">Brug passende standardindstillinger</h3>
-                <p>Standardstillinger kan hjælpe brugeren til at komme hurtigere i mål. Forvalgte indstillinger og forudfyldte felter kan øge brugerens effektivitet. Dog skal det bruges med omhu, da forkerte indstillinger og input kan forværre brugerens effektivitet og skabe forvirring. </p>
+                <p>Standardindstillinger kan hjælpe brugeren til at komme hurtigere i mål. Forvalgte indstillinger og forudfyldte felter kan øge brugerens effektivitet. Dog skal det bruges med omhu, da forkerte indstillinger og input kan forværre brugerens effektivitet og skabe forvirring. </p>
             </li>
             <li>
                 <h3 class="h5">Forebyg fejl</h3>
@@ -85,7 +85,7 @@ lead:
             </li>
             <li>
                 <h3 class="h5">Gør det muligt at fortryde og gå tilbage</h3>
-                <p>Det perfekte design findes ikke og ingen kan forhindre at der sker fejl. Sørg derfor for at brugerne har mulighed for at gå tilbage og rette fejlen op. En mulighed for at fortryde giver brugerne kontrollen og er med til at skabe tryghed.  </p>
+                <p>Det perfekte design findes ikke og ingen kan forhindre at der sker fejl. Sørg derfor for at brugerne har mulighed for at gå tilbage og rette fejlen. En mulighed for at fortryde giver brugerne kontrollen og er med til at skabe tryghed.  </p>
             </li>
             <li>
                 <h3 class="h5">Nedbring ventetiden</h3>
