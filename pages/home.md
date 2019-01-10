@@ -137,15 +137,16 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
 </div>
 
 <hr class="my-6">
-
+<!--
 <h2>Spørgsmål og svar</h2>
 <p>Find hjælp via vores ofte stillede spørgsmål og svar.</p>
 <p><a href="/dkfds-docs/omdesignsystemet/">FAQ</a></p>
-
+-->
 <h2>Seneste opdateringer</h2>
 <p>Hold dig opdateret på de seneste nyheder og opdateringer og se, hvad teamet arbejder på lige nu.</p>
 <p><a href="/dkfds-docs/omdesignsystemet/">Opdateringer</a></p>
-
+<!--
 <h2>Roadmap</h2>
 <p>Se hvilke features der ligger i horisonten, og hvornår de er planlagt til implementering.</p>
 <p><a href="/dkfds-docs/omdesignsystemet/">Roadmap</a></p>
+-->
