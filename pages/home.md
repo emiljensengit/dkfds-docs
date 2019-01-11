@@ -123,7 +123,6 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     </div>
     <h3 class="h4">Et åbent team</h3>
     <p>Det fælles designsystem bliver løbende opdateret og vedligeholdt af et fast team, der er sammensat af Digitaliseringsstyrelsen og borger.dk samt Erhvervsstyrelsen og Virk.</p>
-    <p><a href="/dkfds-docs/omdesignsystemet/">Om teamet</a></p>
     <p><a href="https://github.com/detfaellesdesignsystem/dkfds-components">Få support via GitHub</a></p>
   </div>
   <div class="col-12 col-md-4">
@@ -132,6 +131,10 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     </div>
     <h3 class="h4">Forum for deltagelse</h3>
     <p>Alle myndigheder med en interesse i at præge udviklingen og få indflydelse på designsystemets indhold er velkomne. Man skal blot allerede benytte systemet eller have planlagt at benytte det.</p>
+    <ul class="unstyled-list">
+        <li><a href="#">Deltagerforum (under udvikling)</a></li>
+        <li><a href="#">Governancemodel (under udvikling)</a></li>
+    </ul>
   </div>
 </div>
 
