@@ -72,5 +72,13 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
             <p><a href="/dkfds-docs/design/visueltdesign/">Visuelt Design (Look & feel)</a></p>
         </div>
     </div>
+     <div class="col-12 col-md-4">
+        <div class="demo-component-box">
+            <a href="/dkfds-docs/design/utility/" class="demo-component-box__img">
+                <img src="{{ site.baseurl }}/img/componenticons/wrench.svg" alt="">
+            </a>
+            <p><a href="/dkfds-docs/design/utility/">Hjælpeklasser (Utilities)</a></p>
+        </div>
+      </div>
 </div>
 

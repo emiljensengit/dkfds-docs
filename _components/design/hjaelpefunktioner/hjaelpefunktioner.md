@@ -1,10 +1,10 @@
 ---
-permalink: /komponenter/utility/
+permalink: /design/utility/
 layout: styleguide
 type: component
-title: Hjælpeklasser (Utilities)
-category: Komponenter_category
-subcategory: Komponenter
+title: Utilities (Hjælpeklasser)
+category: Design_category
+subcategory: Design
 lead: 
 subnav:
 - text: Responsive hjælpeklasser

@@ -51,7 +51,7 @@ subnav:
                 <tbody>
                     <tr>
                         <td>Ja</td>
-                        <td><a href="/dkfds-docs/komponenter/utility/">Hjælpeklasser (utilities)</a></td>
+                        <td><a href="/dkfds-docs/design/utility/">Hjælpeklasser (utilities)</a></td>
                         <td></td>
                         <td><a href=""></a></td>
                         <td><a href=""></a></td>

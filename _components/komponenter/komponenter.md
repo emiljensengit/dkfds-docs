@@ -72,14 +72,6 @@ lead: Designsystemet er din værktøjskasse til at bygge offentlige selvbetjenin
   </div>
   <div class="col-12 col-md-4">
     <div class="demo-component-box">
-        <a href="/dkfds-docs/komponenter/utility/" class="demo-component-box__img">
-            <img src="{{ site.baseurl }}/img/componenticons/wrench.svg" alt="">
-        </a>
-        <p><a href="/dkfds-docs/komponenter/utility/">Hjælpeklasser (Utilities)</a></p>
-    </div>
-  </div>
-  <div class="col-12 col-md-4">
-    <div class="demo-component-box">
         <a href="/dkfds-docs/komponenter/buttons/" class="demo-component-box__img">
             <img src="{{ site.baseurl }}/img/componenticons/Knapper.svg" alt="">
         </a>
