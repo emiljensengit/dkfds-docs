@@ -6262,13 +6262,14 @@ footer .footer-theme {
     .search .form-input:focus {
       z-index: 1; }
   .search .button-search {
-    color: #1a1a1a;
     background-color: #fff;
     border-width: 1px;
     border-color: #747474;
     border-left: none;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
+    color: #1a1a1a;
+    font-weight: 400;
     width: inherit; }
     .search .button-search:hover {
       background-color: #DCDCDC; }
