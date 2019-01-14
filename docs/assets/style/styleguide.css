@@ -6170,6 +6170,8 @@ footer .footer-theme {
       padding-bottom: 8px;
       background-color: #454545;
       top: 100%; } }
+  .nav-primary .overflow-menu .overflow-menu-inner .overflow-list .overflow-list a {
+    border-top: 0; }
   .nav-primary .overflow-menu .overflow-menu-inner button {
     background-color: transparent;
     border: 0;
