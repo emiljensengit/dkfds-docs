@@ -31,9 +31,7 @@ title: Date-input.html
                         data-input-regex="^[0-9]{0,4}$" title="Indskriv årstal">
                 </div>
                 <button class="button-unstyled button-open-calendar js-calendar-datepicker">
-
                     <svg class="icon-svg " ><use xlink:href="#calendar"></use></svg>
-
                 </button>
             </div>
         </div>

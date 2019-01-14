@@ -40,13 +40,9 @@ title: Footer-logo.html
                                     sted på siden</p>
                             </li>
                             <li><a href="javascript:void(0);" class="icon-link">Link
-                                    til en ekstern side
-                                    <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
-                                </a></li>
+                                    til en ekstern side<svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg></a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Link
-                                    til en ekstern side
-                                    <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
-                                </a></li>
+                                    til en ekstern side<svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg></a></li>
                         </ul>
                     </div>
                 </div>

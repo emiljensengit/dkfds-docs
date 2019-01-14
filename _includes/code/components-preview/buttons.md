@@ -37,11 +37,9 @@ title: Buttons.html
         aria-disabled="true">Disabled</button>
 
     <p class="h5">Knap med ikon</p>
-    <button class="button button-primary">
-        <svg class="icon-svg " ><use xlink:href="#refresh"></use></svg>
+    <button class="button button-primary"><svg class="icon-svg " ><use xlink:href="#refresh"></use></svg>
         Refresh</button>
     <p class="h5">Funktionslink</p>
-    <p><a href="#" class="function-link">
-            <svg class="icon-svg " ><use xlink:href="#printer"></use></svg>
+    <p><a href="#" class="function-link"><svg class="icon-svg " ><use xlink:href="#printer"></use></svg>
             Print hele guiden</a></p>
 </div>

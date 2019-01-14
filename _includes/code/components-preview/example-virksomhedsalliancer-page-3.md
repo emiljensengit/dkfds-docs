@@ -51,9 +51,7 @@ title: Example-virksomhedsalliancer-page-3.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu">
-            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
-            Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>
@@ -202,9 +200,7 @@ title: Example-virksomhedsalliancer-page-3.html
                                         title="Indskriv årstal">
                                 </div>
                                 <button class="button-unstyled button-open-calendar js-calendar-datepicker">
-
                                     <svg class="icon-svg " ><use xlink:href="#calendar"></use></svg>
-
                                 </button>
                             </div>
                         </div>

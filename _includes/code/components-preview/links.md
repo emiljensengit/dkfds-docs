@@ -59,9 +59,8 @@ title: Links.html
         </div>
     </div>
 
-    <p>Link som åbner en <a href="" class="icon-link">ekstern website
-            <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
-        </a> </p>
+    <p>Link som åbner en <a href="" class="icon-link">ekstern website<svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg></a>
+    </p>
 
     <p>Dette er <a href="javascript:void(0);" class="disabled" disabled="disabled"
             tabindex="-1">et standard link, disabled</a></p>
@@ -87,9 +86,8 @@ title: Links.html
                 state</a>
             on a dark background.</p>
         <p>This is a link that goes to an <a href="" class="icon-link">external
-                website
-                <svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg>
-            </a> on a dark background.</p>
+                website<svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg></a>
+            on a dark background.</p>
         <p>This is a text <a href="javascript:void(0);" class="disabled"
                 disabled="disabled" tabindex="-1">disabled link state</a>
             on a dark background.</p>

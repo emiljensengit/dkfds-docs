@@ -51,9 +51,7 @@ title: Example-boernetilskud-ansoegning-2.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu">
-            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
-            Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
@@ -232,9 +230,7 @@ title: Example-boernetilskud-ansoegning-2.html
                                 title="Indskriv årstal">
                         </div>
                         <button class="button-unstyled button-open-calendar js-calendar-datepicker">
-
                             <svg class="icon-svg " ><use xlink:href="#calendar"></use></svg>
-
                         </button>
                     </div>
                 </div>

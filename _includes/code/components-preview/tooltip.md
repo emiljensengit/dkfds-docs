@@ -11,9 +11,8 @@ title: Tooltip.html
     </button>
     <p class="h5">Popover (kræver tryk)</p>
     <a href="" class="popover js-tooltip" data-tippy-trigger="click" role="tooltip"
-        title="Dette er en hjælpetekst i en popover">
-        <svg class="icon-svg " ><use xlink:href="#help-circle-outline"></use></svg>
-        <span class="sr-only">Dette er tooltipteksten til screenreaders,
+        title="Dette er en hjælpetekst i en popover"><svg class="icon-svg " ><use xlink:href="#help-circle-outline"></use></svg><span
+            class="sr-only">Dette er tooltipteksten til screenreaders,
             popover</span></a>
 
     <p class="h5">Eksempel på konfiguration - placering:</p>

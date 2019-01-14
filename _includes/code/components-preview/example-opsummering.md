@@ -54,9 +54,7 @@ title: Example-opsummering.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu">
-            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
-            Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Christian Emil Vestergaard Christiansen</b><br>Forsikringens Forsikringsfirma</p>
@@ -74,8 +72,7 @@ title: Example-opsummering.html
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
-                    <a href="" class="function-link">
-                        <svg class="icon-svg " ><use xlink:href="#save"></use></svg>
+                    <a href="" class="function-link"> <svg class="icon-svg " ><use xlink:href="#save"></use></svg>
                         Gem kladde</a>
                 </div>
             </div>

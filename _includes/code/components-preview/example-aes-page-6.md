@@ -54,9 +54,7 @@ title: Example-aes-page-6.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu">
-            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
-            Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Christian Emil Vestergaard Christiansen</b><br>Forsikringens Forsikringsfirma</p>
@@ -74,8 +72,7 @@ title: Example-aes-page-6.html
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
-                    <a href="" class="function-link">
-                        <svg class="icon-svg " ><use xlink:href="#save"></use></svg>
+                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#save"></use></svg>
                         Gem kladde</a>
                 </div>
             </div>
@@ -177,9 +174,7 @@ title: Example-aes-page-6.html
         </thead>
         <tbody>
             <tr>
-                <td class="mt-4 mt-lg-0">
-                    <svg class="icon-svg " ><use xlink:href="#file"></use></svg>
-                    prn1023152_journal.pdf</td>
+                <td class="mt-4 mt-lg-0"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>prn1023152_journal.pdf</td>
                 <td class="mt-4 mt-lg-0">
                     <div class="form-group">
 
@@ -199,9 +194,7 @@ title: Example-aes-page-6.html
                     </div>
                 </td>
                 <td class="align-text-md-right mt-4 mt-lg-0"><a href="#"
-                        class="function-link link-right">
-                        <svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg>
-                    </a></td>
+                        class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
             </tr>
         </tbody>
     </table>

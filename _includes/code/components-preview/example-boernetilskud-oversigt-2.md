@@ -51,9 +51,7 @@ title: Example-boernetilskud-oversigt-2.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu">
-            <svg class="icon-svg " ><use xlink:href="#close"></use></svg>
-            Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
