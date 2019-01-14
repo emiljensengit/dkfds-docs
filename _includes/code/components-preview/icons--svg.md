@@ -56,25 +56,9 @@ title: Icons--svg.html
 
         <div class="col-md-2">
             <div class="icon-box">
-                <div><svg class="icon-svg " ><use xlink:href="#book-open"></use></svg></div>
-                <span class="icon-name"><span class="sr-only">Example of
-                    </span>book-open</span>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="icon-box">
                 <div><svg class="icon-svg " ><use xlink:href="#calendar"></use></svg></div>
                 <span class="icon-name"><span class="sr-only">Example of
                     </span>calendar</span>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="icon-box">
-                <div><svg class="icon-svg " ><use xlink:href="#cash-multiple"></use></svg></div>
-                <span class="icon-name"><span class="sr-only">Example of
-                    </span>cash-multiple</span>
             </div>
         </div>
 
@@ -192,22 +176,6 @@ title: Icons--svg.html
 
         <div class="col-md-2">
             <div class="icon-box">
-                <div><svg class="icon-svg " ><use xlink:href="#file-document-box"></use></svg></div>
-                <span class="icon-name"><span class="sr-only">Example of
-                    </span>file-document-box</span>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="icon-box">
-                <div><svg class="icon-svg " ><use xlink:href="#folder-multiple"></use></svg></div>
-                <span class="icon-name"><span class="sr-only">Example of
-                    </span>folder-multiple</span>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="icon-box">
                 <div><svg class="icon-svg " ><use xlink:href="#help"></use></svg></div>
                 <span class="icon-name"><span class="sr-only">Example of
                     </span>help</span>
@@ -275,14 +243,6 @@ title: Icons--svg.html
                 <div><svg class="icon-svg " ><use xlink:href="#menu-up"></use></svg></div>
                 <span class="icon-name"><span class="sr-only">Example of
                     </span>menu-up</span>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="icon-box">
-                <div><svg class="icon-svg " ><use xlink:href="#message"></use></svg></div>
-                <span class="icon-name"><span class="sr-only">Example of
-                    </span>message</span>
             </div>
         </div>
 

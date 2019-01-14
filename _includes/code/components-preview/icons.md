@@ -63,27 +63,9 @@ title: Icons.html
         <div class="col-md-3">
             <div class="icon-box">
                 <div>
-                    <i class="icon icon-book-open color-text-blue"></i>
-                </div>
-                <span><span class="sr-only">Example of </span>book-open</span>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="icon-box">
-                <div>
                     <i class="icon icon-calendar color-text-blue"></i>
                 </div>
                 <span><span class="sr-only">Example of </span>calendar</span>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="icon-box">
-                <div>
-                    <i class="icon icon-cash-multiple color-text-blue"></i>
-                </div>
-                <span><span class="sr-only">Example of </span>cash-multiple</span>
             </div>
         </div>
 
@@ -216,24 +198,6 @@ title: Icons.html
         <div class="col-md-3">
             <div class="icon-box">
                 <div>
-                    <i class="icon icon-file-document-box color-text-blue"></i>
-                </div>
-                <span><span class="sr-only">Example of </span>file-document-box</span>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="icon-box">
-                <div>
-                    <i class="icon icon-folder-multiple color-text-blue"></i>
-                </div>
-                <span><span class="sr-only">Example of </span>folder-multiple</span>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="icon-box">
-                <div>
                     <i class="icon icon-help color-text-blue"></i>
                 </div>
                 <span><span class="sr-only">Example of </span>help</span>
@@ -309,15 +273,6 @@ title: Icons.html
                     <i class="icon icon-menu-up color-text-blue"></i>
                 </div>
                 <span><span class="sr-only">Example of </span>menu-up</span>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="icon-box">
-                <div>
-                    <i class="icon icon-message color-text-blue"></i>
-                </div>
-                <span><span class="sr-only">Example of </span>message</span>
             </div>
         </div>
 
