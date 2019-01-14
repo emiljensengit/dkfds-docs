@@ -53,7 +53,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
 </p>
 
 <h2 >Brugervenlighed over tidens designtrend</h2>
-<p>Designtrends skifter, myndigheder slås sammen og splittes op, borger.dk og Virk får visuelle opdateringer, men mange selvbetjeningsløsninger overlever dem alle. Ved primært at holde det visuelle design til gråtoner og hvid, uden “krom” og med så lidt branding som muligt, har vi lavet et visuelt robust designsystem, der passer ind på både borger.dk og Virk trods deres forskelligheder. Så kan du fokusere på brugerens behov og brugerrejse i stedet for på former og farver.</p>
+<p>Designtrends skifter, det som var moderne i går er umoderne i morgen, men mange selvbetjeningsløsninger overlever modens luner. Ved primært at holde det visuelle design til gråtoner og hvid, uden “krom” og med så lidt branding som muligt, har vi lavet et visuelt robust designsystem, der ikke forsøger at være trendy, men neutralt, simpelt og fleksibelt, så det passer ind på både borger.dk og Virk trods deres forskelligheder. Så kan du fokusere på brugerens behov og brugerrejse i stedet for på former og farver.</p>
 <p>
   <a href="/dkfds-docs/design/visueltdesign/"> 
     Om det visuelle design
@@ -61,7 +61,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
 </p>
 
 <h2>Kodefrihed under ansvar</h2>
-<p>Vi har bestræbt os på at lave et designsystem, der er let at anvende og kode med, men vi vil ikke tvinge nogen væk fra deres favorit (javaScript) framework. Sålænge det visuelle design består som beskrevet i systemet, så er du velkommen til at udnytte de teknologier du finder bedst, men giv vores kode et kig, den er lige til at gå til.</p>
+<p>Vi har bestræbt os på at lave et designsystem, der er let at anvende og kode med, men vi vil ikke tvinge nogen væk fra deres favorit (JavaScript) framework. Sålænge det visuelle design består som beskrevet i systemet, så er du velkommen til at udnytte de teknologier du finder bedst, men giv vores kode et kig, den er lige til at gå til.</p>
 <p>
   <a href="/dkfds-docs/omdesignsystemet/tiludviklere/"> 
     Til udviklere
