@@ -706,16 +706,10 @@ code {
   -webkit-font-smoothing: antialiased;
 
   .button {
-    //background-image: url('#{$site-image-path}/angle-arrow-left-inverse.png');
-    //background-image: url('#{$site-image-path}/angle-arrow-left-inverse.svg'); //TODO: get back in
-    background-repeat: no-repeat;
-    background-position: left 2rem center;
-    background-size: 1rem;
-    padding-left: 3.3rem;
     background-color: black;
     border-color: white !important; 
     display: inline;
-    &:hover{
+    &:hover, &:visited {
       color: white;
     }
   }

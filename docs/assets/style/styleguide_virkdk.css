@@ -1582,6 +1582,8 @@ a {
     .background-dark a:disabled:focus, .background-dark a.disabled:focus {
       outline: none;
       background-color: transparent; }
+  a .icon-svg {
+    fill: currentColor; }
 
 h1, .h1 {
   font-size: 4rem;
@@ -7600,14 +7602,10 @@ code {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
   .demo-footer .button {
-    background-repeat: no-repeat;
-    background-position: left 2rem center;
-    background-size: 1rem;
-    padding-left: 3.3rem;
     background-color: black;
     border-color: white !important;
     display: inline; }
-    .demo-footer .button:hover {
+    .demo-footer .button:hover, .demo-footer .button:visited {
       color: white; }
   .demo-footer .form-select {
     background-color: black;
