@@ -36,10 +36,10 @@ lead: Toggle overlay with lists of links or buttons.
 
 <div class="accordion-bordered accordion-docs">
   <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="overflow-docs">
+      aria-expanded="true" aria-controls="overflow-docs-info">
     Retningslinjer
   </button>
-  <div id="overflow-docs" class="accordion-content">
+  <div id="overflow-docs-info" class="accordion-content">
     <article>
       <section>
           <h4>Tilgængelighed</h4>
