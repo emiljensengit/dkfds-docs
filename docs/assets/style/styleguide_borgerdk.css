@@ -1671,7 +1671,7 @@ strong, b, .bold {
   font-style: italic; }
 
 small, .small-text {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 500; }
 
@@ -4315,7 +4315,7 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
   .badge.badge-small {
     color: #ffffff;
     background-color: #1a1a1a;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 2.4rem; }
 
 .embed-container iframe,
@@ -6179,6 +6179,9 @@ footer .footer-theme {
       padding-bottom: 8px;
       background-color: #454545;
       top: 100%; } }
+  .nav-primary .overflow-menu .overflow-menu-inner .overflow-list a {
+    font-size: 1.4rem;
+    line-height: 2rem; }
   .nav-primary .overflow-menu .overflow-menu-inner .overflow-list .overflow-list {
     margin-left: 16px; }
     .nav-primary .overflow-menu .overflow-menu-inner .overflow-list .overflow-list li a {
