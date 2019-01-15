@@ -39,11 +39,9 @@ title: Footer-header-links-ext-support.html
                             <li><a href="javascript:void(0);">Link til et
                                     sted på siden</a></li>
                             <li><a href="javascript:void(0);">Link til et
-                                    sted på siden</p>
-                            </li>
+                                    sted på siden</a></li>
                             <li><a href="javascript:void(0);">Link til et
-                                    sted på siden</p>
-                            </li>
+                                    sted på siden</a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Link
                                     til en ekstern side<svg class="icon-svg " ><use xlink:href="#open-in-new"></use></svg></a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Link
