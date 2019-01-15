@@ -9,7 +9,7 @@ subnav:
 - text: Fonte
   href: '#fonte'
 - text: Overskrifter
-  href: '#Overskrifter'
+  href: '#overskrifter'
 - text: Felt- og tabeloverskrifter
   href: '#felt-og-tabeloverskrifter-label-og-th'
 - text: Manchettekst
