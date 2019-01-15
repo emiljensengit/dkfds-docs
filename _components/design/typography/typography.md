@@ -24,6 +24,8 @@ subnav:
   href: '#lister'
 - text: Typesetting
   href: '#typesetting'
+- text: Hjælpetekst og fejlbeskeder
+  href: '#hjælpetekst-og-fejlbeskeder'
 ---
 
 {% include child-sections.html parent='typography' %}
