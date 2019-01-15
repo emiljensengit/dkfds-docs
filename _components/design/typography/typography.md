@@ -10,8 +10,8 @@ subnav:
   href: '#fonte'
 - text: Overskrifter
   href: '#Overskrifter'
-- text: Labels
-  href: '#labels'
+- text: Felt- og tabeloverskrifter
+  href: '#felt-og-tabeloverskrifter-label-og-th'
 - text: Manchettekst
   href: '#manchettekst-lead-paragraph'
 - text: Brødtekst
