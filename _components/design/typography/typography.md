@@ -22,10 +22,12 @@ subnav:
   href: '#display-tekst'
 - text: Lister
   href: '#lister'
-- text: Typesetting
-  href: '#typesetting'
 - text: Hjælpetekst og fejlbeskeder
   href: '#hjælpetekst-og-fejlbeskeder'
+- text: Linjelængde
+  href: '#linjelængde'
+- text: Linjeafstand
+  href: '#linjeafstand'
 ---
 
 {% include child-sections.html parent='typography' %}
