@@ -253,15 +253,6 @@ order: 01
       </div>
     </div>
     <!-- color-link-hover END -->
-      <!-- color-active START -->
-    <div class="col-md-3">
-      <div class="color-container-large color-active"></div>
-      <div class="color-text-container">
-        <p class="code-color-hex">#000040</p>
-        <p class="code-color-variable">$color-link-active</p>
-      </div>
-    </div>
-    <!-- color-active END -->
     <!-- color-visited START -->
     <div class="col-md-3">
       <div class="color-container-large color-visited"></div>
