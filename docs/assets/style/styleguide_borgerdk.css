@@ -1554,13 +1554,11 @@ p {
 a {
   color: #004D99; }
   a:hover, a.link-hover {
-    color: #004080; }
+    color: #000040; }
     a:hover:disabled,
     a:hover .disabled, a.link-hover:disabled,
     a.link-hover .disabled {
       background-color: transparent !important; }
-  a:active, a.link-active {
-    color: #000040; }
   a:focus, a.link-focus {
     color: #004D99;
     outline: 4px solid #747474;
@@ -7161,7 +7159,7 @@ input[type="search"] {
   background-color: #004D99; }
 
 .color-link-hover {
-  background-color: #004080; }
+  background-color: #000040; }
 
 .color-focus {
   background-color: #747474; }
@@ -7297,8 +7295,6 @@ input[type="search"] {
     background-color: #ffeecc; }
   .color-container-large.color-error {
     background-color: #CC0000; }
-  .color-container-large.color-active {
-    background-color: #000040; }
   .color-container-large.color-error-light {
     background-color: #ffe0e0; }
   .color-container-large.color-info {

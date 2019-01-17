@@ -13,7 +13,7 @@ title: Date-input.html
                 role="alert"></span>
             <div class="date-group js-calendar-group mt-3">
                 <div class="form-group form-group-day">
-                    <label class="form-label" for="date_of_day_2">Day</label>
+                    <label class="form-label" for="date_of_day_2">Dag</label>
                     <input class="form-input js-calendar-day-input" type="tel"
                         min="1" max="31" maxlength="2" pattern="^[0-9]{0,2}$"
                         data-input-regex="^[0-9]{0,2}$" title="Indskriv dag på månenden som tal">
