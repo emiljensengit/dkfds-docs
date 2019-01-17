@@ -91,11 +91,11 @@ subnav:
     </ul>
     <h4>Læs mere om opfølgning og metrikker her</h4>
     <ul class="unstyled-list">
-        <li><a href="https://www.smartbugmedia.com/blog/website-redesign-projects-key-metrics-to-track-from-day-1">Key Metrics to track from day 1<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-        <li><a href="https://www.staceybarr.com/measure-up/quantitative-versus-qualitative-kpis/">Quantitative versus qualilitative KPIs<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-        <li><a href="https://www.simplilearn.com/itil-csf-kpis-article">ITIL, CSF, KPIs<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-        <li><a href="https://simplicable.com/new/critical-success-factors">Critical Succes Factors<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-        <li><a href="https://airbrake.io/blog/metrics/code-quality-metrics-management">Code Quality Metrics<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-        <li><a href="https://designsystem.digital.gov/performance/">US Web Design System - Performance<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+        <li><a href="https://www.smartbugmedia.com/blog/website-redesign-projects-key-metrics-to-track-from-day-1" class="icon-link">Key Metrics to track from day 1<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+        <li><a href="https://www.staceybarr.com/measure-up/quantitative-versus-qualitative-kpis/" class="icon-link">Quantitative versus qualilitative KPIs<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+        <li><a href="https://www.simplilearn.com/itil-csf-kpis-article" class="icon-link">ITIL, CSF, KPIs<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+        <li><a href="https://simplicable.com/new/critical-success-factors" class="icon-link">Critical Succes Factors<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+        <li><a href="https://airbrake.io/blog/metrics/code-quality-metrics-management" class="icon-link">Code Quality Metrics<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+        <li><a href="https://designsystem.digital.gov/performance/" class="icon-link">US Web Design System - Performance<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
     </ul>
 </section>

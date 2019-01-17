@@ -13,7 +13,7 @@ lead: Gør det muligt for brugeren at vælge flere elementer fra en liste.
     <h3 class="alert-heading">Denne komponent er ikke en del af kerne af FDS</h3>
     <p class="alert-text">
       SelectWoo er ikke inkluderet i kernen af FDS. For at inkludere SelectWoo skal der inkluderes et eksternt bibliotek, se implementeringsafsnittet nedenfor.<br><br>
-      FDS har implementeret et tema til SelectWoo og findes i <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins">Plugins</a> projektet.
+      FDS har implementeret et tema til SelectWoo og findes i <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> projektet.
     </p>
   </div>
 </div>
@@ -26,8 +26,8 @@ lead: Gør det muligt for brugeren at vælge flere elementer fra en liste.
    Implementering
   </button>
   <div id="accordion-bordered-docs" aria-hidden="true" class="accordion-content">
-    <p>Multiselect funktionaliteten bygger på biblioteket <a href="https://github.com/woocommerce/selectWoo">SelectWoo</a>, som er en tilgængelig implementering af det populære bibliotek <a href="https://select2.org/">Select2</a>.</p>
-    <p>Det må antages at det er et begrænset antal selvbetjeningsløsninger som har brug for denne funktionalitet, derfor er dette bibliotek ikke inkluderet i standard javascript filen <code>dkfds.js</code>. En udvikler skal derfor selv inkludere de nødvendige filer for at få SelectWoo til at virke. Select2's <a href="https://select2.org/getting-started/installation">guide</a> kan bruges til opsætningen, dog skal SelectWoo's javascript filer bruges i steden for. Det er vigtigt at både javascript filer, og styling filer bliver inkluderet.</p>
+    <p>Multiselect funktionaliteten bygger på biblioteket <a href="https://github.com/woocommerce/selectWoo" class="icon-link">SelectWoo<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>, som er en tilgængelig implementering af det populære bibliotek <a href="https://select2.org/" class="icon-link">Select2<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>.</p>
+    <p>Det må antages at det er et begrænset antal selvbetjeningsløsninger som har brug for denne funktionalitet, derfor er dette bibliotek ikke inkluderet i standard javascript filen <code>dkfds.js</code>. En udvikler skal derfor selv inkludere de nødvendige filer for at få SelectWoo til at virke. Select2's <a href="https://select2.org/getting-started/installation" class="icon-link">guide<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> kan bruges til opsætningen, dog skal SelectWoo's javascript filer bruges i steden for. Det er vigtigt at både javascript filer, og styling filer bliver inkluderet.</p>
     <p>På dette dokumentationssite er multiselect funktionaliteten en del af javascript filen <code>selectwoo-examples.js</code>, denne fil har kun til formål at vise funktionaliteten på dette dokumentationsite, og skal ikke inkluderes i selve selvbetjeningsløsningen.</p>
     <p>Eksemplet på denne side er implmenteret her: <code>[Stil til plugins biblioteket]/src/components/selectwoo/example/js/selectwoo-examples.js</code></p>
   </div>
@@ -68,7 +68,7 @@ lead: Gør det muligt for brugeren at vælge flere elementer fra en liste.
                         <li>Var varsom med at ændre indholdet af næste multiselect i forhold til det forrige valg.</li>
                         <li>Begræns antallet af valgmuligheder i listen, så brugeren ikke mister overblik over sit valg.</li>
                         <li>SelectWoo er afhængig af jQuery og dermed kræver den et ekstra request og ekstra kode i indlæsningen – dette kan nedsætte funktionens performance.</li>
-                        <li><a href="https://medium.com/@kollinz/dropdown-alternatives-for-better-mobile-forms-53e40d641b53">Du kan læse mere om alternativer til multiselects her <svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+                        <li><a href="https://medium.com/@kollinz/dropdown-alternatives-for-better-mobile-forms-53e40d641b53" class="icon-link">Du kan læse mere om alternativer til multiselects her<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
                     </ul>
                 </section>
             

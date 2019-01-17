@@ -8,8 +8,8 @@ subnav:
 
 <p>FDS er opdelt i to projekter:</p>
 <ul class="unstyled-list">
-    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-components">DKFDS Components (kernen som indeholder komponenterne)<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-plugins">DKFDS Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-components" class="icon-link">DKFDS Components (kernen som indeholder komponenterne)<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">DKFDS Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
 </ul>
 
 <h2>DKFDS Components</h2>
@@ -51,8 +51,8 @@ Du kan enten benytte source-filerne i 'src/'-mappen eller de kompilerede filer i
 <p>Det er kun styling (css eller scss) som skal inkluderes fra plugins projektet. Den JavaScript og HTML som findes i projektet er kun til at lave de eksempler som kan ses på dette dokumentationssite.</p>
 <p>Der er i øjeblikket lavet temaer til følgende:</p>
 <ul class="unstyled-list">
-    <li><a href="https://datatables.net/">Datatables<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-    <li><a href="https://github.com/woocommerce/selectWoo">SelectWoo<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://datatables.net/" class="icon-link">Datatables<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://github.com/woocommerce/selectWoo" class="icon-link">SelectWoo<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
 </ul>
 
 <p>Projektet er på npm og kan installeres ved at skrive følgende i en kommando-prompt:</p>

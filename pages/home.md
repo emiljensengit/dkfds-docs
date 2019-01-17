@@ -19,8 +19,7 @@ title: Forside
     </p>  
     <p>
       <a href="https://github.com/detfaellesdesignsystem/dkfds-components" class="icon-link">
-        Se koden på Github
-        <svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
+        Se koden på Github<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
       </a>
     </p>
     <!--<p>
@@ -41,14 +40,12 @@ title: Forside
 Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt anbefale at gøre brug af disse to offentlige frameworks til inspiration.</p>
 <p>
   <a href="https://v2.designsystem.digital.gov/" class="icon-link">
-    US Web Design Standards
-    <svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
+    US Web Design Standards<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
   </a>
 </p>
 <p>
   <a href="https://design-system.service.gov.uk/" class="icon-link">
-    Gov.uk Design System
-    <svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
+    Gov.uk Design System<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
   </a>
 </p>
 

@@ -191,10 +191,8 @@ title: Header-full.html
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
-                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#printer"></use></svg>
-                        Funktionsikon</a>
-                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#content-save"></use></svg>
-                        Funktionsikon</a>
+                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#printer"></use></svg>Funktionsikon</a>
+                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#content-save"></use></svg>Funktionsikon</a>
                 </div>
             </div>
         </div>
