@@ -1582,8 +1582,6 @@ a {
     .background-dark a:disabled:focus, .background-dark a.disabled:focus {
       outline: none;
       background-color: transparent; }
-  a .icon-svg {
-    fill: currentColor; }
 
 h1, .h1 {
   font-size: 4rem;
@@ -1743,8 +1741,7 @@ h5 + p, h5 + ul, h5 + ol, .h5 + p, .h5 + ul, .h5 + ol, h6 + p, h6 + ul, h6 + ol,
   line-height: 2.4rem;
   font-weight: 400;
   color: #1a1a1a;
-  text-transform: none;
-  display: inline-flex; }
+  text-transform: none; }
   .function-link:hover, .function-link:visited, .function-link:focus {
     color: #1a1a1a; }
   .function-link .icon-svg {
@@ -1757,7 +1754,10 @@ h5 + p, h5 + ul, h5 + ol, .h5 + p, .h5 + ul, .h5 + ol, h6 + p, h6 + ul, h6 + ol,
 .icon-link {
   line-height: 2.4rem; }
   .icon-link .icon-svg {
-    margin-left: 4px; }
+    margin-left: 4px;
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: currentColor; }
 
 h1 a, h1 a:hover, h1 a:visited, h1 a:focus, .h1 a, .h1 a:hover, .h1 a:visited, .h1 a:focus,
 h2 a,
@@ -7539,7 +7539,7 @@ code {
   padding-top: 4px;
   padding-bottom: 4px; }
   .page-selectwoo-multiselect-html .container {
-    min-height: 200px; }
+    min-height: 300px; }
 
 .page-tooltip-html .container {
   min-height: 350px; }
