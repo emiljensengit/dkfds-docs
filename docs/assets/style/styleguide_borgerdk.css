@@ -5267,6 +5267,8 @@ input.input-char-27, select.input-char-27, textarea.input-char-27 {
     border-bottom: 1px solid #BFBFBF; }
     .table td:last-child, .table th:last-child {
       border-right: none; }
+    .table td.break-word, .table th.break-word {
+      word-break: break-all; }
   .table thead {
     background-color: #F5F5F5; }
     .table thead tr {

@@ -346,7 +346,7 @@ title: Example-aes-page-7.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
+                            <td class="break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 ohb3428439_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
