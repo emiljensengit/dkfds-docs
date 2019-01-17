@@ -1565,7 +1565,8 @@ a {
     color: #800080; }
   a:disabled, a.disabled {
     cursor: not-allowed !important;
-    color: #BFBFBF !important; }
+    color: #454545 !important;
+    opacity: 0.5; }
     a:disabled:focus, a.disabled:focus {
       outline: none;
       background-color: transparent; }
