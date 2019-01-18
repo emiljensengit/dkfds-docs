@@ -7,7 +7,7 @@ subnav:
 ---
 
 <p>FDS er opdelt i to projekter:</p>
-<ul class="unstyled-list">
+<ul class="nobullet-list">
     <li><a href="https://github.com/detfaellesdesignsystem/dkfds-components" class="icon-link">DKFDS Components (kernen som indeholder komponenterne)<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
     <li><a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">DKFDS Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
 </ul>
@@ -50,7 +50,7 @@ Du kan enten benytte source-filerne i 'src/'-mappen eller de kompilerede filer i
 <h2>DKFDS Plugins</h2>
 <p>Det er kun styling (css eller scss) som skal inkluderes fra plugins projektet. Den JavaScript og HTML som findes i projektet er kun til at lave de eksempler som kan ses på dette dokumentationssite.</p>
 <p>Der er i øjeblikket lavet temaer til følgende:</p>
-<ul class="unstyled-list">
+<ul class="nobullet-list">
     <li><a href="https://datatables.net/" class="icon-link">Datatables<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
     <li><a href="https://github.com/woocommerce/selectWoo" class="icon-link">SelectWoo<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
 </ul>

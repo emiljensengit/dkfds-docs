@@ -46,7 +46,7 @@ subnav:
         <p>Du skal huske på, at HTML5 er et format i udvikling, men at browseren ikke har ensartet understøttelse. Det er vigtigt, at du tjekker løsningens integritet og browserunderstøttelse ift din målgruppe. Du kan fx anvende <a href="https://caniuse.com/" class="icon-link">Can I use<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> til at kontrollere understøttelsen af det enkelte tag.</p>
         <p>Du skal være konsekvent i dine klassenavne og struktur, så den er let at gennemskue for andre end dig selv. Der kan du fx anvende BEM eller OOCSS – det er ikke vigtigt, hvilket format du vælger, men at du er konsekvent.</p>
         <h4>Læs mere om HTML og CSS</h4>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href=" https://whatwg.org/" class="icon-link">WhatWG<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://caniuse.com/" class="icon-link">Can I Use<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="http://html5doctor.com/" class="icon-link">HTML5 Doctor<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -58,7 +58,7 @@ subnav:
         <p>Det Fælles Designsystem anvender ”vanilla” javascript (også kaldet Plain JS) og ikke et javascript bibliotek som fx jQuery. På den måde kan det anvende optimerede løsninger og undgå afhængighed til tredjeparts leverandører og deres eventuelle tekniske gæld. </p>
         <p>Hvis du vil udvikle en funktionskomponent, der fx skal kunne inkluderes i designsystemet og anvendes af andre, skal du altså kode den i vanilla javascript. Det betyder ikke, at du ikke kan anvende en tredjeparts løsning – se listen over anbefalede udvidelser. Men det betyder, at din funktion i så fald ikke kan tages i betragtning til inklusion i designsystemets kerne.</p>
         <h4>Læs mere om Javascript</h4>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://google.github.io/styleguide/jsguide.html" class="icon-link">Google JavaScript Style Guide<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://www.w3schools.com/js/js_conventions.asp" class="icon-link">JavaScript Style Guide<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://plainjs.com/" class="icon-link">Plain JS<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -71,7 +71,7 @@ subnav:
         <p>Vi anbefaler, at man som minimum anvender code review på alle udviklingsprojekter og at man sætter en tydelig målestok for, hvad der definerer god kode, så der sikres en gennemgående kvalitet. </p>
         <p>Alle løsninger skal altid bestå formaliserede funktions-, regressions- og accepttest inden de går i produktion. </p>
         <h4>Læs mere om kodekvalitet og validering</h4>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://validator.w3.org/" class="icon-link">W3 HTML validator<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://jigsaw.w3.org/css-validator/" class="icon-link">JW3 CSS validator<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://dzone.com/articles/what-does-code-quality-actually-mean" class="icon-link">What does code quality actually mean?<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -125,7 +125,7 @@ subnav:
             <li>10s+ — User leaves;</li>
         </ul>
         <h4>Læs mere om performance her</h4>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://designsystem.digital.gov/performance/" class="icon-link">US Web Design Standards - performance<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/" class="icon-link">2018 average load times<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://www.nngroup.com/articles/website-response-times/" class="icon-link">Website response times<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -136,7 +136,7 @@ subnav:
         <h4>Udviklerværktøjer</h4>
         <p>Google Chrome, Internet Explorer/Edge, Mozilla og Safari stiller en lang række værktøjer til rådighed for test og fejlsøgning i en løsning. Ved at trykke på F12 åbner Developer Tools  alt lige fra kodevisning til performance-måling. Hver for sig er disse værktøjer uundværlige for aftestning og fejlsøgning.</p>
         <h5>Læs mere om udviklerværktøjer</h5>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://developers.google.com/web/tools/chrome-devtools/" class="icon-link">Chrome Developer Tools<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://docs.microsoft.com/da-dk/microsoft-edge/devtools-guide" class="icon-link">Microsoft Edge Devtools<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://developer.mozilla.org/en-US/docs/Tools" class="icon-link">Mozilla Developer Tools<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -147,13 +147,13 @@ subnav:
         <p>Lighthouse er som standard sat op til at vurdere parametre, som Google har fokus på, fx Progressive Web App (PWA). Man kan dog selv angive, hvilke parametre siden ønskes vurderet ud fra. Progressive Web App skal man naturligvis kun teste for, hvis man rent faktisk har udviklet en, og ellers fjernes fluebenet. </p>
         <p>Lighthouse giver gode råd til, hvor man kan eller bør sætte ind for at forbedre ens sides performance.  </p>
         <h5>Læs mere om Lighthouse</h5>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://developers.google.com/web/tools/lighthouse/" class="icon-link">Lighthouse<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
         <h4>PageSpeed Insights</h4>
         <p>Page Speed Insights er et Google værktøj, der måler en løsnings indlæsningshastighed på hhv. mobil og desktop, samt kommer med forslag til mulige forbedringer. </p>
         <h5>Læs mere om PageSpeed Insights</h5>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://developers.google.com/speed/pagespeed/insights/" class="icon-link">PageSpeed Insights<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
     </section>
@@ -162,7 +162,7 @@ subnav:
         <h3>Minimer spild i filerne</h3>
         <p>Anvend et værktøj som fx Minifier til at minimere "spild" i JS og CSS filer, så de fylder mindst muligt. Typisk findes denne type værktøjer også som plugin til de mest udbredte kode-editors.</p>
         <h5>Læs mere om Minifier</h5>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://www.keycdn.com/support/how-to-minify-css-js-and-html" class="icon-link">How to minify<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://www.minifier.org/" class="icon-link">Minifier<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
@@ -176,7 +176,7 @@ subnav:
         <p>Bemærk, at da inline CSS ikke caches af browseren, er det en balanceakt at placere tilstrækkeligt CSS inline til, at det gør en forskel og ikke for meget, så brugeren skal hente den samme store pakke på hver eneste side.</p>
         <p>Især i SPA (Single Page Applications) løsninger giver dette koncept dog mening, da brugeren kun skal hente den ene side – med mindre det er en løsning, hvor brugeren ofte skal vende tilbage gentagne gange.</p>
         <h5>Læs mere om Critical Path CSS</h5>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li><a href="https://medium.freecodecamp.org/an-introduction-to-web-performance-and-the-critical-rendering-path-ce1fb5029494" class="icon-link">An introduction to web performance and the critical rendering path<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a" class="icon-link">Understandingg the critical rendering path<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://varvy.com/pagespeed/critical-render-path.html" class="icon-link">Critical render path<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -187,12 +187,12 @@ subnav:
         <p>Forbered browseren på at indlæse og beregne din selvbetjeningsløsning ved at anvende preconnect og preload i <code>head</code>.</p>
         <p>Ved at browseren først åbner forbindelse til en given server og derefter laver en tidlig indlæsning af en ressource, kan den senere hurtigt beregne eksempelvis layout. Bemærk, at browseren ikke anvender ressourcerne på dette tidspunkt, men kun gør dem klar. Det kaldes også ”lazy load”.</p>
         <p>Dette egner sig i særdeleshed til CSS og JS-filer, men kan også anvendes til andre ressourcer som fx en grafik, der er vigtig for sidens anvendelse.</p>
-        <ul class="unstyled-list">
+        <ul class="nobullet-list">
             <li>Preconnect kontakter den server, der forventes at skulle levere en given ressource. Det kunne være en CDN (Content Delivery Network). Dermed er forbindelsen åben.</li>
             <li>Preload beder browseren indlæse en ressource asynkront (lazy loading), så den er klar til brug, men uden at anvende den før det er påkrævet.</li>
         </ul>
         <h4>Læs mere om preload her</h4>
-            <ul class="unstyled-list">
+            <ul class="nobullet-list">
             <li><a href="https://www.w3.org/TR/preload/" class="icon-link">Preload<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/" class="icon-link">Preload - what is it good for?<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>
@@ -220,7 +220,7 @@ subnav:
         <p>Selvbetjeningsløsninger og alle andre offentlige hjemmesider skal overholde den danske lovgivning omkring tilgængelighed på WCAG 2.1 niveau AA. Alle hjemmesider og deres funktioner skal testes op imod disse krav, som ikke blot øger tilgængeligheden for brugere med særlige behov, men for alle brugere. </p>
         <p>Alt der udvikles i og til Det Fælles Designsystem skal leve op til lovkravene om at understøtte WCAG 2.1 på AA niveau.</p>
         <p>Du bør altid stille følgende spørgsmål før udviklingen af nye funktioner:</p>
-            <ul class="unstyled-list">
+            <ul class="nobullet-list">
             <li>Er denne helt specielle og unikke løsning nødvendig? </li>
             <li>Tilfører den merværdi for brugeren? </li>
             <li>Kan vi lave den tilgængelig uden funktionstab for alle? </li>
@@ -234,14 +234,14 @@ subnav:
         <p>Webaim er en hjemmeside udviklet og drevet af Utah State University med en række funktioner, der hjælper dig til at udvikle og teste for tilgængelighed. Deres anbefalinger er sykroniseret med krav og anbefalinger W3C.</p>
         <p>Webaim stiller funktionen Wave gratis til rådighed, som giver en analyse og rapport på din løsnings tilgængelighed og udfordringer med samme.</p>
         <h4>Læs mere om Webaim her</h4>
-            <ul class="unstyled-list">
+            <ul class="nobullet-list">
             <li><a href="https://webaim.org/resources/" class="icon-link">Webaim<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>   
         <h4>Oplæsning</h4>
         <p>En af de store udfordringer i tilgængeligt design er aftestning af oplæsningen af sidens indhold. Der er for nuværende ikke en automatiseret måde at gøre dette på. Browserproducenterne og de forskellige platforme har desuden meget forskellige tilgange til oplæsning og alle har større eller mindre udfordringer især med matematiske og fysiske særtegn.  Men er din kode valid html og opfylder du kravene fra WCAG 2.1 forhindrer din løsning ikke oplæsningen af indholdet. </p>
         <p>Det Fælles Designsystem anbefaler at følge vejledningen fra Webaim omkring aftestning med Voice Over (Mac) og Oplæser på Windows 10.</p>
         <h4>Læs mere om Webaim her</h4>
-            <ul class="unstyled-list">
+            <ul class="nobullet-list">
             <li><a href="https://webaim.org/articles/voiceover/" class="icon-link">Voice over<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://support.microsoft.com/da-dk/help/17173/windows-10-hear-text-read-aloud" class="icon-link">Windows 10 hear text<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://youtu.be/o_mvO6EQ0tM" class="icon-link">Introduction to Screen Readers<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>

@@ -38,16 +38,19 @@ title: Forside
 <h2>Vi er inspireret af US Web Design Standards og Gov.uk Design System</h2>
 <p>Det Fælles Designsystem tager ved lære af de bedste og genbruger både UX- og UI-viden, samt kode i så vid udstrækning som vi kan. Vi følger med i hvad US
 Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt anbefale at gøre brug af disse to offentlige frameworks til inspiration.</p>
-<p>
-  <a href="https://v2.designsystem.digital.gov/" class="icon-link">
-    US Web Design Standards<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
-  </a>
-</p>
-<p>
-  <a href="https://design-system.service.gov.uk/" class="icon-link">
-    Gov.uk Design System<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
-  </a>
-</p>
+
+<ul class="nobullet-list">
+    <li>
+      <a href="https://v2.designsystem.digital.gov/" class="icon-link">
+        US Web Design Standards<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://design-system.service.gov.uk/" class="icon-link">
+        Gov.uk Design System<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg>
+      </a>
+    </li>
+</ul>
 
 <h2 >Brugervenlighed over tidens designtrend</h2>
 <p>Designtrends skifter, det som var moderne i går er umoderne i morgen, men mange selvbetjeningsløsninger overlever modens luner. Ved primært at holde det visuelle design til gråtoner og hvid, uden “krom” og med så lidt branding som muligt, har vi lavet et visuelt robust designsystem, der ikke forsøger at være trendy, men neutralt, simpelt og fleksibelt, så det passer ind på både borger.dk og Virk trods deres forskelligheder. Så kan du fokusere på brugerens behov og brugerrejse i stedet for på former og farver.</p>
@@ -83,8 +86,10 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     </div>
     <h3 class="h4">Skab ensartede løsninger</h3>
     <p>Løsninger opbygges af prædefinerede komponenter, som kan kombineres på forskellig vis og dermed tilpasses til de enkelte løsninger.</p>
-    <p><a href="/dkfds-docs/komponenter/">Komponenter</a></p>
-    <p><a href="/dkfds-docs/udvidelser/">Udvidelser</a></p>
+    <ul class="nobullet-list">
+        <li><a href="/dkfds-docs/komponenter/">Komponenter</a></li>
+        <li><a href="/dkfds-docs/udvidelser/">Udvidelser</a></li>
+    </ul>
   </div>
   <div class="col-12 col-md-4">
     <div class="demo-img-container demo-img-container--purple d-none d-md-flex">
@@ -112,7 +117,7 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     </div>
     <h3 class="h4">Et levende designsystem</h3>
     <p>For at sikre transparens, er systemet åbent for alle. Jo flere løsninger der laves, jo klogere bliver vi på, hvordan det skal fungere — og det skal naturligvis løbende afspejles.</p>
-    <p><a href="/dkfds-docs/omdesignsystemet/">Bidrag til designsystemet</a></p>
+    <p><a href="/dkfds-docs/omdesignsystemet/">Om designsystemet</a></p>
   </div>
   <div class="col-12 col-md-4">
     <div class="demo-img-container demo-img-container--magenta d-none d-md-flex">
@@ -128,9 +133,9 @@ Web Design Standards og Gov.uk Design System laver og undersøger, og kan varmt 
     </div>
     <h3 class="h4">Forum for deltagelse</h3>
     <p>Alle myndigheder med en interesse i at præge udviklingen og få indflydelse på designsystemets indhold er velkomne. Man skal blot allerede benytte systemet eller have planlagt at benytte det.</p>
-    <ul class="unstyled-list">
-        <li><a href="#">Deltagerforum (under udvikling)</a></li>
-        <li><a href="#">Governancemodel (under udvikling)</a></li>
+    <ul class="nobullet-list">
+        <li><a href="#" class="disabled" disabled="disabled">Deltagerforum (under udvikling)</a></li>
+        <li><a href="#" class="disabled" disabled="disabled">Governancemodel (under udvikling)</a></li>
     </ul>
   </div>
 </div>

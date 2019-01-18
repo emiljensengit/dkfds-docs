@@ -35,7 +35,7 @@ title: Footer-header-ext-support.html
                                     support</p>
                             </li>
                         </ul>
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li>
                                 <p><a class="function-link" href="tel:004533925200">(+45)
                                         33 92 52 00</a></p>
@@ -63,7 +63,7 @@ title: Footer-header-ext-support.html
                                     kontakt</p>
                             </li>
                         </ul>
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li>
                                 <p><a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a></p>
                             </li>

@@ -42,7 +42,7 @@ title: Cards.html
                         <button class="button button-tertiary">Tertiærknap</button>
                     </div>
                     <div class="action-links">
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li><a href="javascript:void(0);" class="default link state">Et
                                     link til et sted i løsningen</a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Et
@@ -119,7 +119,7 @@ title: Cards.html
                         <button class="button button-tertiary">Tertiærknap</button>
                     </div>
                     <div class="action-links">
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li><a href="javascript:void(0);" class="default link state">Et
                                     link til et sted i løsningen</a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Et
@@ -158,7 +158,7 @@ title: Cards.html
                         <button class="button button-tertiary">Tertiærknap</button>
                     </div>
                     <div class="action-links">
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li><a href="javascript:void(0);" class="default link state">Et
                                     link til et sted i løsningen</a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Et

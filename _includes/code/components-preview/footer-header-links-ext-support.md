@@ -35,7 +35,7 @@ title: Footer-header-links-ext-support.html
                                     links</p>
                             </li>
                         </ul>
-                        <ul class="unstyled-list footer-links">
+                        <ul class="nobullet-list footer-links">
                             <li><a href="javascript:void(0);">Link til et
                                     sted på siden</a></li>
                             <li><a href="javascript:void(0);">Link til et
@@ -86,7 +86,7 @@ title: Footer-header-links-ext-support.html
                                     kontakt</p>
                             </li>
                         </ul>
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li>
                                 <p><a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a></p>
                             </li>

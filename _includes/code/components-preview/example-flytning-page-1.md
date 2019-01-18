@@ -216,7 +216,7 @@ title: Example-flytning-page-1.html
                 </div>
                 <div class="card-action">
                     <div class="action-links">
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li>
                                 <a href="#" class="icon-link">Adressebeskyttelse
                                     <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
@@ -236,7 +236,7 @@ title: Example-flytning-page-1.html
                 </div>
                 <div class="card-action">
                     <div class="action-links">
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li>
                                 <a href="#" class="icon-link">Anmeld
                                     udrejse <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
@@ -256,7 +256,7 @@ title: Example-flytning-page-1.html
                 </div>
                 <div class="card-action">
                     <div class="action-links">
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li>
                                 <a href="#" class="icon-link">Angiv
                                     fuldmagt <svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>

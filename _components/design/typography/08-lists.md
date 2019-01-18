@@ -17,6 +17,7 @@ order: 07
   </button>
   <div id="lists-docs-tech" aria-hidden="true" class="accordion-content">
     <p>For at lave en liste uden styling kan enten klassen <code>.unstyled-list</code> benyttes eller et mixin <code>@include unstyled-list;</code>.</p>
+    <p>For at lave en liste uden bullets, hvor man bibeholder afstanden, kan enten klassen <code>.nobullet-list</code> benyttes eller et mixin <code>@include nobullet-list;</code>.</p>
   </div>
 </div>
 

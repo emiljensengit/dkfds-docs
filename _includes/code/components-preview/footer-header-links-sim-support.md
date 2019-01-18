@@ -35,7 +35,7 @@ title: Footer-header-links-sim-support.html
                                     links</p>
                             </li>
                         </ul>
-                        <ul class="unstyled-list footer-links">
+                        <ul class="nobullet-list footer-links">
                             <li><a href="javascript:void(0);">Link til et
                                     sted på siden</a></li>
                             <li><a href="javascript:void(0);">Link til et
@@ -57,7 +57,7 @@ title: Footer-header-links-sim-support.html
                                     aria-label="Kontakt">Kontakt</p>
                             </li>
                         </ul>
-                        <ul class="unstyled-list">
+                        <ul class="nobullet-list">
                             <li><a class="function-link" href="mailto:support@stil.dk">support@stil.dk</a></li>
                             <li><a class="function-link" href="tel:004533925200">(+45)
                                     33 92 52 00</a></li>
