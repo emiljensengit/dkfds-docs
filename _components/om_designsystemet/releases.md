@@ -4,6 +4,8 @@ layout: styleguide
 title: Releasenotes
 category: Om_designsystemet_category
 subnav:
+- text: Version 3.0.1
+  href: '#version-301'
 - text: Version 3.0.0
   href: '#version-300'
 - text: Version 2.1.2
@@ -12,6 +14,22 @@ subnav:
 <p class="font-lead">Nedenfor vises release notes — en opsummering af bug fixes, nye features og andre opdateringer.</p>
 <p>Her du et nyt forslag til en feature eller et bug fix? <a href="https://github.com/detfaellesdesignsystem/dkfds-components/issues" class="icon-link">Så må du meget gerne oprette et issue på github<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></p>
 
+<div id="version-301" class="mt-8">
+  <h3 class="mb-0">Version 3.0.1</h3>
+  <p class="small-text mt-0">18-01-2019</p>
+  <p><b>Smårettelser til CSS og ikoner</b></p>
+  <ul>
+    <li>.small-text og .small-tag klasserne fik ændret font-size fra 13px til 14px</li>
+    <li>Ændrede level 2 og 3 i sidenavigation på mobil</li>
+    <li>Rettede ikonerne help og close-circle</li>
+  </ul>
+  <p><b>Smårettelser til eksempler</b></p>
+  <ul>
+    <li>Typesetting blev delt i to: Linjeafstand og Linjelængde</li>
+    <li>Fejl i Popover-eksemplet blev rettet</li>
+    <li>Neutralt logo til header-eksempler blev opdateret</li>
+  </ul>
+</div>
 
 <div id="version-300" class="mt-8">
   <h3 class="mb-0">Version 3.0.0</h3>
