@@ -5661,7 +5661,7 @@ footer .footer-theme {
       .header .button-menu-close {
         display: none; } }
   .header .portal-header {
-    border-bottom: 1px solid #BFBFBF;
+    border-bottom: 1px solid #747474;
     width: 100%; }
     .header .portal-header .portal-header-inner {
       width: 100%;
@@ -5687,7 +5687,7 @@ footer .footer-theme {
       .header .portal-header .portal-info .button {
         white-space: nowrap; }
   .header .solution-header {
-    border-bottom: 1px solid #BFBFBF;
+    border-bottom: 1px solid #747474;
     width: 100%; }
     .header .solution-header .solution-header-inner {
       display: flex;
