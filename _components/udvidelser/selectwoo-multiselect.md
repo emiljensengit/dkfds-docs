@@ -18,6 +18,12 @@ lead: Gør det muligt for brugeren at vælge flere elementer fra en liste.
   </div>
 </div>
 
+<div class="alert alert-warning" role="alert">
+  <div class="alert-body">
+    <h3 class="alert-heading">Ikon mangler - Vi afventer fix fra SelectWoo</h3>
+  </div>
+</div>
+
 {% include code/preview.html component="selectwoo-multiselect" %}
 {% include code/accordion.html component="selectwoo-multiselect" %}
 <div class="accordion-bordered">
