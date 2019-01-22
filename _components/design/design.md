@@ -80,5 +80,13 @@ lead: Styling-elementerne er de mindste byggesten i systemet. Alle større kompo
             <p><a href="/dkfds-docs/design/utility/">Utilities (Hjælpeklasser)</a></p>
         </div>
       </div>
+     <div class="col-12 col-md-4">
+        <div class="demo-component-box">
+            <a href="/dkfds-docs/design/uxprincipper/" class="demo-component-box__img">
+                <img src="{{ site.baseurl }}/img/componenticons/format-list-checks.svg" alt="">
+            </a>
+            <p><a href="/dkfds-docs/design/uxprincipper/">UX principper i Det Fælles Designsystem</a></p>
+        </div>
+      </div>
 </div>
 
