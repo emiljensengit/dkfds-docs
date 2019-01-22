@@ -4,7 +4,7 @@
   margin-bottom: 2em;
   background-color: $color-white;
   padding: $site-margins;
-  border: 1px solid #eeeeee; // scss-lint:disable ColorVariable
+  border: $outer-border; // scss-lint:disable ColorVariable
 
   .background-dark {
     padding-left: 1em;
