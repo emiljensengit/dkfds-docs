@@ -30,6 +30,8 @@
 
 
   
+  <link rel="canonical" href="http://localhost:4000/komponenter/search/">
+  
 
 <!-- Favicons
 ================================================== -->
@@ -1706,14 +1708,17 @@
     
 <div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group search"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"input-type-text"</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Søg efter indhold<span class="nt">&lt;/label&gt;</span>
         <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-char-27"</span> <span class="na">id=</span><span class="s">"input-type-text"</span> <span class="na">name=</span><span class="s">""</span>
             <span class="na">title=</span><span class="s">"Search"</span> <span class="na">type=</span><span class="s">"search"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-search"</span><span class="nt">&gt;</span>Søg<span class="nt">&lt;/button&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group search"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xs"</span> <span class="na">id=</span><span class="s">"input-type-text"</span> <span class="na">name=</span><span class="s">""</span>
-            <span class="na">title=</span><span class="s">"Search"</span> <span class="na">type=</span><span class="s">"search"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"input-type-text-icon"</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Søg efter
+            indhold<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-input input-width-xs"</span> <span class="na">id=</span><span class="s">"input-type-text-icon"</span>
+            <span class="na">name=</span><span class="s">""</span> <span class="na">title=</span><span class="s">"Search"</span> <span class="na">type=</span><span class="s">"search"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-search"</span><span class="nt">&gt;&lt;svg</span> <span class="na">class=</span><span class="s">"icon-svg m-0"</span> <span class="nt">&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"#magnify"</span><span class="nt">&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span</span>
                 <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Søg<span class="nt">&lt;/span&gt;&lt;/button&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
@@ -1746,7 +1751,7 @@
             <h4>Tilgængelighed</h4>
             <ul>
                 <li>Søgefeltet skal overholde samme krav til tilgængelighed som andre formularelementer. </li>
-                <li>Ordet ”Søg” skal altid fremgå af søgeknappen. Hvis der anvendes et lup-ikon, skal ”Søg” fremgå i koden, så skærmlæsere kan se funktionen.</li>
+                <li>Ordet ”Søg” skal altid fremgå af søgeknappen. Hvis der anvendes et lup-ikon, skal ”søg” eller "search" fremgå i koden, så skærmlæsere kan se funktionen.</li>
                 <li>Formularens felt skal have et skjult label af hensyn til skærmlæsere.</li>
             </ul>
         </section>

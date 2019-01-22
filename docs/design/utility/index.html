@@ -27,6 +27,8 @@
 
 
   
+  <link rel="canonical" href="http://localhost:4000/design/utility/">
+  
 
 <!-- Favicons
 ================================================== -->
@@ -534,6 +536,16 @@
 
 
 <a href="#baggrundsfarver">Baggrundsfarver</a>
+    
+  </li>
+
+  
+  <li>
+    
+      
+
+
+<a href="#tilgængelighed">Tilgængelighed</a>
     
   </li>
 
@@ -1562,6 +1574,16 @@
     
   </li>
 
+  
+  <li>
+    
+      
+
+
+<a href="#tilgængelighed">Tilgængelighed</a>
+    
+  </li>
+
 </ul>
     
   
@@ -1826,6 +1848,19 @@ Du kan selv tilføje flere muligheder ved at tilføje dem til <code>$spacers</co
     </code>
 </div>
 
+
+</section>
+
+<section class="styleguide-child-container content" id="section-/design/hjaelpefunktioner/07-accessibility">
+  <h2 id="tilgængelighed">Tilgængelighed</h2>
+  
+  <p>Nedenfor vises hvordan du gør dine elementer tilgængelige for skærmlæsere.</p>
+<ul>
+  <li><code>aria-hidden="true"</code> og <code>aria-hidden="false"</code> bruges til at skjule og vise elementer for skærmlæsere.</li>
+  <li><code>.sr-only</code> klassen og mixin <code>@mixin sr-only()</code> bruges når elementer kun skal vises for skærmlæsere.</li>
+  <li><code>aria-expanded="true"</code> og <code>aria-expanded="false"</code> bruges til elementer som toggler mellem at være åbne og lukket.</li>
+  <li><code>aria-label=""</code> skal beskrive hvad funktionen af et element gør.</li>
+</ul>
 
 </section>
 
