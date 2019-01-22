@@ -4887,8 +4887,6 @@ ol {
     .unstyled-list > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .unstyled-list > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
 
 .nobullet-list {
   list-style-type: none;
@@ -4910,8 +4908,6 @@ ol {
     .inline-list > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .inline-list > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   .inline-list > li {
     display: block; }
     @media (min-width: 768px) {
@@ -5451,9 +5447,6 @@ hr {
     .accordion-bordered > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .accordion > li li,
-    .accordion-bordered > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   .accordion > ul li ul,
   .accordion-bordered > ul li ul {
     list-style: disc; }
@@ -6004,8 +5997,6 @@ footer .footer-theme {
     .nav-primary > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .nav-primary > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   @media (min-width: 992px) {
     .nav-primary {
       flex-direction: row;
@@ -6179,8 +6170,6 @@ footer .footer-theme {
     .nav-primary .overflow-menu .overflow-menu-inner > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .nav-primary .overflow-menu .overflow-menu-inner > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   @media (min-width: 992px) {
     .nav-primary .overflow-menu .overflow-menu-inner {
       width: 30rem;
@@ -6325,8 +6314,6 @@ input[type="search"] {
     .sidenav-list > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .sidenav-list > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   .sidenav-list > li {
     background-color: transparent;
     font-size: 1.6rem;
@@ -6396,8 +6383,6 @@ input[type="search"] {
     .sidenav-list-locked > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .sidenav-list-locked > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   .sidenav-list-locked > li {
     background-color: transparent;
     border-top: 1px solid #BFBFBF;
@@ -6469,8 +6454,6 @@ input[type="search"] {
     .sidenav-sub_list > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .sidenav-sub_list > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   .sidenav-sub_list li {
     border: none; }
     .sidenav-sub_list li:last-child a {
@@ -6646,8 +6629,6 @@ input[type="search"] {
         .card-action .action-links ul > li::before {
           content: normal !important;
           padding-right: 0 !important; }
-        .card-action .action-links ul > li li {
-          list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
       .card-action .action-links ul li {
         margin-top: 8px !important; }
   .card-action .action-functionlinks {
@@ -6915,8 +6896,8 @@ input[type="search"] {
       .overflow-menu .overflow-list > li::before {
         content: normal !important;
         padding-right: 0 !important; }
-      .overflow-menu .overflow-list > li li {
-        list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
+    .overflow-menu .overflow-list li li {
+      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
     .overflow-menu .overflow-list button {
       background-color: transparent;
       border: 0;
@@ -7003,8 +6984,6 @@ input[type="search"] {
     .tabnav > li::before {
       content: normal !important;
       padding-right: 0 !important; }
-    .tabnav > li li {
-      list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
   .tabnav li {
     float: none;
     margin-bottom: 0;
