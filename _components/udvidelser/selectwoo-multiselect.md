@@ -6,19 +6,11 @@ title: Multiselect dropdown
 category: Udvidelser_category
 subcategory: Udvidelser
 lead: Gør det muligt for brugeren at vælge flere elementer fra en liste.
+alertwarningheader: Denne komponent er ikke en del af kernen af Det Fælles Designsystem
+alertwarningtext: SelectWoo er ikke inkluderet i kernen af Det Fælles Designsystem. For at inkludere SelectWoo skal der inkluderes et eksternt bibliotek, se implementeringsafsnittet nedenfor.<br><br>Det Fælles Designsystem har implementeret et tema til SelectWoo, som findes i <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> projektet.
 ---
 
-<div class="alert alert-warning" role="alert">
-  <div class="alert-body">
-    <h3 class="alert-heading">Denne komponent er ikke en del af kerne af FDS</h3>
-    <p class="alert-text">
-      SelectWoo er ikke inkluderet i kernen af FDS. For at inkludere SelectWoo skal der inkluderes et eksternt bibliotek, se implementeringsafsnittet nedenfor.<br><br>
-      FDS har implementeret et tema til SelectWoo og findes i <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> projektet.
-    </p>
-  </div>
-</div>
-
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-error" role="alert">
   <div class="alert-body">
     <h3 class="alert-heading">Ikon mangler - Vi afventer fix fra SelectWoo</h3>
   </div>
