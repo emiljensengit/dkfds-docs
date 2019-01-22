@@ -13,7 +13,7 @@ lead:
     Implementering
   </button>
   <div id="collapse-tech" aria-hidden="false" class="accordion-content">
-    <p>For at initializere collapse funktionaliteten skal et HTML-element have klassen <code>.js-collapse</code>. Collapse/expand funktionaliteten bliver nu kaldt når man klikker på dette element.</p>
+    <p>For at initialisere collapse funktionaliteten skal et HTML-element have klassen <code>.js-collapse</code>. Collapse/expand funktionaliteten bliver nu kaldt når man klikker på dette element.</p>
     <p>Dette HTML-element skal yderligere have følgende attributter:</p>
     <ul>
       <li><code>data-js-target="#id-of-target-to-collapse"</code>. Der henføres her til det element som skal collapses/expandes. </li>

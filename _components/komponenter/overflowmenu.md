@@ -5,7 +5,7 @@ type: component
 title: Overflow menu
 category: Komponenter_category
 subcategory: Komponenter
-lead: Toggle overlay with lists of links or buttons.
+lead: Vis/Skjul liste af links eller knapper
 ---
 
 {% include code/preview.html component="overflow-menu" %}
@@ -28,7 +28,7 @@ lead: Toggle overlay with lists of links or buttons.
     </ul>
     <p>Der er lavet et specifikt liste element til overflow-menuen (se <code>.overflow-list</code>) som kan indeholde links eller buttons. Det er dog ikke nødvendigt at benytte denne liste. Overflow-menuen er bare en container hvor man kan placere det indhold man nu har lyst til. I eksemplet ovenfor er en trin-guide indsat i overflow-menuen.</p>
     <h5>Javascript</h5>
-    <p>Initializer collapse/expand javascript med at placere følgende på button elementet: <code>class="js-dropdown" data-js-target="#overflow1"</code>
+    <p>Initialiser collapse/expand javascript med at placere følgende på button elementet: <code>class="js-dropdown" data-js-target="#overflow1"</code>
     Elementet som skal collapses/expandes skal have et matchende id <code>id="overflow1"</code> (placeres på <code>.overflow-menu-inner</code>)</p>
   </div>
 </div>

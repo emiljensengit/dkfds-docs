@@ -7,7 +7,7 @@ type: component
 title: Tabeller
 category: Komponenter_category
 subcategory: Komponenter
-lead: Tables show tabular data in columns and rows.
+lead: Tabeller viser data i kolonner og rækker
 subnav:
 - text: Standard
   href: '#table'

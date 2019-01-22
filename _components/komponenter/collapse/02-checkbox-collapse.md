@@ -13,9 +13,9 @@ lead:
     Implementering
   </button>
   <div id="checkbox-toggle-content-tech" aria-hidden="false" class="accordion-content">
-    <p>For at initializere collapse funktionaliteten på en checkbox skal <code>input[type=checkbox]</code> have følgende:</p>
+    <p>For at initialisere collapse funktionaliteten på en checkbox skal <code>input[type=checkbox]</code> have følgende:</p>
     <ul>
-      <li>Klassen <code>'js-checkbox-toggle-content'</code>. Denne klasse gør at funktionaliteten bliver initializeret. </li>
+      <li>Klassen <code>'js-checkbox-toggle-content'</code>. Denne klasse gør at funktionaliteten bliver initialiseret. </li>
       <li>Attributten <code>data-js-target="id-of-target-to-collapse"</code>: denne attribute skal have id'et på det element som skal vises på checkboxen er aktiveret. </li>
       <li>Hvis man ønsker at checkboxen skal være valgt fra starten af, skal den have attributten <code>'checked'</code>.</li>
       <li><code>aria-controls="id-of-target-to-collapse" </code></li>

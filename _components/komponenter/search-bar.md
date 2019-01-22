@@ -5,7 +5,7 @@ type: component
 title: Søgefelt
 category: Komponenter_category
 subcategory: Komponenter
-lead: A block that allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation
+lead: Et felt, der har til formål at udstille mulighed for at søge efter bestemt indhold
 ---
 
 {% include code/preview.html component="search" classes="preview-search-bar" %}
