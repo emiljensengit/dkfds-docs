@@ -5291,7 +5291,7 @@ input.input-char-27, select.input-char-27, textarea.input-char-27 {
   .table tr:last-child td {
     border-bottom: none; }
   .table.table--borderless {
-    border: none; }
+    border-color: transparent; }
     .table.table--borderless tr:last-child {
       border-bottom: 1px solid #BFBFBF; }
     .table.table--borderless thead {
