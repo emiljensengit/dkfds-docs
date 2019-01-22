@@ -13,15 +13,15 @@ lead: Lader brugeren vælge en fil.
     Implementering
   </button>
   <div id="date-input-docs" aria-hidden="false" class="accordion-content">
-    <p>We recommend using a native input using type="file", rather than a custom Implementering.</p>
-    <p>This is so:</p>
+    <p>Vi anbefaler at bruge det indbyggede input felt til filer <code>type="file"</code> frem for en skræddersyet løsning.</p>
+    <p>Årsagen til dette er:</p>
       <ul class="content-list">
-      <li>the control gains focus when tabbing through the page</li>
-      <li>the control functions using a keyboard</li>
-      <li>the control functions using assistive technology</li>
-      <li>the control functions when javascript is not available</li>
+      <li>at feltet får fokus, når man tabber gennem siden</li>
+      <li>at feltet fungerer ved brug af tastatur</li>
+      <li>at feltet fungerer ved brug af hjælpemidler</li>
+      <li>at feltet fungerer, selv når javascript er utilgængeligt</li>
     </ul>
-    <p>A custom Implementering of this control would need to meet the criteria above.</p>
+    <p>En skræddersyet løsning af denne type felt bør udfylde ovenstående kriterier.</p>
   </div>
 </div>
 
