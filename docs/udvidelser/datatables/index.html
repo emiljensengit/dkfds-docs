@@ -19,6 +19,9 @@
 <meta property="og:title" content="Avancerede tabeller | Det Fælles Designsystem">
 
 
+<meta name="description" content="Avancerede tabeller er et eksternt plugin, hvormed man kan udvide sin tabel med sortering, filtrering etc.">
+<meta property="og:description" content="Avancerede tabeller er et eksternt plugin, hvormed man kan udvide sin tabel med sortering, filtrering etc.">
+
 
 
 
@@ -1456,30 +1459,47 @@
 
     <div class="col-12 col-lg-9">
       <section id="section-/udvidelser/datatables">
-        
+          
+          <div class="alert alert-warning" role="alert">
+              <div class="alert-body">
+                  <h3 class="alert-heading">Denne komponent er ikke en del af kernen af Det Fælles Designsystem</h3>
+                  <p class="alert-text">
+                    Datatables er et eksternt bibliotek (<a href="https://datatables.net/" class="icon-link">datatables.net<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>), som ikke er inkluderet i Det Fælles Designsystem.<br>I <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">DKFDS-plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> projektet kan man finde et tema til Datatables (dkfds-datatables-theme.css). <br>JavaScript i DKFDS-plugins projektet kan bruges som inspiration til, hvordan datatables kan inkluderes og bruges i et projekt.
+                  </p>
+              </div>
+          </div>
+          
           <p class="h6 m-0">
             Udvidelser
           </p>
           <h1 class="mt-0" id="avancerede-tabeller">Avancerede tabeller</h1>
           
-      
+            <p class="font-lead">Avancerede tabeller er et eksternt plugin, hvormed man kan udvide sin tabel med sortering, filtrering etc.</p>
           
+      
+          <h4>Tilgængelighed</h4>
+<ul>
+    <li>Datatables anvender bl.a. ARIA til at øge tilgængeligheden. Du skal imidlertid være opmærksom på, at en kompliceret tabel med mange rækker, kolonner og muligheder øger det kognitive load og dermed sænker den reelle tilgængelighed.</li>
+    <li>Du skal bruger- og performanceteste prototyper med Datatables med entydigt positive resultat ift din målgruppe, hvis du ønsker at anvende den.</li>
+</ul>
+
+<h2 class="h4">Brugervenlighed</h2>
+<h3 class="h5">Anvendes til</h3>
+<p>Avancerede tabeller med behov for at tilknytte udvidet interaktion som fx søgning og editering af felt-indhold.</p>
+<h3 class="h5">Anvendes ikke til</h3>
+<p>Simple søgeresultater eller oversigter.</p>
+<h3 class="h5">Vejledning</h3>
+<ul>
+    <li>Datatables er en stor og kompleks funktion, der kun bør anvendes til afgrænsede og klart definerede målgrupper og kun i begrænset omfang. </li>
+    <li>Før du implementerer Datatables bør du overveje, om den ekstra funktionalitet er nødvendig eller blot en nice-to-have. </li>
+    <li>Overvej om behovet kan løses ved enten en anden præsentation af data eller funktion.</li>
+    <li>Datatables er afhængig af jQuery og dermed kræver den et ekstra request og ekstra kode i indlæsningen – dette kan nedsætte funktionens performance.</li>
+</ul>
+
 <section class="styleguide-child-container content" id="section-/udvidelser/datatables/01-datatable">
   <h2 id="datatables">Datatables</h2>
   
-    <p class="font-lead">A datatable is an arrangement of data in rows and columns that make comparing information easier. The following datatables enables the user to sort the data by clicking on the different headers or filter it by typing a text in the 'Search compute' field. Each row has a menu to the right, that enables performing some actions on it. Rows selected by checking the checkbox can be modified all together. The user can change rows width in the datatable settings.</p>
   
-  <div class="alert alert-warning" role="alert" aria-label="Bruger ekstern script informationsboks">
-  <div class="alert-body">
-    <h3 class="alert-heading">Denne komponent er ikke en del af kernen af Det Fælles Designsystem</h3>
-    <p class="alert-text">
-      Datatables er et eksternt bibliotek (<a href="https://datatables.net/" class="icon-link">datatables.net<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>), som ikke er inkluderet i Det Fælles Designsystem.<br />
-      I <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">DKFDS-plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> projektet kan man finde et tema til Datatables (dkfds-datatables-theme.css). <br />
-      JavaScript i DKFDS-plugins projektet kan bruges som inspiration til, hvordan datatables kan inkluderes og bruges i et projekt.
-    </p>
-  </div>
-</div>
-
 <div class="component-preview ">
     <ul class="unstyled-list preview-buttons">
         <li class="component-preview-item">
