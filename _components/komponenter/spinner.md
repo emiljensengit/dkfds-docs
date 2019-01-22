@@ -33,7 +33,7 @@ lead: Spinner lead
      <article>
         <section>
             <h4>Tilgængelighed</h4>
-            <p>Anvend ARIA aria-busy=true til at markere for skærmlæsere at der er en live region i gang med indlæsning og sæt værdien til false, når den er indlæst.</p>
+            <p>Anvend ARIA attributten <code>aria-busy="true"</code> på elementet, der er igang med at blive opdateret til at markere for skærmlæsere, at der er en live region i gang med indlæsning og sæt værdien til <code>false</code>, når den er indlæst.</p>
         </section>
         <section>
             <h4>Brugervenlighed</h4>

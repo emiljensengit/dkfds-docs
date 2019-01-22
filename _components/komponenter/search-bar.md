@@ -33,7 +33,7 @@ lead: Et felt, der har til formål at udstille mulighed for at søge efter beste
             <h4>Tilgængelighed</h4>
             <ul>
                 <li>Søgefeltet skal overholde samme krav til tilgængelighed som andre formularelementer. </li>
-                <li>Ordet ”Søg” skal altid fremgå af søgeknappen. Hvis der anvendes et lup-ikon, skal ”Søg” fremgå i koden, så skærmlæsere kan se funktionen.</li>
+                <li>Ordet ”Søg” skal altid fremgå af søgeknappen. Hvis der anvendes et lup-ikon, skal ”søg” eller "search" fremgå i koden, så skærmlæsere kan se funktionen.</li>
                 <li>Formularens felt skal have et skjult label af hensyn til skærmlæsere.</li>
             </ul>
         </section>
