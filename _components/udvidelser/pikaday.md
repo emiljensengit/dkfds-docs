@@ -12,23 +12,3 @@ alertwarningtext: Pikaday er ikke inkluderet i kernen af Det Fælles Designsyste
 
 {% include code/preview.html component="pikaday" %}
 {% include code/accordion.html component="pikaday" %}
-<div class="accordion-bordered">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="false" aria-controls="accordion-bordered-docs">
-   Implementering
-  </button>
-  <div id="accordion-bordered-docs" aria-hidden="true" class="accordion-content">
-    
-  </div>
-</div>
-
-
-<div class="accordion-bordered">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="multiselect-docs">
-    Retningslinjer
-  </button>
-  <div id="multiselect-docs" aria-hidden="false" class="accordion-content">
-  
-  </div>
-</div>
