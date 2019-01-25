@@ -20,6 +20,7 @@ title: Dkfds-plugins.html
     <!-- Frontend styleguide plugin theme stylesheet-->
     <link rel="stylesheet" href="../../dist/css/dkfds-datatables-theme.min.css">
     <link rel="stylesheet" href="../../dist/css/dkfds-selectwoo-theme.min.css">
+    <link rel="stylesheet" href="../../dist/css/dkfds-pikaday-theme.min.css">
 
 </head>
 
@@ -33,6 +34,7 @@ title: Dkfds-plugins.html
     <script src="../../dist/dkfds/js/dkfds.min.js"></script>
     <script src="../../dist/js/dkfds-datatables-examples.js"></script>
     <script src="../../dist/js/dkfds-selectwoo-examples.js"></script>
+    <script src="../../dist/js/dkfds-pikaday-examples.js"></script>
 </body>
 
 </html>

@@ -174,7 +174,7 @@ title: Example-aes-page-6.html
         </thead>
         <tbody>
             <tr>
-                <td class="mt-4 mt-lg-0"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>prn1023152_journal.pdf</td>
+                <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>prn1023152_journal.pdf</td>
                 <td class="mt-4 mt-lg-0">
                     <div class="form-group">
 

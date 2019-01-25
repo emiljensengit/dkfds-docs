@@ -190,7 +190,7 @@ title: Example-aes-page-7.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
+                            <td class="break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 prn0237452_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
@@ -214,7 +214,7 @@ title: Example-aes-page-7.html
                                     href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                         <tr>
-                            <td class="mt-4 mt-lg-0"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
+                            <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 sgn1023152_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
@@ -268,7 +268,7 @@ title: Example-aes-page-7.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
+                            <td class="break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 dkf4903283_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
@@ -292,7 +292,7 @@ title: Example-aes-page-7.html
                                     href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                         <tr>
-                            <td class="mt-4 mt-lg-0"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
+                            <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 kfo1127303_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">

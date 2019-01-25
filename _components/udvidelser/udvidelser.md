@@ -25,4 +25,12 @@ alertwarningtext: Bruger man udvidelser skal de styles, så de visuelt passer in
           <p><a href="/dkfds-docs/udvidelser/selectwoo-multiselect/">Multiselect dropdown</a></p>
       </div>
   </div>
+  <div class="col-12 col-md-4">
+      <div class="demo-component-box">
+          <a href="/dkfds-docs/udvidelser/pikaday/" class="demo-component-box__img">
+              <img src="{{ site.baseurl }}/img/componenticons/datepicker.svg" alt="">
+          </a>
+          <p><a href="/dkfds-docs/udvidelser/pikaday/">Datepicker</a></p>
+      </div>
+  </div>
 </div>
