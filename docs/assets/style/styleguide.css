@@ -7349,11 +7349,11 @@ code {
 .styleguide-spacer-modals {
   height: 400px; }
 
-.page-selectwoo-multiselect-html {
+.page-selectwoo-multiselect-html, .page-selectwoo-multiselect-ajax-html, .page-selectwoo-multiselect-groups-html {
   padding-top: 4px;
   padding-bottom: 4px; }
-  .page-selectwoo-multiselect-html .container {
-    min-height: 300px; }
+  .page-selectwoo-multiselect-html .container, .page-selectwoo-multiselect-ajax-html .container, .page-selectwoo-multiselect-groups-html .container {
+    min-height: 400px; }
 
 .page-tooltip-html .container {
   min-height: 350px; }
