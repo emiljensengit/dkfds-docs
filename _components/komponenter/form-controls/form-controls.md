@@ -4,7 +4,7 @@ redirect_from:
 - /form-controls/
 layout: styleguide
 type: component
-title: Formular elementer
+title: Formular-elementer
 category: Komponenter_category
 subcategory: Komponenter
 lead: Brug formular elementerne til at opbygge blanketter til din selvbetjeningsløsning. 

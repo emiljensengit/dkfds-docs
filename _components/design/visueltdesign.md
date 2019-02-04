@@ -64,7 +64,7 @@ myndighedskonstruktioner. Neutralt betyder også at konservativt og tidsløst de
 
 <h2 id="sammenhaeng_og_konsistens">Sammenhæng og konsistens på tværs af selvbetjeningsløsninger</h2>
 <p>Ved at følge retningslinjerne i designsystemet og gøre brug af komponenterne som anbefalet, sikrer du at brugerne ikke skal genlære nye komponenter og måder at komponenterne opfører sig på fra selvbetjeningsløsning til selvbetjeningsløsning.</p>
-<p>Din selvbetjeningsløsning er en del af et større kompleks af offentlige selvbetjeningsløsninger, og det kan du udnytte til din fordel. Den typiske bruger, er ikke særligt ofte i kontakt med lige præcis din selvbetjeningsløsning, men oftere er i kontakt med forskellige andre selvbetjeningsløsninger. Så hvis alle selvbetjeningsløsninger derfor følger de samme retningslinjer, komponenter og minder om hinanden, så vil brugeren også bedre kunne bruge din selvbetjeningsløsning.</p>
+<p>Din selvbetjeningsløsning er en del af et større kompleks af offentlige selvbetjeningsløsninger, og det kan du udnytte til din fordel. Den typiske bruger, er ikke særligt ofte i kontakt med lige præcis din selvbetjeningsløsning, men oftere i kontakt med forskellige andre selvbetjeningsløsninger. Så hvis alle selvbetjeningsløsninger derfor følger de samme retningslinjer, komponenter og minder om hinanden, så vil brugeren også bedre kunne bruge din selvbetjeningsløsning.</p>
 
 <h3 class="h5">Brugerne bliver mere effektive</h3>
 <p>Når brugerne ikke skal lære unikke designs at kende fra selvbetjeningsløsning til selvbetjeningsløsning og bekymre sig om, hvor hvad findes fra gang til gang bliver brugerne mere effektive.</p>
@@ -114,7 +114,7 @@ myndighedskonstruktioner. Neutralt betyder også at konservativt og tidsløst de
 </div>
 
 <h2 id="to_brands">Portalerne er to selvstændige brands</h2>
-<p>Borger.dk er et brand under Digitaliseringsstyrelsen, som henvender sig til og samler digital selvbetjening til borgere i Danmark. Virk er et brand under Erhvervsstyrelsen, som henvender sig til og samler digitale selvbetjeningsløsninger til danske virksomheder. De to brands adskiller sig kommunikativt såvel som visuelt. Det Fælles Designsystem har indbygget temahåndtering, så uanset om man bygger til borger.dk eller Virk, så anvender man samme kode og kun få komponenter bærer portalernes brands videre i en selvbetjeningsløsning. I stedet for at fokusere på borger.dk og Virk som brands er fokus på den gode brugeroplevelse og
+<p>Borger.dk er et brand under Digitaliseringsstyrelsen, som henvender sig til og samler digital selvbetjening til borgere. Virk er et brand under Erhvervsstyrelsen, som henvender sig til og samler digitale selvbetjeningsløsninger til virksomheder. De to brands adskiller sig kommunikativt såvel som visuelt. Det Fælles Designsystem har indbygget temahåndtering, så uanset om man bygger til borger.dk eller Virk, så anvender man samme kode og kun få komponenter bærer portalernes brands videre i en selvbetjeningsløsning. I stedet for at fokusere på borger.dk og Virk som brands er fokus på den gode brugeroplevelse og
 sammenhæng på tværs, uanset hvilken portal en selvbetjeningsløsning påbegyndes fra. Borgere og virksomheder skal kunne genkende komponenter og mønstre i brugergrænsefladerne uanset hvem en selvbetjeningsløsning er henvendt til og hvilken portal, der har ansvar for at udstille den.</p>
 <div class="row">
   <div class="col-12 col-md-6">

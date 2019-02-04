@@ -7,7 +7,7 @@ lead: Ikoner benyttes til visuelt at understrege en handling eller en informatio
 order: 25
 ---
 
-<p>Nedenfor vises de ikoner som er inkluderet i designsystemet. Ikonerne er reserveret til deres specifikke formål og skal anvendes som sådan. Hvis du har brug for yderligere ikoner henviser vi til <a href="https://material.io/tools/icons/?style=outline" class="icon-link">Material Design<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></p>
+<p>Nedenfor vises de ikoner som er inkluderet i designsystemet. Ikonerne er reserveret til deres specifikke formål og skal anvendes som sådan. Hvis du har brug for yderligere ikoner henviser vi til <a href="https://material.io/tools/icons/?style=outline" class="icon-link">Material Design<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>, <a href="https://materialdesignicons.com" class="icon-link">Material Design Icons<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> eller lignende</p>
 
 <div class="alert alert-info alert--paragraph" role="alert" aria-label="Beskedbox der viser information">
   <div class="alert-body">
@@ -53,14 +53,13 @@ order: 25
   <h5>Illustrative ikoner</h5>
   <p>Illustrative ikoner er unikke for en given selvbetjeningsløsning, der giver mening i den givne kontekst, men ikke nødvendigvis i andre sammenhænge.</p>
   <p>Ikoner der anvendes illustrativt må ikke ligne eller være de samme som anvendes til navigation, feedback og funktionalitet.</p>
-  <p>Vi bruger material design ikoner som udgangspunkt, men illustrative ikoner kan også tegnes specifikt til en løsning. Gøres dette anbefaler vi at følge <a href="https://material.io/tools/icons/?style=outline" class="icon-link">Material Designs anvisninger for design af ikoner<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>.
+  <p>Vi bruger Material Design ikoner som udgangspunkt, men illustrative ikoner kan også tegnes specifikt til en løsning. Gøres dette, anbefaler vi at følge <a href="https://material.io/design/iconography/system-icons.html#" class="icon-link">Material Designs anvisninger for design af ikoner<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>.
   </p>
   <h5>Links</h5>
-    <a href="https://www.nngroup.com/articles/classifying-icons/" class="icon-link">https://www.nngroup.com/articles/classifying-icons/<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
-    <br /><br />
-    <a href="https://www.nngroup.com/articles/icon-usability/" class="icon-link">https://www.nngroup.com/articles/icon-usability/<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
-    <br /><br />
-    <a href="https://www.nngroup.com/articles/icon-testing/" class="icon-link">https://www.nngroup.com/articles/icon-testing/<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a>
-
+  <ul class="nobullet-list">
+  <li><a href="https://www.nngroup.com/articles/classifying-icons/" class="icon-link">https://www.nngroup.com/articles/classifying-icons/<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
+  <li><a href="https://www.nngroup.com/articles/icon-usability/" class="icon-link">https://www.nngroup.com/articles/icon-usability/<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
+  <li><a href="https://www.nngroup.com/articles/icon-testing/" class="icon-link">https://www.nngroup.com/articles/icon-testing/<svg class="icon-svg "><use xlink:href="#open-in-new"></use></svg></a></li>
+  </ul>
   </div>
 </div>
