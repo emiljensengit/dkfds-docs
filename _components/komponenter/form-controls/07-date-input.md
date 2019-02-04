@@ -44,7 +44,7 @@ lead: Tre seperate felter er den nemmeste måde for brugeren at indskrive dato.
           <h5>Anvendes til</h5>
           <p>Sætte brugeren i stand til at tilføje struktureret datoinformation.</p>
           <h5>Anvendes ikke til</h5>
-          <p>Fx en booking, planlægning eller mere præcis dato- og tidsangivelse. Der bør du i stedet overveje en date picker.</p>
+          <p>Når der er specifikt udvalgte datoer at vælge i mellem som fx ved bookninger og planlægning med åbne og lukkede datoer. Der bør du i stedet overveje at anvende <a href="/dkfds-docs/udvidelser/pikaday/">datovælgerudvidelsen</a> eller på anden vis indikere, hvilke præcise datoer, der er ledige for brugeren.</p>
           <h5>Vejledning</h5>
           <p>Felternes rækkefølge skal modsvare den datoform, der anvendes i Danmark, dvs. dag, måned og år. Det skal afspejles i felternes labels.</p>
       </section>
