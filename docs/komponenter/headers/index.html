@@ -663,7 +663,7 @@
 
 <a href="/dkfds-docs/komponenter/form-controls/" 
   class="  nav-link">
-  Formular elementer
+  Formular-elementer
 </a>
 
 
@@ -1465,7 +1465,7 @@
 
 <a href="/dkfds-docs/komponenter/form-controls/" 
   class="  nav-link">
-  Formular elementer
+  Formular-elementer
 </a>
 
 
@@ -1734,7 +1734,12 @@
             <p class="font-lead">En header har til formål, at være identitetsgivende for siden, samt at give brugeren mulighed for let, at kunne navigere til essentielt indhold.</p>
           
       
-          <h2 id="header-simple">Standard header</h2>
+          <h2 class="h3">Implementering</h2>
+<p>De overstående eksempler viser tre forskellige versioner af headeren. Med lidt, mellem og meget indhold.</p>
+<p>Alt indhold i <code>&lt;nav&gt;</code> tagget vil på små skærme bliver vist i en skjult menu, som aktiveres ved tryk på menu-knappen. Som standard vises denne burger-menu når skærmen er mindre end 992px bred. Man kan indstille hvornår der skal bruges burger-menu via variablen <code>$nav-responsive-breakpoint</code>.<br></p>
+<p>Hvis man laver en header med lidt indhold, er det anbefalet at man indstiller <code>$nav-responsive-breakpoint</code> til at have en lavere værdi, fx. 768px. </p>
+
+<h2 id="header-simple">Standard header</h2>
 <div class="preview">
   <a class="media_link" href="/dkfds-docs/components/headers/simple/">
     <img src="/dkfds-docs/assets/img/headers/header-simple.PNG" alt="Standard header">
@@ -2256,27 +2261,6 @@
   </div>
 </div>
 
-
-<div class="accordion-bordered">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="header-tech">
-    Implementering
-  </button>
-  <div id="header-tech" aria-hidden="false" class="accordion-content">
-      <p>De overstående eksempler viser tre forskellige versioner af headeren. Med lidt, mellem og meget indhold.</p>
-      <p>Alt indhold i <code>&lt;nav&gt;</code> tagget vil på små skærme bliver vist i en burger-menu. Som standard vises denne burger-menu når skærmen er mindre end 992px bred. Man kan indstille hvornår der skal bruges burger-menu via variablen <code>$nav-responsive-breakpoint</code>.<br></p>
-      <p>Hvis man laver en header med lidt indhold, er det anbefalet at man indstiller <code>$nav-responsive-breakpoint</code> til at have en lavere værdi, fx. 768px. </p>
-  </div>
-</div>
-<div class="accordion-bordered accordion-docs">
-  <button class="button-unstyled accordion-button"
-      aria-expanded="true" aria-controls="header-docs">
-    Retningslinjer
-  </button>
-  <div id="header-docs" class="accordion-content">
-    
-  </div>
-</div> 
       </section>
     </div>
 
