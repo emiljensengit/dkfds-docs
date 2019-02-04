@@ -18,10 +18,10 @@ subnav:
   href: '#brødtekst-body-copy'
 - text: Links
   href: '#links'
-- text: Display text
-  href: '#display-tekst'
 - text: Lister
   href: '#lister'
+- text: Stor tekst (display text)
+  href: '#stor-tekst-display-text'
 - text: Hjælpetekst og fejlbeskeder
   href: '#hjælpetekst-og-fejlbeskeder'
 - text: Linjelængde
