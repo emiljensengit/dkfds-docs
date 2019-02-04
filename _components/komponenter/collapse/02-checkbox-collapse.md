@@ -1,5 +1,5 @@
 ---
-title: Checkbox - skjul og vis inhold
+title: Checkbox - skjul og vis indhold
 parent: Collapse
 order: 02
 lead: 

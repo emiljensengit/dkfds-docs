@@ -1,5 +1,5 @@
 ---
-title: Radioknap - skjul og vis inhold
+title: Radioknap - skjul og vis indhold
 parent: Collapse
 order: 01
 lead: 
