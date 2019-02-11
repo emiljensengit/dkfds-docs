@@ -169,7 +169,7 @@ title: Example-praktikplads-page-4.html
             <div class="form-group ">
                 <input id="id-view1" type="radio" name="Vælg visning"
                     value="Elevpoint" class="form-radio   ">
-                <label for="id-view1" class="">Elevpoint</label>
+                <label for="id-view1" class="">Elevpoint </label>
             </div>
 
         </div>
@@ -178,7 +178,7 @@ title: Example-praktikplads-page-4.html
             <div class="form-group ">
                 <input id="id-view2" type="radio" name="Vælg visning"
                     value="Aftaleperiode" class="form-radio   " checked>
-                <label for="id-view2" class="">Aftaleperiode</label>
+                <label for="id-view2" class="">Aftaleperiode </label>
             </div>
 
         </div>

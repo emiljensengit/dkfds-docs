@@ -150,7 +150,7 @@ title: Example-virksomhedsalliancer-page-4.html
                 <input id="id-state-yes" type="radio" name="minimis" value="Ja"
                     class="form-radio  radio-large " data-js-target='#collapse-radio'
                     aria-controls='collapse-radio' aria-expanded='false'>
-                <label for="id-state-yes" class="radio-large">Ja</label>
+                <label for="id-state-yes" class="radio-large">Ja </label>
             </div>
 
             <div id="collapse-radio" aria-hidden="true" class="box-border-l collapsed">
@@ -194,7 +194,7 @@ title: Example-virksomhedsalliancer-page-4.html
             <div class="form-group ">
                 <input id="id-state-no" type="radio" name="minimis" value="Nej"
                     class="form-radio  radio-large ">
-                <label for="id-state-no" class="radio-large">Nej</label>
+                <label for="id-state-no" class="radio-large">Nej </label>
             </div>
 
         </div>

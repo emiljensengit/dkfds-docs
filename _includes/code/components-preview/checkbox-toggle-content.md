@@ -10,7 +10,7 @@ title: Checkbox-toggle-content.html
             class="form-checkbox  checkbox-large js-checkbox-toggle-content"
             data-js-target='#collapse-check1' aria-controls='collapse-check1'
             aria-expanded='false'>
-        <label for="id-checkbox1" class="">Checbox viser indhold</label>
+        <label for="id-checkbox1" class="">Checkbox viser indhold</label>
     </div>
 
     <div id="collapse-check1" aria-hidden="true" class="box-border-l collapsed">
@@ -24,7 +24,7 @@ title: Checkbox-toggle-content.html
             class="form-checkbox  checkbox-large js-checkbox-toggle-content"
             checked data-js-target='#collapse-check2' aria-controls='collapse-check2'
             aria-expanded='false'>
-        <label for="id-checkbox2" class="">Checbox viser indhold</label>
+        <label for="id-checkbox2" class="">Checkbox viser indhold</label>
     </div>
 
     <div id="collapse-check2" aria-hidden="true" class="box-border-l collapsed">

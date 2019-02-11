@@ -163,7 +163,7 @@ title: Example-aes-page-4.html
                 <input id="id-case1" type="radio" name="Sagen handler om"
                     value="Ulykkesforsikring (ASL §81)" class="form-radio  radio-large ">
                 <label for="id-case1" class="radio-large">Ulykkesforsikring
-                    (ASL §81)</label>
+                    (ASL §81) </label>
             </div>
 
         </div>
@@ -173,7 +173,7 @@ title: Example-aes-page-4.html
                 <input id="id-case2" type="radio" name="Sagen handler om"
                     value="Erstatningsansvar (ASL §10)" class="form-radio  radio-large ">
                 <label for="id-case2" class="radio-large">Erstatningsansvar
-                    (ASL §10)</label>
+                    (ASL §10) </label>
             </div>
 
         </div>
@@ -183,7 +183,7 @@ title: Example-aes-page-4.html
                 <input id="id-case3" type="radio" name="Sagen handler om"
                     value="Patientskade (ASL §10)" class="form-radio  radio-large ">
                 <label for="id-case3" class="radio-large">Forsikringsselskab
-                    (ASL §10)</label>
+                    (ASL §10) </label>
             </div>
 
         </div>
@@ -196,7 +196,8 @@ title: Example-aes-page-4.html
             <div class="form-group ">
                 <input id="id-aes1" type="radio" name="AES skal vurdere"
                     value="Mén (6.220 kr.)" class="form-radio  radio-large ">
-                <label for="id-aes1" class="radio-large">Mén (6.220 kr.)</label>
+                <label for="id-aes1" class="radio-large">Mén (6.220 kr.)
+                </label>
             </div>
 
         </div>
@@ -206,7 +207,7 @@ title: Example-aes-page-4.html
                 <input id="id-aes2" type="radio" name="AES skal vurdere"
                     value="Tab af erhvervsevne (22.280 kr.)" class="form-radio  radio-large ">
                 <label for="id-aes2" class="radio-large">Tab af
-                    erhvervsevne (22.280 kr.)</label>
+                    erhvervsevne (22.280 kr.) </label>
             </div>
 
         </div>
@@ -216,7 +217,7 @@ title: Example-aes-page-4.html
                 <input id="id-aes3" type="radio" name="AES skal vurdere"
                     value="Mén + tab af erhvervsevne (22.280 kr.)" class="form-radio  radio-large ">
                 <label for="id-aes3" class="radio-large">Mén + tab af
-                    erhvervsevne (22.280 kr.)</label>
+                    erhvervsevne (22.280 kr.) </label>
             </div>
 
         </div>
