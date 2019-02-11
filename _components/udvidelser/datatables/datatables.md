@@ -12,7 +12,7 @@ alertwarningheader: Denne komponent er ikke en del af kernen af Det Fælles Desi
 alertwarningtext:  Datatables er et eksternt bibliotek (<a href="https://datatables.net/" class="icon-link">datatables.net<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a>), som ikke er inkluderet i Det Fælles Designsystem.<br>I <a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">DKFDS-plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a> projektet kan man finde et tema til Datatables (dkfds-datatables-theme.css). <br>JavaScript i DKFDS-plugins projektet kan bruges som inspiration til, hvordan datatables kan inkluderes og bruges i et projekt.
 subnav:
 - text: Datatable
-  href: '#datatable'
+  href: '#datatables'
 - text: Ajax data
   href: '#ajax-data'
 - text: Expandable row
