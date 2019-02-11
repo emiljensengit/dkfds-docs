@@ -129,7 +129,7 @@ title: Example-virksomhedsalliancer-page-2.html
             <label class="form-label " for="id-employees">Antal ansatte i
                 seneste regnskabsår</label>
 
-            <input class="form-input  input-width-m" placeholder="" id="id-employees"
+            <input class="form-input  input-width-m " placeholder="" id="id-employees"
                 value="" name="Input til antal ansatte i seneste regnskabsår"
                 type="text">
         </div>
@@ -140,7 +140,7 @@ title: Example-virksomhedsalliancer-page-2.html
             <span class="form-hint" id="input-hint-message-id-sales">Angives
                 i helt tal, fx. 11.650.334</span>
 
-            <input class="form-input  input-width-m" placeholder="" id="id-sales"
+            <input class="form-input  input-width-m " placeholder="" id="id-sales"
                 value="" name="Input til omsætning i DKK i seneste regnskabsår"
                 type="text">
         </div>

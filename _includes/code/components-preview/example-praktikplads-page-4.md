@@ -143,8 +143,9 @@ title: Example-praktikplads-page-4.html
                 <label class="form-label " for="id-search-keyword">Søg via
                     nøgleord</label>
 
-                <input class="form-input  input-width-m" placeholder="" id="id-search-keyword"
-                    value="" name="Input til søg via nøgleord" type="text">
+                <input class="form-input  input-width-m " placeholder=""
+                    id="id-search-keyword" value="" name="Input til søg via nøgleord"
+                    type="text">
             </div>
 
         </div>

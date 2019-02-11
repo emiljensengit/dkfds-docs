@@ -154,7 +154,7 @@ title: Example-aes-page-2.html
         <label class="form-label " for="id-company-contact">Virksomhedens
             kontaktperson</label>
 
-        <input class="form-input  input-width-m" placeholder="Svend Pedersen"
+        <input class="form-input  input-width-m " placeholder="Svend Pedersen"
             id="id-company-contact" value="" name="Input til virksomhedens kontaktperson"
             type="text" disabled="disabled">
     </div>
@@ -168,7 +168,7 @@ title: Example-aes-page-2.html
             <label class="form-label " for="id-company-number">Telefonummer
                 til kontaktperson</label>
 
-            <input class="form-input  input-width-xs" placeholder="" id="id-company-number"
+            <input class="form-input  input-width-xs " placeholder="" id="id-company-number"
                 value="" name="Telefonummer til kontaktperson" type="text">
         </div>
 

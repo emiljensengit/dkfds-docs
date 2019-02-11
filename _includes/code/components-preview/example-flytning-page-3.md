@@ -225,7 +225,7 @@ title: Example-flytning-page-3.html
                 skal kun udfyldes, hvis du skal bo til leje hos de
                 nuværende beboere.</span>
 
-            <input class="form-input  input-width-m" placeholder="" id="id-co"
+            <input class="form-input  input-width-m " placeholder="" id="id-co"
                 value="" name="Input til C/O navn" type="text">
         </div>
 

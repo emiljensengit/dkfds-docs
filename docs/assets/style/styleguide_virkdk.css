@@ -4620,6 +4620,18 @@ input[type=text]:disabled, input[type=textarea]:disabled {
   color: #999999;
   cursor: not-allowed; }
 
+input[type=text]:-moz-read-only, input[type=textarea]:-moz-read-only {
+  background-color: transparent;
+  color: #1a1a1a;
+  border: none;
+  cursor: default; }
+
+input[type=text]:read-only, input[type=textarea]:read-only {
+  background-color: transparent;
+  color: #1a1a1a;
+  border: none;
+  cursor: default; }
+
 .form-checkbox,
 .form-radio {
   position: absolute;

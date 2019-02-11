@@ -114,7 +114,7 @@ title: Example-aktindsigt-page-2.html
                 <div class="form-group">
                     <label class="form-label " for="id-fornavn">Fornavn</label>
 
-                    <input class="form-input  input-width-m" placeholder=""
+                    <input class="form-input  input-width-m " placeholder=""
                         id="id-fornavn" value="" name="Input til fornavn"
                         type="text">
                 </div>
@@ -125,7 +125,7 @@ title: Example-aktindsigt-page-2.html
                 <div class="form-group">
                     <label class="form-label " for="id-efternavn">Efternavn</label>
 
-                    <input class="form-input  input-width-m" placeholder=""
+                    <input class="form-input  input-width-m " placeholder=""
                         id="id-efternavn" value="" name="Input til efternavn"
                         type="text">
                 </div>
@@ -136,7 +136,7 @@ title: Example-aktindsigt-page-2.html
                 <div class="form-group">
                     <label class="form-label " for="id-gade-vej">Gade/vej</label>
 
-                    <input class="form-input  input-width-m" placeholder=""
+                    <input class="form-input  input-width-m " placeholder=""
                         id="id-gade-vej" value="" name="Input til gade/vej"
                         type="text">
                 </div>
@@ -147,8 +147,8 @@ title: Example-aktindsigt-page-2.html
                 <div class="form-group">
                     <label class="form-label " for="id-husnummer">Husnummer</label>
 
-                    <input class="form-input  input-width-xxs" placeholder=""
-                        id="id-husnummer" value="" name="Input til husnummer"
+                    <input class="form-input  input-width-xxs "
+                        placeholder="" id="id-husnummer" value="" name="Input til husnummer"
                         type="text">
                 </div>
 
@@ -159,8 +159,9 @@ title: Example-aktindsigt-page-2.html
                     <label class="form-label " for="id-etage">Etage<span
                             class="weight-normal"> (frivilligt)</span></label>
 
-                    <input class="form-input  input-width-xxs" placeholder=""
-                        id="id-etage" value="" name="Input til etage" type="text">
+                    <input class="form-input  input-width-xxs "
+                        placeholder="" id="id-etage" value="" name="Input til etage"
+                        type="text">
                 </div>
 
             </div>
@@ -172,7 +173,7 @@ title: Example-aktindsigt-page-2.html
                     <span class="form-hint" id="input-hint-message-id-side">Fx:
                         TV, 2. dør</span>
 
-                    <input class="form-input  input-width-xs" placeholder=""
+                    <input class="form-input  input-width-xs " placeholder=""
                         id="id-side" value="" name="Input til side" type="text">
                 </div>
 
@@ -182,8 +183,8 @@ title: Example-aktindsigt-page-2.html
                 <div class="form-group">
                     <label class="form-label " for="id-postnummer">Postnummer</label>
 
-                    <input class="form-input  input-width-xxs" placeholder=""
-                        id="id-postnummer" value="" name="Input til postnummer"
+                    <input class="form-input  input-width-xxs "
+                        placeholder="" id="id-postnummer" value="" name="Input til postnummer"
                         type="text">
                 </div>
 
@@ -193,7 +194,7 @@ title: Example-aktindsigt-page-2.html
                 <div class="form-group">
                     <label class="form-label " for="id-by">By</label>
 
-                    <input class="form-input  input-width-m" placeholder=""
+                    <input class="form-input  input-width-m " placeholder=""
                         id="id-by" value="" name="Input til by" type="text">
                 </div>
 
@@ -205,7 +206,7 @@ title: Example-aktindsigt-page-2.html
                         CO-adresse<span class="weight-normal">
                             (frivilligt)</span></label>
 
-                    <input class="form-input  input-width-m" placeholder=""
+                    <input class="form-input  input-width-m " placeholder=""
                         id="id-co-adresse" value="" name="Input til CO-adresse"
                         type="text">
                 </div>

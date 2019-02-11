@@ -188,7 +188,7 @@ title: Example-aes-page-6.html
                 <td class="mt-4 mt-lg-0">
                     <div class="form-group">
 
-                        <input class="form-input  input-width-xs"
+                        <input class="form-input  input-width-xs "
                             placeholder="" id="id-pagenumber" value=""
                             name="Sidetal" type="text">
                     </div>

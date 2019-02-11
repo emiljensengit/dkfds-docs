@@ -12,7 +12,7 @@ title: Address-form.html
             <div class="form-group">
                 <label class="form-label " for="input-text-postnummer">Postnummer</label>
 
-                <input class="form-input  false" placeholder="" id="input-text-postnummer"
+                <input class="form-input  false " placeholder="" id="input-text-postnummer"
                     value="" name="input-text-postnummer" type="text">
             </div>
 
@@ -23,7 +23,7 @@ title: Address-form.html
             <div class="form-group">
                 <label class="form-label " for="input-text-by">By</label>
 
-                <input class="form-input  false" placeholder="" id="input-text-by"
+                <input class="form-input  false " placeholder="" id="input-text-by"
                     value="" name="input-text-by" type="text">
             </div>
 
@@ -32,7 +32,7 @@ title: Address-form.html
         <div class="form-group">
             <label class="form-label " for="input-text-gade">Gade</label>
 
-            <input class="form-input  false" placeholder="" id="input-text-gade"
+            <input class="form-input  false " placeholder="" id="input-text-gade"
                 value="" name="input-text-gade" type="text">
         </div>
 
@@ -41,7 +41,7 @@ title: Address-form.html
             <div class="form-group">
                 <label class="form-label " for="input-text-husnummer">Husnummer</label>
 
-                <input class="form-input  false" placeholder="" id="input-text-husnummer"
+                <input class="form-input  false " placeholder="" id="input-text-husnummer"
                     value="" name="input-text-husnummer" type="text">
             </div>
 
@@ -51,7 +51,7 @@ title: Address-form.html
             <div class="form-group">
                 <label class="form-label " for="input-text-dør">Dør</label>
 
-                <input class="form-input  false" placeholder="" id="input-text-dør"
+                <input class="form-input  false " placeholder="" id="input-text-dør"
                     value="" name="input-text-dør" type="text">
             </div>
 
@@ -61,7 +61,7 @@ title: Address-form.html
             <div class="form-group">
                 <label class="form-label input-optional" for="input-text-coadresse">C/O-adresse</label>
 
-                <input class="form-input  false" placeholder="" id="input-text-coadresse"
+                <input class="form-input  false " placeholder="" id="input-text-coadresse"
                     value="" name="input-text-coadresse" type="text">
             </div>
 

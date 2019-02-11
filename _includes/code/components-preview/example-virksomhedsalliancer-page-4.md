@@ -135,7 +135,7 @@ title: Example-virksomhedsalliancer-page-4.html
             <label class="form-label " for="id-companyalliance">Navn på
                 virksomhedsalliance</label>
 
-            <input class="form-input  input-width-m" placeholder="" id="id-companyalliance"
+            <input class="form-input  input-width-m " placeholder="" id="id-companyalliance"
                 value="" name="Input til navn på virksomhedsalliance" type="text">
         </div>
 
