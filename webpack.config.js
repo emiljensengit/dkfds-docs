@@ -107,11 +107,6 @@ module.exports = function (outputPath, prod) {
             from: "./node_modules/dkfds-plugins/dist/js/*.js",
             to: "./js", // i assets
             flatten: true
-          },
-          { //copy plugin example css
-            from: "./node_modules/dkfds-plugins/dist/css/*.css",
-            to: "./style", //i assets
-            flatten: true
           }
         ]),
       new MiniCssExtractPlugin(

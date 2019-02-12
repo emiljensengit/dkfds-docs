@@ -8,8 +8,8 @@ subnav:
 
 <p>FDS er opdelt i to projekter:</p>
 <ul class="nobullet-list">
-    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-components" class="icon-link">DKFDS Components (kernen som indeholder komponenterne)<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" class="icon-link">DKFDS Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-components" target="_blank" class="icon-link">DKFDS Components (kernen som indeholder komponenterne)<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://github.com/detfaellesdesignsystem/dkfds-plugins" target="_blank" class="icon-link">DKFDS Plugins<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
 </ul>
 
 <h2>DKFDS Components</h2>
@@ -38,7 +38,7 @@ Du kan enten benytte source-filerne i 'src/'-mappen eller de kompilerede filer i
   $image-path:        '~dkfds/src/img';
   $site-image-path:   '~dkfds/src/img';
   $icons-folder-path: '~dkfds/src/img/svg-icons';
-  @import '../node_modules/dkfds/src/stylesheets/dkfds';
+  @import '../node_modules/dkfds/dist/scss/dkfds';
 ```
 
 <p>For at inkludere javascripten via webpack, tilføj følgende linie i din main.js fil:</p>
@@ -51,8 +51,9 @@ Du kan enten benytte source-filerne i 'src/'-mappen eller de kompilerede filer i
 <p>Det er kun styling (css eller scss) som skal inkluderes fra plugins projektet. Den JavaScript og HTML som findes i projektet er kun til at lave de eksempler som kan ses på dette dokumentationssite.</p>
 <p>Der er i øjeblikket lavet temaer til følgende:</p>
 <ul class="nobullet-list">
-    <li><a href="https://datatables.net/" class="icon-link">Datatables<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
-    <li><a href="https://github.com/woocommerce/selectWoo" class="icon-link">SelectWoo<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://datatables.net/" class="icon-link" target="_blank">Datatables<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://github.com/woocommerce/selectWoo" target="_blank" class="icon-link">SelectWoo<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
+    <li><a href="https://github.com/Pikaday/Pikaday" target="_blank" class="icon-link">Pikaday<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
 </ul>
 
 <p>Projektet er på npm og kan installeres ved at skrive følgende i en kommando-prompt:</p>
@@ -65,11 +66,11 @@ npm install dkfds-plugins --save
 <p>Inkluder derefter temaerne enten som css direkte:</p>
 
 <pre>
-&lt;link rel="stylesheet" href="[path-to-plugins-project]/dist/css/dkfds-datatables-theme.min.css"&gt;
+&lt;link rel="stylesheet" href="[path-to-plugins-project]/dist/css/dkfds-datatables-theme.standalone.min.css"&gt;
 </pre>
 
-<p>Eller inkluder temaet i scss:</p>
+<p>Eller inkluder temaet i scss (Bemærk, at dkfds skal importeres først):</p>
 
 <pre>
-@import "~dkfds-plugins/dist/datatables/style/dkfds-datatables-theme.scss";
+@import "~dkfds-plugins/dist/scss/dkfds-datatables-theme";
 </pre>

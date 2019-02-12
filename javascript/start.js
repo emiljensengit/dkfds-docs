@@ -29,7 +29,19 @@ $(document).ready(function () {
       var onlyUrl =  $(this).attr('href');
       var s = (window.curStyle != undefined && !onlyUrl.includes('http') ? '?s='+window.curStyle : "");
       var url = (onlyUrl.indexOf('#') != -1 ? onlyUrl.split('#')[0]+s+'#'+ onlyUrl.split('#')[1] : onlyUrl + s);
-      window.location.href = url;
+      var target =  $(this).attr('target');
+      var blank = false;
+      if(target != undefined) {
+          blank = target.includes('blank') ? true : false;
+      }
+      if(blank) {
+          window.open(
+              url,
+              '_blank' // <- This is what makes it open in a new window.
+          );
+      } else {
+          window.location.href = url;
+      }
     }
   });
 

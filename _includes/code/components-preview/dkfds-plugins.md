@@ -18,9 +18,9 @@ title: Dkfds-plugins.html
     <!-- Frontend styleguide stylesheet-->
     <link rel="stylesheet" href="../../dist/dkfds/css/dkfds.min.css">
     <!-- Frontend styleguide plugin theme stylesheet-->
-    <link rel="stylesheet" href="../../dist/css/dkfds-datatables-theme.min.css">
-    <link rel="stylesheet" href="../../dist/css/dkfds-selectwoo-theme.min.css">
-    <link rel="stylesheet" href="../../dist/css/dkfds-pikaday-theme.min.css">
+    <link rel="stylesheet" href="../../dist/css/dkfds-datatables-theme.standalone.min.css">
+    <link rel="stylesheet" href="../../dist/css/dkfds-selectwoo-theme.standalone.min.css">
+    <link rel="stylesheet" href="../../dist/css/dkfds-pikaday-theme.standalone.min.css">
 
 </head>
 
