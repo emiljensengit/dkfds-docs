@@ -58,8 +58,8 @@ myndighedskonstruktioner. Neutralt betyder også at konservativt og tidsløst de
 <h3>Simpelt</h3>
 <p>Simpelt at bruge. Simpelt for brugerne. Designet skal være nemt at anvende og gøre det let at bygge løsninger, der er nemme at anvende for brugerne. Designet søger at understøtte en tilgang, hvor det funktionelle og det æstetiske går op i en højere enhed uden store kreative penselstrøg.</p>
 
-<h3>Fleksibelt</h3>
-<p>Designet skal kunne bruges til alle typer af selvbetjeningsløsninger med forskellige målgrupper, og stadig sikre konsistens og sammenhæng på tværs, ved at de samme komponenter og de samme interaktionsmønstre kan anvendes på tværs af selvbetjeningsløsningerne.</p>
+<h3>Målrettet</h3>
+<p>Designet er målrettet selvbetjeningsløsninger. Det skal kunne bruges til alle typer af selvbetjeningsløsninger med forskellige målgrupper, og stadig sikre konsistens og sammenhæng på tværs, ved at de samme komponenter og de samme interaktionsmønstre kan anvendes på tværs af selvbetjeningsløsningerne.</p>
 
 
 <h2 id="sammenhaeng_og_konsistens">Sammenhæng og konsistens på tværs af selvbetjeningsløsninger</h2>
