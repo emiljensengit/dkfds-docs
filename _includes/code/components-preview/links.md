@@ -83,6 +83,12 @@ title: Links.html
                     disabled</a></p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-12">
+            <p><a href="javascript:void(0);" class="function-link"><svg class="icon-svg " ><use xlink:href="#printer"></use></svg>Funktions
+                    link</a></p>
+        </div>
+    </div>
 
     <div class="background-dark p-6">
         <p>This is a
