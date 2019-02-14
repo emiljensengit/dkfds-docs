@@ -10,9 +10,9 @@ subnav:
 - text: Kanter
   href: '#border-radius'
 - text: Streger
-  href: '#borders'
+  href: '#streger'
 - text: Skygger
-  href: '#shadows'
+  href: '#skygger'
 ---
 
 {% include child-sections.html parent='borders-shadows' %}

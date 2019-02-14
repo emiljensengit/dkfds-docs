@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<main class="container page-container">
+<div class="container page-container">
   <div class="row">
 
-    <div class="col-12 col-lg-3 sidebar-col">
+    <aside class="col-12 col-lg-3 sidebar-col">
       <nav class="sidenav d-none d-lg-block mb-4 mb-md-0" id="docs-sidenav">
         {% assign sidenavFromNavData = site.data.nav[page.category] %}
         {% if sidenavFromNavData %}
@@ -17,9 +17,9 @@ layout: default
         </ul>
         {% endif %}
       </nav>
-    </div>    
+    </aside>
 
-    <div class="col-12 col-lg-9">
+    <main class="col-12 col-lg-9">
       <section id="section-{{page.id}}">
           {% if page.alertwarningheader != null and page.alertwarningheader != "" or page.alertwarningtext != null and page.alertwarningtext != "" %}
           <div class="alert alert-warning" role="alert">
@@ -41,7 +41,7 @@ layout: default
       
           {{ content }}
       </section>
-    </div>
+    </main>
 
   </div>
-</main>
+</div>

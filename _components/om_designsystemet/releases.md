@@ -14,8 +14,8 @@ subnav:
 <p class="font-lead">Nedenfor vises release notes — en opsummering af bug fixes, nye features og andre opdateringer.</p>
 <p>Her du et nyt forslag til en feature eller et bug fix? <a href="https://github.com/detfaellesdesignsystem/dkfds-components/issues" class="icon-link">Så må du meget gerne oprette et issue på github<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></p>
 
-<div id="version-301" class="mt-8">
-  <h3 class="mb-0">Version 3.0.1</h3>
+
+  <h2 class="mb-0" id="version-301">Version 3.0.1</h2>
   <p class="small-text mt-0">18-01-2019</p>
   <p><b>Smårettelser til CSS og ikoner</b></p>
   <ul>
@@ -29,10 +29,10 @@ subnav:
     <li>Fejl i Popover-eksemplet blev rettet</li>
     <li>Neutralt logo til header-eksempler blev opdateret</li>
   </ul>
-</div>
 
-<div id="version-300" class="mt-8">
-  <h3 class="mb-0">Version 3.0.0</h3>
+
+
+  <h2 class="mb-0" id="version-300">Version 3.0.0</h2>
   <p class="small-text mt-0">14-01-2019</p>
   <ul>
     <li>
@@ -75,10 +75,10 @@ subnav:
       </ul>
     </li>
   </ul>
-</div>
 
-<div id="version-212" class="mt-8">
-  <h3 class="mb-0">Version 2.1.2</h3>
+
+
+  <h2 class="mb-0" id="version-212">Version 2.1.2</h2>
   <p class="small-text mt-0">16-10-2018</p>
   <ul>
     <li>
@@ -112,4 +112,3 @@ subnav:
       </div>
     </li>
   </ul>
-</div>

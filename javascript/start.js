@@ -3,7 +3,6 @@
 import $ from "jquery";
 var Cookies = require('./vendor/js-cookie');
 require('./scroll-to-top-for-hash');
-require('./sidenav');
 var iFrameResize = require('./vendor/iframeResizer');
 var calculateAnchorPosition = require('./calculate-anchor-position');
 
