@@ -21,8 +21,7 @@ title: Radio-toggle-content.html
                     label</label>
 
                 <input class="form-input  input-width-m " placeholder=""
-                    id="textinput1" value="" name="text1" type="text"
-                    readonly>
+                    id="textinput1" value="" name="text1" type="text">
             </div>
 
         </div>
@@ -43,8 +42,7 @@ title: Radio-toggle-content.html
                     label</label>
 
                 <input class="form-input  input-width-m " placeholder=""
-                    id="textinput2" value="" name="text2" type="text"
-                    readonly>
+                    id="textinput2" value="" name="text2" type="text">
             </div>
 
         </div>
