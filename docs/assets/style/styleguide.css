@@ -4148,7 +4148,8 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
     background-color: transparent;
     border-color: transparent;
     text-decoration: underline;
-    font-weight: 400; }
+    font-weight: 400;
+    padding-left: calc(8px - 2px); }
     .button.button-quaternary:hover, .button.button-quaternary.button-hover {
       background-color: #DCDCDC;
       box-shadow: none;
