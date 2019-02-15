@@ -4070,7 +4070,8 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
       width: auto; } }
   .button.focus, .button:focus {
     outline: 4px solid #747474;
-    outline-offset: 1px; }
+    outline-offset: 1px;
+    color: #ffffff; }
   .button.button-primary {
     color: #ffffff;
     background-color: #747474;
@@ -4147,30 +4148,31 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
     color: #454545;
     background-color: transparent;
     border-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 400;
-    padding-left: calc(8px - 2px); }
+    padding-left: calc(8px - 2px);
+    border-bottom: 1px solid #747474; }
     .button.button-quaternary:hover, .button.button-quaternary.button-hover {
       background-color: #DCDCDC;
       box-shadow: none;
-      text-decoration: underline; }
+      border-bottom-color: transparent; }
     .button.button-quaternary:active, .button.button-quaternary.button-active {
       background-color: #BFBFBF;
       box-shadow: none;
-      text-decoration: underline; }
+      border-bottom-color: transparent; }
     .button.button-quaternary.focus, .button.button-quaternary:focus {
       color: #1a1a1a;
-      box-shadow: none; }
+      box-shadow: none;
+      border-bottom-color: transparent; }
     .button.button-quaternary:disabled,
     .button.button-quaternary .disabled {
       opacity: 0.5;
-      box-shadow: none !important; }
+      box-shadow: none !important;
+      border-bottom: 1px solid #BFBFBF; }
       .button.button-quaternary:disabled:hover,
       .button.button-quaternary .disabled:hover {
         color: #454545 !important;
         background-color: transparent !important;
-        border-color: transparent !important;
-        text-decoration: underline !important;
         font-weight: 400 !important;
         opacity: 0.5 !important;
         box-shadow: none !important; }
@@ -4902,7 +4904,7 @@ ol {
     margin-top: 0;
     padding-left: 0; }
     .unstyled-list > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
 
 .nobullet-list {
@@ -4923,7 +4925,7 @@ ol {
     margin-top: 0;
     padding-left: 0; }
     .inline-list > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   .inline-list > li {
     display: block; }
@@ -5270,7 +5272,7 @@ hr {
     padding-left: 0; }
     .accordion > li::before,
     .accordion-bordered > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   .accordion > ul li ul,
   .accordion-bordered > ul li ul {
@@ -5820,7 +5822,7 @@ footer .footer-theme {
     margin-top: 0;
     padding-left: 0; }
     .nav-primary > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   @media (min-width: 992px) {
     .nav-primary {
@@ -5993,7 +5995,7 @@ footer .footer-theme {
     margin-top: 0;
     padding-left: 0; }
     .nav-primary .overflow-menu .overflow-menu-inner > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   @media (min-width: 992px) {
     .nav-primary .overflow-menu .overflow-menu-inner {
@@ -6137,7 +6139,7 @@ input[type="search"] {
     margin-top: 0;
     padding-left: 0; }
     .sidenav-list > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   .sidenav-list > li {
     background-color: transparent;
@@ -6206,7 +6208,7 @@ input[type="search"] {
     margin-top: 0;
     padding-left: 0; }
     .sidenav-list-locked > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   .sidenav-list-locked > li {
     background-color: transparent;
@@ -6277,7 +6279,7 @@ input[type="search"] {
     margin-top: 0;
     padding-left: 0; }
     .sidenav-sub_list > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   .sidenav-sub_list li {
     border: none; }
@@ -6452,7 +6454,7 @@ input[type="search"] {
         margin-top: 0;
         padding-left: 0; }
         .card-action .action-links ul > li::before {
-          content: normal !important;
+          content: "" !important;
           padding-right: 0 !important; }
       .card-action .action-links ul li {
         margin-top: 8px !important; }
@@ -6719,7 +6721,7 @@ input[type="search"] {
       margin-top: 0;
       padding-left: 0; }
       .overflow-menu .overflow-list > li::before {
-        content: normal !important;
+        content: "" !important;
         padding-right: 0 !important; }
     .overflow-menu .overflow-list li li {
       list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); }
@@ -6807,7 +6809,7 @@ input[type="search"] {
     margin-top: 0;
     padding-left: 0; }
     .tabnav > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
   .tabnav li {
     float: none;
@@ -7000,7 +7002,7 @@ table.dataTable tbody tr.child {
       margin-top: 0;
       padding-left: 0; }
       table.dataTable tbody tr.child ul.dtr-details > li::before {
-        content: normal !important;
+        content: "" !important;
         padding-right: 0 !important; }
     table.dataTable tbody tr.child ul.dtr-details li:last-child {
       padding-bottom: 0; }
@@ -7138,7 +7140,7 @@ table.dataTable .overflow-menu .overflow-list li {
     margin-top: 0;
     padding-left: 0; }
     .select2 ul > li::before, .select2-container ul > li::before {
-      content: normal !important;
+      content: "" !important;
       padding-right: 0 !important; }
 
 .select2 {
@@ -7187,7 +7189,7 @@ table.dataTable .overflow-menu .overflow-list li {
   padding-bottom: 8px;
   color: #1a1a1a; }
   .select2-container.select2-container--default .select2-results__option[role="option"]:not(.select2-results__option--load-more):not(.loading-results)::before {
-    content: "" !important;
+    content: "";
     display: inline-block;
     position: absolute;
     left: 16px;

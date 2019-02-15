@@ -217,7 +217,7 @@ title: Example-praktikplads-page-1.html
                     kl. kl. 9-14</p>
             </main>
 
-            <button class="modal__close button button-quaternary"
+            <button class="modal__close button button-secondary"
                 aria-label="Close modal" data-micromodal-close>Luk</button>
         </div>
     </div>
