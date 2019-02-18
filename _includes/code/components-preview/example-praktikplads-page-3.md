@@ -26,7 +26,7 @@ title: Example-praktikplads-page-3.html
     </div>
 
     <!--2A: Solutiuon header -->
-    <div class="solution-header">
+    <div class="solution-header ">
         <div class="container solution-header-inner">
             <div class="solution-heading">
                 <a href="#" title="Hjem" aria-label="logo link">
