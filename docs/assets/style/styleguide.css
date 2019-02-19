@@ -6654,7 +6654,6 @@ input[type="search"] {
   display: inline-block;
   position: relative; }
   .overflow-menu .button-overflow-menu {
-    position: relative;
     background-color: transparent;
     border: 0;
     border-radius: 0;
@@ -7834,6 +7833,9 @@ code {
 .page-basic-collapse-html, .page-modal-html, .page-text-input-html, .page-tags-html, .page-search-html .container {
   padding-top: 4px;
   padding-bottom: 4px; }
+
+.page-overflow-menu-html .container {
+  min-height: 400px; }
 
 .page-text-input-html .container, .page-text-input-width-html .container {
   padding-bottom: 4px; }
