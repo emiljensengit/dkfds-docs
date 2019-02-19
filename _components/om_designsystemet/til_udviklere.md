@@ -47,6 +47,17 @@ Du kan enten benytte source-filerne i 'src/'-mappen eller de kompilerede filer i
   import "dkfds";
 ```
 
+<h4>Fix for bug i Edge og Internet Explorer</h4>
+<p>En bug i Edge og Internet Explorer gør at list-style-type:none bliver ignoreret, hvis den bliver sat mens en liste er skjult. For at løse dette kan man tilføje stylingen direkte i <code>head</code> sektionen:</p>
+```shell
+  <style>
+    /* Fixes Edge bug, where list-style-type:none is ignored if it's set after li has been hidden. */   
+    ul {
+      list-style-type: none;
+    }
+  </style>
+```
+
 <h2>DKFDS Plugins</h2>
 <p>Det er kun styling (css eller scss) som skal inkluderes fra plugins projektet. Den JavaScript og HTML som findes i projektet er kun til at lave de eksempler som kan ses på dette dokumentationssite.</p>
 <p>Der er i øjeblikket lavet temaer til følgende:</p>

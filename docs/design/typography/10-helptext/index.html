@@ -27,6 +27,8 @@
 
 
   
+  <link rel="canonical" href="http://localhost:4000/design/typography/10-helptext/">
+  
 
 <!-- Favicons
 ================================================== -->
@@ -61,6 +63,11 @@
 <style>
   body {
     opacity: 0; /*hide page until theme is downlaoded by js.*/
+  }
+
+  /* Fixes Edge bug, where list-style-type:none is ignored if it's set after li has been hidden. It must be present at pageload to work.*/
+  ul {
+    list-style-type: none;
   }
 </style>
 
