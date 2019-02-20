@@ -1,5 +1,5 @@
 ---
-title: Multiselect dropdown
+title: Standard
 parent: selectwoo-multiselect
 order: 01
 ---
