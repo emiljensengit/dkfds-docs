@@ -3,11 +3,11 @@ permalink: /design/uxprincipper/
 layout: styleguide
 title: UX principper i Det Fælles Designsystem
 category: Design_category
-lead:
+description: Brugeroplevelsesdesign (UX) handler om langt mere end et designsystem alene kan rumme, da det i høj grad handler om at ramme brugerens forventninger og dække dennes behov, samtidig med at man når sine forretningsmål inden for de rammer og vilkår man har.
 ---
 <article>
     <section>
-        <p>Brugeroplevelsesdesign (UX) handler om langt mere end et designsystem alene kan rumme, da det i høj grad handler om at ramme brugerens forventninger og dække dennes behov, samtidig med at man når sine forretningsmål inden for de rammer og vilkår man har. Da brugerne og også forretningsmålene ofte divergerer i forhold til hvilken målgruppe man vil ramme og hvilken afdeling i virksomheden, der er tale om, kan man aldrig entydigt på forhånd specificere, hvad der vil være den gode brugeroplevelse for alle. Alligevel er der nogle generelle UX-principper for designsystemet, der kan hjælpe en god oplevelse godt på vej, og det er nogle af disse, der præsenteres nedenfor.</p>
+        <p>Brugeroplevelsesdesign (UX) handler om langt mere end et designsystem alene kan rumme, da det i høj grad handler om at ramme brugerens forventninger og dække dennes behov, samtidig med at man når sine forretningsmål inden for de rammer og vilkår man har. Da brugerne og forretningsmålene ofte divergerer i forhold til hvilken målgruppe man vil ramme og hvilken afdeling i virksomheden, der er tale om, kan man aldrig entydigt på forhånd specificere, hvad der vil være den gode brugeroplevelse for alle. Alligevel er der nogle generelle UX-principper for designsystemet, der kan hjælpe en god oplevelse godt på vej, og det er nogle af disse, der præsenteres nedenfor.</p>
         <p>Vi gør os ingen illusioner om at denne liste er udtømmende eller dækker over alle aspekter af det at skabe en god brugeroplevelse, men den er et godt sted at starte. </p>
     </section>
     <section>

@@ -5,7 +5,7 @@ type: component
 title: Utilities (Hjælpeklasser)
 category: Design_category
 subcategory: Design
-lead: 
+description: Du kan bruge hjælpeklasser til at skræddersy dit indhold i forhold til placering, afstande, farver, bredde og visning 
 subnav:
 - text: Responsive hjælpeklasser
   href: '#responsive-hjælpeklasser'
