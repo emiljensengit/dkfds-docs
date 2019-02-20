@@ -5,7 +5,7 @@ type: component
 title: Beskeder (Alerts)
 category: Komponenter_category
 subcategory: Komponenter
-lead: 
+description: Beskeder bruges til at give en besked om en given handling, eller gøre opmærksom på noget vigtigt, når man kommer ind på en ny side.
 ---
 
 {% include code/preview.html component="alerts" %}
