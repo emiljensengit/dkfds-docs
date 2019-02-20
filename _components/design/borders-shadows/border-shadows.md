@@ -4,7 +4,7 @@ layout: styleguide
 title: Kanter, streger, skygger
 category: Design_category
 subcategory: Design
-lead: ""
+description: Kanter, streger og skygger hjælper med at danne ramme om indhold på siden.
 # order: 25
 subnav:
 - text: Kanter
