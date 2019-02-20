@@ -5,7 +5,7 @@ type: component
 title: Trinindikatorer
 category: Komponenter_category
 subcategory: Komponenter
-lead:
+description: Tringuides anvendes til struktureret at føre brugeren igennem en kendt sekvens af spørgsmål.
 ---
 
 {% include code/preview.html component="tringuide" %}

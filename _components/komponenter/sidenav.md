@@ -5,7 +5,7 @@ type: component
 title: Sidenavigation
 category: Komponenter_category
 subcategory: Komponenter
-lead: 
+description: Sidenavigation anvendes til at afspejle et navigations-hierarki i op til tre niveauer i venstre side af siden.
 ---
 
 {% include code/preview.html component="sidenav--compare" %}

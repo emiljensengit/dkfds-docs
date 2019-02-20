@@ -5,7 +5,7 @@ type: element
 title: Tooltip og popover
 category: Komponenter_category
 subcategory: Komponenter
-lead: 
+description: Tooltip bruges til at forklare en tekst yderligere eller give mere information, som ikke umiddelbart er nødvendig. 
 ---
 
 {% include code/preview.html component="tooltip" %}

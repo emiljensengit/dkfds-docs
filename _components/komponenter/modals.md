@@ -5,7 +5,7 @@ type: component
 title: Modalvinduer
 category: Komponenter_category
 subcategory: Komponenter
-lead: 
+description: Modalvinduer anvendes til at tvinge brugerens fokus på et specifikt, afgrænset indhold, hvor den interaktive respons og forståelse er centralt for brugerens videre anvendelse af løsningen.
 ---
 
 {% include code/preview.html component="modal" %}

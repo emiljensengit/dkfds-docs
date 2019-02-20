@@ -5,7 +5,7 @@ type: element
 title: Tags
 category: Komponenter_category
 subcategory: Komponenter
-lead: 
+description: Et tag er en sekundær funktionalitet, der typisk anvendes til meta-information om indhold, der kan kategoriseres, filtreres eller på anden beskrives med nøgleord.
 ---
 
 {% include code/preview.html component="tags" %}

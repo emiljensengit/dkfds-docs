@@ -5,7 +5,7 @@ type: element
 title: Knapper
 category: Komponenter_category
 subcategory: Komponenter
-lead: 
+description: Knapper bruges til at aktivere en funktion ved klik. Det Fælles Designsystem leverer en gruppe af forskellige knaptyper.
 ---
 
 {% include code/preview.html component="buttons" %}
