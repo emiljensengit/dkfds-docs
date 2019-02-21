@@ -178,7 +178,7 @@ title: Example-aes-page-6.html
                 <td class="mt-4 mt-lg-0">
 
                     <div class="form-group">
-                        <label class="form-label sr-only" for="Navngiv dokument">Vælg
+                        <label class="form-label sr-only" for="select-dokumentationtype">Vælg
                             dokumentationstype</label>
                         <select class=" form-select" name="Navngiv dokument"
                             id="select-dokumentationtype">
