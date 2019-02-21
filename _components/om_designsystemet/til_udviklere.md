@@ -3,6 +3,7 @@ permalink: /omdesignsystemet/tiludviklere/
 layout: styleguide
 title: Til udviklere
 category: Om_designsystemet_category
+description: Til udviklere, der skal gøre brug af Det Fælles Designsystem.
 subnav:
 ---
 

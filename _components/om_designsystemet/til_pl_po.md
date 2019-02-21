@@ -3,6 +3,7 @@ permalink: /omdesignsystemet/tilpopl/
 layout: styleguide
 title: Til produktejere og projektledere
 category: Om_designsystemet_category
+description: Til produktejere og projektledere, der skal, eller er interesseret i at gøre brug af Det Fælles Designsystem i deres projekt.
 subnav:
 - text: Fordele ved at anvende Det Fælles Designsystem
   href: '#fordele'

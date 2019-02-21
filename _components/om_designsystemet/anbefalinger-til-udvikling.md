@@ -3,7 +3,7 @@ permalink: /omdesignsystemet/anbefalingerudvikling/
 layout: styleguide
 title: Anbefalinger omkring udvikling
 category: Om_designsystemet_category
-lead: 
+description: Anbefalinger for kode og kvalitet, performance, tilgængelighed og yderligere anvisninger til dig, der skal udvikle til eller i Det Fælles Designsystem
 subnav:
 - text: Anbefalinger til kode og kodekvalitet
   href: '#anbefalinger-kode'

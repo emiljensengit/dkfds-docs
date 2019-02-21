@@ -3,6 +3,7 @@ permalink: /omdesignsystemet/releases/
 layout: styleguide
 title: Releasenotes
 category: Om_designsystemet_category
+description: Releasenotes for dkfds
 subnav:
 - text: Version 3.0.1
   href: '#version-301'
