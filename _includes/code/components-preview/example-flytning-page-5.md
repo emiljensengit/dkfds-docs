@@ -184,7 +184,8 @@ title: Example-flytning-page-5.html
                         <td>Klaus Egegreen Hansen</td>
                         <td>John Doe <br>Østerbrogade 893 18.tv. <br>2100 København Ø</td>
                         <td>0,6 Km</td>
-                        <td class="align-text-md-right"><a href="#"> <svg class='icon-svg'><use xlink:href='#pencil'></use></svg></a></td>
+                        <td class="align-text-md-right"><a href="#" title="Skift læge">
+                                <svg class='icon-svg'><use xlink:href='#pencil'></use></svg></a></td>
                     </tr>
                 </tbody>
             </table>
