@@ -194,9 +194,10 @@ title: Example-aes-page-7.html
                                 prn0237452_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
-
+                                    <label class="form-label sr-only" for="select-dokumentationdtype1">Vælg
+                                        dokumentationstype</label>
                                     <select class=" form-select" name="Navngiv dokument"
-                                        id="select-dokumentationdtype">
+                                        id="select-dokumentationdtype1">
                                         <option value></option>
 
                                     </select>
@@ -205,22 +206,27 @@ title: Example-aes-page-7.html
                             <td class="mt-4 mt-lg-0">
 
                                 <div class="form-group">
+                                    <label class="form-label sr-only" for="id-documentation-1-expanded">Kommentar<span
+                                            class="weight-normal">
+                                            (Frivilligt)</span></label>
 
                                     <textarea class="form-input input-width-m" placeholder="" id="id-documentation-1-expanded" name="Kommentar" type="text" ></textarea>
                                 </div>
 
                             </td>
                             <td class="align-text-md-right mt-4 mt-lg-0"><a
-                                    href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                    href="#" class="function-link link-right"
+                                    title="Slet fil"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                         <tr>
                             <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 sgn1023152_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
-
+                                    <label class="form-label sr-only" for="select-dokumentationdtype2">Vælg
+                                        dokumentationstype</label>
                                     <select class=" form-select" name="Navngiv dokument"
-                                        id="select-dokumentationdtype">
+                                        id="select-dokumentationdtype2">
                                         <option value></option>
 
                                     </select>
@@ -229,13 +235,17 @@ title: Example-aes-page-7.html
                             <td class="mt-4 mt-lg-0">
 
                                 <div class="form-group">
+                                    <label class="form-label sr-only" for="id-documentation-2-expanded">Kommentar<span
+                                            class="weight-normal">
+                                            (Frivilligt)</span></label>
 
-                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-1-expanded" name="Kommentar" type="text" ></textarea>
+                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-2-expanded" name="Kommentar" type="text" ></textarea>
                                 </div>
 
                             </td>
                             <td class="align-text-md-right mt-4 mt-lg-0"><a
-                                    href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                    href="#" class="function-link link-right"
+                                    title="Slet fil"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -247,7 +257,7 @@ title: Example-aes-page-7.html
         <div class="form-group ">
             <input id="id-documentation-2" type="checkbox" name="Oplysninger om tabt erhvervsevne"
                 value="Oplysninger om tabt erhvervsevne" class="form-checkbox  checkbox-large js-checkbox-toggle-content"
-                data-js-target='#collapse-check1' aria-controls='collapse-check'
+                data-js-target='#collapse-check1' aria-controls='collapse-check1'
                 aria-expanded='false'>
             <label for="id-documentation-2" class="">Oplysninger om tabt
                 erhvervsevne</label>
@@ -272,9 +282,10 @@ title: Example-aes-page-7.html
                                 dkf4903283_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
-
+                                    <label class="form-label sr-only" for="select-dokumentationdtype3">Vælg
+                                        dokumentationstype</label>
                                     <select class=" form-select" name="Navngiv dokument"
-                                        id="select-dokumentationdtype">
+                                        id="select-dokumentationdtype3">
                                         <option value></option>
 
                                     </select>
@@ -283,22 +294,27 @@ title: Example-aes-page-7.html
                             <td class="mt-4 mt-lg-0">
 
                                 <div class="form-group">
+                                    <label class="form-label sr-only" for="id-documentation-3-expanded">Kommentar<span
+                                            class="weight-normal">
+                                            (frivilligt)</span></label>
 
-                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-1-expanded" name="Kommentar" type="text" ></textarea>
+                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-3-expanded" name="Kommentar" type="text" ></textarea>
                                 </div>
 
                             </td>
                             <td class="align-text-md-right mt-4 mt-lg-0"><a
-                                    href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                    href="#" class="function-link link-right"
+                                    title="Slet fil"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                         <tr>
                             <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 kfo1127303_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
-
+                                    <label class="form-label sr-only" for="select-dokumentationdtype4">Vælg
+                                        dokumentationstype</label>
                                     <select class=" form-select" name="Navngiv dokument"
-                                        id="select-dokumentationdtype">
+                                        id="select-dokumentationdtype4">
                                         <option value></option>
 
                                     </select>
@@ -307,13 +323,17 @@ title: Example-aes-page-7.html
                             <td class="mt-4 mt-lg-0">
 
                                 <div class="form-group">
+                                    <label class="form-label sr-only" for="id-documentation-4-expanded">Kommentar<span
+                                            class="weight-normal">
+                                            (frivilligt)</span></label>
 
-                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-1-expanded" name="Kommentar" type="text" ></textarea>
+                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-4-expanded" name="Kommentar" type="text" ></textarea>
                                 </div>
 
                             </td>
                             <td class="align-text-md-right mt-4 mt-lg-0"><a
-                                    href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                    href="#" class="function-link link-right"
+                                    title="Slet fil"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -325,7 +345,7 @@ title: Example-aes-page-7.html
         <div class="form-group ">
             <input id="id-documentation-3" type="checkbox" name="Tilføj andre dokumenter"
                 value="Tilføj andre dokumenter" class="form-checkbox  checkbox-large js-checkbox-toggle-content"
-                data-js-target='#collapse-check2' aria-controls='collapse-check'
+                data-js-target='#collapse-check2' aria-controls='collapse-check2'
                 aria-expanded='false'>
             <label for="id-documentation-3" class="">Tilføj andre
                 dokumenter</label>
@@ -350,9 +370,10 @@ title: Example-aes-page-7.html
                                 ohb3428439_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
-
+                                    <label class="form-label sr-only" for="select-dokumentationdtype5">Vælg
+                                        dokumentationsype</label>
                                     <select class=" form-select" name="Navngiv dokument"
-                                        id="select-dokumentationdtype">
+                                        id="select-dokumentationdtype5">
                                         <option value></option>
 
                                     </select>
@@ -361,22 +382,27 @@ title: Example-aes-page-7.html
                             <td class="mt-4 mt-lg-0">
 
                                 <div class="form-group">
+                                    <label class="form-label sr-only" for="id-documentation-5-expanded">Kommentar<span
+                                            class="weight-normal">
+                                            (Frivilligt)</span></label>
 
-                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-1-expanded" name="Kommentar" type="text" ></textarea>
+                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-5-expanded" name="Kommentar" type="text" ></textarea>
                                 </div>
 
                             </td>
                             <td class="align-text-md-right mt-4 mt-lg-0"><a
-                                    href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                    href="#" class="function-link link-right"
+                                    title="Slet fil"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                         <tr>
                             <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>
                                 sdv5644382_attest.pdf</td>
                             <td class="mt-4 mt-lg-0">
                                 <div class="form-group">
-
+                                    <label class="form-label sr-only" for="select-dokumentationdtype6">Vælg
+                                        dokumentationstype</label>
                                     <select class=" form-select" name="Navngiv dokument"
-                                        id="select-dokumentationdtype">
+                                        id="select-dokumentationdtype6">
                                         <option value></option>
 
                                     </select>
@@ -385,13 +411,17 @@ title: Example-aes-page-7.html
                             <td class="mt-4 mt-lg-0">
 
                                 <div class="form-group">
+                                    <label class="form-label sr-only" for="id-documentation-6-expanded">Kommentar<span
+                                            class="weight-normal">
+                                            (Frivilligt)</span></label>
 
-                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-1-expanded" name="Kommentar" type="text" ></textarea>
+                                    <textarea class="form-input input-width-m" placeholder="" id="id-documentation-6-expanded" name="Kommentar" type="text" ></textarea>
                                 </div>
 
                             </td>
                             <td class="align-text-md-right mt-4 mt-lg-0"><a
-                                    href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                    href="#" class="function-link link-right"
+                                    title="Slet fil"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
                         </tr>
                     </tbody>
                 </table>
