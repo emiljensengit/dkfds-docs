@@ -3,7 +3,7 @@ permalink: /eksempler/
 layout: styleguide
 title: Eksempler
 category: Eksempler_category
-lead: ""
+description: Eksempler på selvbetjeningsløsninger, der gør brug af Det Fælles Designsystem
 subnav:
 - text: Løsning 1
   href: '#solution-1'
