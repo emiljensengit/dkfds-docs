@@ -23,7 +23,7 @@ subnav:
   href: '#edit-and-delete-row'
 ---
 
-<h4>Tilgængelighed</h4>
+<h2 class="h4">Tilgængelighed</h2>
 <ul>
     <li>Datatables anvender bl.a. ARIA til at øge tilgængeligheden. Du skal imidlertid være opmærksom på, at en kompliceret tabel med mange rækker, kolonner og muligheder øger det kognitive load og dermed sænker den reelle tilgængelighed.</li>
     <li>Du skal bruger- og performanceteste prototyper med Datatables med entydigt positive resultat ift din målgruppe, hvis du ønsker at anvende den.</li>

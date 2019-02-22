@@ -21,7 +21,7 @@ subnav:
     <section>
         <p>Det Fælles Designsystem er en simpel samling af grundlæggende funktioner og design, der skaber et solidt grundlag for udviklingen af selvbetjeningsløsninger, der skal ligge på borger.dk og virk.dk.</p>
         <p>Designsystemets frontend arkitektur bygger på princippet om en minimal, modulær og skalerbar opbygning, der kan forgrene sig yderligere i takt med øget behov. Når du udvikler til designsystemet skal du følge tankerne bag, som de er formuleret i dette dokument.</p>
-        <h3>Omkring dette dokument </h3>
+        <h2 class="h3">Omkring dette dokument </h2>
         <p>Dette dokument beskriver anbefalinger for kode og kvalitet, performance, tilgængelighed og yderligere anvisninger til dig, der skal udvikle til eller i Det Fælles Designsystem (i det følgende også kaldet ”designsystemet”).</p>
         <p>”Generelle anbefalinger omkring udvikling til Det Fælles Designsystem” revideres i takt med alle større releases.</p>
     </section>
@@ -175,7 +175,7 @@ subnav:
         <p>Du kan fx placere den vigtigste CSS inline i <code>head</code> og de mindre vigtige deklarationer som linket ressource sammen med JS før <code>/body</code>. Vigtige grafikker ”over folden” kan være base64 og andre inline .svg.  I Det Fælles Designsystem har vi udvalgt ikoner fra Material Design i .svg (Scalable Vector Graphic) format. De ligger som en samlet “pakke” af <code>symbol</code> efter <code>body</code>. På denne måde sparer vi et større antal requests for den enkelte side. Koden for ikoner fylder ganske lidt.</p>
         <p>Bemærk, at da inline CSS ikke caches af browseren, er det en balanceakt at placere tilstrækkeligt CSS inline til, at det gør en forskel og ikke for meget, så brugeren skal hente den samme store pakke på hver eneste side.</p>
         <p>Især i SPA (Single Page Applications) løsninger giver dette koncept dog mening, da brugeren kun skal hente den ene side – med mindre det er en løsning, hvor brugeren ofte skal vende tilbage gentagne gange.</p>
-        <h5>Læs mere om Critical Path CSS</h5>
+        <h4 class="h5">Læs mere om Critical Path CSS</h4>
         <ul class="nobullet-list">
             <li><a href="https://medium.freecodecamp.org/an-introduction-to-web-performance-and-the-critical-rendering-path-ce1fb5029494" class="icon-link">An introduction to web performance and the critical rendering path<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a" class="icon-link">Understandingg the critical rendering path<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -191,7 +191,7 @@ subnav:
             <li>Preconnect kontakter den server, der forventes at skulle levere en given ressource. Det kunne være en CDN (Content Delivery Network). Dermed er forbindelsen åben.</li>
             <li>Preload beder browseren indlæse en ressource asynkront (lazy loading), så den er klar til brug, men uden at anvende den før det er påkrævet.</li>
         </ul>
-        <h4>Læs mere om preload her</h4>
+        <h4 class="h5">Læs mere om preload her</h4>
             <ul class="nobullet-list">
             <li><a href="https://www.w3.org/TR/preload/" class="icon-link">Preload<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/" class="icon-link">Preload - what is it good for?<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
@@ -233,14 +233,14 @@ subnav:
         <h4>Webaim</h4>
         <p>Webaim er en hjemmeside udviklet og drevet af Utah State University med en række funktioner, der hjælper dig til at udvikle og teste for tilgængelighed. Deres anbefalinger er sykroniseret med krav og anbefalinger W3C.</p>
         <p>Webaim stiller funktionen Wave gratis til rådighed, som giver en analyse og rapport på din løsnings tilgængelighed og udfordringer med samme.</p>
-        <h4>Læs mere om Webaim her</h4>
+        <h5>Læs mere om Webaim</h5>
             <ul class="nobullet-list">
             <li><a href="https://webaim.org/resources/" class="icon-link">Webaim<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
         </ul>   
         <h4>Oplæsning</h4>
         <p>En af de store udfordringer i tilgængeligt design er aftestning af oplæsningen af sidens indhold. Der er for nuværende ikke en automatiseret måde at gøre dette på. Browserproducenterne og de forskellige platforme har desuden meget forskellige tilgange til oplæsning og alle har større eller mindre udfordringer især med matematiske og fysiske særtegn.  Men er din kode valid html og opfylder du kravene fra WCAG 2.1 forhindrer din løsning ikke oplæsningen af indholdet. </p>
         <p>Det Fælles Designsystem anbefaler at følge vejledningen fra Webaim omkring aftestning med Voice Over (Mac) og Oplæser på Windows 10.</p>
-        <h4>Læs mere om Webaim her</h4>
+        <h5>Læs mere om oplæsning</h5>
             <ul class="nobullet-list">
             <li><a href="https://webaim.org/articles/voiceover/" class="icon-link">Voice over<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
             <li><a href="https://support.microsoft.com/da-dk/help/17173/windows-10-hear-text-read-aloud" class="icon-link">Windows 10 hear text<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>

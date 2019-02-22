@@ -7,14 +7,14 @@ order: 06
 <p>Der er opsat en hjælpefunktion som automatisk genererer klasser som styrer baggrundsfarver. </p>
 Format: <code>bg-{baggrund}</code>
 
-<h5 class="mb-0">Baggrundsfarver</h5>
+<h3 class="h5 mb-0">Baggrundsfarver</h3>
 <ul>
     <li>Normal: <code>$background-normal</code></li>
     <li>Alternativ: <code>$background-alternative</code></li>
     <li>Modal: <code>$background-modal</code></li>
 </ul>
 
-<h5>Eksempel:</h5>
+<h3 class="h5">Eksempel:</h3>
 <div class="code-highlight">
     <code>
         &lt;div class="bg-normal"&gt; Dette element har hvid baggrund &lt;/div&gt; <br>

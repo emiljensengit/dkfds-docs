@@ -16,6 +16,7 @@ description: Knapper bruges til at aktivere en funktion ved klik. Det Fælles De
     Implementering
   </button>
   <div id="code-documentation" class="accordion-content">
+    <section>
       <p>Knap styling kan både sættes på &lt;button&gt; og &lt;a&gt; tags ved at tilføje følgende klasser:</p>
       <ul>
         <li><code>button button-primary</code></li>
@@ -23,6 +24,7 @@ description: Knapper bruges til at aktivere en funktion ved klik. Det Fælles De
         <li><code>button button-ghost</code></li>
         <li><code>button button-tertiary</code></li>
       </ul>
+    </section>
   </div>
 </div>
 

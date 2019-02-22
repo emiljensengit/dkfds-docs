@@ -118,11 +118,11 @@ myndighedskonstruktioner. Neutralt betyder også at konservativt og tidsløst de
 sammenhæng på tværs, uanset hvilken portal en selvbetjeningsløsning påbegyndes fra. Borgere og virksomheder skal kunne genkende komponenter og mønstre i brugergrænsefladerne uanset hvem en selvbetjeningsløsning er henvendt til og hvilken portal, der har ansvar for at udstille den.</p>
 <div class="row">
   <div class="col-12 col-md-6">
-    <h4 class="h5 mb-0">Borger.dk</h4>
+    <h3 class="h5 mb-0">Borger.dk</h3>
     <img src="{{ site.baseurl }}/img/descriptionimages/borger.dk.jpg" alt="Borger.dk">
   </div>
   <div class="col-12 col-md-6">
-    <h4 class="h5 mb-0">Virk</h4>
+    <h3 class="h5 mb-0">Virk</h3>
     <img src="{{ site.baseurl }}/img/descriptionimages/virk.png" alt="Virk">
   </div>
 </div>

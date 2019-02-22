@@ -16,21 +16,22 @@ lead: Badges draw attention to new or important content.
     Implementering
   </button>
   <div id="code-documentation" class="accordion-content">
-    <h3>Implementering</h3>
-    <p>Alle badges skal have en <code>.badge</code> class på <code>&lt;label&gt;&lt;/label&gt;</code> elementet.</p>
-    <p>Badges findes i to størrelser, store og små:</p>
-    <ul>
-      <li><p>For et stort badge skal der tilføjes en <code>.badge-large</code> class. </p></li>
-      <li><p>For et lille badge skal der tilføjes en <code>.badge-small</code> class. </p></li>
-    </ul>
-    <p>Et stort badge vil se følgende ud:</p>
-    <ul>
-      <li><code>&lt;label class="badge badge-large"My badge&lt;/label&gt;</code></li>
-    </ul>
-    <p>Et lille badge vil se følgende ud:</p>
-    <ul>
-      <li><code>&lt;label class="badge badge-small"My badge&lt;/label&gt;</code></li>
-    </ul>
+    <section>
+        <p>Alle badges skal have en <code>.badge</code> class på <code>&lt;label&gt;&lt;/label&gt;</code> elementet.</p>
+        <p>Badges findes i to størrelser, store og små:</p>
+        <ul>
+          <li><p>For et stort badge skal der tilføjes en <code>.badge-large</code> class. </p></li>
+          <li><p>For et lille badge skal der tilføjes en <code>.badge-small</code> class. </p></li>
+        </ul>
+        <p>Et stort badge vil se følgende ud:</p>
+        <ul>
+          <li><code>&lt;label class="badge badge-large"My badge&lt;/label&gt;</code></li>
+        </ul>
+        <p>Et lille badge vil se følgende ud:</p>
+        <ul>
+          <li><code>&lt;label class="badge badge-small"My badge&lt;/label&gt;</code></li>
+        </ul>
+    </section>
   </div>
 </div>
 

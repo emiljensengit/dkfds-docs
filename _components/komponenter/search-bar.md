@@ -16,9 +16,11 @@ lead: Et felt, der har til formål at udstille mulighed for at søge efter beste
     Implementering
   </button>
   <div id="search-code-documentation" class="accordion-content">
-    <h4>Søgefelt</h4>
-    <p>Du kan styre søgefeltets bredde via input-width- og input-char- se mere under punktet formular elementer og input bredde og validering.</p>
-    <p>Du bør som oftest implementere auto-suggest på søgefelter, så brugeren foreslås relevante søge ord/sætninger</p>
+    <section>
+        <h4>Søgefelt</h4>
+        <p>Du kan styre søgefeltets bredde via input-width- og input-char- se mere under punktet formular elementer og input bredde og validering.</p>
+        <p>Du bør som oftest implementere auto-suggest på søgefelter, så brugeren foreslås relevante søge ord/sætninger</p>
+    </section>
   </div>
 </div>
 

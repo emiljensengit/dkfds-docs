@@ -27,7 +27,7 @@ subnav:
   href: '#vedhæft-fil'
 ---
 
-<h4>Generelt om tilgængelighed af formularelementer</h4>
+<h2 class="h4">Generelt om tilgængelighed af formularelementer</h2>
 <ul>
     <li>Formularelementer markeres tydeligt med en focus-tilstand, når brugere vha tab-tasten navigerer sig frem til dem.</li>
     <li>Overhold sammenhængen mellem den viste rækkefølge af formularelementer på skærmen og deres rækkefølge i koden. Anvend ikke CSS til at omarrangere formularelementerne, da skærmlæsere følger rækkefølgen, som den er angivet i koden.</li>
