@@ -1613,25 +1613,27 @@
     Implementering
   </button>
   <div id="border-radius-docs" class="accordion-content">
-    <h4>Statiske hjørner</h4>
-    <ul>
-        <li><p>Statiske hjørner er lige og har en <code>border-radius: 0px;</code></p></li>
-        <li><p>For at få lige hjørner bruges variablen <code>$static-border-radius</code></p></li>
-    </ul>
-    <p class="h5 mb-3">Eksempel:</p>
-    <div class="code-highlight">
-        <code>border-radius: $static-border-radius;</code>
-    </div>
-    <h4>Interaktive hjørner</h4>
-    <ul>
-        <li><p>Interaktive hjørner er runde og har en <code>border-radius: 4px;</code></p></li>
-        <li><p>For at få runde hjørner bruges variablen <code>$interactive-border-radius</code></p></li>
-        <li><p>Interaktive hjørner bør kun bruges til håndtering af interaktive elementer, da det er meningen at differentiere indhold fra aktion.</p></li>
-    </ul>
-    <p class="h5 mb-3">Eksempel:</p>
-    <div class="code-highlight">
-        <code>border-radius: $interactive-border-radius;</code>
-    </div>
+    <section>
+        <h3 class="h4">Statiske hjørner</h3>
+        <ul>
+            <li><p>Statiske hjørner er lige og har en <code>border-radius: 0px;</code></p></li>
+            <li><p>For at få lige hjørner bruges variablen <code>$static-border-radius</code></p></li>
+        </ul>
+        <p class="h5 mb-3">Eksempel:</p>
+        <div class="code-highlight">
+            <code>border-radius: $static-border-radius;</code>
+        </div>
+        <h3 class="h4">Interaktive hjørner</h3>
+        <ul>
+            <li><p>Interaktive hjørner er runde og har en <code>border-radius: 4px;</code></p></li>
+            <li><p>For at få runde hjørner bruges variablen <code>$interactive-border-radius</code></p></li>
+            <li><p>Interaktive hjørner bør kun bruges til håndtering af interaktive elementer, da det er meningen at differentiere indhold fra aktion.</p></li>
+        </ul>
+        <p class="h5 mb-3">Eksempel:</p>
+        <div class="code-highlight">
+            <code>border-radius: $interactive-border-radius;</code>
+        </div>
+    </section>
   </div>
 </div>
 
@@ -1669,33 +1671,35 @@
     Implementering
   </button>
   <div id="borders-docs" class="accordion-content">
-    <h4>Ydre borders</h4>
-    <ul>
-        <li><p>Ydre borders er 1px bredde og er mørkegrå. For at bruge ydre borders bruges variablen <code>$outer-border</code></p></li>
-        <li><p>Bruges som ydre borders på komponenter, til at adskille dem fra hinanden.</p></li>
-    </ul>
-    <p class="h5 mb-3">Eksempel:</p>
-    <div class="code-highlight">
-        <code>border: $outer-border;</code>
-    </div>
-    <h4>Indre borders</h4>
-    <ul>
-        <li><p>Indre borders er 1px bredde og er lysegrå. For at bruge indre borders bruges variablen <code>$inner-border</code></p></li>
-        <li><p>Anvendes som indvendige border i komponenter, der kræver separering af elementer.</p></li>
-    </ul>
-    <p class="h5 mb-3">Eksempel:</p>
-    <div class="code-highlight">
-        <code>border: $inner-border;</code>
-    </div>
-    <h4>Knap borders</h4>
-    <ul>
-        <li><p>Borders på knapper er 2px bredde og farven afhænger af elementet. For at bruge borders til knapper bruges variablen <code>$button-border</code></p></li>
-        <li><p>Har ekstra border bredde, som bruges på knapper</p></li>
-    </ul>
-    <p class="h5 mb-3">Eksempel:</p>
-    <div class="code-highlight">
-        <code>border: $button-border;</code>
-    </div>
+    <section>
+        <h3 class="h4">Ydre borders</h3>
+        <ul>
+            <li><p>Ydre borders er 1px bredde og er mørkegrå. For at bruge ydre borders bruges variablen <code>$outer-border</code></p></li>
+            <li><p>Bruges som ydre borders på komponenter, til at adskille dem fra hinanden.</p></li>
+        </ul>
+        <p class="h5 mb-3">Eksempel:</p>
+        <div class="code-highlight">
+            <code>border: $outer-border;</code>
+        </div>
+        <h3 class="h4">Indre borders</h3>
+        <ul>
+            <li><p>Indre borders er 1px bredde og er lysegrå. For at bruge indre borders bruges variablen <code>$inner-border</code></p></li>
+            <li><p>Anvendes som indvendige border i komponenter, der kræver separering af elementer.</p></li>
+        </ul>
+        <p class="h5 mb-3">Eksempel:</p>
+        <div class="code-highlight">
+            <code>border: $inner-border;</code>
+        </div>
+        <h3 class="h4">Knap borders</h3>
+        <ul>
+            <li><p>Borders på knapper er 2px bredde og farven afhænger af elementet. For at bruge borders til knapper bruges variablen <code>$button-border</code></p></li>
+            <li><p>Har ekstra border bredde, som bruges på knapper</p></li>
+        </ul>
+        <p class="h5 mb-3">Eksempel:</p>
+        <div class="code-highlight">
+            <code>border: $button-border;</code>
+        </div>
+    </section>
   </div>
 </div>
 
@@ -1745,30 +1749,32 @@
         Implementering
     </button>
     <div id="shadows-docs" class="accordion-content">
-        <h4>Modalvindue</h4>
-        <ul>
-            <li><p>Modalvinduer har en sort skygge på 0 8px 16px 0 og har variablen <code>$box-shadow-heavy</code></p></li>
-        </ul>
-        <p class="h5 mb-3">Eksempel:</p>
-        <div class="code-highlight">
-            <code> box-shadow: $box-shadow-heavy;</code>
-        </div>
-        <h4>Overflowmenu</h4>
-        <ul>
-            <li><p>Overflowmenuer har en sort skygge på 0 4px 16px 0 og har variablen <code>$box-shadow-moderately</code></p></li>
-        </ul>
-        <p class="h5 mb-3">Eksempel:</p>
-        <div class="code-highlight">
-            <code>box-shadow: $box-shadow-moderately;</code>
-        </div>
-        <h4>Cards</h4>
-        <ul>
-            <li><p>Cards har en sort skygge på 0 2px 16px 0 og har variablen <code>$box-shadow-slightly</code></p></li>
-        </ul>
-        <p class="h5 mb-3">Eksempel:</p>
-        <div class="code-highlight">
-            <code>box-shadow: $box-shadow-slightly;</code>
-        </div>
+        <section>
+            <h3 class="h4">Modalvindue</h3>
+            <ul>
+                <li><p>Modalvinduer har en sort skygge på 0 8px 16px 0 og har variablen <code>$box-shadow-heavy</code></p></li>
+            </ul>
+            <p class="h5 mb-3">Eksempel:</p>
+            <div class="code-highlight">
+                <code> box-shadow: $box-shadow-heavy;</code>
+            </div>
+            <h3 class="h4">Overflowmenu</h3>
+            <ul>
+                <li><p>Overflowmenuer har en sort skygge på 0 4px 16px 0 og har variablen <code>$box-shadow-moderately</code></p></li>
+            </ul>
+            <p class="h5 mb-3">Eksempel:</p>
+            <div class="code-highlight">
+                <code>box-shadow: $box-shadow-moderately;</code>
+            </div>
+            <h3 class="h4">Cards</h3>
+            <ul>
+                <li><p>Cards har en sort skygge på 0 2px 16px 0 og har variablen <code>$box-shadow-slightly</code></p></li>
+            </ul>
+            <p class="h5 mb-3">Eksempel:</p>
+            <div class="code-highlight">
+                <code>box-shadow: $box-shadow-slightly;</code>
+            </div>
+        </section>
     </div>
 </div>
 
