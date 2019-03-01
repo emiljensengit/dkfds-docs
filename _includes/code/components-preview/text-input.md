@@ -42,10 +42,10 @@ title: Text-input.html
     </div>
 
     <div class="form-group">
-        <label class="form-label " for="input-optinal">Inputfelt som er
+        <label class="form-label " for="input-optional">Inputfelt som er
             valgfrit<span class="weight-normal"> (frivilligt)</span></label>
 
-        <input class="form-input   " placeholder="" id="input-optinal"
+        <input class="form-input   " placeholder="" id="input-optional"
             value="" name="" type="text">
     </div>
 

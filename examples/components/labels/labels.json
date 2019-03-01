@@ -1,0 +1,16 @@
+{
+  "label_example": {
+    "items": [
+      {
+        "name": "default",
+        "classes": "",
+        "label": "Normal"
+      },
+      {
+        "name": "big",
+        "classes": "usa-label-big",
+        "label": "big"
+      }
+    ]
+  }
+}

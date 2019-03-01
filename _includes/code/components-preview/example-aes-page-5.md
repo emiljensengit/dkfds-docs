@@ -41,10 +41,8 @@ title: Example-aes-page-5.html
 
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
-                <p>
-                    <p>Support: 72 20 60 00 · <button class="button-unstyled button-contact"
-                            data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
-                </p>
+                <p>Support: 72 20 60 00 · <button class="button-unstyled button-contact"
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg"><use href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -54,7 +52,7 @@ title: Example-aes-page-5.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Christian Emil Vestergaard Christiansen</b><br>Forsikringens Forsikringsfirma</p>
@@ -72,7 +70,7 @@ title: Example-aes-page-5.html
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
-                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#save"></use></svg>
+                    <a href="" class="function-link"><svg class="icon-svg " ><use href="#save"></use></svg>
                         Gem kladde</a>
                 </div>
             </div>
@@ -170,22 +168,24 @@ title: Example-aes-page-5.html
             <div class="date-group js-calendar-group mt-3">
                 <div class="form-group form-group-day">
                     <label class="form-label" for="date_of_day_2">Dato</label>
-                    <input class="form-input js-calendar-day-input" type="tel"
-                        min="1" max="31" maxlength="2" pattern="^[0-9]{0,2}$"
+                    <input class="form-input js-calendar-day-input" id="date_of_day_2"
+                        type="tel" min="1" max="31" maxlength="2" pattern="^[0-9]{0,2}$"
                         data-input-regex="^[0-9]{0,2}$" title="Indskriv dag på månenden som tal">
                 </div>
                 <div class="form-group form-group-month">
                     <label class="form-label" for="date_of_month_1">Måned</label>
-                    <input class="form-input js-calendar-month-input" type="tel"
-                        min="1" max="12" maxlength="2" pattern="^[0-9]{0,2}$"
+                    <input class="form-input js-calendar-month-input" id="date_of_month_1"
+                        type="tel" min="1" max="12" maxlength="2" pattern="^[0-9]{0,2}$"
                         data-input-regex="^[0-9]{0,2}$" title="Indskriv månedens nummer">
                 </div>
                 <div class="form-group form-group-year ">
                     <label class="form-label" for="date_of_year_3">År</label>
-                    <input class="form-input js-calendar-year-input" type="tel"
-                        min="1900" max="3000" maxlength="4" pattern="^[0-9]{0,4}$"
-                        data-input-regex="^[0-9]{0,4}$" title="Indskriv årstal">
+                    <input class="form-input js-calendar-year-input" for="date_of_year_3"
+                        type="tel" min="1900" max="3000" maxlength="4"
+                        pattern="^[0-9]{0,4}$" data-input-regex="^[0-9]{0,4}$"
+                        title="Indskriv årstal">
                 </div>
+
             </div>
         </div>
     </fieldset>
@@ -226,24 +226,25 @@ title: Example-aes-page-5.html
                             <div class="form-group form-group-day">
                                 <label class="form-label" for="date_of_day_2">Dato</label>
                                 <input class="form-input js-calendar-day-input"
-                                    type="tel" min="1" max="31" maxlength="2"
-                                    pattern="^[0-9]{0,2}$"
+                                    id="date_of_day_2" type="tel" min="1"
+                                    max="31" maxlength="2" pattern="^[0-9]{0,2}$"
                                     data-input-regex="^[0-9]{0,2}$" title="Indskriv dag på månenden som tal">
                             </div>
                             <div class="form-group form-group-month">
                                 <label class="form-label" for="date_of_month_1">Måned</label>
                                 <input class="form-input js-calendar-month-input"
-                                    type="tel" min="1" max="12" maxlength="2"
-                                    pattern="^[0-9]{0,2}$"
+                                    id="date_of_month_1" type="tel" min="1"
+                                    max="12" maxlength="2" pattern="^[0-9]{0,2}$"
                                     data-input-regex="^[0-9]{0,2}$" title="Indskriv månedens nummer">
                             </div>
                             <div class="form-group form-group-year ">
                                 <label class="form-label" for="date_of_year_3">År</label>
                                 <input class="form-input js-calendar-year-input"
-                                    type="tel" min="1900" max="3000"
-                                    maxlength="4" pattern="^[0-9]{0,4}$"
+                                    for="date_of_year_3" type="tel" min="1900"
+                                    max="3000" maxlength="4" pattern="^[0-9]{0,4}$"
                                     data-input-regex="^[0-9]{0,4}$" title="Indskriv årstal">
                             </div>
+
                         </div>
                     </div>
                 </fieldset>

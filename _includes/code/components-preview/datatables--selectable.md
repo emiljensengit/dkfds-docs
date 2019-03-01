@@ -1,6 +1,6 @@
 --- 
 permalink: /preview-components/datatables--selectable.html
-layout: iframed-plugins 
+layout: iframed 
 title: Datatables--selectable.html
 ---
 <div class="container">

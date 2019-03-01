@@ -1,0 +1,115 @@
+{
+  "button_example": {
+    "button_groups": [
+      {
+        "label": "Primær knapper",
+        "items": [
+          {
+            "class": "primary",
+            "state": "default"
+          },
+          {
+            "class": "primary",
+            "state": "hover"
+          },
+          {
+            "class": "primary",
+            "state": "active"
+          },
+          {
+            "class": "primary",
+            "state": "focus"
+          },
+          {
+            "class": "primary",
+            "state": "disabled"
+          }
+        ]
+      },
+      {
+        "label": "Sekundær knapper",
+        "items": [
+          {
+            "class": "secondary",
+            "state": "default"
+          },
+          {
+            "class": "secondary",
+            "state": "hover"
+          },
+          {
+            "class": "secondary",
+            "state": "active"
+          },
+          {
+            "class": "secondary",
+            "state": "focus"
+          },
+          {
+            "class": "secondary",
+            "state": "disabled"
+          }
+        ]
+      },
+      {
+        "label": "Tertiær knapper",
+        "items": [
+          {
+            "class": "tertiary",
+            "state": "default"
+          },
+          {
+            "class": "tertiary",
+            "state": "hover"
+          },
+          {
+            "class": "tertiary",
+            "state": "active"
+          },
+          {
+            "class": "tertiary",
+            "state": "focus"
+          },
+          {
+            "class": "tertiary",
+            "state": "disabled"
+          }
+        ]
+      },
+      {
+        "label": "Tilbage-knap",
+        "items": [
+          {
+            "class": "quaternary",
+            "state": "back-default"
+          },
+          {
+            "class": "quaternary",
+            "state": "back-hover"
+          },
+          {
+            "class": "quaternary",
+            "state": "back-active"
+          },
+          {
+            "class": "quaternary",
+            "state": "back-focus"
+          },
+          {
+            "class": "quaternary",
+            "state": "back-disabled"
+          }
+        ]
+      },
+      {
+        "label": "Knap med ikon",
+        "items": [
+          {
+            "class": "primary",
+            "state": "icon"
+          }
+        ]
+      }
+    ]
+  }
+}

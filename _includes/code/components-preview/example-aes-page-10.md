@@ -41,10 +41,8 @@ title: Example-aes-page-10.html
 
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
-                <p>
-                    <p>Support: 72 20 60 00 · <button class="button-unstyled button-contact"
-                            data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
-                </p>
+                <p>Support: 72 20 60 00 · <button class="button-unstyled button-contact"
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg"><use href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -54,7 +52,7 @@ title: Example-aes-page-10.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Christian Emil Vestergaard Christiansen</b><br>Forsikringens Forsikringsfirma</p>
@@ -96,7 +94,7 @@ title: Example-aes-page-10.html
             <p class="form-hint mt-2">Referencenummer: 28346863</p>
             <p class="mb-4">Hvis du ønsker dokumentation på fremsendelse
                 kan du downloade anmodningen.</p>
-            <button class="button button-secondary"><svg class="icon-svg " ><use xlink:href="#download"></use></svg>
+            <button class="button button-secondary"><svg class="icon-svg " ><use href="#download"></use></svg>
                 Download kvittering som pdf</button>
             <h2 class="h4 mt-7">Hvad sker der nu</h2>
             <p>Sagens parter vil indenfor 7 hverdage modtage en kvittering
@@ -134,7 +132,15 @@ title: Example-aes-page-10.html
     <div class="footer">
         <div class="container">
             <div class="align-text-left">
-                <ul class="unstyled-list inline-list"></ul>
+                <ul class="unstyled-list inline-list">
+                    <li><span class="h5 weight-semibold">Eksempelstyrelsen</span></li>
+                    <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                    <li><a class="function-link" href="tel:12 34 56 78">12
+                            34 56 78</a></li>
+                    <li><a href="#" class="function-link">Tilgængelighedserklæring</a></li>
+                    <li><a href="#" class="function-link">Privatlivspolitik
+                            (cookies)</a></li>
+                </ul>
             </div>
         </div>
     </div>

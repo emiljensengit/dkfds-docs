@@ -1,0 +1,40 @@
+{
+  "tag_example": {
+    "items": [
+      {
+        "class": "",
+        "label": "Tags",
+        "state": "default"
+      },
+      {
+        "class": "",
+        "state": "hover"
+      },
+      {
+        "class": "",
+        "state": "active"
+      },
+      {
+        "class": "",
+        "state": "focus"
+      },
+      {
+        "class": "",
+        "label": "Tags med ikon",
+        "state": "icon-default"
+      },
+      {
+        "class": "",
+        "state": "icon-hover"
+      },
+      {
+        "class": "",
+        "state": "icon-active"
+      },
+      {
+        "class": "",
+        "state": "icon-focus"
+      }
+    ]
+  }
+}

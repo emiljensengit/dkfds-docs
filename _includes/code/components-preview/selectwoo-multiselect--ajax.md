@@ -1,6 +1,6 @@
 --- 
 permalink: /preview-components/selectwoo-multiselect--ajax.html
-layout: iframed-plugins 
+layout: iframed 
 title: Selectwoo-multiselect--ajax.html
 ---
 <div class="container">

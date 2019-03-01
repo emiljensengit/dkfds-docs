@@ -30,17 +30,17 @@ title: Lists.html
                     <ul class="sub_list">
 
                         <li>
-                            Ordered sublist
+                            Ordered list
 
                         </li>
 
                         <li>
-                            Ordered sublist
+                            Ordered list
 
                         </li>
 
                         <li>
-                            Ordered sublist
+                            Ordered list
 
                         </li>
 
@@ -75,17 +75,17 @@ title: Lists.html
                     <ol class="sub_list">
 
                         <li>
-                            Ordered sublist
+                            Ordered list
 
                         </li>
 
                         <li>
-                            Ordered sublist
+                            Ordered list
 
                         </li>
 
                         <li>
-                            Ordered sublist
+                            Ordered list
 
                         </li>
 

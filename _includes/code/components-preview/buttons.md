@@ -4,7 +4,7 @@ layout: iframed
 title: Buttons.html
 ---
 <div class="container">
-    <p class="h5">Primær knapper.</p>
+    <p class="h5">Primær knapper</p>
 
     <button class="button button-primary">Default</button>
 
@@ -45,20 +45,20 @@ title: Buttons.html
 
     <p class="h5">Tilbage-knap</p>
 
-    <button class="button button-quaternary"><svg class="icon-svg " ><use xlink:href="#menu-left"></use></svg>Tilbage</button>
+    <button class="button button-quaternary"><svg class="icon-svg " ><use href="#menu-left"></use></svg>Tilbage</button>
 
-    <button class="button button-quaternary button-hover"><svg class="icon-svg " ><use xlink:href="#menu-left"></use></svg>Tilbage</button>
+    <button class="button button-quaternary button-hover"><svg class="icon-svg " ><use href="#menu-left"></use></svg>Tilbage</button>
 
-    <button class="button button-quaternary button-active"><svg class="icon-svg " ><use xlink:href="#menu-left"></use></svg>Tilbage</button>
+    <button class="button button-quaternary button-active"><svg class="icon-svg " ><use href="#menu-left"></use></svg>Tilbage</button>
 
-    <button class="button button-quaternary focus"><svg class="icon-svg " ><use xlink:href="#menu-left"></use></svg>Tilbage</button>
+    <button class="button button-quaternary focus"><svg class="icon-svg " ><use href="#menu-left"></use></svg>Tilbage</button>
 
     <button class="button button-quaternary" disabled tab-index="-1"
-        aria-disabled="true"><svg class="icon-svg " ><use xlink:href="#menu-left"></use></svg>Tilbage</button>
+        aria-disabled="true"><svg class="icon-svg " ><use href="#menu-left"></use></svg>Tilbage</button>
 
     <p class="h5">Knap med ikon</p>
 
-    <button class="button button-primary"><svg class="icon-svg " ><use xlink:href="#refresh"></use></svg>
+    <button class="button button-primary"><svg class="icon-svg " ><use href="#refresh"></use></svg>
         Refresh</button>
 
 </div>

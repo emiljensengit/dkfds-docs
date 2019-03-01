@@ -1,0 +1,17 @@
+{
+  "textarea_example": {
+    "items": [
+      {
+        "id": "input-area",
+        "label": "Tekstområde med label",
+        "name": "input-area"
+      },
+      {
+        "id": "input-error",
+        "label": "Tekstområde med fejlbesked",
+        "name": "input-error",
+        "error": "Hjælpsom fejlbesked"
+      }
+    ]
+  }
+}

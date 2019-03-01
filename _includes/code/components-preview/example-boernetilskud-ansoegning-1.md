@@ -27,7 +27,7 @@ title: Example-boernetilskud-ansoegning-1.html
     </div>
 
     <!--2A: Solutiuon header -->
-    <div class="solution-header ">
+    <div class="solution-header header-end">
         <div class="container solution-header-inner">
             <div class="solution-heading">
                 <a href="#" title="Hjem" aria-label="logo link">
@@ -51,7 +51,7 @@ title: Example-boernetilskud-ansoegning-1.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
@@ -239,7 +239,7 @@ title: Example-boernetilskud-ansoegning-1.html
                                 <br> 353535-3535 <br> Fælles</label>
                         </div>
 
-                        <button class="button button-secondary mt-4"><svg class="icon-svg " ><use xlink:href="#add"></use></svg>
+                        <button class="button button-secondary mt-4"><svg class="icon-svg " ><use href="#add"></use></svg>
                             Tilføj barn</button>
                     </fieldset>
                     <div>

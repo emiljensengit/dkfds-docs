@@ -26,7 +26,7 @@ title: Example-praktikplads-page-3.html
     </div>
 
     <!--2A: Solutiuon header -->
-    <div class="solution-header ">
+    <div class="solution-header header-end">
         <div class="container solution-header-inner">
             <div class="solution-heading">
                 <a href="#" title="Hjem" aria-label="logo link">
@@ -38,10 +38,10 @@ title: Example-praktikplads-page-3.html
             <div class="solution-info">
                 <!-- nav-secondary -->
 
-                <h6 class="h5 authority-name"> Praktikplads-AUB</h6>
+                <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
                 <p><button class="button-unstyled button-contact"
-                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg"><use href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -51,7 +51,7 @@ title: Example-praktikplads-page-3.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
@@ -108,9 +108,9 @@ title: Example-praktikplads-page-3.html
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
-                    <a href="#" class="function-link"><svg class="icon-svg " ><use xlink:href="#printer"></use></svg>
+                    <a href="#" class="function-link"><svg class="icon-svg " ><use href="#printer"></use></svg>
                         Udskriv</a>
-                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#help-circle-outline"></use></svg>
+                    <a href="" class="function-link"><svg class="icon-svg " ><use href="#help-circle-outline"></use></svg>
                         Hjælp</a>
                 </div>
             </div>

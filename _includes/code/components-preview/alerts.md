@@ -91,9 +91,9 @@ title: Alerts.html
 
     <div class="alert alert-info" role="alert" aria-label="Beskedbox der viser information">
         <div class="alert-body">
-            <p class="alert-text">Besked uden overskrift. Sed ut
-                perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium.</p>
+            <p class="alert-text">Sed ut perspiciatis unde omnis iste
+                natus error sit voluptatem accusantium doloremque
+                laudantium.</p>
         </div>
     </div>
 

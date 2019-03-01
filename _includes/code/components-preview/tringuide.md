@@ -119,7 +119,7 @@ title: Tringuide.html
                         1. Trin 1
 
                         <span class="sidenav-icon">
-                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
                         </span>
 
                     </a>
@@ -130,7 +130,7 @@ title: Tringuide.html
                         2. Trin 2
 
                         <span class="sidenav-icon">
-                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
                         </span>
 
                     </a>
@@ -139,6 +139,10 @@ title: Tringuide.html
                 <li>
                     <a href="" class="active">
                         3. Trin 3 (valgt)
+
+                        <span class="sidenav-icon">
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
+                        </span>
 
                     </a>
                 </li>
@@ -172,7 +176,7 @@ title: Tringuide.html
                         1. Trin 1
 
                         <span class="sidenav-icon">
-                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
                         </span>
 
                     </a>
@@ -183,7 +187,7 @@ title: Tringuide.html
                         2. Trin 2
 
                         <span class="sidenav-icon">
-                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
                         </span>
 
                     </a>
@@ -193,6 +197,10 @@ title: Tringuide.html
                     <a class="active" disabled tab-index="-1"
                         aria-disabled="true">
                         3. Trin 3 (valgt)
+
+                        <span class="sidenav-icon">
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
+                        </span>
 
                     </a>
                 </li>
@@ -230,7 +238,7 @@ title: Tringuide.html
                         </div>
 
                         <span class="sidenav-icon">
-                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
                         </span>
 
                     </a>
@@ -247,7 +255,7 @@ title: Tringuide.html
                         </div>
 
                         <span class="sidenav-icon">
-                            <svg class="icon-svg " ><use xlink:href="#check"></use></svg>
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
                         </span>
 
                     </a>
@@ -262,6 +270,10 @@ title: Tringuide.html
                                 for trin 3</p>
 
                         </div>
+
+                        <span class="sidenav-icon">
+                            <svg class="icon-svg " ><use href="#check"></use></svg>
+                        </span>
 
                     </a>
                 </li>

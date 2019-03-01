@@ -9,7 +9,6 @@ title: Sidenav--compare.html
             <h5>Normal sidenavigation</h5>
 
             <h5 class="mt-6">1 level</h5>
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 sidebar-col">
@@ -56,7 +55,6 @@ title: Sidenav--compare.html
             </div>
 
             <h5 class="mt-6">2 levels</h5>
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 sidebar-col">
@@ -162,7 +160,6 @@ title: Sidenav--compare.html
             </div>
 
             <h5 class="mt-6">3 levels</h5>
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 sidebar-col">
@@ -325,7 +322,6 @@ title: Sidenav--compare.html
             <h5 class="mt-6 mt-md-0">Sidenavigation med information</h5>
 
             <h5 class="mt-6">1 level</h5>
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 sidebar-col">
@@ -381,7 +377,6 @@ title: Sidenav--compare.html
             </div>
 
             <h5 class="mt-6">2 levels</h5>
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 sidebar-col">
@@ -496,7 +491,6 @@ title: Sidenav--compare.html
             </div>
 
             <h5 class="mt-6">3 levels</h5>
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 sidebar-col">

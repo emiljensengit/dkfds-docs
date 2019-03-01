@@ -52,7 +52,7 @@ title: Checkbox.html
             <div class="form-group ">
                 <input id="fokus" type="checkbox" name="Focus" value="fokus"
                     class="form-checkbox focus  ">
-                <label for="fokus" class="">Focus</label>
+                <label for="fokus" class=""></label>
             </div>
 
         </li>
@@ -103,7 +103,7 @@ title: Checkbox.html
         <li class="mb-2">
 
             <div class="form-group ">
-                <input id="fokus-large" type="checkbox" name="Focus-large"
+                <input id="fokus-large" type="checkbox" name="fokus-large"
                     value="fokus-large" class="form-checkbox focus checkbox-large ">
                 <label for="fokus-large" class="">Focus-large</label>
             </div>

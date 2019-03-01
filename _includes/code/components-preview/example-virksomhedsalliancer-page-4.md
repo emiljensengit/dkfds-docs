@@ -42,7 +42,7 @@ title: Example-virksomhedsalliancer-page-4.html
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
                 <p><button class="button-unstyled button-contact"
-                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg"><use href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -51,7 +51,7 @@ title: Example-virksomhedsalliancer-page-4.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>
@@ -168,19 +168,19 @@ title: Example-virksomhedsalliancer-page-4.html
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>vedhæftfil-1.pdf</td>
+                                        <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use href="#file"></use></svg>vedhæftfil-1.pdf</td>
                                         <td class="align-text-right mt-4 mt-lg-0"><a
-                                                href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                                href="#" class="function-link link-right"><svg class="icon-svg " ><use href="#delete-outline"></use></svg></a></td>
                                     </tr>
                                     <tr>
-                                        <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>vedhæftfil-2.pdf</td>
+                                        <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use href="#file"></use></svg>vedhæftfil-2.pdf</td>
                                         <td class="align-text-right mt-4 mt-lg-0"><a
-                                                href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                                href="#" class="function-link link-right"><svg class="icon-svg " ><use href="#delete-outline"></use></svg></a></td>
                                     </tr>
                                     <tr>
-                                        <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use xlink:href="#file"></use></svg>vedhæftfil-3.pdf</td>
+                                        <td class="mt-4 mt-lg-0 break-word w-percent-md-40"><svg class="icon-svg " ><use href="#file"></use></svg>vedhæftfil-3.pdf</td>
                                         <td class="align-text-right mt-4 mt-lg-0"><a
-                                                href="#" class="function-link link-right"><svg class="icon-svg " ><use xlink:href="#delete-outline"></use></svg></a></td>
+                                                href="#" class="function-link link-right"><svg class="icon-svg " ><use href="#delete-outline"></use></svg></a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -211,7 +211,15 @@ title: Example-virksomhedsalliancer-page-4.html
     <div class="footer">
         <div class="container">
             <div class="align-text-left">
-                <ul class="unstyled-list inline-list"></ul>
+                <ul class="unstyled-list inline-list">
+                    <li><span class="h5 weight-semibold">Eksempelstyrelsen</span></li>
+                    <li><a class="function-link" href="mailto:support@example.dk">support@example.dk</a></li>
+                    <li><a class="function-link" href="tel:12 34 56 78">12
+                            34 56 78</a></li>
+                    <li><a href="#" class="function-link">Tilgængelighedserklæring</a></li>
+                    <li><a href="#" class="function-link">Privatlivspolitik
+                            (cookies)</a></li>
+                </ul>
             </div>
         </div>
     </div>

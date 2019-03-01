@@ -38,6 +38,12 @@ title: Tabnav.html
             </a>
         </li>
 
+        <li>
+            <a href="">
+                Tabnav 6
+            </a>
+        </li>
+
     </ul>
 
 </div>

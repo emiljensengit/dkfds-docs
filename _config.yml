@@ -83,3 +83,4 @@ exclude:
   - scss
   - webpack.config.js
   - postcss.config.json
+  - examples

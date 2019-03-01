@@ -17,7 +17,7 @@ title: Text-area.html
 
         <span class="form-error-message" id="form-error-message-input-error"
             role="alert">Hjælpsom fejlbesked</span>
-        <textarea class="form-input " placeholder="" id="input-error" name="input-area" type="text" aria-describedby="form-error-message-input-error"></textarea>
+        <textarea class="form-input " placeholder="" id="input-error" name="input-error" type="text" aria-describedby="form-error-message-input-error"></textarea>
     </div>
 
 </div>

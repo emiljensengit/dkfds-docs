@@ -1,0 +1,25 @@
+{
+  "tabnavlist": {
+    "items": [
+      {
+        "title": "Tabnav 1"
+      },
+      {
+        "title": "Tabnav 2",
+        "active": true
+      },
+      {
+        "title": "Tabnav 3"
+      },
+      {
+        "title": "Tabnav 4"
+      },
+      {
+        "title": "Tabnav 5"
+      },
+      {
+        "title": "Tabnav 6"
+      }
+    ]
+  }
+}

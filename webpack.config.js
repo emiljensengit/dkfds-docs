@@ -9,7 +9,9 @@ module.exports = function (outputPath, prod) {
     entry: {
       styleguide: ["./javascript/start.js", "./scss/styleguide.scss"],
       styleguide_borgerdk: ["./scss/styleguide-borgerdk.scss"],
-      styleguide_virkdk: ["./scss/styleguide-virkdk.scss"]
+      "dkfds-datatables-example": ["./examples/plugins/datatables/js/dkfds-datatables-example.js"],
+      "dkfds-selectwoo-example": ["./examples/plugins/selectwoo/js/dkfds-selectwoo-example.js"],
+      "dkfds-pikaday-example": ["./examples/plugins/pikaday/js/dkfds-pikaday-example.js"]
     },
     module: {
       rules: [
@@ -97,18 +99,6 @@ module.exports = function (outputPath, prod) {
       modules: ["node_modules"]
     },
     plugins: [
-      new CopyWebpackPlugin( 
-        [
-          {//copies all content from /img to /assets/img
-            from: "./img/**/*",
-            to: "" // i assets
-          },
-          { //copy plugin example scripts
-            from: "./node_modules/dkfds-plugins/dist/js/*.js",
-            to: "./js", // i assets
-            flatten: true
-          }
-        ]),
       new MiniCssExtractPlugin(
         {
           filename: 'style/[name].css',

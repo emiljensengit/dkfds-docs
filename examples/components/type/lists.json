@@ -1,0 +1,30 @@
+{
+  "lists": {
+    "list_ul": [
+      {"text": "Ordered list"},
+      {"text": "Ordered list"},
+      {"text": "Ordered list"},
+      {
+        "text": "Ordered list",
+        "list_ul": [
+          {"text": "Ordered list"},
+          {"text": "Ordered list"},
+          {"text": "Ordered list"}
+        ]
+      }
+    ],
+    "list_ol": [
+      {"text": "Ordered list"},
+      {"text": "Ordered list"},
+      {"text": "Ordered list"},
+      {
+        "text": "Ordered list",
+        "list_ol": [
+          {"text": "Ordered list"},
+          {"text": "Ordered list"},
+          {"text": "Ordered list"}
+        ]
+      }
+    ]
+  }
+}

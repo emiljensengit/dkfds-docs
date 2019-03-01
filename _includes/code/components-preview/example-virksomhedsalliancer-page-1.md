@@ -42,7 +42,7 @@ title: Example-virksomhedsalliancer-page-1.html
                 <h6 class="h5 authority-name"> Styrelsen for Eksempler</h6>
 
                 <p><button class="button-unstyled button-contact"
-                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg "><use xlink:href="#menu-right"></use></svg></button></p>
+                        data-micromodal-trigger="modal-contact">Kontakt<svg class="icon-svg"><use href="#menu-right"></use></svg></button></p>
 
             </div>
         </div>
@@ -51,7 +51,7 @@ title: Example-virksomhedsalliancer-page-1.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>

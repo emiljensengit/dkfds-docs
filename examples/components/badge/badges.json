@@ -1,0 +1,16 @@
+{
+  "badge_example": {
+    "items": [
+      {
+        "class": "large",
+        "label": "Stort badge",
+        "state": "large"
+      },
+      {
+        "class": "small",
+        "label": "Lille badge",
+        "state": "small"
+      }
+    ]
+  }
+}

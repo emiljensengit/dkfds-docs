@@ -11,12 +11,12 @@ title: Tooltip.html
     </button>
     <p class="h5">Ikon med popover (kræver tryk)</p>
     <a href="javascript:void(0)" class="popover js-tooltip"
-        data-tippy-trigger="click" role="tooltip" title="Dette er en hjælpetekst i en popover"><svg class="icon-svg " ><use xlink:href="#help-circle-outline"></use></svg><span
+        data-tippy-trigger="click" role="tooltip" title="Dette er en hjælpetekst i en popover"><svg class="icon-svg " ><use href="#help-circle-outline"></use></svg><span
             class="sr-only">Dette er tooltipteksten til screenreaders,
             popover</span></a>
 
     <p class="h5">Ikon med tooltip</p>
-    <a href="javascript:void(0)" class="js-tooltip" role="tooltip" title="Dette er en hjælpetekst i en popover"><svg class="icon-svg " ><use xlink:href="#help-circle-outline"></use></svg><span
+    <a href="javascript:void(0)" class="js-tooltip" role="tooltip" title="Dette er en hjælpetekst i en popover"><svg class="icon-svg " ><use href="#help-circle-outline"></use></svg><span
             class="sr-only">Dette er tooltipteksten til screenreaders,
             popover</span></a>
 
