@@ -30,8 +30,6 @@
 
 
   
-  <link rel="canonical" href="http://localhost:4000/pages/eksempler/boernetilskud/boernetilskud-2/">
-  
 
 <!-- Favicons
 ================================================== -->
@@ -121,7 +119,7 @@
     </div>
 
     <!--2A: Solutiuon header -->
-    <div class="solution-header ">
+    <div class="solution-header header-end">
         <div class="container solution-header-inner">
             <div class="solution-heading">
                 <a href="#" title="Hjem" aria-label="logo link">
@@ -145,7 +143,7 @@
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
 
         <!-- 3: Main navigation-->
         <div class="navbar navbar-primary">
@@ -305,24 +303,25 @@
                         <div class="form-group form-group-day">
                             <label class="form-label" for="date_of_day_2">Dato</label>
                             <input class="form-input js-calendar-day-input"
-                                type="tel" min="1" max="31" maxlength="2"
-                                pattern="^[0-9]{0,2}$" data-input-regex="^[0-9]{0,2}$"
-                                title="Indskriv dag på månenden som tal">
+                                id="date_of_day_2" type="tel" min="1" max="31"
+                                maxlength="2" pattern="^[0-9]{0,2}$"
+                                data-input-regex="^[0-9]{0,2}$" title="Indskriv dag på månenden som tal">
                         </div>
                         <div class="form-group form-group-month">
                             <label class="form-label" for="date_of_month_1">Måned</label>
                             <input class="form-input js-calendar-month-input"
-                                type="tel" min="1" max="12" maxlength="2"
-                                pattern="^[0-9]{0,2}$" data-input-regex="^[0-9]{0,2}$"
-                                title="Indskriv månedens nummer">
+                                id="date_of_month_1" type="tel" min="1"
+                                max="12" maxlength="2" pattern="^[0-9]{0,2}$"
+                                data-input-regex="^[0-9]{0,2}$" title="Indskriv månedens nummer">
                         </div>
                         <div class="form-group form-group-year ">
                             <label class="form-label" for="date_of_year_3">År</label>
                             <input class="form-input js-calendar-year-input"
-                                type="tel" min="1900" max="3000" maxlength="4"
-                                pattern="^[0-9]{0,4}$" data-input-regex="^[0-9]{0,4}$"
-                                title="Indskriv årstal">
+                                for="date_of_year_3" type="tel" min="1900"
+                                max="3000" maxlength="4" pattern="^[0-9]{0,4}$"
+                                data-input-regex="^[0-9]{0,4}$" title="Indskriv årstal">
                         </div>
+
                     </div>
                 </div>
             </fieldset>
