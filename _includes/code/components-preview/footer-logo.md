@@ -43,22 +43,22 @@ title: Footer-logo.html
                 <div class="col-12 col-sm-12 col-md-3 footer-col">
                     <section>
                         <div class=" align-text-left ">
-                            <h1 class="h5 mb-4" title="Links" aria-label="Links">Links</1>
+                            <h1 class="h5 mb-4" title="Links" aria-label="Links">Links</h1>
 
-                                <ul class=" mt-0 nobullet-list">
+                            <ul class=" mt-0 nobullet-list">
 
-                                    <li><a class="function-link" href="#">Læs
-                                            lidt om dit</a></li>
+                                <li><a class="function-link" href="#">Læs
+                                        lidt om dit</a></li>
 
-                                    <li><a class="function-link" href="#">Her
-                                            er også lidt om dat</a></li>
+                                <li><a class="function-link" href="#">Her
+                                        er også lidt om dat</a></li>
 
-                                    <li><a class="function-link" href="#">Eller
-                                            måske er du interesseret i
-                                            noget helt andet, som tager
-                                            mange linjer at forklare</a></li>
+                                <li><a class="function-link" href="#">Eller
+                                        måske er du interesseret i noget
+                                        helt andet, som tager mange linjer
+                                        at forklare</a></li>
 
-                                </ul>
+                            </ul>
 
                         </div>
                     </section>
@@ -68,16 +68,16 @@ title: Footer-logo.html
                         <div class=" align-text-left ">
                             <h1 class="h5 mb-4" title="Webtilgængelighed og cookies"
                                 aria-label="Webtilgængelighed og cookies">Webtilgængelighed
-                                og cookies</1>
+                                og cookies</h1>
 
-                                <ul class=" mt-0 nobullet-list">
+                            <ul class=" mt-0 nobullet-list">
 
-                                    <li><a class="function-link" href="#">Tilgængelighedserklæring</a></li>
+                                <li><a class="function-link" href="#">Tilgængelighedserklæring</a></li>
 
-                                    <li><a class="function-link" href="#">Privatlivspolitik
-                                            (cookies)</a></li>
+                                <li><a class="function-link" href="#">Privatlivspolitik
+                                        (cookies)</a></li>
 
-                                </ul>
+                            </ul>
 
                         </div>
                     </section>
