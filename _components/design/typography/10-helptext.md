@@ -16,14 +16,14 @@ order: 10
   </button>
   <div id="helptext-docs-tech" aria-hidden="true" class="accordion-content">
     <p>Hjælpetekst og fejltekst knytter sig i udpræget grad til formularer, men kan anvendes hvor der er behov for at hjælpe brugeren med forklaring af et ovenstående element eller give feedback på et element.</p>
-    <h4>Hjælpetekst</h4>
+    <h2 class="h4">Hjælpetekst</h2>
     <p>Nogle gange er det nødvendigt at forklare eller eksemplificere en feltoverskrift, til dette kan man anvende hjælpetekst. Brug også hjælpetekst, til at forklare hvorfor du efterspørger særligt følsomme oplysninger, hvis dette kan være en barriere for at få et svar fra brugeren.</p>
     <ul>
         <li>
             Brug hjælpetekst til uddybende forklaring (fx til at understøtte feltoverskrifter).
         </li>
     </ul>
-    <h4>Fejlbesked</h4>
+    <h2 class="h4">Fejlbesked</h2>
     <p>Det er vigtigt for brugerne at de får feedback særligt når noget fejler. Fejltekst er et helt centralt element for formularer. Sørg for at de er knivskarpe og præcist kommunikerer hvad der er fejlet og hvad brugeren skal gøre for at komme videre, gerne i en og samme sætning.</p>
     <ul>
         <li>Skriv klar og præcis fejltekst i et sprog brugeren forstår.</li>
