@@ -1,33 +1,5 @@
 {% from "components/icons/icons--svg.njk" import icon_svg as icon_svg %}
-{%- macro button(class, state) -%}
-  {% if (state == 'default') %}
-    <button class="button button-{{class}}">Default</button>
-  {% elif (state == 'hover') %}
-    <button class="button button-{{class}} button-hover">Hover</button>
-  {% elif (state == 'active') %}
-    <button class="button button-{{class}} button-active">Active</button>
-  {% elif (state == 'focus') %}
-    <button class="button button-{{class}} focus">Focus</button>
-  {% elif (state == 'tertiary') %}
-    <button class="button button-{{class}} tertiary">Tertiary</button>
-  {% elif (state == 'disabled') %}
-    <button class="button button-{{class}}" disabled tab-index="-1" aria-disabled="true">Disabled</button>
-  {% elif (state == 'icon') %}
-  <button class="button button-{{class}}">{{ icon_svg('refresh')}} Refresh</button>
-  {% elif (state == 'back-default') %}
-    <button class="button button-{{class}}">{{icon_svg('menu-left')}}Tilbage</button>
-  {% elif (state == 'back-hover') %}
-    <button class="button button-{{class}} button-hover">{{icon_svg('menu-left')}}Tilbage</button>
-  {% elif (state == 'back-active') %}
-    <button class="button button-{{class}} button-active">{{icon_svg('menu-left')}}Tilbage</button>
-  {% elif (state == 'back-focus') %}
-    <button class="button button-{{class}} focus">{{icon_svg('menu-left')}}Tilbage</button>
-  {% elif (state == 'back-disabled') %}
-    <button class="button button-{{class}}" disabled tab-index="-1" aria-disabled="true">{{icon_svg('menu-left')}}Tilbage</button>
-  {%- endif %}
-
-
-{%- endmacro -%}
+{% from "components/buttons/buttons.njk" import button as button %}
 
 <div class="container">
   {%- for buttongroup in button_example.button_groups -%}
@@ -35,7 +7,7 @@
       <p class="h5">{{ buttongroup.label }}</p>
     {% endif -%}
     {%- for item in buttongroup.items -%}
-      {{ button(item.class, item.state) }}
+      {{ button(item.text, item.class, item.attribute, item.icon) }}
     {% endfor -%}
   {% endfor -%}
 

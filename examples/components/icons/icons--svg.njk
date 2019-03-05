@@ -1,4 +1,4 @@
-{% macro icon_svg(iconname, classes, aria) %}<svg class="icon-svg {{ classes }}" {% if aria %}aria-label ="{{aria}}"{% endif %}><use href="#{{iconname}}"></use></svg>{% endmacro %}
+{% from "components/icons/icons--svg.njk" import icon_svg as icon_svg %}
 
 <div class="container">
   <div class="icon-list row">

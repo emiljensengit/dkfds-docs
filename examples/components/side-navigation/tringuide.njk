@@ -1,71 +1,12 @@
-{% from "components/icons/icons--svg.njk" import icon_svg as icon_svg %}
 {% from "components/overflow-menu/overflow-menu.njk" import overflowmenu as overflowmenu %}
 
-{# Free step guide #}
-{% macro tringuide(trinliste) %}
-  <ul class="sidenav-list">
-    {% for trin in trinliste %}
-      <li{% if trin.disabled %} class="disabled"{% endif %}>
-        <a href="{{trin.href}}" {% if trin.active %} class="active" {% endif %}>
-            {{loop.index}}. {{trin.text}}
-
-            {% if trin.icon %}
-            <span class="sidenav-icon{%if trin.iconclass %} {{ trin.iconclass }}{% endif %}">
-                {{ icon_svg(trin.icon) }}
-            </span>
-            {% endif %}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endmacro %}
-
-{# Locked step guide #}
-{% macro tringuide_locked(trinliste) %}
-  <ul class="sidenav-list-locked">
-    {% for trin in trinliste %}
-      <li class="disabled">
-        <a  {% if trin.active %} class="active" {% endif %} disabled tab-index="-1" aria-disabled="true">
-            {{loop.index}}. {{trin.text}}
-
-            {% if trin.icon %}
-            <span class="sidenav-icon{%if trin.iconclass %} {{ trin.iconclass }}{% endif %}">
-                {{ icon_svg(trin.icon) }}
-            </span>
-            {% endif %}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endmacro %}
-
-{# information step guide #}
-{% macro tringuide_information(trinliste) %}
-  <ul class="sidenav-list">
-    {% for trin in trinliste %}
-      <li{% if trin.disabled %} class="disabled"{% endif %}>
-        <a href="{{trin.href}}" {% if trin.active %} class="active" {% endif %}>
-            <div class="d-inline-block">
-                {{loop.index}}. {{trin.text}}
-                {% if trin.information %}
-                    <p class="sidenav-information">{{trin.information}}</p>
-                {% endif %}
-            </div>
-            {% if trin.icon %}
-                <span class="sidenav-icon{%if trin.iconclass %} {{ trin.iconclass }}{% endif %}">
-                    {{ icon_svg(trin.icon) }}
-                </span>
-            {% endif %}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endmacro %}
+{% from "components/side-navigation/tringuide.njk" import tringuide as tringuide %}
+{% from "components/side-navigation/tringuide.njk" import tringuide_locked as tringuide_locked %}
+{% from "components/side-navigation/tringuide.njk" import tringuide_information as tringuide_information %}
 
 <div class="container">
     <div class="row">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 sidebar-col">
-
                 <p class="h5 mt-6">Trinindikator i overflow-menu</p>
                 {{overflowmenu("Trin 3 af 5","overflow5", true, false, "menu-down" ,"
                     <ul class='sidenav-list'>

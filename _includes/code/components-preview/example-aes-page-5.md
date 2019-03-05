@@ -85,7 +85,7 @@ title: Example-aes-page-5.html
         <button class="button-overflow-menu js-dropdown " data-js-target="#overflow_steps"
             aria-haspopup="true" aria-expanded="false">
             Trin 5 af 9
-            <svg class="icon-svg"><use xlink:href="#menu-down"></use></svg>
+            <svg class="icon-svg"><use href="#menu-down"></use></svg>
             <span class="sr-only">Åbner overflow menu</span>
         </button>
         <div class="overflow-menu-inner" id="overflow_steps" aria-hidden="true">
@@ -185,7 +185,6 @@ title: Example-aes-page-5.html
                         pattern="^[0-9]{0,4}$" data-input-regex="^[0-9]{0,4}$"
                         title="Indskriv årstal">
                 </div>
-
             </div>
         </div>
     </fieldset>
@@ -244,7 +243,6 @@ title: Example-aes-page-5.html
                                     max="3000" maxlength="4" pattern="^[0-9]{0,4}$"
                                     data-input-regex="^[0-9]{0,4}$" title="Indskriv årstal">
                             </div>
-
                         </div>
                     </div>
                 </fieldset>

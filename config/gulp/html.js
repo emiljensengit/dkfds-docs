@@ -83,7 +83,7 @@ gulp.task('nunjucks', function () {
             }
         }))
         .pipe(nunjucksRender({
-            path: 'examples'
+            path: 'node_modules/dkfds/src/'
         }))
         .pipe(prettify({
 

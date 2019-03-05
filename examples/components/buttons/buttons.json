@@ -5,24 +5,25 @@
         "label": "Primær knapper",
         "items": [
           {
-            "class": "primary",
-            "state": "default"
+            "text": "Default",
+            "class": "primary"
           },
           {
-            "class": "primary",
-            "state": "hover"
+            "text": "Hover",
+            "class": "primary button-hover"
           },
           {
-            "class": "primary",
-            "state": "active"
+            "text": "Active",
+            "class": "primary button-active"
           },
           {
-            "class": "primary",
-            "state": "focus"
+            "text": "Focus",
+            "class": "primary focus"
           },
           {
+            "text": "Disabled",
             "class": "primary",
-            "state": "disabled"
+            "attribute": "disabled tab-index=\"-1\" aria-disabled=\"true\""
           }
         ]
       },
@@ -30,24 +31,25 @@
         "label": "Sekundær knapper",
         "items": [
           {
-            "class": "secondary",
-            "state": "default"
+            "text": "Default",
+            "class": "secondary"
           },
           {
-            "class": "secondary",
-            "state": "hover"
+            "text": "Hover",
+            "class": "secondary button-hover"
           },
           {
-            "class": "secondary",
-            "state": "active"
+            "text": "Active",
+            "class": "secondary button-active"
           },
           {
-            "class": "secondary",
-            "state": "focus"
+            "text": "Focus",
+            "class": "secondary focus"
           },
           {
+            "text": "Disabled",
             "class": "secondary",
-            "state": "disabled"
+            "attribute": "disabled tab-index=\"-1\" aria-disabled=\"true\""
           }
         ]
       },
@@ -55,24 +57,25 @@
         "label": "Tertiær knapper",
         "items": [
           {
-            "class": "tertiary",
-            "state": "default"
+            "text": "Default",
+            "class": "tertiary"
           },
           {
-            "class": "tertiary",
-            "state": "hover"
+            "text": "Hover",
+            "class": "tertiary button-hover"
           },
           {
-            "class": "tertiary",
-            "state": "active"
+            "text": "Active",
+            "class": "tertiary button-active"
           },
           {
-            "class": "tertiary",
-            "state": "focus"
+            "text": "Focus",
+            "class": "tertiary focus"
           },
           {
+            "text": "Disabled",
             "class": "tertiary",
-            "state": "disabled"
+            "attribute": "disabled tab-index=\"-1\" aria-disabled=\"true\""
           }
         ]
       },
@@ -80,24 +83,30 @@
         "label": "Tilbage-knap",
         "items": [
           {
+            "text": "Default",
             "class": "quaternary",
-            "state": "back-default"
+            "icon": "menu-left"
           },
           {
-            "class": "quaternary",
-            "state": "back-hover"
+            "text": "Hover",
+            "class": "quaternary button-hover",
+            "icon": "menu-left"
           },
           {
-            "class": "quaternary",
-            "state": "back-active"
+            "text": "Active",
+            "class": "quaternary button-active",
+            "icon": "menu-left"
           },
           {
-            "class": "quaternary",
-            "state": "back-focus"
+            "text": "Focus",
+            "class": "quaternary focus",
+            "icon": "menu-left"
           },
           {
+            "text": "Disabled",
             "class": "quaternary",
-            "state": "back-disabled"
+            "attribute": "disabled tab-index=\"-1\" aria-disabled=\"true\"",
+            "icon": "menu-left"
           }
         ]
       },
@@ -105,8 +114,9 @@
         "label": "Knap med ikon",
         "items": [
           {
+            "text": "Refresh",
             "class": "primary",
-            "state": "icon"
+            "icon": "refresh"
           }
         ]
       }

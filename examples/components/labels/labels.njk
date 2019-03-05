@@ -1,6 +1,4 @@
-{% macro label(classes, text) %}
-  <span class="label{% if classes %} {{classes}}{% endif %}">{{text | safe}}</span>
-{% endmacro %}
+{% from "components/labels/labels.njk" import label as label %}
 
 <ul class="unstyled-list">
   {% for labels in label_example.items %}

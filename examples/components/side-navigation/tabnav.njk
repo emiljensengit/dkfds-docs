@@ -1,17 +1,4 @@
-
-
-{% macro tabnav(tabnav) %}
-
-<ul class="tabnav">
-  {% for item in tabnavlist.items %}
-  <li>
-    <a href="{{item.href}}" {% if item.active %} class="active"{% endif %}>
-      {{ item.title }}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
-{% endmacro %}
+{% from "components/side-navigation/tabnav.njk" import tabnav as tabnav %}
 
 <div class="container">
   <p class="h4">Tab navigation</p>

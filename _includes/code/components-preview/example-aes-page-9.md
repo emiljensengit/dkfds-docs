@@ -90,7 +90,7 @@ title: Example-aes-page-9.html
                     data-js-target="#overflow_steps" aria-haspopup="true"
                     aria-expanded="false">
                     Trin 9 af 9
-                    <svg class="icon-svg"><use xlink:href="#menu-down"></use></svg>
+                    <svg class="icon-svg"><use href="#menu-down"></use></svg>
                     <span class="sr-only">Åbner overflow menu</span>
                 </button>
                 <div class="overflow-menu-inner" id="overflow_steps"

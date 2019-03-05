@@ -1,10 +1,4 @@
-{%- macro badge(class, state) -%}
-  {%- if (state == 'large') -%}
-    <label class="badge badge-{{class}}">Nyhed</label>
-  {%- elif (state == 'small') -%}
-    <label class="badge badge-{{class}}">Lille nyhed</label>
-  {%- endif %}
-{%- endmacro -%}
+{% from "components/badge/badges.njk" import badge as badge %}
 
 <div class="container">
   {%- for badges in badge_example.items -%}

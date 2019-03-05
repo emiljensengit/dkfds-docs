@@ -2,38 +2,42 @@
   "tag_example": {
     "items": [
       {
+        "text": "Default",
         "class": "",
-        "label": "Tags",
-        "state": "default"
+        "label": "Tags"
       },
       {
-        "class": "",
-        "state": "hover"
+        "text": "Hover",
+        "class": "tag-hover"
       },
       {
-        "class": "",
-        "state": "active"
+        "text": "Active",
+        "class": "tag-active"
       },
       {
-        "class": "",
-        "state": "focus"
+        "text": "Focus",
+        "class": "focus"
       },
       {
+        "text": "Default",
         "class": "",
         "label": "Tags med ikon",
-        "state": "icon-default"
+        "icon": "close-circle"
       },
       {
-        "class": "",
-        "state": "icon-hover"
+        "text": "Hover",
+        "class": "tag-hover",
+        "icon": "close-circle"
       },
       {
-        "class": "",
-        "state": "icon-active"
+        "text": "Active",
+        "class": "tag-active",
+        "icon": "close-circle"
       },
       {
-        "class": "",
-        "state": "icon-focus"
+        "text": "Focus",
+        "class": "focus",
+        "icon": "close-circle"
       }
     ]
   }

@@ -90,8 +90,8 @@ title: Accordion.html
 
     </ul>
 
-    <p class="mt-6">Tilføj klassen `accordion-bordered` til `.accordion`
-        for at tilføje en synlig ramme:</p>
+    <p class="mt-6">Tilføj klassen <code>accordion-bordered</code> til
+        <code>.accordion</code> for at tilføje en synlig ramme:</p>
 
     <ul class="accordion accordion-bordered">
 
@@ -179,8 +179,8 @@ title: Accordion.html
     </ul>
 
     <p class="mt-6">Man kan også tillade at flere kan være åbne på samme
-        tid. Dette gøres ved at tilføje `aria-multiselectable="true"`
-        attributten til `.accordion`.</p>
+        tid. Dette gøres ved at tilføje <code>aria-multiselectable="true"</code>
+        attributten til <code>.accordion</code>.</p>
 
     <ul class="accordion " aria-multiselectable="true">
 
