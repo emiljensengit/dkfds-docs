@@ -17,4 +17,5 @@ assets
 !docs/assets
 
 pdf
+docs/puppeteer.js
 
