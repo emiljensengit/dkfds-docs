@@ -41,10 +41,9 @@ Go to `127.0.0.1:4000` in your browser — you should be viewing a local instanc
 If you are coding and want to watch for changes run the following command:
 
 - `npm run watch`: Runs a series of commands that watches for any changes in both the Standards node module and the root level asset folders in this repo.
-### Puppeteer
+## Puppeteer
 Puppeteer is a node package included in this project, which helps with generating the PDFs and screenshots of the docs site
-
-####Use
+### Use
 The puppeteer script must be run after each release, so we have a version of the documentationsite that corresponds to each version of dkfds.
 
 In order to run the script be sure to have the pdf root folder created in the dkfds-docs project including the screenshots subfolder, so we have the following folder structure locally:
@@ -57,8 +56,7 @@ Now, follow these steps
 2. Run the command ` node puppeteer.js `
 3. Wait for the script to finish
 4. Zip the files created in the pdf folder - do NOT commit the generated files!
-
-####Development
+### Development
 
 Puppeteer is run through the puppeteer.js file in the root folder of this project.
 
