@@ -19,7 +19,7 @@ subnav:
 
 <div class="alert alert-error" role="alert">
   <div class="alert-body">
-    <h3 class="alert-heading">Ikon mangler - Vi afventer fix fra SelectWoo</h3>
+    <h2 class="alert-heading h3">Ikon mangler - Vi afventer fix fra SelectWoo</h2>
   </div>
 </div>
 

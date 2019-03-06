@@ -34,16 +34,16 @@ lead: Spinner lead
   <div id="spinner-docs" class="accordion-content">
      <article>
         <section>
-            <h4>Tilgængelighed</h4>
+            <h2 class="h4">Tilgængelighed</h2>
             <p>Anvend ARIA attributten <code>aria-busy="true"</code> på elementet, der er igang med at blive opdateret til at markere for skærmlæsere, at der er en live region i gang med indlæsning og sæt værdien til <code>false</code>, når den er indlæst.</p>
         </section>
         <section>
-            <h4>Brugervenlighed</h4>
-            <h5>Anvendes til</h5>
+            <h2 class="h4">Brugervenlighed</h2>
+            <h3 class="h4">Anvendes til</h3>
             <p>En spinner anvendes til at signalere en forsinket indlæsning af en side eller del-funktion ved at give brugeren en synlig respons.</p>
-            <h5>Anvendes ikke til</h5>
+            <h3 class="h4">Anvendes ikke til</h3>
             <p>Spinner skal ikke anvendes som en standard komponent på alle løsninger, da det må forventes at langt størstedelen vil kunne indlæse inden for 3 sekunder.</p>
-            <h5>Vejledning</h5>                
+            <h3 class="h4">Vejledning</h3>                
             <ul>
                 <li>Anvend kun spinners i særdeles begrænset omfang og kun på løsninger, hvor der kan forventes ventetid.</li>
                 <li>En spinner skal ikke anvendes til kompensation for en permanent langsom performance.</li>

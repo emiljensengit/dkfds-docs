@@ -35,15 +35,14 @@ lead: Lader brugeren vælge en fil.
   <div id="file-input-docs" aria-hidden="false" class="accordion-content">
     <article>
       <section>
-          <h4>Tilgængelighed</h4>
+          <h3 class="h4">Tilgængelighed</h3>
           <p>Bør kun anvendes, hvis det er strengt nødvendigt for din løsning.</p>
       </section>
       <section>
-          <h4>Brugervenlighed</h4>
-          <h5>Anvendes til</h5>
+          <h3 class="h4">Brugervenlighed</h3>
+          <h4 class="h5">Anvendes til</h4>
           <p>Lade brugeren vælge og overføre en fil fra sin egen computer, tablet eller mobil.</p>
-          <h5>Anvendes ikke til</h5>
-          <h5>Vejledning</h5>
+          <h4 class="h5">Vejledning</h4>
           <ul>
               <li>Sørg for at brugeren får en respons, når filen er overført.</li>
               <li>Gør tydeligt opmærksom på, hvilke formater og størrelser, der vil blive accepteret.</li>

@@ -38,16 +38,16 @@ lead: Tre seperate felter er den nemmeste måde for brugeren at indskrive dato.
   <div id="date-input-docs" aria-hidden="false" class="accordion-content">
     <article>
       <section>
-          <h4>Tilgængelighed</h4>
+          <h3 class="h4">Tilgængelighed</h3>
           <p>Anvend ikke JavaScript til automatisk at flytte fokus fra felt til felt, da det gør det svært for tastatur-brugere at navigere i formularen.</p>          
       </section>
       <section>
-          <h4>Brugervenlighed</h4>
-          <h5>Anvendes til</h5>
+          <h3 class="h4">Brugervenlighed</h3>
+          <h4 class="h5">Anvendes til</h4>
           <p>Sætte brugeren i stand til at tilføje struktureret datoinformation.</p>
-          <h5>Anvendes ikke til</h5>
+          <h4 class="h5">Anvendes ikke til</h4>
           <p>Når der er specifikt udvalgte datoer at vælge i mellem som fx ved bookninger og planlægning med åbne og lukkede datoer. Der bør du i stedet overveje at anvende <a href="/dkfds-docs/udvidelser/pikaday/">datovælgerudvidelsen</a> eller på anden vis indikere, hvilke præcise datoer, der er ledige for brugeren.</p>
-          <h5>Vejledning</h5>
+          <h4 class="h5">Vejledning</h4>
           <p>Felternes rækkefølge skal modsvare den datoform, der anvendes i Danmark, dvs. dag, måned og år. Det skal afspejles i felternes labels.</p>
       </section>
     </article>

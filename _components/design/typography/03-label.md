@@ -28,7 +28,7 @@ order: 03
   <div id="typolabels-docs" aria-hidden="false" class="accordion-content">
     <article>
       <section>
-          <h4>Feltoverskrift (label)</h4>
+          <h3 class="h4">Feltoverskrift (label)</h3>
           <p>Formularer kan betragtes som en dialog med brugerne, hvor feltoverskriften er dit spørgsmål til brugeren og feltet som brugerne kan skrive i er svaret de giver dig.</p>              
           <ul>
             <li>Feltoverskrifter er dine spørgsmål til brugeren.</li>  
@@ -38,7 +38,7 @@ order: 03
             <li>Feltoverskrifter placeres altid over feltet, som anvist under formularelementer.</li>
             <li>Alle felter eller sammenhængende gruppe af felter (fx datovalg) skal have en feltoverskrift.</li>
           </ul>
-          <h4>Tabeloverskrift (th)</h4>
+          <h3 class="h4">Tabeloverskrift (th)</h3>
           <p>Tabeloverskrifter er visuelt ens med feltoverskrifter, og bruges til at give overblik over rækker eller kolonner data i tabeller og lister.</p>
           <ul>
             <li>Tabeloverskrifter beskriver hvad indholdet i en række eller kolonne angiver.</li>  
