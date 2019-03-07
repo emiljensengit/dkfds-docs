@@ -10,37 +10,37 @@ title: Lists.html
             <ul>
 
                 <li>
-                    Ordered list
+                    Unordered list
 
                 </li>
 
                 <li>
-                    Ordered list
+                    Unordered list
 
                 </li>
 
                 <li>
-                    Ordered list
+                    Unordered list
 
                 </li>
 
                 <li>
-                    Ordered list
+                    Unordered list
 
                     <ul class="sub_list">
 
                         <li>
-                            Ordered list
+                            Unordered list
 
                         </li>
 
                         <li>
-                            Ordered list
+                            Unordered list
 
                         </li>
 
                         <li>
-                            Ordered list
+                            Unordered list
 
                         </li>
 
