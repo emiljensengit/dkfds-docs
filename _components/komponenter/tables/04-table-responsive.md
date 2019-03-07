@@ -15,7 +15,7 @@ lead:
   <div id="tech-responsive-docs" class="accordion-content">
       <section>
         <h3 class="h4">Responsive headers</h3>
-         <p><code>data-title</code> attribut bør tilføjes til hver <code>td</code>, således at en label bliver tilføjet hver celle på mindre skærme.</p>
+         <p><code>data-title</code> attribut bør tilføjes til hver <code>td</code>, således at en label bliver tilføjet for hver celle på mindre skærme.</p>
          <p>Bemærk, at <code>data-title</code> automatisk bliver tilføjet til hver <code>td</code>, hvis man har dkfds javascript filen inkluderet i sit projekt.</p>
          <h4 class="h5">Eksempel</h4>
          <pre>

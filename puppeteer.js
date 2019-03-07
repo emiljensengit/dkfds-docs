@@ -41,7 +41,8 @@ var pdfUrls = ["",
     "omdesignsystemet/tiludviklere/",
     "omdesignsystemet/anbefalingerudvikling/",
     "omdesignsystemet/gennemgang/",
-    "omdesignsystemet/releases/"
+    "omdesignsystemet/releases/",
+    "privatlivspolitik/"
 ];
 
 var exampleUrls = [
