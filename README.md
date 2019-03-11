@@ -55,7 +55,8 @@ Now, follow these steps
 1. Open command prompt and navigate to your project folder.
 2. Run the command ` node puppeteer.js `
 3. Wait for the script to finish
-4. Zip the files created in the pdf folder - do NOT commit the generated files!
+4. Zip the files created in the pdf folder - do NOT commit the generated files! 
+Filename should have the following format: 3.0.3-fds.zip - indicating 3.0.3 as the dkfds version that corresponds to this version of dkfds-docs.
 ### Development
 
 Puppeteer is run through the puppeteer.js file in the root folder of this project.
