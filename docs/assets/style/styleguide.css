@@ -5434,7 +5434,8 @@ footer .footer {
   @media (min-width: 768px) {
     footer .footer .inline-list > li:not(:last-child):after {
       content: "\B7" !important;
-      margin-left: 4px; } }
+      margin-left: 8px;
+      margin-right: 8px; } }
 
 footer .footer-theme {
   padding-top: 16px;
