@@ -13,7 +13,7 @@ title: Overflow-menu.html
                     data-js-target="#overflow1" aria-haspopup="true"
                     aria-expanded="false">
                     Overflow menu
-                    <svg class="icon-svg"><use href="#dots-vertical"></use></svg>
+                    <svg class="icon-svg"><use xlink:href="#dots-vertical"></use></svg>
                     <span class="sr-only">Åbner overflow menu</span>
                 </button>
                 <div class="overflow-menu-inner" id="overflow1"
@@ -38,7 +38,7 @@ title: Overflow-menu.html
                     data-js-target="#overflow2" aria-haspopup="true"
                     aria-expanded="false">
                     Overflow menu
-                    <svg class="icon-svg"><use href="#dots-vertical"></use></svg>
+                    <svg class="icon-svg"><use xlink:href="#dots-vertical"></use></svg>
                     <span class="sr-only">Åbner overflow menu</span>
                 </button>
                 <div class="overflow-menu-inner" id="overflow2"

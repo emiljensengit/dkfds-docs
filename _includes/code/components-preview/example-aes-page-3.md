@@ -52,7 +52,7 @@ title: Example-aes-page-3.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Christian Emil Vestergaard Christiansen</b><br>Forsikringens Forsikringsfirma</p>
@@ -70,7 +70,7 @@ title: Example-aes-page-3.html
         <div class="navbar">
             <div class="navbar-inner navbar-context-actions container">
                 <div class="nav-actions">
-                    <a href="" class="function-link"><svg class="icon-svg " ><use href="#save"></use></svg>
+                    <a href="" class="function-link"><svg class="icon-svg " ><use xlink:href="#save"></use></svg>
                         Gem kladde</a>
                 </div>
             </div>
@@ -85,7 +85,7 @@ title: Example-aes-page-3.html
         <button class="button-overflow-menu js-dropdown " data-js-target="#overflow_steps"
             aria-haspopup="true" aria-expanded="false">
             Trin 3 af 9
-            <svg class="icon-svg"><use href="#menu-down"></use></svg>
+            <svg class="icon-svg"><use xlink:href="#menu-down"></use></svg>
             <span class="sr-only">Åbner overflow menu</span>
         </button>
         <div class="overflow-menu-inner" id="overflow_steps" aria-hidden="true">
@@ -155,7 +155,7 @@ title: Example-aes-page-3.html
         <label for="iid-cpr" class="sr-only">Skadelidtes CPR-nr.</label>
         <input class="form-input input-width-xs" id="id-cpr" name="" title="Search"
             type="search">
-        <button class="button button-search"><svg class="icon-svg m-0" ><use href="#magnify"></use></svg><span
+        <button class="button button-search"><svg class="icon-svg m-0" ><use xlink:href="#magnify"></use></svg><span
                 class="sr-only">Søg</span></button>
     </div>
     <div class="mt-5">

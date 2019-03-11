@@ -12,7 +12,7 @@ title: Accordion.html
                 aria-controls="a1">
                 Lorem ipsum dolor sit amet
                 <span class="accordion-icon ">
-                    <span class="icon_text">Information</span> <svg class="icon-svg " ><use href="#info"></use></svg>
+                    <span class="icon_text">Information</span> <svg class="icon-svg " ><use xlink:href="#info"></use></svg>
                 </span>
             </button>
             <div id="a1" class="accordion-content">
@@ -29,7 +29,7 @@ title: Accordion.html
                 aria-describedby="error-message" aria-controls="a2">
                 Consectetur adipiscing elit
                 <span class="accordion-icon ">
-                    <span class="icon_text">Fejl</span> <svg class="icon-svg " ><use href="#close-circle-outline"></use></svg>
+                    <span class="icon_text">Fejl</span> <svg class="icon-svg " ><use xlink:href="#close-circle-outline"></use></svg>
                 </span>
             </button>
             <div id="a2" class="accordion-content">
@@ -46,7 +46,7 @@ title: Accordion.html
                 aria-controls="a3">
                 Sed do eiusmod tempor
                 <span class="accordion-icon ">
-                    <span class="icon_text">Advarsel</span> <svg class="icon-svg " ><use href="#alert-outline"></use></svg>
+                    <span class="icon_text">Advarsel</span> <svg class="icon-svg " ><use xlink:href="#alert-outline"></use></svg>
                 </span>
             </button>
             <div id="a3" class="accordion-content">
@@ -63,7 +63,7 @@ title: Accordion.html
                 aria-controls="a4">
                 Labore et dolore magna
                 <span class="accordion-icon ">
-                    <span class="icon_text">Success</span> <svg class="icon-svg " ><use href="#acheck-circle-outline"></use></svg>
+                    <span class="icon_text">Success</span> <svg class="icon-svg " ><use xlink:href="#acheck-circle-outline"></use></svg>
                 </span>
             </button>
             <div id="a4" class="accordion-content">
@@ -100,7 +100,7 @@ title: Accordion.html
                 aria-controls="b-a1">
                 Lorem ipsum dolor sit amet
                 <span class="accordion-icon ">
-                    <span class="icon_text">Information</span> <svg class="icon-svg " ><use href="#info"></use></svg>
+                    <span class="icon_text">Information</span> <svg class="icon-svg " ><use xlink:href="#info"></use></svg>
                 </span>
             </button>
             <div id="b-a1" class="accordion-content">
@@ -117,7 +117,7 @@ title: Accordion.html
                 aria-describedby="error-message" aria-controls="b-a2">
                 Consectetur adipiscing elit
                 <span class="accordion-icon ">
-                    <span class="icon_text">Fejl</span> <svg class="icon-svg " ><use href="#close-circle-outline"></use></svg>
+                    <span class="icon_text">Fejl</span> <svg class="icon-svg " ><use xlink:href="#close-circle-outline"></use></svg>
                 </span>
             </button>
             <div id="b-a2" class="accordion-content">
@@ -134,7 +134,7 @@ title: Accordion.html
                 aria-controls="b-a3">
                 Sed do eiusmod tempor
                 <span class="accordion-icon ">
-                    <span class="icon_text">Advarsel</span> <svg class="icon-svg " ><use href="#alert-outline"></use></svg>
+                    <span class="icon_text">Advarsel</span> <svg class="icon-svg " ><use xlink:href="#alert-outline"></use></svg>
                 </span>
             </button>
             <div id="b-a3" class="accordion-content">
@@ -151,7 +151,7 @@ title: Accordion.html
                 aria-controls="b-a4">
                 Labore et dolore magna
                 <span class="accordion-icon ">
-                    <span class="icon_text">Success</span> <svg class="icon-svg " ><use href="#acheck-circle-outline"></use></svg>
+                    <span class="icon_text">Success</span> <svg class="icon-svg " ><use xlink:href="#acheck-circle-outline"></use></svg>
                 </span>
             </button>
             <div id="b-a4" class="accordion-content">
@@ -189,7 +189,7 @@ title: Accordion.html
                 aria-controls="m-a1">
                 Lorem ipsum dolor sit amet
                 <span class="accordion-icon ">
-                    <span class="icon_text">Information</span> <svg class="icon-svg " ><use href="#info"></use></svg>
+                    <span class="icon_text">Information</span> <svg class="icon-svg " ><use xlink:href="#info"></use></svg>
                 </span>
             </button>
             <div id="m-a1" class="accordion-content">
@@ -206,7 +206,7 @@ title: Accordion.html
                 aria-describedby="error-message" aria-controls="m-a2">
                 Consectetur adipiscing elit
                 <span class="accordion-icon ">
-                    <span class="icon_text">Fejl</span> <svg class="icon-svg " ><use href="#close-circle-outline"></use></svg>
+                    <span class="icon_text">Fejl</span> <svg class="icon-svg " ><use xlink:href="#close-circle-outline"></use></svg>
                 </span>
             </button>
             <div id="m-a2" class="accordion-content">
@@ -223,7 +223,7 @@ title: Accordion.html
                 aria-controls="m-a3">
                 Sed do eiusmod tempor
                 <span class="accordion-icon ">
-                    <span class="icon_text">Advarsel</span> <svg class="icon-svg " ><use href="#alert-outline"></use></svg>
+                    <span class="icon_text">Advarsel</span> <svg class="icon-svg " ><use xlink:href="#alert-outline"></use></svg>
                 </span>
             </button>
             <div id="m-a3" class="accordion-content">
@@ -240,7 +240,7 @@ title: Accordion.html
                 aria-controls="m-a4">
                 Labore et dolore magna
                 <span class="accordion-icon ">
-                    <span class="icon_text">Success</span> <svg class="icon-svg " ><use href="#acheck-circle-outline"></use></svg>
+                    <span class="icon_text">Success</span> <svg class="icon-svg " ><use xlink:href="#acheck-circle-outline"></use></svg>
                 </span>
             </button>
             <div id="m-a4" class="accordion-content">

@@ -51,7 +51,7 @@ title: Example-virksomhedsalliancer-page-1.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Navn</b></p>
@@ -75,7 +75,7 @@ title: Example-virksomhedsalliancer-page-1.html
         <button class="button-overflow-menu js-dropdown " data-js-target="#overflow_steps"
             aria-haspopup="true" aria-expanded="false">
             Trin 1 af 4
-            <svg class="icon-svg"><use href="#menu-down"></use></svg>
+            <svg class="icon-svg"><use xlink:href="#menu-down"></use></svg>
             <span class="sr-only">Åbner overflow menu</span>
         </button>
         <div class="overflow-menu-inner" id="overflow_steps" aria-hidden="true">

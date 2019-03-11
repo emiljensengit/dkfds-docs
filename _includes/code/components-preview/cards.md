@@ -46,7 +46,7 @@ title: Cards.html
                             <li><a href="javascript:void(0);" class="default link state">Et
                                     link til et sted i løsningen</a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Et
-                                    link til et sted uden for løsningen<svg class="icon-svg"><use href="#open-in-new"></use></svg></a></li>
+                                    link til et sted uden for løsningen<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
                         </ul>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ title: Cards.html
                             <li><a href="javascript:void(0);" class="default link state">Et
                                     link til et sted i løsningen</a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Et
-                                    link til et sted uden for løsningen<svg class="icon-svg"><use href="#open-in-new"></use></svg></a></li>
+                                    link til et sted uden for løsningen<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
                         </ul>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ title: Cards.html
                             <li><a href="javascript:void(0);" class="default link state">Et
                                     link til et sted i løsningen</a></li>
                             <li><a href="javascript:void(0);" class="icon-link">Et
-                                    link til et sted uden for løsningen<svg class="icon-svg"><use href="#open-in-new"></use></svg></a></li>
+                                    link til et sted uden for løsningen<svg class="icon-svg"><use xlink:href="#open-in-new"></use></svg></a></li>
                         </ul>
                     </div>
                 </div>

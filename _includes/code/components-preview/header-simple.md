@@ -50,7 +50,7 @@ title: Header-simple.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Lone Hansen</b></p>

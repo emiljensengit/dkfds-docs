@@ -52,7 +52,7 @@ title: Example-aes-page-10.html
     <nav role="navigation" class=" nav">
         <!-- collapsible-->
         <button class="button button-tertiary button-menu-close js-menu-close"
-            title="Luk mobil menu"><svg class="icon-svg " ><use href="#close"></use></svg>Luk</button>
+            title="Luk mobil menu"><svg class="icon-svg " ><use xlink:href="#close"></use></svg>Luk</button>
 
         <div class="portal-info-mobile">
             <p class="user"><b>Christian Emil Vestergaard Christiansen</b><br>Forsikringens Forsikringsfirma</p>
@@ -94,7 +94,7 @@ title: Example-aes-page-10.html
             <p class="form-hint mt-2">Referencenummer: 28346863</p>
             <p class="mb-4">Hvis du ønsker dokumentation på fremsendelse
                 kan du downloade anmodningen.</p>
-            <button class="button button-secondary"><svg class="icon-svg " ><use href="#download"></use></svg>
+            <button class="button button-secondary"><svg class="icon-svg " ><use xlink:href="#download"></use></svg>
                 Download kvittering som pdf</button>
             <h2 class="h4 mt-7">Hvad sker der nu</h2>
             <p>Sagens parter vil indenfor 7 hverdage modtage en kvittering
