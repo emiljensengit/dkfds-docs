@@ -1797,7 +1797,7 @@ h6, .h6 {
   max-width: 66ch; }
 
 p,
-ul:not(.accordion):not(.accordion-bordered):not(.nav-primary):not(.inline-list),
+ul:not(.accordion):not(.accordion-bordered):not(.nav-primary),
 ol:not(.accordion):not(.accordion-bordered) {
   max-width: 66ch; }
 
@@ -4073,9 +4073,6 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
   @media (min-width: 768px) {
     .button {
       width: auto; } }
-  @media (max-width: 767px) {
-    .button + .button {
-      margin-top: 8px; } }
   .button.focus, .button:focus {
     outline: 4px solid #747474;
     outline-offset: 1px;
@@ -4134,11 +4131,11 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
     color: #1a1a1a;
     font-weight: 400; }
     .button.button-tertiary:hover, .button.button-tertiary.button-hover {
-      border-color: #454545; }
+      border-color: #747474; }
     .button.button-tertiary:active, .button.button-tertiary.button-active {
-      border-color: #1a1a1a; }
+      border-color: #747474; }
     .button.button-tertiary.focus, .button.button-tertiary:focus {
-      border-color: #747474;
+      border-color: #BFBFBF;
       background-color: transparent; }
     .button.button-tertiary:disabled,
     .button.button-tertiary .disabled {
@@ -4269,9 +4266,6 @@ h1, h2, h3, h4, h5, h6, p, legend, strong, b, cite, var, address, dfn {
   @media (min-width: 576px) {
     .tag {
       width: auto; } }
-  @media (max-width: 767px) {
-    .tag + .tag {
-      margin-top: 8px; } }
   .tag:hover, .tag.tag-hover {
     background-color: #747474; }
   .tag:active, .tag.tag-active {
@@ -4895,12 +4889,13 @@ ol {
     margin-top: 8px;
     list-style: none;
     position: relative;
-    padding-left: 4rem;
+    padding-left: 37px;
     line-height: 2.4rem; }
     ol li:before {
       content: counters(item, ".") ".";
       counter-increment: item;
       font-weight: 500;
+      position: absolute;
       left: 20px; }
     ol li ol li:before {
       left: 6px; }
@@ -5195,9 +5190,10 @@ input.input-char-27, select.input-char-27, textarea.input-char-27 {
   min-height: .01%; }
 
 hr {
-  border-top: 1px solid #BFBFBF;
+  border-color: #BFBFBF;
   display: block;
-  border-bottom-width: 0; }
+  border-top-width: 0;
+  border-bottom-width: 1px; }
 
 .accordion-button {
   background-color: transparent;
@@ -5439,8 +5435,7 @@ footer .footer {
   @media (min-width: 768px) {
     footer .footer .inline-list > li:not(:last-child):after {
       content: "\B7" !important;
-      margin-left: 8px;
-      margin-right: 8px; } }
+      margin-left: 4px; } }
 
 footer .footer-theme {
   padding-top: 16px;
