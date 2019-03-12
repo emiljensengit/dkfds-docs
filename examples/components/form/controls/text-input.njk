@@ -1,7 +1,0 @@
-{% from "components/form/controls/text-input.njk" import textinput as textinput %}
-
-<div class="container">
-  {% for item in textinput_example.items %}
-    {{textinput(item.id, item.label, item.optionallabel, item.class, item.error, item.name, item.classLabel, item.success, item.disabled, item.hint, item.placeholder, item.value, item.tooltip, item.tooltipTitle, item.readonly)}}
-  {% endfor %}
-</div>
