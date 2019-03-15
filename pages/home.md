@@ -5,7 +5,6 @@ title: Forside
 description: Vær med til at bygge simple og effektive selvbetjeningsløsninger fra
   et solidt grundlag, der lader dig fokusere på brugervenlighed og brugerinddragelse
   frem for at diskutere nyt design igen og igen.
-published: false
 
 ---
 <div class="alert alert-info" role="alert" aria-label="Styleguiden er gået i beta">
