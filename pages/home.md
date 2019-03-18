@@ -7,12 +7,7 @@ description: Vær med til at bygge simple og effektive selvbetjeningsløsninger 
   frem for at diskutere nyt design igen og igen.
 
 ---
-<div class="alert alert-info" role="alert" aria-label="Styleguiden er gået i beta">
-<div class="alert-body">
-<p class="alert-heading">BETA</p>
-<p class="alert-text">Det Fælles Designsystem er den kommende fælles guide til selvbetjeningsløsninger, der skal på borger.dk og Virk. Hjælp os gerne med at forbedre det via <a href="https://github.com/detfaellesdesignsystem/dkfds-components">GitHub</a>.</p>
-</div>
-</div>
+<div class="alert alert-info" role="alert" aria-label="Styleguiden er gået i beta"> <div class="alert-body"> <p class="alert-heading">BETA</p> <p class="alert-text">Det Fælles Designsystem er den kommende fælles guide til selvbetjeningsløsninger, der skal på borger.dk og Virk. Hjælp os gerne med at forbedre det via <a href="https://github.com/detfaellesdesignsystem/dkfds-components">GitHub</a>.</p> </div> </div> 
 
 ![](/img/descriptionimages/Primaerknapper.png)
 
