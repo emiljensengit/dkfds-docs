@@ -14,6 +14,8 @@ description: Vær med til at bygge simple og effektive selvbetjeningsløsninger 
 </div>
 </div>
 
+![](/img/descriptionimages/Primaerknapper.png)
+
 <div class="row"> <div class="col-12 col-lg-5"> <h1 class="mt-0">Forestry TEST!!!!! - Designsystemet til selvbetjenings­løsninger, der skal på borger.dk og Virk</h1> <p class="font-lead"> Vær med til at bygge simple og effektive selvbetjeningsløsninger fra et solidt grundlag, der lader dig fokusere på brugervenlighed og brugerinddragelse frem for at diskutere nyt design igen og igen. </p>  
 <p>
 <a href="https://github.com/detfaellesdesignsystem/dkfds-components" class="icon-link">
