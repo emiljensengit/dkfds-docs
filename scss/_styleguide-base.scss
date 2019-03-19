@@ -1,0 +1,950 @@
+
+// Preview box (e.g. used by header and footer documentation) -------- //
+.preview {
+  margin-bottom: 2em;
+  background-color: $color-white;
+  padding: $site-margins;
+  border: $outer-border; // scss-lint:disable ColorVariable
+
+  .background-dark {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline-block;
+  }
+
+  > *:first-child {
+    margin-top: 0;
+  }
+}
+
+
+// Typography --------------
+.demo-typesetting{
+  border-top: 2px solid $color-data-violet;
+  color: $color-data-violet;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+// Colors -------------- //
+
+// Base colors
+.color-white {
+  background-color: $color-white;
+}
+
+.color-base {
+  background-color: $color-black;
+}
+
+// Gray-scales
+
+.color-gray-dark {
+  background-color: $color-gray-medium-dark;
+}
+.color-gray {
+  background-color: $color-gray-medium-dark;
+}
+.color-gray-light {
+  background-color: $color-gray-medium-light;
+}
+.color-gray-lighter {
+  background-color: $color-gray-medium-light;
+}
+.color-gray-lightest {
+  background-color: $color-gray-medium-light;
+}
+.color-gray-brightest {
+  background-color: $color-gray-medium-dark;
+}
+
+// Text color
+.color-text {
+  background-color: $color-text;
+}
+.color-text-secondary {
+  background-color: $color-text-secondary;
+}
+.color-text-bright {
+  background-color: $color-text-bright;
+}
+
+// Links color
+.color-link {
+  background-color: $color-link;
+}
+.color-link-hover {
+  background-color: $color-link-hover;
+}
+.color-focus {
+  background-color: $color-focus;
+}
+.color-visited {
+  background-color: $color-link-visited;
+}
+
+// Neutral color
+.color-neutral {
+  background-color: $color-neutral;
+}
+.color-neutral-darker {
+  background-color: $color-neutral-darker;
+}
+.color-neutral-darkest {
+  background-color: $color-neutral-darkest;
+}
+.color-neutral {
+  background-color: $color-neutral-lightest;
+}
+
+// Functional theme colors
+.color-primary {
+  background-color: $color-primary;
+}
+.color-primary-darker {
+  background-color: $color-primary-darker;
+}
+.color-primary-darkest {
+  background-color: $color-primary-darkest;
+}
+.color-primary-lightest {
+  background-color: $color-primary-lightest;
+}
+.color-background {
+  background-color: $color-background;
+}
+
+.color-text-positive {
+  background-color: $color-text-positive;
+}
+.color-text-negative {
+  background-color: $color-text-negative;
+}
+
+// Colors used for alert boxes
+.color-error {
+  background-color: $color-error;
+}
+.color-success {
+  background-color: $color-success;
+}
+.color-warning {
+  background-color: $color-warning;
+}
+.color-info {
+  background-color: $color-info;
+}
+
+.color-error-background {
+  background-color: $color-error-light;
+}
+.color-success-background {
+  background-color: $color-success-light;
+}
+.color-warning-background {
+  background-color: $color-warning-light;
+}
+.color-info-background {
+  background-color: $color-info-light;
+}
+
+// Header, fotter & navigation colors
+.color-header-background {
+  background-color: $color-header-background;
+}
+.color-footer-background {
+  background-color: $color-footer-background;
+}
+.color-topmenu-background {
+  background-color: $color-topmenu-background;
+}
+.color-page {
+  background-color: $color-page;
+}
+
+// Colors for borders
+.color-border {
+  background-color: $color-border;
+}
+.color-border-light {
+  background-color: $color-border-light;
+}
+.color-border-bright {
+  background-color: $color-border-bright;
+}
+.color-border-focus {
+  background-color: $color-border-focus;
+}
+
+// Special colors
+.color-alt-background {
+  background-color: $color-alt-background;
+}
+.color-alt-background-hover {
+  background-color: $color-alt-background-hover;
+}
+.color-alt-table-header {
+  background-color: $color-alt-table-header;
+}
+.color-required {
+  background-color: $color-required;
+}
+.color-shadow {
+  background-color: $color-shadow;
+}
+.color-transparent {
+  background-color: $color-transparent;
+}
+
+.color-container-large {
+  height: 108px;
+  border: solid 1px #e1e1e1;
+
+  //Colors
+  &.color-white {
+    background-color: $color-white;
+  }
+  &.color-black {
+    background-color: $color-black;
+  }
+  &.color-gray-dark {
+    background-color: $color-gray-dark;
+  }
+  &.color-gray-medium-dark {
+    background-color: $color-gray-medium-dark;
+  }
+  &.color-gray-medium-light {
+    background-color: $color-gray-medium-light;
+  }
+  &.color-gray-light {
+    background-color: $color-gray-light;
+  }
+  &.color-gray-mediumpale{
+    background-color: $color-gray-mediumpale;
+  }
+  &.color-gray-pale {
+    background-color: $color-gray-pale;
+  }
+  &.color-succes {
+    background-color: $color-success;
+  }
+  &.color-succes-light {
+    background-color: $color-success-light;
+  }
+  &.color-warning {
+    background-color: $color-warning;
+  }
+  &.color-warning-light {
+    background-color: $color-warning-light;
+  }
+  &.color-error {
+    background-color: $color-error;
+  }
+  &.color-error-light {
+    background-color: $color-error-light;
+  }
+  &.color-info {
+    background-color: $color-info;
+  }
+  &.color-info-light {
+    background-color: $color-info-light;
+  }
+  &.borger-primary {
+    background-color: $borger-primary;
+  }
+  &.borger-medium {
+    background-color: $borger-medium;
+  }
+  &.borger-dark {
+    background-color: $borger-dark;
+  }
+  &.virk-primary {
+    background-color: $virk-primary;
+  }
+  &.virk-medium {
+    background-color: $virk-medium;
+  }
+  &.virk-dark {
+    background-color: $virk-dark;
+  }
+  &.color-positive {
+    background-color: $color-positive;
+  }
+  &.color-negative {
+    background-color: $color-negative;
+  }
+}
+.color-container-medium {
+  height: 64px;
+  border: solid 1px #e1e1e1;
+
+  &.color-data-turquoise {
+    background-color: $color-data-turquoise;
+  }
+  &.color-data-turquoise-high-opacity {
+    background-color: $color-data-turquoise-high-opacity;
+  }
+  &.color-data-turquoise-medium-opacity {
+    background-color: $color-data-turquoise-medium-opacity;
+  }
+  &.color-data-turquoise-low-opacity {
+    background-color: $color-data-turquoise-low-opacity;
+  }
+  &.color-data-teal {
+    background-color: $color-data-teal;
+  }
+  &.color-data-teal-high-opacity {
+    background-color: $color-data-teal-high-opacity;
+  }
+  &.color-data-teal-medium-opacity {
+    background-color: $color-data-teal-medium-opacity;
+  }
+  &.color-data-teal-low-opacity {
+    background-color: $color-data-teal-low-opacity;
+  }
+  &.color-data-orange {
+    background-color: $color-data-orange;
+  }
+  &.color-data-orange-high-opacity {
+    background-color: $color-data-orange-high-opacity;
+  }
+  &.color-data-orange-medium-opacity {
+    background-color: $color-data-orange-medium-opacity;
+  }
+  &.color-data-orange-low-opacity {
+    background-color: $color-data-orange-low-opacity;
+  }
+  &.color-data-magenta {
+    background-color: $color-data-magenta;
+  }
+  &.color-data-magenta-high-opacity {
+    background-color: $color-data-magenta-high-opacity;
+  }
+  &.color-data-magenta-medium-opacity {
+    background-color: $color-data-magenta-medium-opacity;
+  }
+  &.color-data-magenta-low-opacity {
+    background-color: $color-data-magenta-low-opacity;
+  }
+  &.color-data-purple {
+    background-color: $color-data-purple;
+  }
+  &.color-data-purple-high-opacity {
+    background-color: $color-data-purple-high-opacity;
+  }
+  &.color-data-purple-medium-opacity {
+    background-color: $color-data-purple-medium-opacity;
+  }
+  &.color-data-purple-low-opacity {
+    background-color: $color-data-purple-low-opacity;
+  }
+  &.color-data-violet {
+    background-color: $color-data-violet;
+  }
+  &.color-data-violet-high-opacity {
+    background-color: $color-data-violet-high-opacity;
+  }
+  &.color-data-violet-medium-opacity {
+    background-color: $color-data-violet-medium-opacity;
+  }
+  &.color-data-violet-low-opacity {
+    background-color: $color-data-violet-low-opacity;
+  }
+}
+
+.color-container-small {
+  height: 40px;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+
+  &.bordered {
+    border: dotted 1px $color-gray-light;
+
+    .color-text-container {
+      padding: 7px 15px 7px 15px;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+    }
+  }
+
+  .color-text-container {
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  
+    .text-white {
+      color:$color-white;
+    }
+    .text-black {
+      color:$color-black;
+    }
+    .text-gray {
+      color:$color-gray-medium-light;
+    }
+
+    .text-negative {
+      color:$color-negative;
+    }
+
+    .text-positive {
+      color:$color-positive;
+    }
+}
+
+  &.color-black {
+    background-color: $color-black;
+  }
+  &.color-gray-medium-dark {
+    background-color: $color-gray-medium-dark;
+  }
+  &.color-gray-light {
+    background-color: $color-gray-light;
+  }
+  &.color-gray-pale {
+    background-color: $color-gray-pale;
+  }
+  &.color-data-violet {
+    background-color: $color-data-violet;
+  }
+  &.color-data-violet-high-opacity {
+    background-color: $color-data-violet-high-opacity;
+  }
+  &.color-data-violet-medium-opacity {
+    background-color: $color-data-violet-medium-opacity;
+  }
+  &.color-data-violet-low-opacity {
+    background-color: $color-data-violet-low-opacity;
+  }
+  &.color-data-purple {
+    background-color: $color-data-purple;
+  }
+  &.color-data-purple-high-opacity {
+    background-color: $color-data-purple-high-opacity;
+  }
+  &.color-data-purple-medium-opacity {
+    background-color: $color-data-purple-medium-opacity;
+  }
+  &.color-data-purple-low-opacity {
+    background-color: $color-data-purple-low-opacity;
+  }
+  &.color-data-magenta {
+    background-color: $color-data-magenta;
+  }
+  &.color-data-magenta-high-opacity {
+    background-color: $color-data-magenta-high-opacity;
+  }
+  &.color-data-magenta-medium-opacity {
+    background-color: $color-data-magenta-medium-opacity;
+  }
+  &.color-data-magenta-low-opacity {
+    background-color: $color-data-magenta-low-opacity;
+  }
+  &.color-data-orange {
+    background-color: $color-data-orange;
+  }
+  &.color-data-orange-high-opacity {
+    background-color: $color-data-orange-high-opacity;
+  }
+  &.color-data-orange-medium-opacity {
+    background-color: $color-data-orange-medium-opacity;
+  }
+  &.color-data-orange-low-opacity {
+    background-color: $color-data-orange-low-opacity;
+  }
+  &.color-data-teal {
+    background-color: $color-data-teal;
+  }
+  &.color-data-teal-high-opacity {
+    background-color: $color-data-teal-high-opacity;
+  }
+  &.color-data-teal-medium-opacity {
+    background-color: $color-data-teal-medium-opacity;
+  }
+  &.color-data-teal-low-opacity {
+    background-color: $color-data-teal-low-opacity;
+  }
+  &.color-data-turquoise {
+    background-color: $color-data-turquoise;
+  }
+  &.color-data-turquoise-high-opacity {
+    background-color: $color-data-turquoise-high-opacity;
+  }
+  &.color-data-turquoise-medium-opacity {
+    background-color: $color-data-turquoise-medium-opacity;
+  }
+  &.color-data-turquoise-low-opacity {
+    background-color: $color-data-turquoise-low-opacity;
+  }
+}
+
+.color-text-container {
+  margin-bottom: $spacing-medium;
+  margin-top: $spacing-small;
+  p {
+    margin: 0px;
+  }
+}
+@media screen and (min-width:768px) {
+  .color-col {
+
+    &:first-child {
+      padding-left: 0px;
+    }
+
+    &:last-child {
+      padding-right: 0px;
+    }
+  }
+}
+
+//------------ Code 
+code,
+pre {
+  background-color: $color-gray-pale;
+  font-family: monospace;
+  //font-size: 1.3rem;
+  line-height: 1.4em;
+}
+
+pre {
+  padding: 1.6rem;
+
+  code {
+    padding: 0;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+code {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.code-highlight {
+  background-color: $color-gray-pale;
+  padding: 16px;
+  pre, code {
+    max-width: $text-max-width;
+  }
+}
+
+//HEX colors for color page
+.code-color-hex {
+  font-family: monospace;
+  font-size: 1.6rem;
+  font-weight: $font-weight-bold;
+}
+
+//Variables for color page
+.code-color-variable {
+  font-family: monospace;
+  font-size: 1.3rem;
+  font-weight: $font-weight-normal;
+  line-height: 1.4em;
+}
+
+// Code snippet boxes
+.code-sample {
+  pre,
+  code {
+    background: none;
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+
+//----------------  Page styles
+
+.styleguide-child-container + .styleguide-child-container{
+  margin-top: 40px;
+}
+
+.page-ui-components {
+
+  .font-lead {
+    &:first-of-type {
+      margin-top: 3.2rem;
+    }
+  }
+}
+.page-basic-collapse-html, .page-modal-html, .page-text-input-html, .page-tags-html, .page-search-html  .container{
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.page-overflow-menu-html .container{
+  min-height: 400px;
+}
+.page-text-input-html .container, .page-text-input-width-html .container{ //quick fix for iframe resize
+  padding-bottom: 4px;
+}
+.page-accordion-html{
+  padding-top: 4px;
+}
+.page-basic-collapse-html{
+  min-height: 150px;
+}
+.page-tags-html .container{
+  min-height: 180px;
+}
+.page-date-input-html{
+  & .container{
+    height: 200px; //so that datepicker is visible
+  }
+}
+.page-date-input-datepicker-html{
+  .container{
+    height: 400px; //so that datepicker is visible
+  }
+}
+.styleguide-spacer-modals{
+  height: 400px;
+}
+.page-selectwoo-multiselect-html, .page-selectwoo-multiselect-ajax-html, .page-selectwoo-multiselect-groups-html{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  .container{
+    min-height: 400px;
+  }
+}
+
+
+.page-tooltip-html .container{
+  min-height: 350px;
+}
+.page-pikaday-html .container{
+  min-height: 350px;
+}
+// Example images on headers and page templates pages -------------- //
+.page-headers,
+.page-page-templates {
+  .preview {
+    img {
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    }
+  }
+}
+
+.demo-component-box{
+  &__img{
+    height: 156px;
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
+    align-items: center;
+    justify-content: center;
+    padding: map-get($spacers, 4);
+    background-color: $background-alternative;
+    &:focus{
+      background-color: $background-alternative;
+      outline: $focus-outline;
+    }
+  }
+  p{
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.description-image{ //creates a border around an image.
+  border: $outer-border;
+  padding: 8px;
+}
+
+.demo-img-container{
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: map-get($spacers, 4);
+  background-color: $background-alternative;
+  img{
+    height: 100%;
+  }
+  &--turquoise{
+    background-color: $color-data-turquoise;
+  }
+  &--teal{
+    background-color: $color-data-teal;
+  }
+  &--orange{
+    background-color: $color-data-orange;
+  }
+  &--magenta{
+    background-color: $color-data-magenta;
+  }
+  &--purple{
+    background-color: $color-data-purple;
+  }
+  &--violet{
+    background-color: $color-data-violet;
+  }
+}
+
+.demo-img-placeholder{
+  height: 150px;
+}
+.demo-img-placeholder-large{
+  height: 300px;
+}
+
+.layout-demo {
+  margin-bottom: 8.6rem;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 5.9rem;
+  }
+}
+
+// Demo fixed footer
+.demo-footer {
+  padding: 8px;
+  background-color: #000;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  .button {
+    background-color: black;
+    border-color: white !important; 
+    display: inline;
+    &:hover, &:visited {
+      color: white;
+    }
+  }
+
+  .form-select{
+    background-color: black;
+    color: #fff;
+  }
+}
+
+.demo-footer-title {
+  color: $color-white;
+  display: inline-block;
+}
+
+
+/////////////////// component preview //////////////////////
+
+.component-preview {
+  border: $outer-border;
+  position: relative;
+  margin-bottom: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.preview-buttons {
+  position: absolute;
+  top: $spacing-small;
+  right: 0;
+  display: none;
+}
+
+.preview-iframe {
+  border: none;
+  display: block;
+  margin-bottom: 0;
+  max-width: 100%;
+  width: 100%;
+  height: 350px; //wil be overwritten by js
+}
+
+.component-preview-item {
+  float: left;
+  height: $spacing-medium;
+}
+
+.component-preview-button {
+  background: $color-gray-medium-light;
+  border: 1px solid $color-gray-medium-dark;
+  outline: none;
+  height: $spacing-medium;
+  width: $spacing-medium;
+  padding: 1px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 0;
+  display: inline-block;
+  text-align: center;
+  min-height: inherit;
+
+  .icon-color{
+    fill: $color-gray-medium-dark;
+  }
+
+  &:hover {
+    background-color: $color-gray-medium-dark;
+    .icon-color{
+      fill: $color-white;
+    }
+  }
+
+  &.is-active {
+    background-color: $color-gray-medium-dark;
+
+    svg * {
+      fill: $color-white;
+    }
+  }
+}
+
+.components__description-header {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.components__edit {
+  opacity: .2;
+  text-decoration: none !important;
+
+  &:hover,
+  &:focus {
+    opacity: .8;
+
+    &:after {
+      content: 'edit text';
+    }
+  }
+
+  img {
+    height: 20px;
+    vertical-align: middle;
+    margin-bottom: 9px;
+  }
+}
+
+//----- grid example
+
+.grid-example {
+  margin-bottom: 1em;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.grid-example .row>.col,
+.grid-example .row>[class^=col-] {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: $color-info-light;
+  border: $outer-border;
+}
+
+.grid-example-row-flex{
+  min-height: 10rem;
+  background-color: $color-data-orange-low-opacity;
+}
+
+.grid-example .grid-example-measure-row >[class^=col-]{
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid grey;
+  &:last-child{
+    border-right: 1px solid grey;
+  }
+}
+
+
+//ICONS
+.icon-box {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .icon-svg {
+    margin-bottom: 5px;
+    height:4.4rem;
+    width:4.4rem;
+  }
+  .icon-name {
+    white-space: pre-line;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size:1.3rem;
+  }
+  .icon-code-name {
+    font-family: monospace;
+    font-size: 1.3rem;
+    font-weight: $font-weight-normal;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 4px;
+  }
+}
+
+
+
+//BORDER RADIUS
+.static-border-radius-example {
+  border-top-left-radius:$static-border-radius;
+  width: 144px;
+  height: 120px;
+  background-color: $color-gray-pale;
+  border-left: solid 6px $color-black;
+  border-top: solid 6px $color-black;
+}
+
+.interactive-border-radius-example {
+  border-top-left-radius: $interactive-border-radius;
+  width: 144px;
+  height: 120px;
+  background-color: $color-gray-pale;
+  border-left: solid 6px $color-black;
+  border-top: solid 6px $color-black;
+}
+
+//BORDERS
+.outer-border-example {
+  border-top: $outer-border;
+}
+
+.inner-border-example {
+  border-top: $inner-border;
+}
+
+.button-border-example {
+  border-top: $button-border;
+}
+
+//SHADOWS
+.heavy-shadow-example {
+  width: 144px;
+  height: 104px;
+  box-shadow: $box-shadow-heavy;
+  background-color: $color-white;
+  border: $outer-border;
+}
+
+.moderately-shadow-example {
+  width: 144px;
+  height: 104px;
+  box-shadow: $box-shadow-moderately;
+  background-color: $color-white;
+  border: $outer-border;
+}
+
+.slightly-shadow-example {
+  width: 144px;
+  height: 104px;
+  box-shadow: $box-shadow-slightly;
+  background-color: $color-white;
+  border: $outer-border;
+}

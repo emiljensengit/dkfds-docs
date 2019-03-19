@@ -1,0 +1,24 @@
+//---
+//---
+//Above dashes are used by Jekyll in main scss files (not needed in partials). DO NOT DELETE.
+
+body {
+    opacity: 1 !important;
+}
+
+// sass-lint:disable-all
+// Imports
+@import 'variables';
+$font-path:         '~dkfds/src/fonts/IBMPlexSans/';
+$image-path:        '~dkfds/src/img';
+$site-image-path:   '~dkfds/src/img';
+$icons-folder-path: '~dkfds/src/img/svg-icons';
+@import '../node_modules/dkfds/src/stylesheets/dkfds-virkdk';
+@import '~dkfds-plugins/src/components/datatables/style/dkfds-datatables-theme';
+@import '~dkfds-plugins/src/components/selectwoo/style/dkfds-selectwoo-theme';
+@import '~dkfds-plugins/src/components/pikaday/style/dkfds-pikaday-theme';
+@import 'styleguide-base';
+
+.is-neutral{ display:none }
+.is-virk { display:block }
+.is-borger{ display:none }

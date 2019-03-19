@@ -1,0 +1,81 @@
+<!--<a class="skipnav" href="#main-content">Skip to main content</a>-->
+
+
+<header class="header" role="banner">
+     <!--2A: Solutiuon header -->
+    <div class="solution-header">
+      <div class="solution-header-inner container">
+        <div class="solution-heading d-flex align-items-center">
+            <a href="/dkfds-docs/" title="Home" aria-label="Home">Det Fælles Designsystem</a>
+            <div class="badge badge-large mx-3">BETA</div>
+        </div>
+        <button class="button button-secondary button-menu-open js-menu-open ml-auto" aria-haspopup="menu" title="Åben mobil menu">Menu</button>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+    <!-- Desktop main menu-->
+    <nav role="navigation" class="nav d-none d-lg-block"> 
+      <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu"><svg class="icon-svg "><use xlink:href="#close"></use></svg>Luk</button>
+      <!-- 3: Main navigation-->
+      <div class="navbar navbar-primary">
+        <!--3A: Main navigation-->
+        
+        <div class="navbar-inner container">
+          <ul class="nav-primary">
+            {%
+              include nav/nav-primary.html
+              links=site.data.nav.primary
+              flat=true
+            %}
+          </ul>
+
+          <!-- 3B: Main navigation - secondary menu-->
+          <ul class="unstyled-list nav-actions">
+            <li>
+              <select class="form-select style-switcher" name="Style switcher" aria-label="Skift mellem temaer">
+                <option value="">- Vælg tema -</option>
+                <option value="styleguide">Tema: Neutralt</option>
+                <option value="virkdk">Tema: Virk.dk</option>
+                <option value="borgerdk">Tema: Borger.dk</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 3: Main navigation end-->
+    </nav> 
+    <!-- collapsible nav end-->
+
+    <!-- Mobile main menu-->
+    <nav role="navigation" class="nav d-lg-none"> 
+      <button class="button button-tertiary button-menu-close js-menu-close" title="Luk mobil menu"><svg class="icon-svg "><use xlink:href="#close"></use></svg>Luk</button>
+      <!-- 3: Main navigation-->
+      <div class="navbar navbar-primary">
+        <!--3A: Main navigation-->
+        
+        <div class="navbar-inner container">
+          <ul class="nav-primary">
+            {%
+              include nav/nav-primary.html
+              links=site.data.nav.mobile
+            %}
+          </ul>
+
+          <!-- 3B: Main navigation - secondary menu-->
+          <ul class="unstyled-list nav-actions">
+            <li>
+              <select class="form-select style-switcher" name="Style switcher" aria-label="Skift mellem temaer">
+                <option value="">- Vælg tema -</option>
+                <option value="styleguide">Tema: Neutralt</option>
+                <option value="virkdk">Tema: Virk.dk</option>
+                <option value="borgerdk">Tema: Borger.dk</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 3: Main navigation end-->
+    </nav> 
+    <!-- collapsible nav end-->
+</header>
