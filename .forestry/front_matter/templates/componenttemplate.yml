@@ -23,3 +23,4 @@ fields:
 - type: textarea
   name: description
   label: description
+- type: blocks
