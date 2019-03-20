@@ -1,0 +1,25 @@
+---
+label: ComponentTemplate
+hide_body: false
+fields:
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: type
+  label: type
+- type: text
+  name: title
+  label: title
+- type: text
+  name: category
+  label: category
+- type: text
+  name: subcategory
+  label: subcategory
+- type: textarea
+  name: description
+  label: description
